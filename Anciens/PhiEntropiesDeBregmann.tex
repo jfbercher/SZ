@@ -1,0 +1,179 @@
+\documentclass[10pt,a4paper]{article}
+
+\textheight = 25cm
+\textwidth = 17.25cm
+\oddsidemargin = -7.5mm
+\evensidemargin = -7.5mm
+\topmargin = -1.5cm
+
+\usepackage{graphicx,color,enumerate}
+\usepackage{amsmath,amsfonts,bbm}%,amssymb,bbm}
+\usepackage{tabularx}
+\usepackage[sort&compress]{natbib}
+
+\input /Users/steeve/MA_ZONE/BIBLIO/macrocolor.tex
+
+\newcounter{axiomes}
+
+\def\A{\mathcal{A}}
+\def\B{\mathcal{B}}
+\def\D{\mathcal{D}}
+\def\L{\mathcal{L}}
+\def\T{\mathcal{T}}
+%\renewcommand{\vec}[1]{\boldsymbol{#1}}
+%\newcommand{\e}[1]{\mbox{e}^{#1}}
+\newcommand{\binomial}[2]{\left( \!\! \begin{array}{c} #1\\#2 \end{array} \!\! \right)}
+%
+%\def\rot{\textbf{rot}\ }
+%\def\grad{\textbf{grad}\ }
+%\def\div{\mbox{div}\ }
+%\def\ext{\mathrm{ext}}
+%\def\earth{\mathrm{earth}}
+%\def\tPsi{\widetilde{\Psi}}
+\def\;{\, ; \,}
+%\def\Nset{\mathbb{N}}
+\def\Rset{\mathbb{R}}
+\def\Bset{\mathbb{B}}
+\def\Tr{\mbox{Tr}}
+%\def\Zset{\mathbb{Z}}
+%\def\Cset{\mathbb{C}}
+%\def\sign{\mbox{sign}}
+%\def\sign{\mbox{sign}}
+\def\un {\mathbbm{1}}
+%\newcommand{\e}[1]{\exp\left( #1 \right)}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{definition}{Definition}
+%\newtheorem{proof}{Proof}
+%\def\ie{i.e.,}
+%\def\eg{e.g.,}
+%\def\etal{et al. }
+
+\title{Divergences de Bregmann, $\phi-$entropies, lois $\phi-$exponentielles\ldots}
+
+\author{JFB \& VG's tribulations}
+\date{\today}
+
+\sloppy
+
+\begin{document}
+\maketitle
+
+% -------------------------------------  ------------------------------------- %
+
+%\section{Divergences de Bregmann~\cite{Bre}}
+
+Soit une fonction  $f$ strictement convexe, de classe  $C^1(\Rset)$ (ou au moins
+continue  et d\'erivable),  et la  fonction  de deux  variable $$d_f(u_1,u_0)  =
+f(u_1) - f(u_0) - (u_1-u_0) f'(u_0)$$ (divergence de Bregman, d\'efinies dans le
+cadre plus  g\'en\'eral de vecteurs et de  matrices~\cite{Bre67}).  On d\'efinie
+la famille  des divergences de  Bregmann entre deux densit\'es  de probabilit\'e
+$p_0$ et $p_1$ sous la forme
+%
+\begin{equation}
+D_f(p_1 \| p_0) = \int_{\Rset^d} d_f(p_1(x),p_0(x)) \, dx = \int_{\Rset^d}
+\left( f(p_1(x)) - f(p_0(x)) - (p_1(x)-p_0(x)) f'(p_0(x))\right) \, dx
+\end{equation}
+%
+\cite{Csi91,CsiMat12,Bas13},  l'entropie associ\'ee (cf.   $h-\phi-$entropies de
+Salicr\'u~\cite{Sal87,Sal94} avec $h = -id$, $f$ suppos\'ee $C^3(\Rset_+)$)
+%
+% Sal93
+\begin{equation}
+H_f(p) = - \int_{\Rset^d} f(p(x)) \, dx
+\end{equation}
+%
+et donc $$D_f(p_1 \| p_0) = H_f(p_0) - H_f(p_1) - \int_{\Rset^d} (p_1(x)-p_0(x))
+f'(p_0(x)) \, dx$$
+%
+A  noter  que  la  forme  sym\'etrique  des  divergences  de  Bregman  s'\'ecrit
+$D_f^s(p_1 \| p_0) = D_f(p_1 \| p_0) + D_f(p_0 \| p_1)$, i.e.,
+%
+\begin{equation}
+D_f^s(p_1 \| p_0) = \int_{\Rset^d} (p_1(x)-p_0(x)) \left( f'(p_1(x)) - f'(p_0(x))
+\right) \, dx
+\end{equation}
+En raison  de la convexit\'e de  $f$, $d_f(x_1,x_0) \ge 0$  avec \'egalit\'e ssi
+$x_1 = x_0$ et par cons\'equent
+%
+\begin{equation}
+D_f(p_1 \| p_0) \ge 0 \qquad \mbox{avec \'egalit\'e ssi} \qquad p_1 = p_0 \mbox{
+(p. p.)}
+\end{equation}
+%
+\begin{itemize}
+\item pour $f(u) = u \, \log(u)$ on retrouve comme cas particulier la divergence
+  de Kullback-Leibler et l'entropie de Shannon
+%
+\item  pour  $f(u)  =  \frac{u^\alpha-1}{\alpha-1}$ on  retrouve  l'entropie  de
+  Tsallis en la divergence de Bregamnn associ\'ee.
+\end{itemize}
+%
+(voir~\cite{tt} pour un paronama complet).
+
+% -------------------------------------  ------------------------------------- %
+
+\
+
+%\section{$\phi-$logarithme}
+
+A  l'image des  $q-$logarithmes \`a  la Tsallis,  on d\'efini  une  extension du
+logarithme sous la forme {\bf (cf. J. Naudts)}
+%
+\begin{equation}
+\begin{array}{lcccl}
+\log_\phi & : & \Rset_+^* & \to & \Rset\\[2mm]
+%
+& & u & \mapsto & \displaystyle  \int_1^u \frac{1}{\phi(v)} \, dv
+\end{array}
+\end{equation}
+%
+avec $\phi$ strictement positive (sauf  \'eventuellent sur un ensemble de mesure
+nulle),  assurant que  $\log_\phi$ soit  strictement croissante,  et  on notera
+$\exp_\phi$ sa fonction r\'eciproque,
+%
+\begin{equation}
+\exp_\phi \circ \log_\phi(u) = u
+\end{equation}
+%
+\begin{itemize}
+\item Pour $\phi(u) = u$ on retrouve le logarithme usuel
+%
+\item Pour $\phi(u) = u^q$ on retrouve le $q-$logarithme de Tsallis
+\end{itemize}
+
+% -------------------------------------  ------------------------------------- %
+
+%\section{$\phi-$Bregmann}
+
+On d\'efinit enfin une fonctionnelle de divergence sous la forme
+%
+\begin{equation}
+f_\phi(u) = \int_1^u \log_\phi(v) \, dv
+\end{equation}
+%
+qui, par  construction m\^eme, est strictement convexe.   On s'int\'eresse alors
+\`a  la  divergence  de  Bregmann  $$D_{f_\phi}(p_1\|p_0)  =  H_{f_\phi}(p_0)  -
+H_{f_\phi}(p_1) - \int_{\Rset^d} (p_1(x) - p_0(x)) \log_\phi(p_0(x)) \, dx$$
+
+\ Pla\c{c}ons  nous \`a pr\'esent dans le  cadre scalaire, $d =  1$ et imaginons
+que    l'on     travaille    avec     une    loi    r\'ef\'erence     de    type
+$\phi-$exponentielle $$p_0(x)  = \exp_\phi(T(x))$$ Alors pour $p_1$  et $p_0$ de
+m\^eme  moment  $E_{p_0}[T(X)]   =  E_{p_1}[T(X)]$  a  $$D_{f_\phi}(p_1\|p_0)  =
+H_{f_\phi}(p_0)  - H_{f_\phi}(p_1)  \ge 0$$  avec  \'egalit\'e ssi  $p_1 =  p_0$
+(p.~p.).
+
+\
+
+Fixons   nous  $p(x)$   et   cherchons  $\phi$   et   $T$  tels   que  $p(x)   =
+\exp_\phi(T(x))$. N\'ecessairement  sur les  intervalles o\`u $p$  est bijective
+$T$ est  bijective et, $$p \circ  T^{-1} = \exp_\phi$$  c'est-\`a-dire $$T \circ
+p^{-1}    =   \log_\phi$$    et    donc,   par    d\'erivation,   $$\phi(y)    =
+\frac{T'}{p'}(p^{-1}(y))$$  Il faut n\'ecessairement  que $T'/p'$  soit positive
+pour  que  $p$  puisse  \^etre  sous forme  $\phi-$exponentielle  avec  $f_\phi$
+convexe. {\bf  voir, mais  $\phi$ d\'efinie de  mani\`ere unique sur  l'image de
+  $p$.}
+
+\bibliography{/Users/steeve/MA_ZONE/BIBLIO/biblioIT,/Users/steeve/MA_ZONE/BIBLIO/biblioPhys,/Users/steeve/MA_ZONE/BIBLIO/biblioProba,/Users/steeve/MA_ZONE/BIBLIO/biblioMath}
+\bibliographystyle{unsrt}
+\end{document}

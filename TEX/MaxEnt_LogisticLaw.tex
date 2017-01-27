@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\usepackage{epsfig,graphics,psfrag,color,rotating}
+\usepackage{amsmath,amsfonts,amssymb,bbm}
+
+
+\textwidth=30cm
+
+\def\X{\mathcal{X}}
+\def\un{\mathbbm{1}}
+
+\sloppy
+
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{figure}
+%
+\centerline{ \includegraphics[width=6.5cm]{../EPS/Logistic_var} \hspace{5mm}
+  \includegraphics[width=6.5cm]{../EPS/Logistic_moy}}
+%
+\begin{picture}(0,0)
+\put(358,104){\footnotesize $T_1(x) = x^2$}
+\put(532,104){\footnotesize $T_{\pm,1}(x) = x \un_{\X_\pm}(x)$}
+\put(324,0){(a)}
+\put(531,0){(b)}
+\end{picture}
+\end{figure}
+
+\end{document}

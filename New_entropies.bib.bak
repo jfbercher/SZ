@@ -1,0 +1,1042 @@
+% This file was created with JabRef 2.7.
+% Encoding: ISO8859_1
+
+@BOOK{AbrSte70,
+  title = {Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical
+	Tables},
+  publisher = {Dover},
+  year = {1970},
+  author = {M. Abramowitz and I. A. Stegun},
+  series = {9th printing},
+  address = {New-York}
+}
+
+@BOOK{AczDar75,
+  title = {On Measures of Information and Their Characterizations},
+  publisher = {Academic Press},
+  year = {1975},
+  author = {J Acz{\'e}l and Z. Dar{\'o}czy},
+  address = {New-York},
+  file = {:/Users/steeve/MA_ZONE/Article/Notes/EUR_qunit_LP/References/AczelDaroczy_OnMeasuresOfInformationAndTheirCharacteristics.pdf:PDF}
+}
+
+@BOOK{Arn01,
+  title = {Information Measures: Information and Its Description in Sciences
+	and Ingeniering},
+  publisher = {Springer Verlag},
+  year = {2001},
+  author = {Arndt},
+  address = {Berlin},
+  doi = {10.1007/978-3-642-56669-1},
+  file = {:/Users/steeve/MA_ZONE/Livres/Arndt_InformationMeasuresInformationAndItsDescriptionInScienceAndEngineering.pdf:PDF}
+}
+
+@ARTICLE{Bas13,
+  author = {M. Basseville},
+  title = {Divergence measures for statistical data processing -- An annotated
+	bibliography},
+  journal = {Signal Processing},
+  year = {2013},
+  volume = {93},
+  pages = {621-633},
+  number = {4},
+  month = {April},
+  doi = {10.1016/j.sigpro.2012.09.003}
+}
+
+@BOOK{BecSch93,
+  title = {Thermodynamics of chaotic systems: an introduction},
+  publisher = {Cambridge University Press},
+  year = {1993},
+  author = {C. Beck and F. Sch{\"o}gl},
+  address = {Cambridge},
+  __markedentry = {[diego:6]},
+  doi = {10.1017/CBO9780511524585},
+  file = {:/Users/steeve/MA_ZONE/Livres/BeckSchogl_ThermodynamicsOfChaoticSystems AnIntroduction.pdf:PDF}
+}
+
+@INCOLLECTION{BenBor92,
+  author = {A. {Ben-Tal} and J. M. Bornwein and M. Teboulle},
+  title = {Spectral Estimation via Convex Programming},
+  booktitle = {Systems and Management Science by Extremal Methods},
+  publisher = {Springer},
+  year = {1992},
+  editor = {Fred Young Phillips and John James Rousseau},
+  chapter = {18},
+  pages = {275-290},
+  doi = {10.1007/978-1-4615-3600-0_18},
+  file = {:/Users/steeve/MA_ZONE/Livres/SystemsAndManagementScienceByExtremalMethods.pdf:PDF}
+}
+
+@ARTICLE{Ber13,
+  author = {J.-F. Bercher},
+  title = {On multidimensional generalized {C}ram{\'e}r-{R}ao inequalities,
+	uncertainty relations and characterizations of generalized {$q$-G}aussian
+	distributions},
+  journal = {Journal of Physics A},
+  year = {2013},
+  volume = {46},
+  pages = {095303},
+  number = {9},
+  month = {March},
+  doi = {10.1088/1751-8113/46/9/095303}
+}
+
+@ARTICLE{Ber13:08,
+  author = {J.-F. Bercher},
+  title = {Some properties of generalized {F}isher information in the context
+	of nonextensive thermostatistics},
+  journal = {Physica A},
+  year = {2013},
+  volume = {392},
+  pages = {3140-3154},
+  number = {15},
+  month = {August},
+  doi = {10.1016/j.physa.2013.03.062}
+}
+
+@ARTICLE{Ber12:06_1,
+  author = {J.-F. Bercher},
+  title = {On a {$(\beta,q)$}-generalized {F}isher information and inequalities
+	invoving {$q$-G}aussian distributions},
+  journal = {Journal of Mathematical Physics},
+  year = {2012},
+  volume = {53},
+  pages = {063303},
+  number = {6},
+  month = {june},
+  doi = {10.1063/1.4726197}
+}
+
+@ARTICLE{Ber12:06_2,
+  author = {J.-F. Bercher},
+  title = {On generalized {C}ram{\'e}r-{R}ao inequalities, generalized {F}isher
+	information and characterizations of generalized {$q$-G}aussian distributions},
+  journal = {Journal of Physics A},
+  year = {2012},
+  volume = {45},
+  pages = {255303},
+  number = {25},
+  month = {June},
+  doi = {10.1088/1751-8113/45/25/255303}
+}
+
+@ARTICLE{Ber09,
+  author = {J.-F. Bercher},
+  title = {Source coding with escort distributions and {R\'e}nyi entropy bounds},
+  journal = {Physics Letters A},
+  year = {2009},
+  volume = {373},
+  pages = {3235-3238},
+  number = {36},
+  month = {August},
+  doi = {10.1016/j.physleta.2009.07.015},
+  file = {Bercher_SceCodingEscortDistRenyi_PhysLetA09.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Bercher_SceCodingEscortDistRenyi_PhysLetA09.pdf:PDF}
+}
+
+@ARTICLE{Ber08,
+  author = {J.-F. Bercher},
+  title = {On some entropy functionals derived from {R\'e}nyi information divergence},
+  journal = {Information Sciences},
+  year = {2008},
+  volume = {178},
+  pages = {2489-2506},
+  number = {12},
+  month = {June},
+  doi = {10.1016/j.ins.2008.02.003}
+}
+
+@INPROCEEDINGS{BerGir15,
+  author = {J.-F. Bercher and V. Girardin and J. Lequesne and P. Regnault and
+	S. Zozor},
+  title = {Sur la recherche de {$\phi$-}entropie {\`a} maximisante donn{\'e}e},
+  booktitle = {Colloque GRETSI},
+  year = {2015},
+  address = {Lyon, France},
+  month = {8-11 September},
+  file = {:/Users/steeve/MA_ZONE/Article/Conf/Gretsi15/PhiEntropies/Finale/Gretsi15_BGLRZ.pdf:PDF}
+}
+
+@INPROCEEDINGS{Boe77,
+  author = {D. E. Boekee},
+  title = {An extension of the {F}isher information measure},
+  booktitle = {Topics in information theory. Proc. 2nd Colloquium on Information
+	Theory},
+  year = {1977},
+  editor = {I. Csisz{\`a}r and P. Elias.},
+  volume = {16},
+  pages = {113-123},
+  address = {Keszthely, Hungary},
+  month = {25-29 August 1975},
+  publisher = {Colloquia Mathematica Societatis J{\'a}nos Bolyai and North Holland,
+	Amsterdam},
+  file = {Boekee_AnExtensionFisherInformationMeasure_CollMathSoc75.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Boekee_AnExtensionFisherInformationMeasure_CollMathSoc75.pdf:PDF}
+}
+
+@ARTICLE{BoeVan80,
+  author = {D. E. Boekee and J. C. A. {Van der Lubbe}},
+  title = {The $R$-Norm Information Measure},
+  journal = {Information and Control},
+  year = {1980},
+  volume = {45},
+  pages = {136:155},
+  number = {2},
+  month = {May},
+  doi = {10.1016/S0019-9958(80)90292-2},
+  file = {Boekee (1980) - The R-norm entropy.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Boekee (1980) - The R-norm entropy.pdf:PDF}
+}
+
+@ARTICLE{BorLew93,
+  author = {J. M. Borwein and A. S. Lewis},
+  title = {Partially-finite programming in {$L_1$} and the existence of maximum
+	entropy estimates},
+  journal = {SIAM Journal of Optimization},
+  year = {1993},
+  volume = {3},
+  pages = {248-267},
+  number = {2},
+  month = {May},
+  doi = {10.1137/0803012},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/BorweinLewis_PartFiniteProgL1ExistenceMaxEntEsti_SIAMJOptim93.pdf:PDF}
+}
+
+@ARTICLE{BorLew91:03,
+  author = {J. M. Borwein and A. S. Lewis},
+  title = {Duality Relationships for Entropy-Like Minimization Problems},
+  journal = {SIAM Journal on Control and Optimization},
+  year = {1991},
+  volume = {29},
+  pages = {325-338},
+  number = {2},
+  month = {March},
+  doi = {10.1137/0329017},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/BornweinLewis_DualityRelationshipsEntropyLikeMinPb_SIAMJContOptim91.pdf:PDF}
+}
+
+@ARTICLE{BorLew91:05,
+  author = {J. M. Borwein and A. S. Lewis},
+  title = {Convergence of best entropy estimates},
+  journal = {SIAM Journal of Optimization},
+  year = {1991},
+  volume = {1},
+  pages = {191-205},
+  number = {2},
+  month = {May},
+  doi = {10.1137/0801014},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/BorweinLewis_ConvergenceBestEntropyEstimates_SIAMJOptim91.pdf:PDF}
+}
+
+@ARTICLE{Bre67,
+  author = {L. M. Bregman},
+  title = {The relaxation method of finding the common point of convex sets
+	and its application to the solution of problem in convex programming},
+  journal = {USSR Computational Mathematics and Mathematical Physics},
+  year = {1967},
+  volume = {7},
+  pages = {200-217},
+  number = {3},
+  doi = {10.1016/0041-5553(67)90040-7}
+}
+
+@ARTICLE{BurRao82,
+  author = {J. Burbea and C. R. Rao},
+  title = {On the Convexity of Some Divergence Measures Based on Entropy Functions},
+  journal = {IEEE Transactions on Information Theory},
+  year = {1982},
+  volume = {28},
+  pages = {489-495},
+  number = {3},
+  month = {May},
+  doi = {10.1109/TIT.1982.1056497},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/BurbeaRao_OnConvexitySomeDivMeasuresBasedEntFct_IEEEIT82.pdf:PDF}
+}
+
+@ARTICLE{Cam65,
+  author = {L. L. Campbell},
+  title = {A coding theorem and {R\'enyi's} entropy},
+  journal = {Information and Control},
+  year = {1965},
+  volume = {8},
+  pages = {423-429},
+  number = {4},
+  month = {August},
+  doi = {10.1016/S0019-9958(65)90332-3},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Campbell_ACodingTheoremAndRenyisEntropy_InformationAndControl65.pdf:PDF}
+}
+
+@ARTICLE{CasChi02,
+  author = {M. Casas and L. Chimento and F. Pennini and A. Plastino and A. R.
+	Plastino},
+  title = {{F}isher information in a {T}sallis non-extensive environment},
+  journal = {Chaos, Solitons and Fractals},
+  year = {2002},
+  volume = {13},
+  pages = {451-459},
+  number = {3},
+  month = {March},
+  doi = {10.1016/S0960-0779(01)00027-3},
+  file = {CasasEtAl_FisherInformationTsallisNonExtensiveEnvironment_ChaosSolitonsFractals02.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/CasasEtAl_FisherInformationTsallisNonExtensiveEnvironment_ChaosSolitonsFractals02.pdf:PDF}
+}
+
+@ARTICLE{ChhJen89,
+  author = {A. Chhabra and R. V. Jensen},
+  title = {Direct determination of the {$f(\alpha)$} singularity spectrum},
+  journal = {Physical Review Letters},
+  year = {1989},
+  volume = {62},
+  pages = {1327},
+  number = {12},
+  month = {March},
+  doi = {10.1103/PhysRevLett.62.1327},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/ChhabraJensen_DirectDeterminationOfTheFAlphaSingularitySpectrum_PRL89.pdf:PDF}
+}
+
+@ARTICLE{ChimPen00,
+  author = {L. P. Chimento and F. Pennini and A. Plastino},
+  title = {{N}audts-like duality and the extreme {F}isher information principle},
+  journal = {Physical Review E},
+  year = {2000},
+  volume = {62},
+  pages = {7462-7465},
+  number = {5},
+  month = {November},
+  doi = {10.1103/PhysRevE.62.7462},
+  file = {ChimentoEtAl_NaudtsLikeExtremeFisherInfoPrinciple_PRE00.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/ChimentoEtAl_NaudtsLikeExtremeFisherInfoPrinciple_PRE00.pdf:PDF},
+  issue = {x}
+}
+
+@ARTICLE{CorGon96,
+  author = {R. M. Corless and G. H. Gonnet and D. E. G. Hare and D. J. Jeffrey
+	and D. E. Knuth},
+  title = {On the {L}ambert {W} Function},
+  journal = {Advances in Computational Mathematics},
+  year = {1996},
+  volume = {5},
+  pages = {329-359},
+  number = {1},
+  month = {December},
+  doi = {10.1007/BF02124750}
+}
+
+@INPROCEEDINGS{CosHer03,
+  author = {J. A. Costa and A. O. {Hero III\@} and C. Vignat},
+  title = {On Solutions to Multivariate Maximum {$\alpha$}-Entropy Problems},
+  booktitle = {4th International Workshop on Energy Minimization Methods in Computer
+	Vision and Pattern Recognition (EMMCVPR)},
+  year = {2003},
+  editor = {Anand Rangarajan and M{\'a}rio A. T. Figueiredo and Josiane Zerubia},
+  volume = {2683},
+  series = {Lecture Notes in Computer Sciences},
+  pages = {211-226},
+  address = {Lisbon, Portugal},
+  month = {July 7-9},
+  publisher = {Springer Verlag}
+}
+
+@BOOK{CovTho06,
+  title = {Elements of Information Theory},
+  publisher = {John Wiley \& Sons},
+  year = {2006},
+  author = {T. M. Cover and J. A. Thomas},
+  address = {Hoboken, New Jersey},
+  edition = {2nd}
+}
+
+@ARTICLE{Csi91,
+  author = {I. Csisz{\`a}r},
+  title = {Why Least Squares and Maximum Entropy? An Axiomatic Approach to Inference
+	for Linear Inverse Problems},
+  journal = {The Annals of Statistics},
+  year = {1991},
+  volume = {19},
+  pages = {2031-2066},
+  number = {4},
+  month = {December},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Csiszar_WhyLSMaxEntAnAxiomAppInferenceLinInvProb_AnnStat91.pdf:PDF},
+  url = {http://www.jstor.org/stable/2241918}
+}
+
+@ARTICLE{Csi67,
+  author = {I. Csisz{\`a}r},
+  title = {Information-Type Measures of Difference of Probability Distributions
+	and Indirect Observations},
+  journal = {Studia Scientiarum Mathematicarum Hungarica},
+  year = {1967},
+  volume = {2},
+  pages = {299-318}
+}
+
+@ARTICLE{CsiMat12,
+  author = {I. Csisz{\`a}r and F. Mat{\'u\u{s}}},
+  title = {Generalized minimizers of convex integral functionals, {B}regman
+	distance, {P}ythgorean identities},
+  journal = {Kybernetica},
+  year = {2012},
+  volume = {48},
+  pages = {637-689},
+  number = {4},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/CsiszarMatus_GeneMinConvexIntFctBregmanDistPythagoreanId_Kybernetika12.pdf:PDF}
+}
+
+@ARTICLE{Dar70,
+  author = {Z. Dar{\'o}czy},
+  title = {Generalized Information Functions},
+  journal = {Information and Control},
+  year = {1970},
+  volume = {16},
+  pages = {36-51},
+  number = {1},
+  month = {March}
+}
+
+@ARTICLE{DarJar79,
+  author = {Z. Dar{\'o}czy and A. J{\'a}rai},
+  title = {On the measurable solution of a functional equation arising in information
+	theory},
+  journal = {Acta Mathematica Academiae Scientiarum Hungaricae},
+  year = {1979},
+  volume = {34},
+  pages = {105-116},
+  number = {1-2},
+  month = {March},
+  doi = {10.1007/bf01902599},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/DaroczyJarai_OnTheMeasurableSolFunctionalEqArisingInfoTh_AvctaMathSciHung79.pdf:PDF}
+}
+
+@ARTICLE{DemCov91,
+  author = {A. Dembo and T. M. Cover and J. A. Thomas},
+  title = {Information Theoretic Inequalities},
+  journal = {IEEE Transactions on Information Theory},
+  year = {1991},
+  volume = {37},
+  pages = {1501-1518},
+  number = {6},
+  month = {November},
+  doi = {10.1109/18.104312},
+  file = {Dembo_Cover_Inequalities.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Dembo_Cover_Inequalities.pdf:PDF}
+}
+
+@ARTICLE{FolSit97,
+  author = {G. B. Folland and A. Sitaram},
+  title = {The uncertainty principle: {A} mathematical survey},
+  journal = {Journal of Fourier Analysis and Applications},
+  year = {1997},
+  volume = {3},
+  pages = {207-233},
+  number = {3},
+  month = {May},
+  doi = {10.1007/BF02649110},
+  file = {FollandSitaram_UncertPrincipleMathSurvey_JFourierAnalAppl97.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/FollandSitaram_UncertPrincipleMathSurvey_JFourierAnalAppl97.pdf:PDF}
+}
+
+@BOOK{Fri04,
+  title = {Science from {F}isher Information: A Unification},
+  publisher = {Cambridge University Press},
+  year = {2004},
+  author = {B. R. Frieden},
+  address = {Cambridge, UK},
+  file = {:/Users/steeve/MA_ZONE/Livres/Frieden_ScienceFromFisherInformationAUnification.pdf:PDF}
+}
+
+@ARTICLE{FriSri08,
+  author = {B. A. Frigyik and S. Srivastava and M. R. Gupta},
+  title = {Functional {B}regman Divergence and {B}ayesian Estimation of Distributions},
+  journal = {IEEE Transactions on Infomation Theory},
+  year = {2008},
+  volume = {54},
+  pages = {5130-5139},
+  number = {11},
+  month = {November},
+  doi = {10.1109/TIT.2008.929943},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/FrigyikSrivastavaGupta_FctBregDivAndBayesEstiDist_IEEEIT08.pdf:PDF}
+}
+
+@ARTICLE{Gir07,
+  author = {V. Girardin},
+  title = {Relative Entropy and Spectral Constraints : Some Invariance Properties
+	of the {ARMA} Class},
+  journal = {Journal of Time Series Analysis},
+  year = {2007},
+  volume = {28},
+  pages = {844-866},
+  number = {6},
+  month = {November},
+  doi = {0.1111/j.1467-9892.2007.00535.x},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Girardin_RelEntSpecConstSomeInvPropARMAClacc_JTimeSeriesAnal07.pdf:PDF}
+}
+
+@ARTICLE{Gir97,
+  author = {V. Girardin},
+  title = {M{\'e}thodes de r{\'e}alisation de produit scalaire et de probl{\`e}me
+	de moments avec maximisation d'entropie},
+  journal = {Studia Mathematica},
+  year = {1997},
+  volume = {124},
+  pages = {199-213},
+  number = {3},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Girardin_MetRealProdScalProbMomentsMaxEnt_StudMath97.pdf:PDF},
+  url = {http://eudml.org/doc/216409}
+}
+
+@ARTICLE{GirReg15,
+  author = {V. Girardin and P. Regnault},
+  title = {Escort distributions minimizing the {K}ullback-{L}eibler divergence
+	for a large deviations principle and tests of entropy level},
+  journal = {Annals of the Institute of Statistical Mathematics},
+  year = {2015},
+  volume = {68},
+  pages = {439-468},
+  number = {2},
+  month = {April},
+  doi = {10.1007/s10463-014-0501-x},
+  file = {:/Users/steeve/MA_ZONE/Article/Notes/JFB_VG/References/GirardinRegnalut_EscortDistMinKLDivForLargeDevPrincAndTestsEntLev_AnnInstStatMath15.pdf:PDF}
+}
+
+@ARTICLE{Gok83,
+  author = {D.V. Gokhale},
+  title = {On entropy-based goodness-of-fit tests},
+  journal = {Computational Statistics and Data Analysis},
+  year = {1983},
+  volume = {1},
+  pages = {157-165},
+  month = {march},
+  doi = {10.1016/0167-9473(83)90087-7}
+}
+
+@INCOLLECTION{Gok75,
+  author = {D. V. Gokhale},
+  title = {Maximum entropy characterizations of some distributions},
+  booktitle = {A Modern Course on Statistical Distributions in Scientific Work},
+  publisher = {Reidel},
+  year = {1975},
+  editor = {G. P. Patil, S. Kotz and J. K. Ord},
+  volume = {III},
+  pages = {299-304},
+  address = {Dordrecht, Holland},
+  doi = {10.1007/978-94-010-1848-7}
+}
+
+@ARTICLE{GuoSha05,
+  author = {D. Guo and S. Shamai and S. Verd{\'u}},
+  title = {Mutual Information and Minimum Mean-Square Error in {G}aussian Channels},
+  journal = {IEEE Transactions on Information Theory},
+  year = {2005},
+  volume = {51},
+  pages = {1261-1282},
+  number = {4},
+  month = {April},
+  doi = {10.1109/TIT.2005.844072},
+  file = {GuoShamaiVerdu_MutInfoMMSEGaussChan_IEEEIT2005.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/GuoShamaiVerdu_MutInfoMMSEGaussChan_IEEEIT2005.pdf:PDF}
+}
+
+@ARTICLE{Ham78,
+  author = {P. Hammad},
+  title = {Mesure d'ordre $\alpha$ de l'information au sens de {F}isher},
+  journal = {Revue de Statistique Appliqu{\'e}e},
+  year = {1978},
+  volume = {26},
+  pages = {73-84},
+  number = {1},
+  file = {Hammad_MesureAlphaInfoFisher_RevueStatAppl78.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Hammad_MesureAlphaInfoFisher_RevueStatAppl78.pdf:PDF}
+}
+
+@ARTICLE{HavCha67,
+  author = {J. Havrda and F. Charv{\'a}t},
+  title = {Quantification Method of Classification Processes: Concept of Structural
+	$\alpha$-Entropy},
+  journal = {Kybernetika},
+  year = {1967},
+  volume = {3},
+  pages = {30-35},
+  number = {1}
+}
+
+@ARTICLE{HerMa02,
+  author = {A. O. {Hero III\@} and B. Ma and O. J. J. Michel and J. Gorman},
+  title = {Application of Entropic Spanning Graphs},
+  journal = {IEEE Signal Processing Magazine},
+  year = {2002},
+  volume = {19},
+  pages = {85-95},
+  number = {5},
+  month = {September},
+  doi = {10.1109/MSP.2002.1028355},
+  file = {HeroMaMichel_EntropicSpanning_ieeeSPMag02.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/HeroMaMichel_EntropicSpanning_ieeeSPMag02.pdf:PDF}
+}
+
+@ARTICLE{Jay57,
+  author = {Jaynes},
+  title = {Information Theory and Statistical Mechanics},
+  journal = {Physical Review},
+  year = {1957},
+  volume = {106},
+  pages = {620-630},
+  number = {4},
+  month = {may},
+  doi = {10.1103/PhysRev.106.620},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/jaynes1957.pdf:PDF}
+}
+
+@ARTICLE{Jay82,
+  author = {E. T. Jaynes},
+  title = {On the rational of maximum-entropy methods},
+  journal = {Proceedings of the IEEE},
+  year = {1982},
+  volume = {70},
+  pages = {939-952},
+  number = {9},
+  month = {September},
+  doi = {10.1109/PROC.1982.12425},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Jaynes_OnTheRationalOfMaxEntMethods_ProcIEEE82.pdf:PDF}
+}
+
+@ARTICLE{Jay68,
+  author = {E. T. Jaynes},
+  title = {Prior probabilities},
+  journal = {IEEE transactions on systems science and cybernetics},
+  year = {1968},
+  volume = {4},
+  pages = {227-241},
+  number = {3},
+  month = {September},
+  doi = {10.1109/TSSC.1968.300117},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Jaynes_PriroProbabilities_IEEESSC68.pdf:PDF}
+}
+
+@ARTICLE{JonByr90,
+  author = {L. K. Jones and C. L. Byrne},
+  title = {General Entropy Criteria for Inverse Problems, with Applications
+	to Data Compression, Pattern Classification, and Cluster Analysis},
+  journal = {IEEE transactions on Information Theory},
+  year = {1990},
+  volume = {36},
+  pages = {23-30},
+  number = {1},
+  month = {January},
+  doi = {10.1109/18.50370},
+  file = {:/Users/steeve/MA_ZONE/Article/Notes/JFB_VG/References/00050370.pdf:PDF}
+}
+
+@BOOK{Kap89,
+  title = {Maximum Entropy Model in Sciences and Engineering},
+  publisher = {Wiley Eastern Limited},
+  year = {1989},
+  author = {J. N. Kapur},
+  address = {New-Dehli}
+}
+
+@BOOK{Kay93,
+  title = {Fundamentals for Statistical Signal Processing: Estimation Theory},
+  publisher = {Prentice Hall},
+  year = {1993},
+  author = {S. M. Kay},
+  series = {vol.~1},
+  address = {Upper Saddle River, NJ},
+  file = {Kay_FundamentalsOfStatisticalSignalProcessing_EstimationTheory.pdf:/Users/steeve/MA_ZONE/Livres/Kay_FundamentalsOfStatisticalSignalProcessing_EstimationTheory.pdf:PDF}
+}
+
+@ARTICLE{KulLei51,
+  author = {S. Kullback and R. Leibler},
+  title = {On information and sufficiency},
+  journal = {The Annals of Mathematical Statistics},
+  year = {1951},
+  volume = {22},
+  pages = {79-86},
+  number = {1},
+  month = {March},
+  doi = {10.1214/aoms/1177729694},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Kullback_Leibler_1951.pdf:PDF}
+}
+
+@INPROCEEDINGS{Leq14,
+  author = {J. Lequesne},
+  title = {A goodness-of-fit test of {S}tudent distributions based on {R\'e}nyi
+	entropy},
+  booktitle = {AIP conference proceedings of the 34th international workshop on
+	Bayesian Inference and Maximum Entropy Methods (MaxEnt'14)},
+  year = {2014},
+  editor = {A. Djafari and F. Barbaresco},
+  volume = {1641},
+  pages = {487-494},
+  address = {Amboise, France},
+  month = {21-25 september},
+  doi = {10.1063/1.4906014},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Lequesne_GoodnessFitTestStudentDistBasedOnRenyiEnt_MaxEnt14.pdf:PDF}
+}
+
+@PHDTHESIS{Leq15,
+  author = {J. Lequesne},
+  title = {Tests statistiques bas{\'e}s sur la th{\'e}orie de l'information,
+	applications en biologie et en d{\'e}mographie},
+  school = {Universit{\'e} de {C}aen {B}asse-{N}ormandie},
+  year = {2015},
+  address = {Caen, France},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/these_JLequesne.pdf:PDF}
+}
+
+@ARTICLE{LesBla09,
+  author = {A. Lesne and J.-L. Blanc and L. Pezard},
+  title = {Entropy estimation of very short symbolic sequences},
+  journal = {Physical Review E},
+  year = {2009},
+  volume = {79},
+  pages = {046208},
+  doi = {10.1103/PhysRevE.79.046208},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/LesneEtAl_EntEstiVeryShortSymSeq_PRE09.pdf:PDF}
+}
+
+@ARTICLE{LieVaj06,
+  author = {F. Liese and I. Vajda},
+  title = {On Divergence and Informations in Statistics and Information Theory},
+  journal = {IEEE Transactions on Information Theory},
+  year = {2006},
+  volume = {52},
+  pages = {4394-4412},
+  number = {10},
+  month = {October},
+  doi = {10.1109/TIT.2006.8811731},
+  file = {LieseVajda_DivInfoStatInfoTh_IEEESP06.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/LieseVajda_DivInfoStatInfoTh_IEEESP06.pdf:PDF}
+}
+
+@ARTICLE{LutLv12,
+  author = {E. Lutwak and S. Lv and D. Yang and G. Zhang},
+  title = {Extension of {F}isher Information and {S}tam's Inequality},
+  journal = {IEEE Transactions on Information Theory},
+  year = {2012},
+  volume = {58},
+  pages = {1319-1327},
+  number = {3},
+  month = {March},
+  doi = {10.1109/TIT.2011.2177563},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Noms/LutwakEtAl_ExtensionFisherInformationStamInequality_IEEEIT12.pdf:PDF}
+}
+
+@ARTICLE{LutYan07,
+  author = {E. Lutwak and D. Yang and G. Zhang},
+  title = {Moment-Entropy Inequalities for a Random Vector},
+  journal = {IEEE Transactions on Information Theory},
+  year = {2007},
+  volume = {53},
+  pages = {1603-1607},
+  number = {4},
+  month = {April},
+  doi = {10.1109/TIT.2007.892780},
+  file = {LutwakEtAl_MomentEntropyIneqRandomVector.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/LutwakEtAl_MomentEntropyIneqRandomVector.pdf:PDF}
+}
+
+@ARTICLE{LutYan05,
+  author = {E. Lutwak and D. Yang and G. Zhang},
+  title = {Cram{\'e}r-{R}ao and Moment-Entropy Inequalities for {R\'e}nyi Entropy
+	and Generalized {F}isher Information},
+  journal = {IEEE Transactions on Information Theory},
+  year = {2005},
+  volume = {51},
+  pages = {473-478},
+  number = {2},
+  month = {February},
+  doi = {10.1109/TIT.2004.840871},
+  file = {LutwakYangZhang_CRMomEntIneqRenyiFisher_IEEE_IT_Feb2005.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/LutwakYangZhang_CRMomEntIneqRenyiFisher_IEEE_IT_Feb2005.pdf:PDF}
+}
+
+@ARTICLE{LutYan04,
+  author = {E. Lutwak and D. Yang and G. Zhang},
+  title = {Moment-Entropy Inequalities},
+  journal = {The Annals of Probability},
+  year = {2004},
+  volume = {32},
+  pages = {757-774},
+  number = {1B},
+  month = {January},
+  doi = {10.1214/aop/1079021463},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/LutwakYangZhang_MomentEntropyInequalities_AnnalsOfProba04.pdf:PDF}
+}
+
+@ARTICLE{MarNic00,
+  author = {S. Mart{\'i}nez and F. Nicol{\'a}s and F. Pennini and A. Plastino},
+  title = {Tsallis' entropy maximization procedure revisited},
+  journal = {Physica A},
+  year = {2000},
+  volume = {286},
+  pages = {489-502},
+  number = {3-4},
+  month = {November},
+  doi = {10.1016/S0378-4371(00)00359-9},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/MartinezEtAl_TsallisEntropyMaximizationProcedureRevisited_PA00.pdf:PDF}
+}
+
+@ARTICLE{MenMor97,
+  author = {M. L. Men{\'e}ndez and D. Morales and L. Pardo and M. Salicr{\'u}},
+  title = {$(h,\Phi)$-entropy differential metric},
+  journal = {Applications of Mathematics},
+  year = {1997},
+  volume = {42},
+  pages = {81-98},
+  number = {1-2}
+}
+
+@BOOK{Nau11,
+  title = {Generalized Thermostatistics},
+  publisher = {Spri},
+  year = {2011},
+  author = {J. Naudts},
+  address = {London},
+  doi = {10.1007/978-0-85729-355-8},
+  file = {:/Users/steeve/MA_ZONE/Livres/Naudts_GeneralisedThermostatistics.pdf:PDF}
+}
+
+@ARTICLE{ParBer09,
+  author = {S. Y. Park and A. K. Bera},
+  title = {Maximum entropy autoregressive conditional heteroskedasticity model},
+  journal = {Journal of Econometrics},
+  year = {2009},
+  volume = {150},
+  pages = {219-230},
+  number = {2},
+  month = {June},
+  doi = {10.1016/j.jeconom.2008.12.014}
+}
+
+@ARTICLE{RomAng99,
+  author = {E. Romera and J. C. Angulo and J. S. Dehesa},
+  title = {Fisher entropy and uncertainty like relationships in many-body systems},
+  journal = {Physical Review A},
+  year = {1999},
+  volume = {59},
+  pages = {4064-4067},
+  number = {5},
+  month = {May},
+  doi = {10.1103/PhysRevA.59.4064},
+  file = {:/Users/steeve/Desktop/ACOMPLETER_BIB/IMPRIMER_PAPIER_LIEN_BIB/RomeraAnguloDehesa_FisherEntUncertRelManyBodySyst_PRA99.pdf:PDF}
+}
+
+@ARTICLE{RomSan06,
+  author = {E. Romera and P. {S\'anchez-Moreno} and J. S. Dehesa},
+  title = {Uncertainty relation for {F}isher information of {$D$}-dimensional
+	single-particle systems with central potentials},
+  journal = {Journal of Mathematical Physics},
+  year = {2006},
+  volume = {47},
+  pages = {103504},
+  number = {10},
+  month = {October},
+  doi = {10.1063/1.2357998},
+  file = {RomeraMorenoDehesa_UncRelFisherDDimSinglePartCentralPot_JMathPhys06.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/RomeraMorenoDehesa_UncRelFisherDDimSinglePartCentralPot_JMathPhys06.pdf:PDF}
+}
+
+@ARTICLE{Ren61,
+  author = {A. R{\'e}nyi},
+  title = {On measures of entropy and information},
+  journal = {in Proceeding of the 4th Berkeley Symposium on Mathematical Statistics
+	and Probability},
+  year = {1961},
+  volume = {1},
+  pages = {547-561},
+  file = {Renyi_OnMeasuresOfEntropyAndInformation_Proc4thBerkeleySympMathStatProba61.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Renyi_OnMeasuresOfEntropyAndInformation_Proc4thBerkeleySympMathStatProba61.pdf:PDF}
+}
+
+@ARTICLE{SanGon06,
+  author = {P. {S\'anchez-Moreno} and R. {Gonz\'alez-F\'erez} and J. S. Dehesa},
+  title = {Improvement of the {H}eisenberg and {F}isher-information-based uncertainty
+	relations for {$D$}-dimensional potentials},
+  journal = {New Journal of Physics},
+  year = {2006},
+  volume = {8},
+  pages = {330},
+  month = {December},
+  doi = {10.1088/1367-2630/8/12/330},
+  file = {PabloRosariaJesus_ImprovHeisenbergFisherUncertaintyRelDDimCentralPotentials_NewJPhys06.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/PabloRosariaJesus_ImprovHeisenbergFisherUncertaintyRelDDimCentralPotentials_NewJPhys06.pdf:PDF}
+}
+
+@ARTICLE{Sal94,
+  author = {M. Salicr{\'u}},
+  title = {Measures of information associated with {C}sisz{\'a}r's divergences},
+  journal = {Kybernetica},
+  year = {1994},
+  volume = {30},
+  pages = {563-573},
+  number = {5},
+  url = {http://www.kybernetika.cz/content/1994/5/563}
+}
+
+@ARTICLE{Sal87,
+  author = {M. Salicr{\'u}},
+  title = {Funciones de entrop{\'i}a asociada a medidas de {C}sisz{\'a}r},
+  journal = {Q{\"u}estii{\'o}},
+  year = {1987},
+  volume = {11},
+  pages = {3-12},
+  number = {3},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Salicru_FuncionesDeEntropiaAsoMedidasCsiszar_Questiio87.pdf:PDF}
+}
+
+@ARTICLE{SalMen93,
+  author = {M. Salicr{\'u} and M. L. Men{\'e}ndez and D. Morales and L. Pardo},
+  title = {Asymptotic distribution of $(h,\phi)$-entropies},
+  journal = {Communications in Statistics -- Theory and Methods},
+  year = {1993},
+  volume = {22},
+  pages = {2015-2031},
+  number = {7},
+  doi = {10.1080/03610929308831131}
+}
+
+@BOOK{Sen11,
+  title = {Statistical Complexity. Application in Electronic Structure},
+  publisher = {Springer Verlag},
+  year = {2011},
+  author = {K. D. Sen},
+  address = {New-York},
+  doi = {10.1007/978-90-481-3890-6},
+  file = {:/Users/steeve/MA_ZONE/Livres/Sen_StatisticalComplexityApplicationsInElectronicStructure.pdf:PDF}
+}
+
+@ARTICLE{Son02,
+  author = {K.-S. Song},
+  title = {Goodness-of-fit tests based on {K}ullback-{L}eibler discrimination
+	information},
+  journal = {IEEE Transactions on Information Theory},
+  year = {2002},
+  volume = {48},
+  pages = {1103-1117},
+  number = {5},
+  month = {May},
+  doi = {10.1109/18.995548},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Song_GoodnessOfFitTestsBasedKLDiscrimInfo_IEEEIT02.pdf:PDF}
+}
+
+@ARTICLE{Sta59,
+  author = {A. J. Stam},
+  title = {Some Inequalities Satisfied by the Quantities of Information of {F}isher
+	and {S}hannon},
+  journal = {Information and Control},
+  year = {1959},
+  volume = {2},
+  pages = {101-112},
+  number = {2},
+  month = {June},
+  doi = {10.1016/S0019-9958(59)90348-1},
+  file = {Stam_SomeIneqFisherShannon_InfoControl59.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Stam_SomeIneqFisherShannon_InfoControl59.pdf:PDF}
+}
+
+@ARTICLE{TebVaj93,
+  author = {M. Teboulle and I. Vajda},
+  title = {Convergence of Best {$\phi$}-Entropy Estimates},
+  journal = {IEEE Transactions on Infomation Theory},
+  year = {1993},
+  volume = {39},
+  pages = {297-301},
+  number = {1},
+  month = {January},
+  doi = {10.1109/18.179378},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/TeboulleVajda_ConvergenceOfBestPhiEntropyEstimates_IEEEIT93.pdf:PDF}
+}
+
+@ARTICLE{TorLop15,
+  author = {I. V. Toranzo and S. {Lopez-Rosa} and R.O. Esquivel and J. S. Dehesa},
+  title = {{H}eisenberg-like and {F}isher-information uncertainties relations
+	for {$N$}-fermion $d$-dimensional systems},
+  journal = {Physical Review A},
+  year = {2015},
+  pages = {on press}
+}
+
+@ARTICLE{Tsa88,
+  author = {C. Tsallis},
+  title = {Possible Generalization of {B}oltzmann-{G}ibbs Statistics},
+  journal = {Journal of Statistical Physics},
+  year = {1988},
+  volume = {52},
+  pages = {479-487},
+  number = {1-2},
+  month = {July},
+  doi = {10.1007/BF01016429}
+}
+
+@ARTICLE{TsaMen98,
+  author = {C. Tsallis and R. M. Mendes and A. R. Plastino},
+  title = {The role of constraints within generalized nonextensive statistics},
+  journal = {Physica A},
+  year = {1998},
+  volume = {261},
+  pages = {534-554},
+  number = {3-4},
+  month = {December},
+  doi = {10.1016/S0378-4371(98)00437-3},
+  file = {Tsallis_PA_v261_n2_15Dec1998.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Tsallis_PA_v261_n2_15Dec1998.pdf:PDF}
+}
+
+@INPROCEEDINGS{Vaj73,
+  author = {I. Vajda},
+  title = {{$\chi^\alpha$}-divergence and generalized {F}isher's information},
+  booktitle = {Transactions of the 6th Prague Conference on Information Theory,
+	Statistics, Decision Functions and Random Processes},
+  year = {1973},
+  pages = {873-886},
+  file = {Vajda_ChiAlphaDivGeneralizedFisherInformation_Trans6thPraguesConfITStatDecFctRandProc73.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Vajda_ChiAlphaDivGeneralizedFisherInformation_Trans6thPraguesConfITStatDecFctRandProc73.pdf:PDF}
+}
+
+@ARTICLE{Var66,
+  author = {R. S. Varma},
+  title = {Generalization of {R\'e}nyi's Entropy of Order $\alpha$},
+  journal = {Journal of Mathematical Sciences},
+  year = {1966},
+  volume = {1},
+  pages = {34-48},
+  file = {Varma_GeneRenyiEntOrderAlpha_JMathySciences66.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Varma_GeneRenyiEntOrderAlpha_JMathySciences66.pdf:PDF}
+}
+
+@ARTICLE{Vas76,
+  author = {O. Vasicek},
+  title = {A Test for Normality Based on Sample Entropy},
+  journal = {Journal of the Royal Statistical Society B},
+  year = {1976},
+  volume = {38},
+  pages = {54-59},
+  number = {1},
+  url = {http://www.jstor.org/stable/2984828}
+}
+
+@ARTICLE{VigBer03,
+  author = {C. Vignat and J.-F. Bercher},
+  title = {Analysis of signals in the {F}isher-{S}hannon information plane},
+  journal = {Physics Letters A},
+  year = {2003},
+  volume = {312},
+  pages = {27-33},
+  number = {1-2},
+  month = {June},
+  doi = {10.1016/S0375-9601(03)00570-X},
+  file = {VignatBerchet_AnalSigFisherShannonInfoPlane_PLA03.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/VignatBerchet_AnalSigFisherShannonInfoPlane_PLA03.pdf:PDF}
+}
+
+@ARTICLE{VigHer04,
+  author = {C. Vignat and A. O. {Hero III\@} and J. A. Costa},
+  title = {About closedness by convolution of the {T}sallis maximizers},
+  journal = {Physica A},
+  year = {2004},
+  volume = {340},
+  pages = {147-152},
+  number = {1-3},
+  month = {September},
+  doi = {10.1016/j.physa.2004.04.001},
+  file = {VignatHeroCosta_next2003.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/VignatHeroCosta_next2003.pdf:PDF}
+}
+
+@BOOK{Wid75,
+  title = {The Heat Equation},
+  publisher = {Academic Press},
+  year = {1975},
+  author = {D. V. Widder},
+  address = {New-York}
+}
+
+@comment{jabref-meta: selector_review:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

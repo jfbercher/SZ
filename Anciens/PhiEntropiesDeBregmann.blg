@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: PhiEntropiesDeBregmann.aux
+The style file: unsrt.bst
+Database file #1: /Users/steeve/MA_ZONE/BIBLIO/biblioIT.bib
+Database file #2: /Users/steeve/MA_ZONE/BIBLIO/biblioPhys.bib
+Database file #3: /Users/steeve/MA_ZONE/BIBLIO/biblioProba.bib
+Database file #4: /Users/steeve/MA_ZONE/BIBLIO/biblioMath.bib
+Warning--I didn't find a database entry for "tt"
+You've used 6 entries,
+            1791 wiz_defined-function locations,
+            497 strings with 4595 characters,
+and the built_in function-call counts, 1305 in all, are:
+= -- 120
+> -- 28
+< -- 0
++ -- 13
+- -- 7
+* -- 103
+:= -- 209
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 54
+empty$ -- 144
+format.name$ -- 7
+if$ -- 291
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 6
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 19
+stack$ -- 0
+substring$ -- 123
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 12
+width$ -- 7
+write$ -- 68
+(There was 1 warning)

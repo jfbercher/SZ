@@ -1,0 +1,1637 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass elsarticle
+\begin_preamble
+%\@ifundefined{definecolor}
+% {\usepackage{color}}{}
+%\makeatother
+
+%\makeatother
+
+
+\usepackage{times}
+%\usepackage{subfloat}
+%\usepackage{subfig}
+\usepackage{psfrag}
+\usepackage{babel}
+\usepackage{times}
+
+
+%%%
+\makeatletter
+\def\ps@pprintTitle{%
+  \let\@oddhead\@empty
+  \let\@evenhead\@empty
+  \def\@oddfoot{\reset@font\hfil\thepage\hfil}
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+\end_preamble
+\options onecolumn
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 2
+\use_esint 2
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+T'aurais pas une entropie?
+\end_layout
+
+\begin_layout Author
+by jfb & co 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+date
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Where we show that it is possible to derive new entropies yielding a particular
+ specified maximum entropy distribution.
+ There are (probably) many errors --I hope not fundamental but is is possible;
+ (certainly many) approximations, typos, maths and language mistakes.Suggestions
+ and improvements will be much appreciated.
+ 
+\end_layout
+
+\begin_layout Section
+Maximum entropy distributions
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $S[f]=\int f(x)\log f(x)\mathrm{d}\mu(x)$
+\end_inset
+
+ be the Shannon entropy.
+ Subject to on, or several moment constraints such as 
+\begin_inset Formula $\mathbb{E}[T_{i}(x)]=m_{i},$
+\end_inset
+
+ and to normalization, it is well known that the maximum entropy distribution
+ lies within the exponential family 
+\begin_inset Formula 
+\[
+f_{X}(x)=\exp\left(\sum_{i}\lambda_{i}T_{i}(x)+\mu\right).
+\]
+
+\end_inset
+
+In order to recover known probability distributions (that must belong to
+ the exponential family), it is then sufficient to specify a function 
+\begin_inset Formula $T(x).$
+\end_inset
+
+ This has been used by many authors.
+ For instance, the gamma distribution can be viewed as a maximum entropy
+ distribution if one knows the moments 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mathbb{E}[X]$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{E}[\log(X)].$
+\end_inset
+
+ In order to find maximum entropy distributions with simpler constraints
+ or distributions outside of the exponential family, it is possible to consider
+ other entropies.
+ This is discussed below.
+ 
+\end_layout
+
+\begin_layout Section
+Maximum 
+\begin_inset Formula $(h,\phi)$
+\end_inset
+
+-entropy distributions
+\end_layout
+
+\begin_layout Subsection
+Definition and maximum 
+\begin_inset Formula $(h,\phi)$
+\end_inset
+
+-entropy solution
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dmu}[1]{\mathrm{d}\mu(#1)}
+{\mathrm{d}\mu(#1)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let us consider a convex function 
+\begin_inset Formula $\phi(x)$
+\end_inset
+
+ and define a 
+\begin_inset Formula $\phi$
+\end_inset
+
+-entropy as 
+\begin_inset Formula 
+\begin{equation}
+H_{\phi}[f]=\int\phi(f(x))\mathrm{d}\mu(x)\label{eq:phi-entropy}
+\end{equation}
+
+\end_inset
+
+If 
+\begin_inset Formula $\phi(x)$
+\end_inset
+
+ is convex, then so is the entropy functional 
+\begin_inset Formula $H_{\phi}[f]$
+\end_inset
+
+.
+ Also note that the composition with a convex non decreasing function preserves
+ convexity, and that composition with a concave non increasing function
+ yields a concave functional, thus yielding the 
+\begin_inset Formula $(h,\phi)$
+\end_inset
+
+-entropy functional 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{h,\phi}[f]=h\left(\int\phi(f(x))\mathrm{d}\mu(x)\right)\label{eq:h-phi-entropy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider the maximum entropy problem subject to a constraint on some moment
+ 
+\begin_inset Formula $\mathbb{E}\left[T(X)\right]$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $h$
+\end_inset
+
+ is assumed monotone, it is enough to look for the minimum of the 
+\begin_inset Formula $\phi$
+\end_inset
+
+-entropy (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:phi-entropy"
+
+\end_inset
+
+): 
+\begin_inset Formula 
+\[
+\begin{cases}
+\max_{f} & -\int\phi(f(x))\mathrm{d}\mu(x)\\
+\text{s.t. } & \mathbb{E}\left[T(X)\right]=m\\
+\text{and} & \mathbb{E}\left[1\right]=1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For now, let us use the classical Lagrange multipliers technique.
+ We will give another proof of the result later.
+ The Lagrangian is
+\begin_inset Formula 
+\[
+L(f;\lambda,\mu)=-\int\phi(f(x))\mathrm{d}\mu(x)+\lambda\int T(x)f(x)\dmu x+\mu\left(\int f(x)\dmu x\right),
+\]
+
+\end_inset
+
+where the parameter 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ enables to satisfy th emoment constraint while 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is associated with the normalization constraint.
+ The stationnary points statisfy the Euler-Lagrange equation
+\begin_inset Formula 
+\[
+\phi'(f(x))+\lambda T(x)+\mu=0
+\]
+
+\end_inset
+
+which gives 
+\begin_inset Formula 
+\begin{equation}
+f_{X}(x)=\phi'^{-1}\left(\lambda T(x)+\mu\right).\label{eq:sol-h-phi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An alternative derivation of the result consists in checking that the distributi
+on (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:sol-h-phi"
+
+\end_inset
+
+) is effectively a maximum entropy distribution, by showing that 
+\begin_inset Formula $H_{\phi}[f]>H_{\phi}[g]$
+\end_inset
+
+ for all probability distributions with a given (fixed) moment 
+\begin_inset Formula $\mathbb{E}\left[T(X)\right].$
+\end_inset
+
+ The Bregman divergence associated with 
+\begin_inset Formula $\phi$
+\end_inset
+
+ defined on a closed convex set 
+\begin_inset Formula $\Omega,$
+\end_inset
+
+ is given by
+\begin_inset Formula 
+\[
+D_{\phi}(x_{1},x_{2})=\phi(x_{1})-\phi(x_{2})-\phi'(x_{2})\left(x_{1}-x_{2}\right).
+\]
+
+\end_inset
+
+As is well known, the Bregman divergence is nonegative 
+\begin_inset Formula $D_{\phi}(x_{1},x_{2})\geq0\,\,\forall x_{1},x_{2}\in\Omega,$
+\end_inset
+
+ with equality if and only if 
+\begin_inset Formula $x_{1}=x_{2}.$
+\end_inset
+
+ A functional Bregman divergence can be defined for a convex function acting
+ on functions:
+\begin_inset Formula 
+\[
+D_{\phi}(f_{1},f_{2})=\int\phi(f_{1})\mathrm{d}\mu(x)-\int\phi(f_{2})\mathrm{d}\mu(x)-\int\phi'(f_{2})\left(f_{1}-f_{2}\right)\mathrm{d}\mu(x).
+\]
+
+\end_inset
+
+This divergnce is nonnegative as well, and zero if and only if 
+\begin_inset Formula $f_{1}(x)=f_{2}(x)$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset Formula $\forall x$
+\end_inset
+
+.
+ Define by 
+\begin_inset Formula 
+\[
+C=\left\{ f:\,\,\, f\geq0,\mathbb{\,\,\,\, E}\left[1\right]=1,\mathbb{\,\, E}\left[T(X)\right]=t\right\} 
+\]
+
+\end_inset
+
+the set of all probability distributions with a given moment.
+ Let now 
+\begin_inset Formula $f_{2}(x)\in C,$
+\end_inset
+
+ with 
+\begin_inset Formula $f_{2}(x)=\phi'^{-1}\left(\lambda T(x)+\mu\right)$
+\end_inset
+
+.
+ Now consider 
+\begin_inset Formula $f_{1}\in C$
+\end_inset
+
+, then 
+\begin_inset Formula 
+\begin{alignat}{1}
+D_{\phi}(f_{1},f_{2}) & =\int\phi(f_{1})\mathrm{d}\mu(x)-\int\phi(f_{2})\mathrm{d}\mu(x)-\int\phi'(f_{2})\left(f_{1}-f_{2}\right)\mathrm{d}\mu(x)\\
+ & =\int\phi(f_{1})\mathrm{d}\mu(x)-\int\phi(f_{2})\mathrm{d}\mu(x)-\int\phi'(\phi'^{-1}\left(\lambda T(x)+\mu\right))\left(f_{1}-f_{2}\right)\mathrm{d}\mu(x)\\
+ & =\int\phi(f_{1})\mathrm{d}\mu(x)-\int\phi(f_{2})\mathrm{d}\mu(x)-\int\left(\lambda T(x)+\mu\right)\left(f_{1}-f_{2}\right)\mathrm{d}\mu(x)\label{eq:before_simp}\\
+ & =H_{\phi}[f_{1}]-H_{\phi}[f_{2}]\label{eq:after_simp}
+\end{alignat}
+
+\end_inset
+
+where we used in (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:before_simp"
+
+\end_inset
+
+) the fact that 
+\begin_inset Formula $f_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $f_{2}$
+\end_inset
+
+ are normalized to one and have the same moment 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mathbb{E}\left[T(X)\right]$
+\end_inset
+
+.
+ By nonegativity of the Breman fuctional divergence, we finally get that
+ 
+\begin_inset Formula 
+\[
+H_{\phi}[f_{1}]\geq H_{\phi}[f_{2}]
+\]
+
+\end_inset
+
+for all pdf with a given moment, with equality if and only if 
+\begin_inset Formula $f_{1}=f_{2}.$
+\end_inset
+
+ In other words, this sows that (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:sol-h-phi"
+
+\end_inset
+
+) realizes the minimum of 
+\begin_inset Formula $H_{\phi}[f].$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Defining new entropy functionals
+\end_layout
+
+\begin_layout Standard
+Given an entropy functional, we thus obtain a maximum entropy distribution.
+ There exists numerous 
+\begin_inset Formula $(h,\phi)$
+\end_inset
+
+-entropies in the literature.
+ However a few of them lead to explicit forms for the maximum entropy distributi
+on.
+ Therefore, it is of high interest to look for the entropies that lead to
+ a specified distribution as a maximum entropy solution.
+ 
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ be a probability distribution.
+ We may consider the whole family associated with scale and translation
+ transformations, that is 
+\begin_inset Formula $x\rightarrow\left(x-x_{0}\right)/\sigma,$
+\end_inset
+
+ with density 
+\begin_inset Formula $\frac{1}{\sigma}f_{X}\left(\frac{x-x_{0}}{\sigma}\right).$
+\end_inset
+
+ Since we have to equate this density to 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\phi'^{-1}\left(\lambda T(x)+\mu\right)$
+\end_inset
+
+, we see that 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ plays the role of the precision parameter and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ of the location parameter.
+ 
+\end_layout
+
+\begin_layout Standard
+Since we will look for the function 
+\begin_inset Formula $\phi$
+\end_inset
+
+ for a given probability distribution 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ we also see that the corresponding 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(\lambda,\mu)$
+\end_inset
+
+ parameters can be included in the definition of the function.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+It is thus enough to restrict ourselves to the case 
+\begin_inset Formula $(\lambda=1,\mu=0),$
+\end_inset
+
+ and look for 
+\begin_inset Formula $\phi(x)$
+\end_inset
+
+ such that 
+\begin_inset Formula 
+\begin{equation}
+\phi'^{-1}\left(\lambda T(x)+\mu\right)=f_{X}(x).\label{eq:aresoudre}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let us recall some implicit properties of 
+\begin_inset Formula $\phi(x).$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\phi''(x)\geq0$
+\end_inset
+
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+since 
+\begin_inset Formula $\phi(x)$
+\end_inset
+
+ is assumed convex.
+ This 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+also means that 
+\begin_inset Formula $\phi'(x)$
+\end_inset
+
+ is non decreasing,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\phi'(x)$
+\end_inset
+
+ is defined on 
+\begin_inset Formula $[0,$
+\end_inset
+
+
+\begin_inset Formula $\sup_{x}f(x)]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The identification of a function 
+\begin_inset Formula $\phi(x)$
+\end_inset
+
+ such that a given 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ is the associated maximum entropy distribution amounts to solve (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:aresoudre"
+
+\end_inset
+
+), that is 
+\end_layout
+
+\begin_layout Enumerate
+choose 
+\begin_inset Formula $T(x)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+find 
+\begin_inset Formula $\phi'(y)$
+\end_inset
+
+ such that 
+\begin_inset Formula 
+\begin{equation}
+\lambda T(x)+\mu=\phi'\left(f_{X}(x)\right)=\phi'(y)\label{eq:inv}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+integrate the result to get 
+\begin_inset Formula $\phi(y)=\int\phi'(y)dy+c$
+\end_inset
+
+, where 
+\begin_inset Formula $c$
+\end_inset
+
+ is an integration constant.
+ The entropy being defined by 
+\begin_inset Formula $H_{\phi}[f]=\int\phi(f(x)\,\text{d}\mu(x)$
+\end_inset
+
+, the constant 
+\begin_inset Formula $c$
+\end_inset
+
+ will usually be zero.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The parameters 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ may be choosen case by case in order to simplify the expression of 
+\begin_inset Formula $\phi.$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Observe that since we want 
+\begin_inset Formula $\phi(x)$
+\end_inset
+
+ to be convex, which means 
+\begin_inset Formula $\phi''(x)\geq0$
+\end_inset
+
+ for a twice differeentiable function, it is thus necessary that 
+\begin_inset Formula $\phi'(x)$
+\end_inset
+
+ is non decreasing on 
+\begin_inset Formula $[0,$
+\end_inset
+
+max
+\begin_inset Formula $(f)]$
+\end_inset
+
+.
+ By (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:aresoudre"
+
+\end_inset
+
+), we have that 
+\begin_inset Formula 
+\[
+f_{X}'(x)=\lambda T'(x)\frac{1}{\phi''\left(\phi'^{-1}\left(\lambda T(x)+\mu\right)\right)}=\lambda T'(x)\frac{1}{\phi''\left(f_{X}(x)\right)}.
+\]
+
+\end_inset
+
+Hence we get that 
+\begin_inset Formula 
+\[
+\phi''\left(f_{X}(x)\right)=\frac{f_{X}'(x)}{\lambda T'(x)}
+\]
+
+\end_inset
+
+and we see that 
+\begin_inset Formula $f_{x}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $T(x)$
+\end_inset
+
+ must have the same or an opposite variation, depending on the sign of 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Examples: if 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is negative, then 
+\end_layout
+
+\begin_layout Itemize
+for 
+\begin_inset Formula $T(x)=x,$
+\end_inset
+
+ 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ must be non increasing,
+\end_layout
+
+\begin_layout Itemize
+for 
+\begin_inset Formula $T(x)=x^{2}$
+\end_inset
+
+ or 
+\begin_inset Formula $T(x)=|x|,$
+\end_inset
+
+ 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ must be unimodal with a maximum at zero.
+ 
+\end_layout
+
+\begin_layout Standard
+Let us consider some specific cases.
+ 
+\end_layout
+
+\begin_layout Enumerate
+For a normal distribution, 
+\begin_inset Formula $f_{X}(x)=\frac{1}{\sqrt{2\pi}}\exp(-\frac{x^{2}}{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $T(x)=x^{2},$
+\end_inset
+
+ we begin by computing the inverse 
+\begin_inset Formula $y=\frac{1}{\sqrt{2\pi}}\exp(-\frac{x^{2}}{2})$
+\end_inset
+
+, which gives 
+\begin_inset Formula $-\frac{1}{2}x^{2}-\log\sqrt{2\pi}=\log(y).$
+\end_inset
+
+ Choosing 
+\begin_inset Formula $\lambda=-\frac{1}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\mu=-\log\sqrt{2\pi}$
+\end_inset
+
+ and integrating, we obtain 
+\begin_inset Formula 
+\[
+\phi(y)=y\log y-y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+For a Tsallis 
+\begin_inset Formula $q$
+\end_inset
+
+-exponential, 
+\begin_inset Formula $f_{X}(x)=C_{q}\left(1-(q-1)\beta x\right)_{+}^{\frac{1}{(q-1)}},$
+\end_inset
+
+ 
+\begin_inset Formula $x\geq0,$
+\end_inset
+
+ and 
+\begin_inset Formula $T(x)=x$
+\end_inset
+
+.
+ We simply have 
+\begin_inset Formula $C_{q}^{q-1}\left(1-(q-1)\beta x\right)=y^{q-1}$
+\end_inset
+
+.
+ With 
+\begin_inset Formula $\lambda=qC_{q}^{q-1}\beta$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu=qC_{q}^{q-1}/(1-q)$
+\end_inset
+
+, this yields 
+\begin_inset Formula 
+\[
+\phi(y)=\frac{y^{q}}{1-q}.
+\]
+
+\end_inset
+
+Taking 
+\begin_inset Formula $\mu=\left(qC_{q}^{q-1}+1\right)/(1-q)$
+\end_inset
+
+ gives 
+\begin_inset Formula 
+\[
+\phi(y)=\frac{y^{q}-y}{1-q},
+\]
+
+\end_inset
+
+and an associated entropy can be 
+\begin_inset Formula 
+\[
+H_{\phi}[f]=\frac{1}{1-q}\left(\int f(x)^{q}\text{d}\mu(x)-1\right),
+\]
+
+\end_inset
+
+which is nothing but Tsallis entropy.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Of course, we can also take the first 
+\begin_inset Formula $\phi(y)=\frac{y^{q}}{1-q},$
+\end_inset
+
+ integrate and add any constant, since adding a constant do not modify the
+ actual value af the minimizer (or maximizer if we consider concave entropies).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The same entropy functional can readily be obtained for the so-called 
+\begin_inset Formula $q$
+\end_inset
+
+-Gaussian, or Student-t and -r distributions 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $f_{X}(x)=C_{q}\left(1-(q-1)\beta x^{2}\right)_{+}^{\frac{1}{(q-1)}}.$
+\end_inset
+
+ It suffices to follow the very same steps as above with 
+\begin_inset Formula $T(x)=x^{2}.$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ be the hyperbolic secant distribution, with density 
+\begin_inset Formula 
+\[
+f_{X}(x)=\frac{1}{2}\text{sech}(\frac{\pi}{2}x)=\frac{1}{2}\cosh^{-1}(\frac{\pi}{2}x).
+\]
+
+\end_inset
+
+Obviously, 
+\begin_inset Formula $\frac{\pi}{2}x=\cosh(2y)=\phi'(y)$
+\end_inset
+
+ with 
+\begin_inset Formula $T(x)=x$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda=\frac{\pi}{2}$
+\end_inset
+
+, and 
+\begin_inset Formula 
+\[
+\phi(y)=\sinh(2y).
+\]
+
+\end_inset
+
+So doing, we obtain an hyperbolic sine entropy with the hyperbolic secant
+ distribution as the associated maximum entropy distribution.
+\end_layout
+
+\begin_layout Standard
+Of course, the preceeding derivations require that (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:inv"
+
+\end_inset
+
+) is effectively solvable.
+ Furthermore, one has also to choose or design a specific 
+\begin_inset Formula $T(x)$
+\end_inset
+
+ statistic, as well as the parameters 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu$
+\end_inset
+
+.
+ In the examples above, we used 
+\begin_inset Formula $T(x)=x$
+\end_inset
+
+ and 
+\begin_inset Formula $T(x)=x^{2}.$
+\end_inset
+
+ Particular choices such as 
+\begin_inset Formula $T(x)=x^{2}$
+\end_inset
+
+ or 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $T(x)=|x|$
+\end_inset
+
+ obviously lead to symmetrical densities.
+ The case of nonsymmetrical unimodal densities seems to be much more involved.
+ For instance, if we take 
+\begin_inset Formula $T(x)=x$
+\end_inset
+
+, then the resolution of (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:inv"
+
+\end_inset
+
+) amounts to compute the inverse relation of 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+, which is is multi-valued.
+ We will deal now with this special case.
+ 
+\end_layout
+
+\begin_layout Subsection
+Entropies for unimodal nonsymmetric distributions
+\end_layout
+
+\begin_layout Standard
+Assume, without loss of generality that the mode is 
+\begin_inset Formula $x=0.$
+\end_inset
+
+ Let 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $T(x)=x$
+\end_inset
+
+, and 
+\begin_inset Formula $\lambda=-1$
+\end_inset
+
+, 
+\begin_inset Formula $\mu=0.$
+\end_inset
+
+ In such case, we have to find 
+\begin_inset Formula $\phi$
+\end_inset
+
+ satisfying 
+\begin_inset Formula $x=-\phi'\left(f_{X}(x)\right)=-\phi'(y)$
+\end_inset
+
+.
+ We see that 
+\begin_inset Formula $\phi'$
+\end_inset
+
+ is minus the inverse relation of 
+\begin_inset Formula $y=f_{X}(x)$
+\end_inset
+
+.
+ But 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ is not injective and to each 
+\begin_inset Formula $y$
+\end_inset
+
+ correspond a positive and a negative value of 
+\begin_inset Formula $x.$
+\end_inset
+
+ Hence we have two partial inverses, say 
+\begin_inset Formula $\phi_{+}'$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi_{-}'$
+\end_inset
+
+ such that 
+\begin_inset Formula $\phi_{+}'^{-1}(-x)=f_{X}(x)$
+\end_inset
+
+ for 
+\begin_inset Formula $x\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi_{-}'^{-1}(-x)=f_{X}(x)$
+\end_inset
+
+ for 
+\begin_inset Formula $x\leq0$
+\end_inset
+
+.
+ We observed above that if 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ is non increasing, that is assumed here for 
+\begin_inset Formula $x\geq0,$
+\end_inset
+
+ then 
+\begin_inset Formula $\phi_{+}''\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi_{+}$
+\end_inset
+
+is convex.
+ Then, our proposal is to use the functional 
+\begin_inset Formula $\phi_{+}$
+\end_inset
+
+ for defining a 
+\begin_inset Formula $\phi$
+\end_inset
+
+-entropy 
+\begin_inset Formula 
+\[
+H_{\phi}[f_{X}]=\int\phi_{+}\left(f_{X}(x)\right)\dmu x
+\]
+
+\end_inset
+
+associated with a specific 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+nonsymmetric probability distribution.
+ In this setting, it is understood that the maximum entropy distribution
+ 
+\begin_inset Formula $f_{X}(x)=\phi'^{-1}(-x)$
+\end_inset
+
+ will have to be computed as 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\phi_{+}'^{-1}(-x)=f_{X}(x)$
+\end_inset
+
+ for 
+\begin_inset Formula $x\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi_{-}'^{-1}(-x)=f_{X}(x)$
+\end_inset
+
+ for 
+\begin_inset Formula $x\leq0$
+\end_inset
+
+.
+ Of course, this does not forbid to model one-sided probability distribution,
+ provided that the constraint is included in the formulation of the maximum
+ entropy problem.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Example 1.
+ The logistic distribution
+\end_layout
+
+\begin_layout Standard
+The pdf of the logistic distribution is given by
+\begin_inset Formula 
+\[
+f_{X}(x)=\frac{e^{-\frac{x}{s}}}{s\left(1+e^{-\frac{x}{s}}\right)^{2}}.
+\]
+
+\end_inset
+
+This distribution, which resembles the normal distribution but has heavier
+ tails, has been used in many applications.
+ By direct calculations, we obtain 
+\begin_inset Formula 
+\[
+\begin{cases}
+\phi_{-}'(y)= & s\ln\left(\frac{1}{2}\,{\frac{-2\, ys+1+\sqrt{-4\, ys+1}}{ys}}\right),\\
+\phi_{+}'(y)= & s\ln\left(-\frac{1}{2}\,{\frac{2\, ys-1+\sqrt{-4\, ys+1}}{ys}}\right).
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The associated entropy is then 
+\begin_inset Formula 
+\[
+\phi_{+}(y)=\frac{1}{2}\,\sqrt{-4\, ys+1}+ys\,\ln\left(-{\frac{\sqrt{-4\, ys+1}-1}{\sqrt{-4\, ys+1}+1}}\right),
+\]
+
+\end_inset
+
+for 
+\begin_inset Formula $y\in[0,\frac{1}{4s}],$
+\end_inset
+
+ and where we have introduced a integration constant such that 
+\begin_inset Formula $\min_{y}\phi_{+}(y)=0.$
+\end_inset
+
+ For 
+\begin_inset Formula $y>\frac{1}{4s},$
+\end_inset
+
+ we extend the function and let 
+\begin_inset Formula $\phi_{+}(y)=+\infty.$
+\end_inset
+
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Entropy-logistic"
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename maple/phi_logistic.eps
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Entropy derived from the logistic distribution.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Entropy-logistic"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+gives a representation of this entropy for 
+\begin_inset Formula $s=1.$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Example 2.
+ The gamma distribution
+\end_layout
+
+\begin_layout Standard
+The probability density function of the gamma distribution is given by 
+\begin_inset Formula 
+\[
+f_{X}(x)=\frac{{\beta}^{\alpha}{x}^{\alpha-1}{e}^{-\beta\, x}}{\Gamma\left(\alpha\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We obtain 
+\begin_inset Formula 
+\[
+\phi'(y)=-{{\rm e}^{\frac{1}{\alpha-1}\left(-{\it W}\left(-{\frac{\beta\,\left(y\Gamma\left(\alpha\right){\beta}^{-\alpha}\right)^{\left(\alpha-1\right)^{-1}}}{\alpha-1}}\right)\alpha+{\it W}\left(-{\frac{\beta\,\left(y\Gamma\left(\alpha\right){\beta}^{-\alpha}\right)^{\left(\alpha-1\right)^{-1}}}{\alpha-1}}\right)+\ln\left(y\Gamma\left(\alpha\right){\beta}^{-\alpha}\right)\right)}},
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula ${\it W}$
+\end_inset
+
+ is the Lambert W multivalued `function' defined by 
+\begin_inset Formula $z=W(z)e^{W(z)}$
+\end_inset
+
+ (ie the inverse relation of 
+\begin_inset Formula $f(w)=we^{w}$
+\end_inset
+
+).
+ Unfortunately, in the general case, we do not have a closed form for 
+\begin_inset Formula $\phi(y)$
+\end_inset
+
+ as the integral of 
+\begin_inset Formula $\phi'(y)$
+\end_inset
+
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+This might not be completely unacceptable.
+ Indeed, it is really not difficult to compute numerically the values of
+ 
+\begin_inset Formula $\phi(y).$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Restricting us to the case 
+\begin_inset Formula $\alpha=2$
+\end_inset
+
+, we have
+\begin_inset Formula 
+\[
+\phi(y)=\frac{\left(1-{\it W}\left(-{\frac{y}{\beta}}\right)+y\left({\it W}\left(-{\frac{y}{\beta}}\right)\right)^{2}\right)}{{\it \beta\, W}\left(-{\frac{y}{\beta}}\right)}+\frac{\beta}{e},
+\]
+
+\end_inset
+
+which is convex if we choose the -1 branch of the Lambert function.
+ An example with 
+\begin_inset Formula $\alpha=2$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta=3$
+\end_inset
+
+ is given on Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Entropy-gamma"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename maple/phi_gamma.eps
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Entropy-gamma"
+
+\end_inset
+
+Entropy derived from the gamma distribution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Example 3.
+ The arcsine distribution
+\end_layout
+
+\begin_layout Standard
+As a last example, and though it is not a unimodal density (! but yields
+ the same problem for inversion), let us consider the case of the arcsine
+ distribution (see 
+\begin_inset CommandInset href
+LatexCommand href
+name "wiki"
+target "http://en.wikipedia.org/wiki/Arcsine_distribution"
+
+\end_inset
+
+).
+ This distribution, defined for 
+\begin_inset Formula $x\in(0,1),$
+\end_inset
+
+ is a special case of the Beta distribution with parameters 
+\begin_inset Formula $\alpha=\beta=1/2.$
+\end_inset
+
+ It has the following pdf:
+\begin_inset Formula 
+\[
+f_{X}(x)=\frac{1}{\pi\sqrt{x(1-x)}}.
+\]
+
+\end_inset
+
+Observe that 
+\begin_inset Formula $\min_{x}f_{X}(x)=2/\pi.$
+\end_inset
+
+ Doing our now usual calculations, we obtain
+\begin_inset Formula 
+\[
+\begin{cases}
+\phi_{-}'(y)= & -\frac{\, y\pi+\,\sqrt{{y}^{2}{\pi}^{2}-4}}{2y\pi},\\
+\phi_{+}'(y)= & -\frac{\, y\pi-\,\sqrt{{y}^{2}{\pi}^{2}-4}}{2y\pi}.
+\end{cases}
+\]
+
+\end_inset
+
+and the expression of the entropy is 
+\begin_inset Formula 
+\[
+\phi_{+}(y)=\frac{1}{2}\,{\frac{\sqrt{{y}^{2}{\pi}^{2}-4}}{\pi}}+\frac{1}{\pi}\arctan\left(2\,{\frac{1}{\sqrt{{y}^{2}{\pi}^{2}-4}}}\right)-\frac{1}{2}\, y,
+\]
+
+\end_inset
+
+for 
+\begin_inset Formula $y\geq1/\pi$
+\end_inset
+
+.
+ The entropy is shown on Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arcseine entropy"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename maple/phi_arcsine.eps
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The entropy associated with an arcsine distribution.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arcseine entropy"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

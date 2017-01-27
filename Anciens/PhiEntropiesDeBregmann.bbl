@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bre67}
+L.~M. Bregman.
+\newblock The relaxation method of finding the common point of convex sets and
+  its application to the solution of problem in convex programming.
+\newblock {\em USSR Computational Mathematics and Mathematical Physics},
+  7(3):200--217, 1967.
+
+\bibitem{Csi91}
+I.~Csisz{\`a}r.
+\newblock Why least squares and maximum entropy? an axiomatic approach to
+  inference for linear inverse problems.
+\newblock {\em The Annals of Statistics}, 19(4):2031--2066, December 1991.
+
+\bibitem{CsiMat12}
+I.~Csisz{\`a}r and F.~Mat{\'u\u{s}}.
+\newblock Generalized minimizers of convex integral functionals, {B}regman
+  distance, {P}ythgorean identities.
+\newblock {\em Kybernetica}, 48(4):637--689, 2012.
+
+\bibitem{Bas13}
+M.~Basseville.
+\newblock Divergence measures for statistical data processing -- an annotated
+  bibliography.
+\newblock {\em Signal Processing}, 93(4):621--633, April 2013.
+
+\bibitem{Sal87}
+M.~Salicr{\'u}.
+\newblock Funciones de entrop{\'i}a asociada a medidas de {C}sisz{\'a}r.
+\newblock {\em Q{\"u}estii{\'o}}, 11(3):3--12, 1987.
+
+\bibitem{Sal94}
+M.~Salicr{\'u}.
+\newblock Measures of information associated with {C}sisz{\'a}r's divergences.
+\newblock {\em Kybernetica}, 30(5):563--573, 1994.
+
+\end{thebibliography}
