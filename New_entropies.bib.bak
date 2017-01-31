@@ -1,6 +1,25 @@
 % This file was created with JabRef 2.7.
 % Encoding: ISO8859_1
 
+@ARTICLE{vNeu27,
+  author = {J. {von Neumann}},
+  title = {Thermodynamik quantenmechanischer Gesamtheiten},
+  journal = {Nachrichten von der Gesellschaft der Wissenschaften zu G{\"o}ttingen},
+  year = {1927},
+  volume = {1},
+  pages = {273-291},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/vNeumann_ThermodynamikQuantenmechanisherGesamtheiten_GottingenNachrichten27.pdf:PDF}
+}
+
+@BOOK{Bol64,
+  title = {Lectures on Gas Theory},
+  publisher = {Dover},
+  year = {1964},
+  author = {L. Boltzmann {(translated by Stephen G. Brush)}},
+  address = {Leipzig, Germany},
+  file = {:/Users/steeve/MA_ZONE/Livres/Boltzmann_VorlesungenberUberGastheorie_I.pdf:PDF}
+}
+
 @BOOK{AbrSte70,
   title = {Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical
 	Tables},
@@ -8,7 +27,8 @@
   year = {1970},
   author = {M. Abramowitz and I. A. Stegun},
   series = {9th printing},
-  address = {New-York}
+  address = {New-York},
+  file = {AbramowitzStegun_HandbookMathFct.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/AbramowitzStegun_HandbookMathFct.pdf:PDF}
 }
 
 @BOOK{AczDar75,
@@ -17,7 +37,7 @@
   year = {1975},
   author = {J Acz{\'e}l and Z. Dar{\'o}czy},
   address = {New-York},
-  file = {:/Users/steeve/MA_ZONE/Article/Notes/EUR_qunit_LP/References/AczelDaroczy_OnMeasuresOfInformationAndTheirCharacteristics.pdf:PDF}
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/AczelDaroczy_OnMeasuresOfInformationAndTheirCharacteristics.pdf:PDF}
 }
 
 @BOOK{Arn01,
@@ -41,7 +61,8 @@
   pages = {621-633},
   number = {4},
   month = {April},
-  doi = {10.1016/j.sigpro.2012.09.003}
+  doi = {10.1016/j.sigpro.2012.09.003},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Basseville_DivMeasForStatDataProcAnAnnotatedBiblio_SP13.pdf:PDF}
 }
 
 @BOOK{BecSch93,
@@ -79,7 +100,8 @@
   pages = {095303},
   number = {9},
   month = {March},
-  doi = {10.1088/1751-8113/46/9/095303}
+  doi = {10.1088/1751-8113/46/9/095303},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Bercher_OnMultidimGeneCRIneqUncertRelCharacGeneQGaussDist_JPA13.pdf:PDF}
 }
 
 @ARTICLE{Ber13:08,
@@ -92,7 +114,8 @@
   pages = {3140-3154},
   number = {15},
   month = {August},
-  doi = {10.1016/j.physa.2013.03.062}
+  doi = {10.1016/j.physa.2013.03.062},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Bercher_SomePropGeneFisherInfoContextNonextThermostat_PhysicaA13.pdf:PDF}
 }
 
 @ARTICLE{Ber12:06_1,
@@ -105,7 +128,8 @@
   pages = {063303},
   number = {6},
   month = {june},
-  doi = {10.1063/1.4726197}
+  doi = {10.1063/1.4726197},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Noms/Bercher_OnABetaQGeneFisherInfoAndIneqInvolvQFaussDist_JMathPhys12.pdf:PDF}
 }
 
 @ARTICLE{Ber12:06_2,
@@ -118,7 +142,8 @@
   pages = {255303},
   number = {25},
   month = {June},
-  doi = {10.1088/1751-8113/45/25/255303}
+  doi = {10.1088/1751-8113/45/25/255303},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Noms/Bercher_OInGeneCRIneqGeneFisherCharacHGeneqGauss_JPA12.pdf:PDF}
 }
 
 @ARTICLE{Ber09,
@@ -143,7 +168,8 @@
   pages = {2489-2506},
   number = {12},
   month = {June},
-  doi = {10.1016/j.ins.2008.02.003}
+  doi = {10.1016/j.ins.2008.02.003},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Bercher_OnSomeEntropyFunDerivedFromRenyiInfoDiv_InfoSci08.pdf:PDF}
 }
 
 @INPROCEEDINGS{BerGir15,
@@ -184,6 +210,24 @@
   month = {May},
   doi = {10.1016/S0019-9958(80)90292-2},
   file = {Boekee (1980) - The R-norm entropy.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Boekee (1980) - The R-norm entropy.pdf:PDF}
+}
+
+@BOOK{Bol98,
+  title = {vorlesungen {\"u}ber Gastheorie - {II}},
+  publisher = {Verlag von Johann Ambrosius Barth},
+  year = {1898},
+  author = {L. Boltzmann},
+  address = {Leipzig, Germany},
+  file = {:/Users/steeve/MA_ZONE/Livres/Boltzmann_VorlesungenberUberGastheorie_II.pdf:PDF}
+}
+
+@BOOK{Bol96,
+  title = {vorlesungen {\"u}ber Gastheorie - {I}},
+  publisher = {Verlag von Johann Ambrosius Barth},
+  year = {1896},
+  author = {L. Boltzmann},
+  address = {Leipzig, Germany},
+  file = {:/Users/steeve/MA_ZONE/Livres/Boltzmann_VorlesungenberUberGastheorie_I.pdf:PDF}
 }
 
 @ARTICLE{BorLew93,
@@ -235,7 +279,8 @@
   volume = {7},
   pages = {200-217},
   number = {3},
-  doi = {10.1016/0041-5553(67)90040-7}
+  doi = {10.1016/0041-5553(67)90040-7},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Bregman1966.pdf:PDF}
 }
 
 @ARTICLE{BurRao82,
@@ -315,7 +360,8 @@
   pages = {329-359},
   number = {1},
   month = {December},
-  doi = {10.1007/BF02124750}
+  doi = {10.1007/BF02124750},
+  file = {CorlessEtAl_LambertWFunction_AdvanceCompMath96.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/CorlessEtAl_LambertWFunction_AdvanceCompMath96.pdf:PDF}
 }
 
 @INPROCEEDINGS{CosHer03,
@@ -330,7 +376,8 @@
   pages = {211-226},
   address = {Lisbon, Portugal},
   month = {July 7-9},
-  publisher = {Springer Verlag}
+  publisher = {Springer Verlag},
+  file = {CostaHeroVignat_emmcvpr03.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/CostaHeroVignat_emmcvpr03.pdf:PDF}
 }
 
 @BOOK{CovTho06,
@@ -339,7 +386,8 @@
   year = {2006},
   author = {T. M. Cover and J. A. Thomas},
   address = {Hoboken, New Jersey},
-  edition = {2nd}
+  edition = {2nd},
+  file = {:/Users/steeve/MA_ZONE/Livres/CoverThomas_ElementsOfInformationTheory_2ndEdition.pdf:PDF}
 }
 
 @ARTICLE{Csi91,
@@ -363,7 +411,8 @@
   journal = {Studia Scientiarum Mathematicarum Hungarica},
   year = {1967},
   volume = {2},
-  pages = {299-318}
+  pages = {299-318},
+  file = {Csizar_InfoTypeMeasDiffProdDistriIndObs_StudSciMathHung_1967.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Csizar_InfoTypeMeasDiffProdDistriIndObs_StudSciMathHung_1967.pdf:PDF}
 }
 
 @ARTICLE{CsiMat12,
@@ -386,7 +435,8 @@
   volume = {16},
   pages = {36-51},
   number = {1},
-  month = {March}
+  month = {March},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Daroczy_GeneralizedInformationFunctions_InformationControl70.pdf:PDF}
 }
 
 @ARTICLE{DarJar79,
@@ -414,6 +464,20 @@
   month = {November},
   doi = {10.1109/18.104312},
   file = {Dembo_Cover_Inequalities.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Dembo_Cover_Inequalities.pdf:PDF}
+}
+
+@ARTICLE{EssSch00,
+  author = {C. Essex and C. Schulzsky and A. Franz and K. H. Hoffmann},
+  title = {{T}sallis and {R\'e}nyi entropies in fractional diffusion and entropy
+	production},
+  journal = {Physica A},
+  year = {2000},
+  volume = {284},
+  pages = {299-308},
+  number = {1-4},
+  month = {September},
+  doi = {10.1016/S0378-4371(00)00174-6},
+  file = {:/Users/steeve/MA_ZONE/HDR/PapiersRef/HentschelProcaccia_InfNumberGeneDimFractalStrangeAtractors_PhysicaD83.pdf:PDF}
 }
 
 @ARTICLE{FolSit97,
@@ -449,6 +513,16 @@
   month = {November},
   doi = {10.1109/TIT.2008.929943},
   file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/FrigyikSrivastavaGupta_FctBregDivAndBayesEstiDist_IEEEIT08.pdf:PDF}
+}
+
+@BOOK{GerGra92,
+  title = {Vector quantization and signal compression},
+  publisher = {Kluwer},
+  year = {1992},
+  author = {A. Gersho and R. M. Gray},
+  address = {Boston},
+  doi = {10.1007/978-1-4615-3626-0},
+  file = {:/Users/steeve/MA_ZONE/Livres/GershoGray_VectorQuantizationAndSignalCompression.pdf:PDF}
 }
 
 @ARTICLE{Gir07,
@@ -500,7 +574,8 @@
   volume = {1},
   pages = {157-165},
   month = {march},
-  doi = {10.1016/0167-9473(83)90087-7}
+  doi = {10.1016/0167-9473(83)90087-7},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Gokhale_OnEntBasedGoodnessOfFitTests_CompStatDataAnal83.pdf:PDF}
 }
 
 @INCOLLECTION{Gok75,
@@ -513,7 +588,8 @@
   volume = {III},
   pages = {299-304},
   address = {Dordrecht, Holland},
-  doi = {10.1007/978-94-010-1848-7}
+  doi = {10.1007/978-94-010-1848-7},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/AModernCourseOnStatisticalDistributionsInScientificWork_Volume3.pdf:PDF}
 }
 
 @ARTICLE{GuoSha05,
@@ -548,7 +624,8 @@
   year = {1967},
   volume = {3},
   pages = {30-35},
-  number = {1}
+  number = {1},
+  file = {HavrdaCharvat_QuantifMethClassifProcessesConceptStructuralAlphaEntropy_Kybernetica67.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/HavrdaCharvat_QuantifMethClassifProcessesConceptStructuralAlphaEntropy_Kybernetica67.pdf:PDF}
 }
 
 @ARTICLE{HerMa02,
@@ -565,7 +642,7 @@
 }
 
 @ARTICLE{Jay57,
-  author = {Jaynes},
+  author = {E. .T Jaynes},
   title = {Information Theory and Statistical Mechanics},
   journal = {Physical Review},
   year = {1957},
@@ -603,6 +680,45 @@
   file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Jaynes_PriroProbabilities_IEEESSC68.pdf:PDF}
 }
 
+@ARTICLE{Jay65,
+  author = {E. T. Jaynes},
+  title = {Gibbs vs {B}oltzmann Entropies},
+  journal = {American Journal of Physics},
+  year = {1965},
+  volume = {33},
+  pages = {391-398},
+  number = {5},
+  month = {May},
+  doi = {10.1119/1.1971557},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Jaynes_GibbsVsBoltzmannEntropies_AmJPhys65.pdf:PDF}
+}
+
+@ARTICLE{Jay57:2,
+  author = {E. T. Jaynes},
+  title = {Information Theory and Statistical Mechanics. {II}},
+  journal = {Physical Review},
+  year = {1957},
+  volume = {108},
+  pages = {171-190},
+  number = {2},
+  month = {October},
+  doi = {10.1103/physrev.108.171},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Jaynes_InformationTheoryAndStatisticalMechanicsII.pdf:PDF}
+}
+
+@ARTICLE{Jef46,
+  author = {Jeffrey},
+  title = {An Invariant Form for the Prior Probability in Estimation Problems},
+  journal = {Proceedings of the Royal Society A},
+  year = {1946},
+  volume = {186},
+  pages = {453-461},
+  number = {1007},
+  month = {September},
+  doi = {10.1098/rspa.1946.0056},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Jeffreys_AnInvariantFormForThePriorProbaInEstimationProblema_ProcRoyalSocA46.pdf:PDF}
+}
+
 @ARTICLE{JonByr90,
   author = {L. K. Jones and C. L. Byrne},
   title = {General Entropy Criteria for Inverse Problems, with Applications
@@ -633,6 +749,30 @@
   series = {vol.~1},
   address = {Upper Saddle River, NJ},
   file = {Kay_FundamentalsOfStatisticalSignalProcessing_EstimationTheory.pdf:/Users/steeve/MA_ZONE/Livres/Kay_FundamentalsOfStatisticalSignalProcessing_EstimationTheory.pdf:PDF}
+}
+
+@ARTICLE{KesKap90,
+  author = {H. K. Kesavan and J. N. Kapur},
+  title = {On the Families of Solutions to Generalized Maximum Entropy and Minimum
+	Cross-Entropy Problems},
+  journal = {International Journal of General Systems},
+  year = {1990},
+  volume = {16},
+  pages = {199-214},
+  number = {3},
+  doi = {10.1080/03081079008935075},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/KesavanKaput_OnTheFamilyOfSolToGeneMaxEntAndMinCrossEntProb_IntJGeneSyst90.pdf:PDF}
+}
+
+@ARTICLE{KesKap89,
+  author = {H. K. Kesavan and J. N. Kapur},
+  title = {The Generalized Maximum Entropy Principle},
+  journal = {IEEE Transactions on Systems Man and Cybernetics},
+  year = {1989},
+  volume = {19},
+  pages = {1042-1052},
+  doi = {10.1109/21.44019},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/KesavanKapur_TheGeneralizedMaxEntPrinciple_IEEESysManCyb89.pdf:PDF}
 }
 
 @ARTICLE{KulLei51,
@@ -696,6 +836,19 @@
   month = {October},
   doi = {10.1109/TIT.2006.8811731},
   file = {LieseVajda_DivInfoStatInfoTh_IEEESP06.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/LieseVajda_DivInfoStatInfoTh_IEEESP06.pdf:PDF}
+}
+
+@ARTICLE{Llo82,
+  author = {S. P. Lloyd},
+  title = {Least Squares Quantization in {PCM}},
+  journal = {IEEE Transactions on Information Theory},
+  year = {1982},
+  volume = {28},
+  pages = {129-137},
+  number = {2},
+  month = {March},
+  doi = {10.1109/TIT.1982.1056489},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Lloyd_LeastSquaresQuantizInPCM_IEEEIT82.pdf:PDF}
 }
 
 @ARTICLE{LutLv12,
@@ -771,7 +924,19 @@
   year = {1997},
   volume = {42},
   pages = {81-98},
-  number = {1-2}
+  number = {1-2},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/MenendezEtAl_HPhiEntropyDiffMetric_ApplOfMath97.pdf:PDF}
+}
+
+@BOOK{MulMul09,
+  title = {Fundamentals of Thermodynamics and Applications. With Historical
+	Annotations and Many Citations from {A}vogadro to {Z}ermelo},
+  publisher = {Springer},
+  year = {2009},
+  author = {I. M{\"u}ller and W. H. M{\"u}ller},
+  address = {Berlin},
+  doi = {10.1007/978-3-540-74648-5},
+  file = {:/Users/steeve/MA_ZONE/Livres/MullerMuller_FundamentalsOfThermodynamicsAndApplications.pdf:PDF}
 }
 
 @BOOK{Nau11,
@@ -784,6 +949,29 @@
   file = {:/Users/steeve/MA_ZONE/Livres/Naudts_GeneralisedThermostatistics.pdf:PDF}
 }
 
+@ARTICLE{PanDit51,
+  author = {P. F. Panter and W. Dite},
+  title = {Quantization distortion in pulse-count modulation with nonuniform
+	spacing of levels},
+  journal = {Proceedings of the IRE},
+  year = {1951},
+  volume = {39},
+  pages = {44-48},
+  number = {1},
+  month = {January},
+  doi = {10.1109/JRPROC.1951.230419},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/PanterDite_QuantizDistPulseCountModulationWithNonUnifSpacingLevels_ProcIRE511951.pdf:PDF}
+}
+
+@BOOK{Par06,
+  title = {Statistical Inference Based on Divergence Measures},
+  publisher = {Chapman \& Hall},
+  year = {2006},
+  author = {L. Pardo},
+  address = {Boca Raton, FL, USA},
+  file = {:/Users/steeve/MA_ZONE/Livres/Pardo_StatisticalInferenceBasedOnDivergenceMeasures.pdf:PDF}
+}
+
 @ARTICLE{ParBer09,
   author = {S. Y. Park and A. K. Bera},
   title = {Maximum entropy autoregressive conditional heteroskedasticity model},
@@ -793,7 +981,41 @@
   pages = {219-230},
   number = {2},
   month = {June},
-  doi = {10.1016/j.jeconom.2008.12.014}
+  doi = {10.1016/j.jeconom.2008.12.014},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/ParkBera_MaxEntAutoRegConditionalHeteroskedasticityModel_JEconometrics09.pdf:PDF}
+}
+
+@ARTICLE{ParBir05,
+  author = {A. S. Parvan and T. S. Bir{\'o}},
+  title = {Extensive {R\'e}nyi statistics from non-extensive entropy},
+  journal = {Physics Letters A},
+  year = {2005},
+  volume = {340},
+  pages = {375-387},
+  number = {5-6},
+  month = {June},
+  doi = {10.1016/j.physleta.2005.04.036},
+  file = {ParvanBiro_ExtRenyi_PhysLetA_v340_n5-6_pp375-387_13June2005.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/ParvanBiro_ExtRenyi_PhysLetA_v340_n5-6_pp375-387_13June2005.pdf:PDF}
+}
+
+@BOOK{Pla15,
+  title = {Eight Lectures on Theoretical Physics},
+  publisher = {Columbia University Press},
+  year = {2015},
+  author = {M. Planck},
+  address = {New-York},
+  file = {:/Users/steeve/MA_ZONE/Livres/Planck_EightLecturesOnTheoreticalPhysics.pdf:PDF}
+}
+
+@BOOK{Rob07,
+  title = {The Bayesian Choice. From Decision-Theoretic Foundations to Computational
+	Implementation},
+  publisher = {Springer},
+  year = {2007},
+  author = {C. P. Robert},
+  address = {New-York},
+  edition = {2nd},
+  file = {:/Users/steeve/MA_ZONE/Livres/Robert_TheBayesianChoice.pdf:PDF}
 }
 
 @ARTICLE{RomAng99,
@@ -855,6 +1077,7 @@
   volume = {30},
   pages = {563-573},
   number = {5},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Salicru_MeasuresOfInformationAssociatedWithCsiszarsDivergences_Kyb94.pdf:PDF;:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Salicru_MeasInfoAssociatedWithCsiszarDiv_Kybernetika94.pdf:PDF},
   url = {http://www.kybernetika.cz/content/1994/5/563}
 }
 
@@ -877,7 +1100,8 @@
   volume = {22},
   pages = {2015-2031},
   number = {7},
-  doi = {10.1080/03610929308831131}
+  doi = {10.1080/03610929308831131},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/SalicruEtAl_AsymptoticDistHPhiEntropies_ComStat93.pdf:PDF}
 }
 
 @BOOK{Sen11,
@@ -888,6 +1112,19 @@
   address = {New-York},
   doi = {10.1007/978-90-481-3890-6},
   file = {:/Users/steeve/MA_ZONE/Livres/Sen_StatisticalComplexityApplicationsInElectronicStructure.pdf:PDF}
+}
+
+@ARTICLE{Sha48,
+  author = {C. E. Shannon},
+  title = {A Mathematical Theory of Communication},
+  journal = {The Bell System Technical Journal},
+  year = {1948},
+  volume = {27},
+  pages = {623-656},
+  number = {4},
+  month = {October},
+  doi = {10.1002/j.1538-7305.1948.tb00917.x},
+  file = {shannon48.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/shannon48.pdf:PDF}
 }
 
 @ARTICLE{Son02,
@@ -940,6 +1177,30 @@
   pages = {on press}
 }
 
+@BOOK{Tsa09,
+  title = {Introduction to Nonextensive Statistical Mechanics -- Approaching
+	a Complex World},
+  publisher = {Springer Verlag},
+  year = {2009},
+  author = {C. Tsallis},
+  address = {New-York},
+  doi = {10.1007/978-0-387-85359-8},
+  file = {:/Users/steeve/MA_ZONE/Livres/Tsallis_IntroductionToNonextensiveStatisticalMechanicsApproachingAComplexWorld.pdf:PDF}
+}
+
+@ARTICLE{Tsa99,
+  author = {C. Tsallis},
+  title = {Nonextensive Statistics: theoretical, Experimental and Computational
+	Evidences and Connections},
+  journal = {Brazilian Journal of Physics},
+  year = {1999},
+  volume = {29},
+  pages = {1-35},
+  number = {1},
+  month = {March},
+  file = {Tsallis_NonExtStatThExpCompEvidencesConnections_BrazJPhys99.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/Tsallis_NonExtStatThExpCompEvidencesConnections_BrazJPhys99.pdf:PDF}
+}
+
 @ARTICLE{Tsa88,
   author = {C. Tsallis},
   title = {Possible Generalization of {B}oltzmann-{G}ibbs Statistics},
@@ -949,7 +1210,21 @@
   pages = {479-487},
   number = {1-2},
   month = {July},
-  doi = {10.1007/BF01016429}
+  doi = {10.1007/BF01016429},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Tsallis_PossibleGeneBoltzmannGibbsStat_JStatPhys88.pdf:PDF}
+}
+
+@ARTICLE{TsaLen02,
+  author = {C. Tsallis and E. K. Lenzi},
+  title = {Anomalous diffusion: nonlinear fractional {F}okker-{P}lanck equation},
+  journal = {Chemical Physics},
+  year = {2002},
+  volume = {284},
+  pages = {341-347},
+  number = {1-2},
+  month = {November},
+  doi = {10.1016/S0301-0104(02)00557-8},
+  file = {TsallisLenzi_AnomalousDiffNLFracFPE_PRE01.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/TsallisLenzi_AnomalousDiffNLFracFPE_PRE01.pdf:PDF}
 }
 
 @ARTICLE{TsaMen98,
@@ -993,6 +1268,8 @@
   volume = {38},
   pages = {54-59},
   number = {1},
+  doi = {10.1002/9781119186229.ch35},
+  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Vasicek_ATestForNormalityBasedOnSampleEntropy_JRoyStatSocB76.pdf:PDF},
   url = {http://www.jstor.org/stable/2984828}
 }
 
@@ -1022,12 +1299,33 @@
   file = {VignatHeroCosta_next2003.pdf:/Users/steeve/MA_ZONE/Ai_papier/Noms/VignatHeroCosta_next2003.pdf:PDF}
 }
 
+@BOOK{Nie52:v2,
+  title = {The scientific papers of {J}ames {C}lerk {M}axwell},
+  publisher = {Dover},
+  year = {1952},
+  author = {W. D. Nieven, M. A., F. R. S.},
+  volume = {2},
+  address = {New-York},
+  file = {:/Users/steeve/Desktop/Livres_a_pdf_bibtex/TheScientificPapersOf_JamesClerkMaxwell_vol_II.pdf:PDF}
+}
+
 @BOOK{Wid75,
   title = {The Heat Equation},
   publisher = {Academic Press},
   year = {1975},
   author = {D. V. Widder},
-  address = {New-York}
+  address = {New-York},
+  file = {:/Users/steeve/MA_ZONE/Livres/Widder_TheHeatEquation.pdf:PDF}
+}
+
+@BOOK{Fou90,
+  title = {Maximum Entropy and Bayesian Methods},
+  publisher = {Kluwer},
+  year = {1990},
+  editor = {P. F. Foug{\`e}re},
+  address = {Bordrecht, The Netherlands},
+  doi = {10.1007/978-94-009-0683-9},
+  file = {:/Users/steeve/MA_ZONE/Livres/Fougere_MaximumEntropyAndBayesianMethods.pdf:PDF}
 }
 
 @comment{jabref-meta: selector_review:}

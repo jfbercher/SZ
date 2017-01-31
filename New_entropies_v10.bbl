@@ -5,6 +5,11 @@ L.~Boltzmann {(translated by Stephen G. Brush)}.
 \newblock {\em Lectures on Gas Theory}.
 \newblock Dover, Leipzig, Germany, 1964.
 
+\bibitem{Gib02}
+J.~W. Gibbs.
+\newblock {\em Elementary Principle in Statistical Mechanics}.
+\newblock University Press - John Wilson and son, Cambridge, USA, 1902.
+
 \bibitem{Pla15}
 M.~Planck.
 \newblock {\em Eight Lectures on Theoretical Physics}.
@@ -160,6 +165,11 @@ E.~.T Jaynes.
 \newblock Information theory and statistical mechanics.
 \newblock {\em Physical Review}, 106(4):620--630, may 1957.
 
+\bibitem{Jay57:2}
+E.~T. Jaynes.
+\newblock Information theory and statistical mechanics. {II}.
+\newblock {\em Physical Review}, 108(2):171--190, October 1957.
+
 \bibitem{Kap89}
 J.~N. Kapur.
 \newblock {\em Maximum Entropy Model in Sciences and Engineering}.
@@ -181,6 +191,11 @@ E.~T. Jaynes.
 \newblock Prior probabilities.
 \newblock {\em IEEE transactions on systems science and cybernetics},
   4(3):227--241, September 1968.
+
+\bibitem{Fou90}
+P.~F. Foug{\`e}re, editor.
+\newblock {\em Maximum Entropy and Bayesian Methods}.
+\newblock Kluwer, Bordrecht, The Netherlands, 1990.
 
 \bibitem{Csi91}
 I.~Csisz{\`a}r.
@@ -264,6 +279,12 @@ H.~K. Kesavan and J.~N. Kapur.
 \newblock The generalized maximum entropy principle.
 \newblock {\em IEEE Transactions on Systems Man and Cybernetics},
   19:1042--1052, 1989.
+
+\bibitem{KesKap90}
+H.~K. Kesavan and J.~N. Kapur.
+\newblock On the families of solutions to generalized maximum entropy and
+  minimum cross-entropy problems.
+\newblock {\em International Journal of General Systems}, 16(3):199--214, 1990.
 
 \bibitem{BorLew91:03}
 J.~M. Borwein and A.~S. Lewis.
