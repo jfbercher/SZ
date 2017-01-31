@@ -1,6 +1,6 @@
 \documentclass[english,sort&compress]{elsarticle}
 
-\newcommand{\folder}{/Users/steeve/MA_ZONE/BIBLIO}
+%\newcommand{\folder}{/Users/steeve/MA_ZONE/BIBLIO}
 
 % ---------------------------- Packages inclusions.
 \usepackage[T1]{fontenc}
@@ -13,7 +13,8 @@
 \usepackage{babel}
 %\usepackage{calrsfs}
 
-\usepackage{color}\newcommand{\SZ}[1]{{\color{red}\bf #1}}
+\usepackage{color}\newcommand{\SZ}[1]{{\color{blue} #1}}
+\usepackage{color}\newcommand{\Avoir}[1]{{\color{red}\bf #1}}
 
 % ---------------------------- Pour l'impression et user au mieux la page
 \textwidth = 18.5cm
@@ -81,7 +82,7 @@
 %
 \author{by jfb \& sz \date{} }
 \begin{abstract}
-  \SZ{ To be modified in the light of the new direction of the paper} This paper
+  \Avoir{ To be modified in the light of the new direction of the paper} This paper
   focus on  maximum entropy problems  under moment constraints. Contrary  to the
   usual problem  of finding the  maximizer of a  given entropy, or  of selecting
   constraints such  that a given distribution  is a maximizer  of the considered
@@ -109,159 +110,206 @@
 \section{Introduction}
 \label{sec:Intro}
 
-\SZ{The investigation on 
+% Bol96, 98
+\SZ{Since the  pionner works  Boltzmann, Maxwell, Planck  and Gibbs~\cite{Bol64,
+    Pla15,   Nie52:v2,    Jay65,   MulMul09},   von    Neuman~\cite{vNeu27}   or
+  Shannon~\cite{Sha48} on the  entropy as a tool for  uncertainty or information
+  measure, many  investigations were devoted to generalization  of the so-called
+  Shannon  entropy  and its  associated  measures~\cite{Ren61, Var66,  HavCha67,
+    Csi67, Dar70,  AczDar75, DarJar79, Tsa88, Sal87,  SalMen93, Sal94, LieVaj06,
+    Bas13}.   If the  Shannon  measures  are very  powerfull  especially in  the
+  communication domain, for  compression purposes, many generalizations proposed
+  latter  on   has  also  showed  promising   interpretations  and  applications
+  (Panter-Dite formula  in quantification where the  R\'enyi or Havdra-Charv\'at
+  entropy emerges~\cite{PanDit51, Llo82, GerGra92}, codification penalizing long
+  codwords where the R\'enyi  entropy appears~\cite{Cam65, Ber09} for instance).
+  The great majority  of the extended entropies found  in the literature belongs
+  to    a     very    general     class    of    entropic     measures    called
+  $(h,\phi)$-entropies~\cite{Csi67, BurRao82, SalMen93, Sal94, MenMor97, Par06}.
+  Such  a general  class (or  more precisely  the subclass  of $\phi$-entropies)
+  traced back to  the work of Burbea \&  Rao~\cite{BurRao82}.  Since, many works
+  took hold of these entropies. Not only they offer a general framework to study
+  general properties  shared by various  special entropies, but also  they offer
+  various  potential  applications as  described  for instance  in~\cite{Par06}.
+  Note  that if  a huge  amount of  work deals  with divergences,  entropies are
+  special cases where the reference measure is taken uniform.
+
+  \
+
+  In the settings of these  generalized entropies, the so-called maximum entropy
+  principle takes a  special place.  This principle, states  in other by Jaynes,
+  states that the statistical distribution that describe a system in equilibrium
+  is only constrained by the physical constraints of the system (e.g., center of
+  mass,  energy), so  that  is maximizes  the  entropy subject  to these  moment
+  (physical) constraints~\cite{Jay57,  Kap89, Arn01, CovTho06}.  In other words,
+  it is  the less informative law given  the constraints of the  system.  In the
+  Bayesian  approach, dealing with  the stochastic  modelisation of  a parameter
+  underlying data, such a principle (or a minimum divergence principle) is often
+  used  to choose  a prior  distribution for  the  parameter~\cite{Jay68, Csi91,
+    Bas13,  FriSri08, Rob07}.  It  also find  its counterpart  in communication,
+  clustering,  pattern  recognition,  problems, among  many  others~\cite{Kap89,
+    JonByr90,  Arn01,  HerMa02,  ParBer09}.    In  the  statistics  field,  some
+  goodness-of-fit tests  are based on  entropic criteria that  sometimes exploit
+  the same  idea of constrained maximal entropic  law~\cite{Vas76, Gok83, Son02,
+    Leq14,  Leq15, GirReg15}.  In  a large  amount of  works using  this maximum
+  entropy principle, the  entropy used is generally the  natural one, namely the
+  Shannon  entropy, although  several  extension are  found  in the  literature.
+  However, if  for some reason a  generalized entropy is  consider, the approach
+  used  in  the  Shannon   case  does  not  fundamentaly  change~\cite{KesKap89,
+    BorLew91:03, BorLew91:05, BorLew93}.
+
+  An  inverse problem  can  be  envisaged, when  a  statistical distribution  is
+  observed  or given. In  such a  case, a  natural problem  is to  determine the
+  moment  constraints  of the  system  (in equilibrium)  which  has  led to  the
+  observed  distribution, as a  maximal entropy  distribution~\cite{KesKap89}. A
+  second   inverse  problem   was  also   be  envisaged   by  Kesvan   \&  Kapur
+  in~\cite{KesKap89}, where the distribution is  given and the moment as well. A
+  question is  thus to  determine the  entropy so that  the distribution  is its
+  maximiser. This problem has also  a physical interpretation, in the sense that
+  the  Shannon entropy  described system  in the  thermodynamic limit,  i.e., in
+  equilibrium, whereas other entropies are often evoqued to describe systems out
+  of  equilibrium~\cite{Tsa88,  TsaMen98,  Tsa99,  Tsa09,  EssSch00,  ParBir05}.
+  While the  problem was considered mainly  in the discrete  Shannon settings by
+  Kesavan \& Kapur  in~\cite{KesKap89}, we will recall here  that it generalizes
+  in the framework  of the $(h,\phi)$-entropies, and a  step further considering
+  an extended class of these entropies.}
 
 \
-
-$\phi$-entropies  c'est important;  On trouve  deja des  premieres  briques dans
-Burbea  Rao et  dpuis ces  balbutiements  (cf si  pas plus  anciennes), de  tres
-nombreux travaux se sont empare de  celles-ci. Outre le fait qu'elles offrent un
-cadre tres general d'etude de nombreuses entropies qu'elles contiennent (Shannon, HCT...), elles offrent
-egalement champs a de  nombreuses applications allant de... a...[Pardo]. Souvent
-phi-divergence [Csizar, Pardo...] mais entropie pour ref uniforme.
-
-Dans le champs des applications utilisant  phi-ent, concept de max ent tient une
-place particuliere. Principe  physique [Jaynes]. Pb direct est  que etant donnes
-contraintes   physiques   (centre   de   gravite,  puissance)   loi   la   moins
-``informative'', max ent. Meme idee  peut etre utilise contexte Bayesien pour le
-choix  de loi  a priori  par exemple.  Base sur  entropie naturelle,  de Shannon
-(Boltzman, von  Neuman selon  le contexte), mais  memes ides pour  des entropies
-plus generales sans que la methodologie change fondamentalement.
-
-On   peut  cependant   se   poser  un   probleme   inverse,  ou   une  loi   est
-observee/donnee. Following Kesavan s'interesse  a deux problemes inverses. Si on
-suppose  principe physique  de  max  ent, on  s'interesse  donc aux  contraintes
-imposee  par le  systeme,  la loi  devant  (physiquement) etre  max ent.  Second
-probleme inverse  consiste a se  dire que,  la loi etant  donnee et a  priori le
-systeme etant  egalement contraint, quelle serait  l'entropie adequate decrivant
-le  systeme, i.e., telle  que f  soit max  ent pour  celle-ci. Pb  a du  sens ou
-Shannon/Boltzman  decrit systeme en  en regime  en equilibre,  ce qui  n'est pas
-necessairement cas de  tout systeme (cf Tsallisseries). Ici, on generalise approche complete de Kesavan concernant cette problematique maxent.
-
-\
-
-Adosse a Shannon, diverses mesures  alternative moment, Fisher, le tout relie pr
-inegalites  ou identites  (CR, Stam,  de Bruijn...).   Ce caneva  complet  a ete
-generalise pour des classes particulieres, essentiellement Renyi-Tsallis [Liese,
-Vajda, Lutwak, JFB et cf ancienne intro].
-
-\
-
-\
-}
-
-The maximal  entropy principle  (in short MaxEnt  principle), which  consists in
-searching  maximum entropy  law  under  moments constrainst,  is  very usual  in
-physics.  The  underlying idea  is to determine  the less informative  law which
-governs a  system (in equilibrium) subject  to physical constraints~\cite{Jay57,
-  Kap89,  Arn01, CovTho06}.   Such an  approach  finds also  its counterpart  in
-estimation  problems  (in communication,  clustering,  pattern recongnition,  in
-others) following the same principle of modeling laws given some constraints and
-with  minimal information~\cite{JonByr90,  Arn01, HerMa02}.   In  the statistics
-field, some goodness-of-fit tests are  based on entropic criteria that sometimes
-exploit the  same idea of  constrained maximal entropic  law~\cite{Vas76, Gok83,
-  Son02,  Leq14, Leq15, GirReg15}.   The principle  of such  entropy-based tests
-consist  in comparing  the  entropy of  the  tested law,  where the  theoretical
-moments are replaced by their estimates from the data, to a direct estimation of
-the entropy using  the data. As we will  see later on, when the  entropy used is
-such that  the tested law  is a maximal  entropic law subject to  the considered
-moment constraints, the difference of the entropy is nothing more than a Bregman
-divergence, that can be viewed as the  distance of a law to a reference law.  In
-the same vein,  in estimation domain, when seeking  the (likelihood or Bayesian)
-estimation   of   some   parameters   underlying  a   parametrized   probability
-distribution,  if too  complicated, an  alternative  approach is  to search  the
-parameters  that maximize  the entropy  of the  law~\cite{Jay68, Jay82}  or that
-minimize a (Bregman, Csisz\`ar) divergence between laws when some {\em a priori}
-are given~\cite{Csi91, Bas13, FriSri08}.
-
-To briefly come back to the  maximum entropy principle, let $f$ be a probability
-distribution  (of a  random  variable $X$)  defined  with respect  to a  general
-measure $\mu$ on a set $\X$ and \ $\displaystyle H[f] = - \int_\X f(x) \log f(x)
-\dmu(x)$ \  be the Shannon  entropy of $f$.   Subject to $n$  moment constraints
-such as  $\Esp{T_i(X)} = t_i, i  = 1 , \ldots  , n$ and to  normalization, it is
-well known  that the  maximum entropy distribution  lies within  the exponential
-family, of the form~\cite{Kap89, BorLew91:05, CovTho06, Arn01}
-%
-\[
-f(x) = \exp\left( \sum_{i=1}^n \lambda_i T_i(x) + \lambda_0 \right).
-\]
-%
-Thus, given constraints, the MaxEnt law  is know, provided one can determine the
-Lagrangian  parameters   $\lambda_i$  insuring  the   normalization  and  moment
-constraints.
-
-Conversely  to the  search  for  MaxEnt laws,  one  may whish  to  view a  given
-probability  distribution   as  a   maximal  entropy  distribution   subject  to
-appropriate   constraints.   This   approach  has   interest  for   instance  in
-goodness-of-fit  tests,  where  the law  to  be  tested  has  to be  the  MaxEnt
-distribution.   Provided   that  the  considered  distribution   belong  to  the
-exponential  family, it is  then sufficient  to determine  the set  of functions
-$T_i$  adequately~\cite{Gok75,  Kap89,   CovTho06}.   For  instance,  the  gamma
-distribution can  be viewed as a  maximum entropy distribution if  one knows the
-moments  $\Esp X$  and $\Esp{\log(X)}$~\cite{Kap89,  CovTho06,  ParBer09, Gok75,
-  Gok83}. A problem that may arise  for instance in goodness-of-fit tests is the
-difficulty to estimate  too complicate moments and/or to  deal with laws outside
-the exponential family.  Thus, in order  to extend the idea of using the maximum
-entropy  distributions principle,  a  natural idea  is  to consider  generalized
-entropies~\cite{Ren61, Var66, HavCha67, Csi67, Dar70, AczDar75, DarJar79, Tsa88,
-  Sal87, SalMen93, Sal94, LieVaj06, Bas13}.  As  we will see later on, in such a
-generalized context, the difference of the generalized entropy of the MaxEnt law
-subject to given  moment constraints, and the entropy of a  law sharing the same
-moments,  remains a  Bregman divergence,  which can  justify ``informationally''
-that  such  an extension  can  potentially  be  used in  goodness-to-fit  tests.
-Moreover, to impose simple constraints, it is very natural to whish to adapt the
-entropy  to both  the  law and  the  constraints, i.e.,  to  adapt the  entropic
-functional to a  fixed law, given simple moment  constraints.  This objective is
-the central part of this paper.
 
 If  the  entropy is  a  widely  tool used  for  quantifying  an information  (or
 uncertainty) attached  to a  random variable or  to a  probability distribution,
-other quantities are very often used such as the moments of the variable, or the
-Fisher information,  for instance in estimation  contexts~\cite{Kay93, Fri04} or
-for  complex  pysical   systems  descriptions~\cite{Fri04,  VigBer03,  RomAng99,
-  RomSan06,  SanGon06,   TorLop15}.   Although  coming   form  different  worlds
-(information  theory and communication,  estimation, statistics,  physics), both
-these informational quantities are linked  by well known relations such that the
-famous  Cram\'er-Rao's   inequality,  the  de  Bruijn's   identity,  the  Stam's
-inequality~\cite{CovTho06, Sta59, DemCov91, GuoSha05}.  These relationships have
-been    proved   very   usefull    in   various    areas,   for    instance   in
-communications~\cite{Sta59,  DemCov91, CovTho06}, in  estimation~\cite{Kay93} or
-in  physics~\cite{FolSit97, Sen11},  in  others. When  generalizing entropy  are
-considered, one naturally expect  to generalized the other informational measure
-and the associated identities or inegalities.  Such generalization gave birth to
-a huge  amount of  work and  is still an  active field  of research~\cite{Vaj73,
-  Boe77,  Ham78,  BoeVan80,  BurRao82,  LutYan04, LutYan05,  LutYan07,  LutLv12,
-  Ber12:06_1,  Ber12:06_2, Ber13,  Ber13:08}.  It  is natural  to expect  to put
-together  generalized  entropies,  generalized  moments and  generalized  Fisher
-information  starting   from  the  same  entropic  functional,   and  to  derive
-generalized inequalities  and identities from  these quantities (both  linked in
-some sense to the MaxEnt distribution).  This is the second goal of this work.
+other  quantities are  very  often used  such  as the  moments  of the  variable
+\SZ{(giving information  for instance on  center of mass,  dispersion, skewness,
+  impulsive character), or the Fisher  information. This last one is widely used
+  in estimation contexts~\cite{Kay93, Fri04}, in Bayesian estimation through the
+  Jeffrey's  prior~\cite{Rob07,  Jef46},  but  also} for  for  complex  physical
+systems   descriptions~\cite{Fri04,  VigBer03,  RomAng99,   RomSan06,  SanGon06,
+  TorLop15}.  \SZ{Among  other properties,  the Fisher is  the curvature  of the
+  Kullback-Leibler divergence  between two distributions of  a parametric family
+  around  the  parameter   of  the  distribution  of  reference~\cite{CovTho06},
+  describing thus the information we have on the parameter of reference}.
 
-The paper  is organized as  follows. Section~\ref{sec:MaxPhiEnt} deals  with the
-generalized MaxEnt  distributions subject to a  given set of  constraints.  In a
-first  step, given  an entropic  functional,  we derive  a sufficient  condition
-satisfied  by this  functional,  the  probability distribution  and  the set  of
-constraints,  to  solve the  problem.   In passing,  we  show  that the  Bregman
-divergence between the MaxEnt and any distribution sharing the same moments (the
-MaxEnt  being the  reference one)  reduces to  a diference  of  entropies, which
-potential motivate their use in  goodness-of-fit tests. In this same section, we
-then reverse the  MaxEnt problem: fixing the probability  distribution and a set
-of  moments, we  show  the  conditions that  they  must satisfy  to  be able  to
-determine the distribution-adapted entropic functional and we formally determine
-this last one.   When these necessary conditions are  not satisfied, the problem
-can be solved by introducing state-dependent generalized entropies, which is the
-purpose  of section~\ref{sec:MultiformEnt}.   In  section~\ref{sec:EscortCR}, we
-introduce informational  quantities associated  to the generalized  entropies of
-the previous sections, such  that a generalized escort distribution, generalized
-moments  and generalized Fisher  informations.  These  generalized informational
-quantities  allow to  extend the  usual  informational relations  such that  the
-Cram\'er-Rao  inequality and  the de  Bruijn identity,  relations  saturated (or
-valid) dealing  precisely for the generalized MaxEnt  distribution.  Finally, in
-section~\ref{sec:Examples}, we  expose some example,  from the well  known cases
-(Gausian distribution,  Shannon entropy,  Fisher information, variance)  to more
-exotic  examples.   The  paper  ends  then with  some  discussions  and  further
-directions of investigations and applications.
+\
 
+Although  coming form  different worlds  (information theory  and communication,
+estimation, statistics, physics), both these informational quantities are linked
+by well known  relations such that the famous  Cram\'er-Rao's inequality, the de
+Bruijn's  identity,  the   Stam's  inequality~\cite{CovTho06,  Sta59,  DemCov91,
+  GuoSha05}.   These relationships  have  been proved  very  usefull in  various
+areas,  for  instance  in  communications~\cite{Sta59, DemCov91,  CovTho06},  in
+estimation~\cite{Kay93} or in physics~\cite{FolSit97, Sen11}, among others. When
+generalizing  entropy are considered,  one naturally  expect to  generalized the
+other informational measure and  the associated identities or inegalities.  Such
+generalization gave birth to a huge amount  of work and is still an active field
+of research~\cite{Vaj73,  Boe77, Ham78, BoeVan80,  BurRao82, LutYan04, LutYan05,
+  LutYan07, LutLv12, Ber12:06_1, Ber12:06_2, Ber13, Ber13:08}.  It is natural to
+expect  to   put  together   generalized  entropies,  generalized   moments  and
+generalized Fisher  information starting from the same  entropic functional, and
+to derive  generalized inequalities and  identities from these  quantities (both
+linked in some sense to the MaxEnt distribution).
+
+\
+
+The paper is organized  as follows. \SZ{In section~\ref{sec:MaxPhiEnt} we recall
+  the definition  of the generalized $\phi$-entropy.  Thus, we come  back to the
+  maximum  entropy  problem  in  this  general settings.  Following  the  sketch
+  of~\cite{KesKap89},  we present  a sufficient  condition linking  the entropic
+  functional and the maximizing distribution,  allowing to both solve the direct
+  and the inverse problems.}
+%   In passing,  we  show  that the  Bregman
+%divergence between the MaxEnt and any distribution sharing the same moments (the
+%MaxEnt  being the  reference one)  reduces to  a diference  of  entropies, which
+%potential motivate their use in  goodness-of-fit tests. In this same section, we
+%then reverse the  MaxEnt problem: fixing the probability  distribution and a set
+%of  moments, we  show  the  conditions that  they  must satisfy  to  be able  to
+%determine the distribution-adapted entropic functional and we formally determine
+%this last one.  
+\SZ{When  the  sufficient  conditions  linking  the entropic  function  and  the
+  distribution cannnot be  satisfied}, the problem can be  solved by introducing
+state-dependent    generalized   entropies,    which   is    the    purpose   of
+section~\ref{sec:MultiformEnt}.   In  section~\ref{sec:EscortCR},  we  introduce
+informational quantities associated to the generalized entropies of the previous
+sections, such  that a generalized escort distribution,  generalized moments and
+generalized  Fisher informations.   These  generalized informational  quantities
+allow to  extend the  usual informational relations  such that  the Cram\'er-Rao
+inequality, relations saturated (or valid) dealing precisely for the generalized
+MaxEnt distribution.   \SZ{Finally, in section~\ref{sec:deBruijn},  we show that
+  the  extended quantities  allows to  obtain  an extended  de Bruijn  identity,
+  profided the distribution follows a  non-linear heat equation. Some exemple of
+  determination of $\phi$-entropies solving  the inverse maximum entropy problem
+  are provided in  a short series of appendix, showing in  other that} the usual
+quantities are recovered in the well known cases
+(Gausian distribution,  Shannon entropy,  Fisher information, variance).
+% to  more exotic  examples.   The paper  ends  then with  some discussions  and
+% further directions of investigations and applications.
+
+
+%------ Ex bout de l'introdution
+
+%The maximal  entropy principle (in  short MaxEnt principle), which  consists in
+% searching  maximum entropy  law under  moments constrainst,  is very  usual in
+% physics.  The underlying  idea is to determine the  less informative law which
+% governs a system (in equilibrium) subject to physical constraints~\cite{Jay57,
+%   Kap89, Arn01,  CovTho06}.  Such  an approach finds  also its  counterpart in
+% estimation  problems (in communication,  clustering, pattern  recongnition, in
+% others) following the  same principle of modeling laws  given some constraints
+% and  with   minimal  information~\cite{JonByr90,  Arn01,   HerMa02}.   In  the
+% statistics field,  some goodness-of-fit tests  are based on  entropic criteria
+% that  sometimes  exploit  the   same  idea  of  constrained  maximal  entropic
+% law~\cite{Vas76, Gok83, Son02, Leq14, Leq15, GirReg15}.  The principle of such
+% entropy-based tests consist in comparing  the entropy of the tested law, where
+% the theoretical  moments are replaced by  their estimates from the  data, to a
+% direct estimation of the entropy using the data. As we will see later on, when
+% the entropy used is such that the tested law is a maximal entropic law subject
+% to the considered moment constraints, the difference of the entropy is nothing
+% more than a Bregman divergence, that can be viewed as the distance of a law to
+% a reference  law.  In the  same vein, in  estimation domain, when  seeking the
+% (likelihood  or   Bayesian)  estimation   of  some  parameters   underlying  a
+% parametrized  probability  distribution, if  too  complicated, an  alternative
+% approach  is  to  search the  parameters  that  maximize  the entropy  of  the
+% law~\cite{Jay68,  Jay82} or  that minimize  a (Bregman,  Csisz\`ar) divergence
+% between laws when some {\em a priori} are given~\cite{Csi91, Bas13, FriSri08}.
+% %
+% To  briefly  come  back  to  the  maximum entropy  principle,  let  $f$  be  a
+% probability distribution (of a random  variable $X$) defined with respect to a
+% general measure $\mu$ on a set $\X$ and \ $\displaystyle H[f] = - \int_\X f(x)
+% \log f(x)  \dmu(x)$ \ be  the Shannon entropy  of $f$.  Subject to  $n$ moment
+% constraints  such  as $\Esp{T_i(X)}  =  t_i,  i  = 1  ,  \ldots  , n$  and  to
+% normalization, it  is well  known that the  maximum entropy  distribution lies
+% within the exponential family, of the form~\cite{Kap89, BorLew91:05, CovTho06,
+%   Arn01}
+% %
+% \[
+% f(x) = \exp\left( \sum_{i=1}^n \lambda_i T_i(x) + \lambda_0 \right).
+% \]
+% %
+% Thus, given  constraints, the MaxEnt law  is know, provided  one can determine
+% the Lagrangian  parameters $\lambda_i$  insuring the normalization  and moment
+% constraints.
+
+% Conversely  to the  search for  MaxEnt laws,  one may  whish to  view  a given
+% probability  distribution  as  a   maximal  entropy  distribution  subject  to
+% appropriate  constraints.    This  approach  has  interest   for  instance  in
+% goodness-of-fit  tests, where  the  law to  be  tested has  to  be the  MaxEnt
+% distribution.   Provided  that  the  considered  distribution  belong  to  the
+% exponential family,  it is then sufficient  to determine the  set of functions
+% $T_i$  adequately~\cite{Gok75,  Kap89,  CovTho06}.   For instance,  the  gamma
+% distribution can be viewed as a  maximum entropy distribution if one knows the
+% moments $\Esp  X$ and $\Esp{\log(X)}$~\cite{Kap89,  CovTho06, ParBer09, Gok75,
+%   Gok83}. A  problem that may arise  for instance in  goodness-of-fit tests is
+% the difficulty  to estimate  too complicate moments  and/or to deal  with laws
+% outside the  exponential family.  Thus, in  order to extend the  idea of using
+% the maximum  entropy distributions  principle, a natural  idea is  to consider
+% generalized  entropies~\cite{Ren61, Var66,  HavCha67, Csi67,  Dar70, AczDar75,
+%   DarJar79, Tsa88, Sal87,  SalMen93, Sal94, LieVaj06, Bas13}.  As  we will see
+% later on,  in such  a generalized context,  the difference of  the generalized
+% entropy of the MaxEnt law subject to given moment constraints, and the entropy
+% of a  law sharing the  same moments, remains  a Bregman divergence,  which can
+% justify ``informationally'' that such an  extension can potentially be used in
+% goodness-to-fit  tests.  Moreover, to  impose simple  constraints, it  is very
+% natural to  whish to adapt  the entropy to  both the law and  the constraints,
+% i.e., to  adapt the entropic  functional to a  fixed law, given  simple moment
+% constraints.  This objective is the central part of this paper.
 
 
 % ------------------------------ Max (h,phi)-Ent ------------------------------ %
@@ -269,11 +317,13 @@ directions of investigations and applications.
 \section{$\phi$-entropies -- direct and inverse maximum entropy problems.}
 \label{sec:MaxPhiEnt}
 
-Let us first recall the definition of the generalized $(h,\phi)$-entropies, also
-known   as  entropies   of  the   Salicr\'u's  class   or  of   the  Csisz\`ar's
-class:
+Let  us  first  recall   the  definition  of  the  generalized  $\phi$-entropies
+\SZ{introduced by  Csisz\`ar in terms of  divergences, and by Burbea  and Rao in
+  terms of entropies}:
+%  \SZ{sometimes} known  as entropies  of the
+%Salicr\'u's class or of the Csisz\`ar's class:
 
-\begin{defn}[$\phi$-entropy~\cite{Csi67, SalMen93, Sal94}]
+\begin{defn}[$\phi$-entropy~\cite{BurRao82}]
 \label{def:phi-entropy}
 Let $\phi: \Y \subseteq \Rset_+ \mapsto \Rset$ be a convex function defined on a
 convex  set $\Y$.   Then,  if $f$  is  a probability  distribution defined  with
@@ -290,15 +340,15 @@ $f(\X) \subseteq \Y$, when this quantity exists,
 The $(h,\phi)$-entropy is defined by $H_{(h,\phi)}[f] = h\left(H_\phi[f]\right)$
 where $h$ is  a nondecreasing function.  The definition  is extended by allowing
 $\phi$  to be  concave, together  with $h$  nonincreasing~\cite{Csi67, SalMen93,
-  Sal94, MenMor97}. If additionnaly $h$  is concave, then the entropy functional
-$H_{(h,\phi)}[f]$ is concave.
+  Sal94,  MenMor97, Par06}.  If additionnaly  $h$ is  concave, then  the entropy
+functional $H_{(h,\phi)}[f]$ is concave.
 
 \
 
-\SZ{In the  following, since we  are interested by  the maximum entropy  problem and
-since    $h$   is    monotone,   we    can   restrict    our   study    to   the
-$\phi$-entropies.  Additionnaly, we will  assume that  $\phi$ is  {\em strictly}
-convex and {\em differentiable}. A voir car ensuite les identites}
+In the  following, since we  are interested by  the maximum entropy  problem and
+since  $h$ is  monotone,  we can  restrict  our study  to the  $\phi$-entropies.
+Additionnaly,  we will  assume that  $\phi$ is  {\em strictly}  convex  and {\em
+  differentiable}.
 
 \
 
@@ -339,13 +389,10 @@ above definition where $\Y \subseteq \Rset_+$.
 
 \subsection{Maximum entropy principle: the direct problem}
 
-\SZ{Refaire au vu des modif: Our  purpose  now  is  to   define  a  $\phi$-entropy  for  a  given  maximizing
-distribution $f$.  This  is the inverse problem of the  very well known ``MaxEnt
-problem''  which  consists in  searching  for  the  distribution maximizing  the
-$\phi$-entropy~\eqref{eq:phi-entropy}  subject to  constraints  on some  moments
-$\Esp{T_i(X)}$ with $T_i: \Rset^d  \mapsto \Rset$, $i=1,\ldots,n$. Here, instead
-of determining  $f$ given  $\phi$, we  look for $\phi$  given a  MaxEnt solution
-$f$. Let us recall that the MaxEnt problem writes}
+\SZ{Let us  here recall the maximum  entropy problem that consists  in searching for
+the distribution maximizing the $\phi$-entropy~\eqref{eq:phi-entropy} subject to
+constraints on  some moments $\Esp{T_i(X)}$  with $T_i: \Rset^d  \mapsto \Rset$,
+$i=1,\ldots,n$. This direct problem writes}
 %
 \begin{equation}\label{eq:MaxEnt}
 \displaystyle f^\star \: = \argmax_{f \in C_t} \left( - \int_\X \phi(f(x))
@@ -361,12 +408,16 @@ C_t = \left\{ f \ge 0: \: \Esp{T_i(X)} = t_i, i=0,\ldots,n\right\},
 where $T_0(x) =  1$ and $t_0 = 1$  (normalization constraint).  The maximization
 problem being strictly concave, the  solution exists and is unique.  A technique
 to solve the problem can be to use the classical Lagrange multipliers technique,
-but   this  approach   requires  mild   conditions~\cite{BorLew91:03,  BorLew93,
-  BenBor92,  TebVaj93,  Gir97}.   We  recall herefater  a  sufficient  condition
-relating  $f$ and  $\phi$ so  that $f$  is the  (resp.  $\phi$)  is  the desired
-solution of the problem.
+but   this  approach   requires  mild   conditions~\cite{KesKap89,  BorLew91:03,
+  BorLew93,  BenBor92, TebVaj93, Gir97}.   \SZ{A sufficient  condition condition
+  relating $f$  and $\phi$  so that $f$  is the  (resp.  $\phi$) is  the desired
+  solution  of  the problem  is  then obtained,  as  recalled  in the  following
+  proposition.  However,  this result  can  be proved  without  the  use of  the
+  Lagrange technique.}
+%, VigHer04,     Ber08,    BerGir15
 
-\begin{prop}[Maximal $\phi$-entropy solution~\cite{VigHer04, Ber08, BerGir15}]\label{prop:sol-phi}
+\begin{prop}[Maximal                                               $\phi$-entropy
+  solution~\cite{KesKap89}]\label{prop:sol-phi}
   Suppose  that  there exists  a  probability  distribution  $f$ satisfying
   %
   \begin{equation}\label{eq:sol-phi}
@@ -374,7 +425,7 @@ solution of the problem.
   \end{equation}
   %
   for  some $(\lambda_0,\ldots,\lambda_n)  \in \Rset^{n+1}$.   Then, $f$  is the
-  unique solution of the MaxEnt problem~\eqref{eq:MaxEnt}.
+  unique solution of the maximal entropy problem~\eqref{eq:MaxEnt}.
 \end{prop}
 %
 \begin{proof}  Suppose that  distribution  $f$ satisfies~\eqref{eq:sol-phi}  and
@@ -403,39 +454,41 @@ solution of the problem.
   satisfies~\eqref{eq:sol-phi}, then it is the desired solution.
 \end{proof}
 
-Hence, given an entropic functional $\phi$, eq.~\eqref{eq:sol-phi} leads the the
-maximum entropy  distribution $f^\star$.
+Hence, given  an entropic functional $\phi$ \SZ{and  moments constraints $T_i$},
+eq.~\eqref{eq:sol-phi}    leads   the    the   maximum    entropy   distribution
+$f^\star$.  \SZ{This  distribution is  parametrized  by  the $\lambda_i$;  these
+  factors are determined by the moments $t_i$}.
 
 
 % ------------------------------------------------------------------------------
 
 \subsection{Maximum entropy principle: the inverse problems}
 
-\SZ{These problems were  also been considered by Kesavan  \& in~\cite{Kes}, although
-essentially derived in the Shannon entropy framework.}
+\SZ{As stated in the introdution,  two inverse problems can be considered started
+  from a given distribution $f$.  These problems were also considered by Kesavan
+  \&  Kapur  in~\cite{KesKap89}, although  formalized  in  the discrete  Shannon
+  framework.
 
-\
+  \
 
-\SZ{The first inverse problem consists  in searching for the adequate moments so
+  The first  inverse problem consists in  searching for the  adequate moments so
   that a desired distribution $f$ is the maximum entropy distribution of a given
   $\phi$-entropy. A solution can thus consist in identifying functions $T_i$ and
   coefficients        $\lambda_i$        in        order       to        satisfy
   eq.~\eqref{eq:sol-phi}. Obviously, this  is not always an easy  task, and even
-  not always possible.  For instance, it is well known  that the maximum Shannon
+  not always possible.  For instance, it  is well known that the maximum Shannon
   entropy  distribution  given  moment   constraints  fall  in  the  exponential
-  family~\cite{CovTho06, toto}.}
+  family~\cite{CovTho06, BorLew91:05, Arn01}.
 
-\
+  \
 
-\SZ{As  also  investigated by  Kesavan~\cite{Kes},  the  second inverse  problem
-  consists in  design the  entropy itself, given  a target distribution  $f$ and
-  given   the   $T_i$.   In    other   words,}   given   a   distribution   $f$,
-eq.~\eqref{eq:sol-phi} should allow to  determine the entropic functional $\phi$
-so that $f$ is its maximizer.
+  The second inverse  problem consists in designing the  entropy itself, given a
+  target  distribution  $f$ and  given  the $T_i$.   In  other  words,} given  a
+distribution $f$, eq.~\eqref{eq:sol-phi} should  allow to determine the entropic
+functional $\phi$ so that $f$ is its maximizer.
 
 \SZ{As for the  direct problem, in the second} inverse  problem, the solution is
-parametrized by the  $\lambda_i$. In the direct problem,  they are determined by
-the moments  $t_i$. In the inverse  problem, required properties  on $\phi$ will
+parametrized by  the $\lambda_i$. \SZ{Here,} required properties  on $\phi$ will
 shape the domain the $\lambda_i$ live in. In particular $\phi$, must satisfy the
 following properties:
 %
@@ -452,7 +505,7 @@ eq.~\eqref{eq:sol-phi}  requires the following two conditions:
 %
 \begin{enumerate}[label=(C\arabic*)]
 \item\label{MonotonyDomains:cond}   $f(x)$   and   $\displaystyle   \sum_{i=1}^n
-  \lambda_i   \,  T_i(x)$  must   have  \SZ{the   same  sense   of  variations},
+  \lambda_i   \,  T_i(x)$  must   have  \Avoir{the   same  sense   of  variations},
   $\displaystyle    \sum_{i=0}^n   \lambda_i    \,   T_i(x_)$    is   increasing
   (resp. decreasing, resp. constant)  where $f$ is increasing 'resp. decreasing,
   resp. constant).
@@ -725,9 +778,10 @@ information  associated  with  this  distribution~\cite{Kay93,  CovTho06}.   The
 Fisher information  is also used as  a method of inference  and understanding in
 statistical  physics and biology,  as promoted  by Frieden~\cite{Fri04}  and has
 been   generalized   in   the   R\'enyi-Tsallis   context   in   a   series   of
-papers~\cite{Ham78, ChimPen00, Cas02, LutYan05, LutLv12, Ber12:06_1, Ber12:06_2,
-  Ber13}.  In what follows, we generalize these definition a step further in our
-$\phi$-entropy context by using the above defined $\phi$-escort distribution.
+papers~\cite{Ham78,   ChimPen00,   CasChi02,   LutYan05,  LutLv12,   Ber12:06_1,
+  Ber12:06_2, Ber13}.   In what follows,  we generalize these definition  a step
+further in our  $\phi$-entropy context by using the  above defined $\phi$-escort
+distribution.
 
 \begin{defn}[Nonparametric                                  $(\beta,\phi)$-Fisher
   information]\label{def:np-phi-Fisher}
@@ -926,12 +980,12 @@ extentions are recovered as special cases.
   that in proposition~\ref{prop:p-phi-CR} using \cite[Lemma2]{Ber13}.
 \end{proof}
 
-\SZ{micro conclusion et transition}
-
 % ------------------------- phi-Fisher & Cramer-Rao ------------------------- %
 
 \section{$\phi$-heat equation and extended de Bruijn identity}
-\label{sec:DeBruijn}
+\label{sec:deBruijn}
+
+\Avoir{Anomalous diffusion, NL FK: \cite{TsaLen02, }}
 
 An  important relation  connecting the  Shannon  entropy $H$,  comming from  the
 ``information world'', to the Fisher information $I$, living in the ``estimation
@@ -1015,17 +1069,20 @@ eqs.~\eqref{eq:Cphi},~\eqref{eq:phi-escort}                                   an
 definition~\ref{def:np-phi-Fisher}.
 \end{proof}
 
-\SZ{Micro conclusion/bilan}
-
 % --------------------------------- Examples --------------------------------- %
 
-\section{Some examples}
-\label{sec:Examples}
+\section{Concluding remarks}
+\label{sec:Conclusion}
 
 \SZ{ Dans une  telle construction,
 lorsque  loi cible tends  vers la  Gaussienne/puissance par  exemple, la  phi va
 tendre vers la Shannon.}
 
+% --------------------------------- Appendix --------------------------------- %
+
+\appendix
+
+\section{\Avoir{titre de lappendix}}
 In  the  sequel,  for sake  of  simplicity,  we  restricts  our example  to  the
 univariate context $d = 1$.
 

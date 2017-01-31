@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: New_entropies_v10.aux
 The style file: unsrt.bst
 Database file #1: New_entropies.bib
-You've used 79 entries,
+Warning--I didn't find a database entry for ""
+You've used 94 entries,
             1791 wiz_defined-function locations,
-            1004 strings with 15123 characters,
-and the built_in function-call counts, 18320 in all, are:
-= -- 1653
-> -- 619
-< -- 12
-+ -- 242
-- -- 163
-* -- 1401
-:= -- 2841
-add.period$ -- 243
-call.type$ -- 79
-change.case$ -- 68
+            1087 strings with 16809 characters,
+and the built_in function-call counts, 20959 in all, are:
+= -- 1887
+> -- 698
+< -- 11
++ -- 277
+- -- 183
+* -- 1568
+:= -- 3267
+add.period$ -- 287
+call.type$ -- 94
+change.case$ -- 76
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 816
-empty$ -- 1906
-format.name$ -- 163
-if$ -- 4175
+cite$ -- 94
+duplicate$ -- 943
+empty$ -- 2205
+format.name$ -- 183
+if$ -- 4772
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 89
-newline$ -- 398
-num.names$ -- 89
-pop$ -- 161
+int.to.str$ -- 94
+missing$ -- 112
+newline$ -- 473
+num.names$ -- 102
+pop$ -- 205
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 339
+skip$ -- 372
 stack$ -- 0
-substring$ -- 1411
-swap$ -- 157
-text.length$ -- 12
+substring$ -- 1557
+swap$ -- 163
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 156
-width$ -- 81
-write$ -- 887
+while$ -- 177
+width$ -- 96
+write$ -- 1051
+(There was 1 warning)

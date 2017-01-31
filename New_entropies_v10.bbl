@@ -1,125 +1,42 @@
 \begin{thebibliography}{10}
 
-\bibitem{Jay57}
-Jaynes.
-\newblock Information theory and statistical mechanics.
-\newblock {\em Physical Review}, 106(4):620--630, may 1957.
+\bibitem{Bol64}
+L.~Boltzmann {(translated by Stephen G. Brush)}.
+\newblock {\em Lectures on Gas Theory}.
+\newblock Dover, Leipzig, Germany, 1964.
 
-\bibitem{Kap89}
-J.~N. Kapur.
-\newblock {\em Maximum Entropy Model in Sciences and Engineering}.
-\newblock Wiley Eastern Limited, New-Dehli, 1989.
+\bibitem{Pla15}
+M.~Planck.
+\newblock {\em Eight Lectures on Theoretical Physics}.
+\newblock Columbia University Press, New-York, 2015.
 
-\bibitem{Arn01}
-Arndt.
-\newblock {\em Information Measures: Information and Its Description in
-  Sciences and Ingeniering}.
-\newblock Springer Verlag, Berlin, 2001.
+\bibitem{Nie52:v2}
+F.~R.~S. W.~D.~Nieven, M.~A.
+\newblock {\em The scientific papers of {J}ames {C}lerk {M}axwell}, volume~2.
+\newblock Dover, New-York, 1952.
 
-\bibitem{CovTho06}
-T.~M. Cover and J.~A. Thomas.
-\newblock {\em Elements of Information Theory}.
-\newblock John Wiley \& Sons, Hoboken, New Jersey, 2nd edition, 2006.
-
-\bibitem{JonByr90}
-L.~K. Jones and C.~L. Byrne.
-\newblock General entropy criteria for inverse problems, with applications to
-  data compression, pattern classification, and cluster analysis.
-\newblock {\em IEEE transactions on Information Theory}, 36(1):23--30, January
-  1990.
-
-\bibitem{HerMa02}
-A.~O. {Hero III\@}, B.~Ma, O.~J.~J. Michel, and J.~Gorman.
-\newblock Application of entropic spanning graphs.
-\newblock {\em IEEE Signal Processing Magazine}, 19(5):85--95, September 2002.
-
-\bibitem{Vas76}
-O.~Vasicek.
-\newblock A test for normality based on sample entropy.
-\newblock {\em Journal of the Royal Statistical Society B}, 38(1):54--59, 1976.
-
-\bibitem{Gok83}
-D.V. Gokhale.
-\newblock On entropy-based goodness-of-fit tests.
-\newblock {\em Computational Statistics and Data Analysis}, 1:157--165, march
-  1983.
-
-\bibitem{Son02}
-K.-S. Song.
-\newblock Goodness-of-fit tests based on {K}ullback-{L}eibler discrimination
-  information.
-\newblock {\em IEEE Transactions on Information Theory}, 48(5):1103--1117, May
-  2002.
-
-\bibitem{Leq14}
-J.~Lequesne.
-\newblock A goodness-of-fit test of {S}tudent distributions based on {R\'e}nyi
-  entropy.
-\newblock In A.~Djafari and F.~Barbaresco, editors, {\em AIP conference
-  proceedings of the 34th international workshop on Bayesian Inference and
-  Maximum Entropy Methods (MaxEnt'14)}, volume 1641, pages 487--494, Amboise,
-  France, 21-25 september 2014.
-
-\bibitem{Leq15}
-J.~Lequesne.
-\newblock {\em Tests statistiques bas{\'e}s sur la th{\'e}orie de
-  l'information, applications en biologie et en d{\'e}mographie}.
-\newblock PhD thesis, Universit{\'e} de {C}aen {B}asse-{N}ormandie, Caen,
-  France, 2015.
-
-\bibitem{GirReg15}
-V.~Girardin and P.~Regnault.
-\newblock Escort distributions minimizing the {K}ullback-{L}eibler divergence
-  for a large deviations principle and tests of entropy level.
-\newblock {\em Annals of the Institute of Statistical Mathematics},
-  68(2):439--468, April 2015.
-
-\bibitem{Jay68}
+\bibitem{Jay65}
 E.~T. Jaynes.
-\newblock Prior probabilities.
-\newblock {\em IEEE transactions on systems science and cybernetics},
-  4(3):227--241, September 1968.
+\newblock Gibbs vs {B}oltzmann entropies.
+\newblock {\em American Journal of Physics}, 33(5):391--398, May 1965.
 
-\bibitem{Jay82}
-E.~T. Jaynes.
-\newblock On the rational of maximum-entropy methods.
-\newblock {\em Proceedings of the IEEE}, 70(9):939--952, September 1982.
+\bibitem{MulMul09}
+I.~M{\"u}ller and W.~H. M{\"u}ller.
+\newblock {\em Fundamentals of Thermodynamics and Applications. With Historical
+  Annotations and Many Citations from {A}vogadro to {Z}ermelo}.
+\newblock Springer, Berlin, 2009.
 
-\bibitem{Csi91}
-I.~Csisz{\`a}r.
-\newblock Why least squares and maximum entropy? an axiomatic approach to
-  inference for linear inverse problems.
-\newblock {\em The Annals of Statistics}, 19(4):2031--2066, December 1991.
+\bibitem{vNeu27}
+J.~{von Neumann}.
+\newblock Thermodynamik quantenmechanischer gesamtheiten.
+\newblock {\em Nachrichten von der Gesellschaft der Wissenschaften zu
+  G{\"o}ttingen}, 1:273--291, 1927.
 
-\bibitem{Bas13}
-M.~Basseville.
-\newblock Divergence measures for statistical data processing -- an annotated
-  bibliography.
-\newblock {\em Signal Processing}, 93(4):621--633, April 2013.
-
-\bibitem{FriSri08}
-B.~A. Frigyik, S.~Srivastava, and M.~R. Gupta.
-\newblock Functional {B}regman divergence and {B}ayesian estimation of
-  distributions.
-\newblock {\em IEEE Transactions on Infomation Theory}, 54(11):5130--5139,
-  November 2008.
-
-\bibitem{BorLew91:05}
-J.~M. Borwein and A.~S. Lewis.
-\newblock Convergence of best entropy estimates.
-\newblock {\em SIAM Journal of Optimization}, 1(2):191--205, May 1991.
-
-\bibitem{Gok75}
-D.~V. Gokhale.
-\newblock Maximum entropy characterizations of some distributions.
-\newblock In S.~Kotz G.~P.~Patil and J.~K. Ord, editors, {\em A Modern Course
-  on Statistical Distributions in Scientific Work}, volume III, pages 299--304.
-  Reidel, Dordrecht, Holland, 1975.
-
-\bibitem{ParBer09}
-S.~Y. Park and A.~K. Bera.
-\newblock Maximum entropy autoregressive conditional heteroskedasticity model.
-\newblock {\em Journal of Econometrics}, 150(2):219--230, June 2009.
+\bibitem{Sha48}
+C.~E. Shannon.
+\newblock A mathematical theory of communication.
+\newblock {\em The Bell System Technical Journal}, 27(4):623--656, October
+  1948.
 
 \bibitem{Ren61}
 A.~R{\'e}nyi.
@@ -188,6 +105,211 @@ F.~Liese and I.~Vajda.
 \newblock {\em IEEE Transactions on Information Theory}, 52(10):4394--4412,
   October 2006.
 
+\bibitem{Bas13}
+M.~Basseville.
+\newblock Divergence measures for statistical data processing -- an annotated
+  bibliography.
+\newblock {\em Signal Processing}, 93(4):621--633, April 2013.
+
+\bibitem{PanDit51}
+P.~F. Panter and W.~Dite.
+\newblock Quantization distortion in pulse-count modulation with nonuniform
+  spacing of levels.
+\newblock {\em Proceedings of the IRE}, 39(1):44--48, January 1951.
+
+\bibitem{Llo82}
+S.~P. Lloyd.
+\newblock Least squares quantization in {PCM}.
+\newblock {\em IEEE Transactions on Information Theory}, 28(2):129--137, March
+  1982.
+
+\bibitem{GerGra92}
+A.~Gersho and R.~M. Gray.
+\newblock {\em Vector quantization and signal compression}.
+\newblock Kluwer, Boston, 1992.
+
+\bibitem{Cam65}
+L.~L. Campbell.
+\newblock A coding theorem and {R\'enyi's} entropy.
+\newblock {\em Information and Control}, 8(4):423--429, August 1965.
+
+\bibitem{Ber09}
+J.-F. Bercher.
+\newblock Source coding with escort distributions and {R\'e}nyi entropy bounds.
+\newblock {\em Physics Letters A}, 373(36):3235--3238, August 2009.
+
+\bibitem{BurRao82}
+J.~Burbea and C.~R. Rao.
+\newblock On the convexity of some divergence measures based on entropy
+  functions.
+\newblock {\em IEEE Transactions on Information Theory}, 28(3):489--495, May
+  1982.
+
+\bibitem{MenMor97}
+M.~L. Men{\'e}ndez, D.~Morales, L.~Pardo, and M.~Salicr{\'u}.
+\newblock $(h,\phi)$-entropy differential metric.
+\newblock {\em Applications of Mathematics}, 42(1-2):81--98, 1997.
+
+\bibitem{Par06}
+L.~Pardo.
+\newblock {\em Statistical Inference Based on Divergence Measures}.
+\newblock Chapman \& Hall, Boca Raton, FL, USA, 2006.
+
+\bibitem{Jay57}
+E.~.T Jaynes.
+\newblock Information theory and statistical mechanics.
+\newblock {\em Physical Review}, 106(4):620--630, may 1957.
+
+\bibitem{Kap89}
+J.~N. Kapur.
+\newblock {\em Maximum Entropy Model in Sciences and Engineering}.
+\newblock Wiley Eastern Limited, New-Dehli, 1989.
+
+\bibitem{Arn01}
+Arndt.
+\newblock {\em Information Measures: Information and Its Description in
+  Sciences and Ingeniering}.
+\newblock Springer Verlag, Berlin, 2001.
+
+\bibitem{CovTho06}
+T.~M. Cover and J.~A. Thomas.
+\newblock {\em Elements of Information Theory}.
+\newblock John Wiley \& Sons, Hoboken, New Jersey, 2nd edition, 2006.
+
+\bibitem{Jay68}
+E.~T. Jaynes.
+\newblock Prior probabilities.
+\newblock {\em IEEE transactions on systems science and cybernetics},
+  4(3):227--241, September 1968.
+
+\bibitem{Csi91}
+I.~Csisz{\`a}r.
+\newblock Why least squares and maximum entropy? an axiomatic approach to
+  inference for linear inverse problems.
+\newblock {\em The Annals of Statistics}, 19(4):2031--2066, December 1991.
+
+\bibitem{FriSri08}
+B.~A. Frigyik, S.~Srivastava, and M.~R. Gupta.
+\newblock Functional {B}regman divergence and {B}ayesian estimation of
+  distributions.
+\newblock {\em IEEE Transactions on Infomation Theory}, 54(11):5130--5139,
+  November 2008.
+
+\bibitem{Rob07}
+C.~P. Robert.
+\newblock {\em The Bayesian Choice. From Decision-Theoretic Foundations to
+  Computational Implementation}.
+\newblock Springer, New-York, 2nd edition, 2007.
+
+\bibitem{JonByr90}
+L.~K. Jones and C.~L. Byrne.
+\newblock General entropy criteria for inverse problems, with applications to
+  data compression, pattern classification, and cluster analysis.
+\newblock {\em IEEE transactions on Information Theory}, 36(1):23--30, January
+  1990.
+
+\bibitem{HerMa02}
+A.~O. {Hero III\@}, B.~Ma, O.~J.~J. Michel, and J.~Gorman.
+\newblock Application of entropic spanning graphs.
+\newblock {\em IEEE Signal Processing Magazine}, 19(5):85--95, September 2002.
+
+\bibitem{ParBer09}
+S.~Y. Park and A.~K. Bera.
+\newblock Maximum entropy autoregressive conditional heteroskedasticity model.
+\newblock {\em Journal of Econometrics}, 150(2):219--230, June 2009.
+
+\bibitem{Vas76}
+O.~Vasicek.
+\newblock A test for normality based on sample entropy.
+\newblock {\em Journal of the Royal Statistical Society B}, 38(1):54--59, 1976.
+
+\bibitem{Gok83}
+D.V. Gokhale.
+\newblock On entropy-based goodness-of-fit tests.
+\newblock {\em Computational Statistics and Data Analysis}, 1:157--165, march
+  1983.
+
+\bibitem{Son02}
+K.-S. Song.
+\newblock Goodness-of-fit tests based on {K}ullback-{L}eibler discrimination
+  information.
+\newblock {\em IEEE Transactions on Information Theory}, 48(5):1103--1117, May
+  2002.
+
+\bibitem{Leq14}
+J.~Lequesne.
+\newblock A goodness-of-fit test of {S}tudent distributions based on {R\'e}nyi
+  entropy.
+\newblock In A.~Djafari and F.~Barbaresco, editors, {\em AIP conference
+  proceedings of the 34th international workshop on Bayesian Inference and
+  Maximum Entropy Methods (MaxEnt'14)}, volume 1641, pages 487--494, Amboise,
+  France, 21-25 september 2014.
+
+\bibitem{Leq15}
+J.~Lequesne.
+\newblock {\em Tests statistiques bas{\'e}s sur la th{\'e}orie de
+  l'information, applications en biologie et en d{\'e}mographie}.
+\newblock PhD thesis, Universit{\'e} de {C}aen {B}asse-{N}ormandie, Caen,
+  France, 2015.
+
+\bibitem{GirReg15}
+V.~Girardin and P.~Regnault.
+\newblock Escort distributions minimizing the {K}ullback-{L}eibler divergence
+  for a large deviations principle and tests of entropy level.
+\newblock {\em Annals of the Institute of Statistical Mathematics},
+  68(2):439--468, April 2015.
+
+\bibitem{KesKap89}
+H.~K. Kesavan and J.~N. Kapur.
+\newblock The generalized maximum entropy principle.
+\newblock {\em IEEE Transactions on Systems Man and Cybernetics},
+  19:1042--1052, 1989.
+
+\bibitem{BorLew91:03}
+J.~M. Borwein and A.~S. Lewis.
+\newblock Duality relationships for entropy-like minimization problems.
+\newblock {\em SIAM Journal on Control and Optimization}, 29(2):325--338, March
+  1991.
+
+\bibitem{BorLew91:05}
+J.~M. Borwein and A.~S. Lewis.
+\newblock Convergence of best entropy estimates.
+\newblock {\em SIAM Journal of Optimization}, 1(2):191--205, May 1991.
+
+\bibitem{BorLew93}
+J.~M. Borwein and A.~S. Lewis.
+\newblock Partially-finite programming in {$L_1$} and the existence of maximum
+  entropy estimates.
+\newblock {\em SIAM Journal of Optimization}, 3(2):248--267, May 1993.
+
+\bibitem{TsaMen98}
+C.~Tsallis, R.~M. Mendes, and A.~R. Plastino.
+\newblock The role of constraints within generalized nonextensive statistics.
+\newblock {\em Physica A}, 261(3-4):534--554, December 1998.
+
+\bibitem{Tsa99}
+C.~Tsallis.
+\newblock Nonextensive statistics: theoretical, experimental and computational
+  evidences and connections.
+\newblock {\em Brazilian Journal of Physics}, 29(1):1--35, March 1999.
+
+\bibitem{Tsa09}
+C.~Tsallis.
+\newblock {\em Introduction to Nonextensive Statistical Mechanics --
+  Approaching a Complex World}.
+\newblock Springer Verlag, New-York, 2009.
+
+\bibitem{EssSch00}
+C.~Essex, C.~Schulzsky, A.~Franz, and K.~H. Hoffmann.
+\newblock {T}sallis and {R\'e}nyi entropies in fractional diffusion and entropy
+  production.
+\newblock {\em Physica A}, 284(1-4):299--308, September 2000.
+
+\bibitem{ParBir05}
+A.~S. Parvan and T.~S. Bir{\'o}.
+\newblock Extensive {R\'e}nyi statistics from non-extensive entropy.
+\newblock {\em Physics Letters A}, 340(5-6):375--387, June 2005.
+
 \bibitem{Kay93}
 S.~M. Kay.
 \newblock {\em Fundamentals for Statistical Signal Processing: Estimation
@@ -198,6 +320,12 @@ S.~M. Kay.
 B.~R. Frieden.
 \newblock {\em Science from {F}isher Information: A Unification}.
 \newblock Cambridge University Press, Cambridge, UK, 2004.
+
+\bibitem{Jef46}
+Jeffrey.
+\newblock An invariant form for the prior probability in estimation problems.
+\newblock {\em Proceedings of the Royal Society A}, 186(1007):453--461,
+  September 1946.
 
 \bibitem{VigBer03}
 C.~Vignat and J.-F. Bercher.
@@ -283,13 +411,6 @@ D.~E. Boekee and J.~C.~A. {Van der Lubbe}.
 \newblock The $r$-norm information measure.
 \newblock {\em Information and Control}, 45(2):136:155, May 1980.
 
-\bibitem{BurRao82}
-J.~Burbea and C.~R. Rao.
-\newblock On the convexity of some divergence measures based on entropy
-  functions.
-\newblock {\em IEEE Transactions on Information Theory}, 28(3):489--495, May
-  1982.
-
 \bibitem{LutYan04}
 E.~Lutwak, D.~Yang, and G.~Zhang.
 \newblock Moment-entropy inequalities.
@@ -340,29 +461,12 @@ J.-F. Bercher.
   nonextensive thermostatistics.
 \newblock {\em Physica A}, 392(15):3140--3154, August 2013.
 
-\bibitem{MenMor97}
-M.~L. Men{\'e}ndez, D.~Morales, L.~Pardo, and M.~Salicr{\'u}.
-\newblock $(h,\phi)$-entropy differential metric.
-\newblock {\em Applications of Mathematics}, 42(1-2):81--98, 1997.
-
 \bibitem{Bre67}
 L.~M. Bregman.
 \newblock The relaxation method of finding the common point of convex sets and
   its application to the solution of problem in convex programming.
 \newblock {\em USSR Computational Mathematics and Mathematical Physics},
   7(3):200--217, 1967.
-
-\bibitem{BorLew91:03}
-J.~M. Borwein and A.~S. Lewis.
-\newblock Duality relationships for entropy-like minimization problems.
-\newblock {\em SIAM Journal on Control and Optimization}, 29(2):325--338, March
-  1991.
-
-\bibitem{BorLew93}
-J.~M. Borwein and A.~S. Lewis.
-\newblock Partially-finite programming in {$L_1$} and the existence of maximum
-  entropy estimates.
-\newblock {\em SIAM Journal of Optimization}, 3(2):248--267, May 1993.
 
 \bibitem{BenBor92}
 A.~{Ben-Tal}, J.~M. Bornwein, and M.~Teboulle.
@@ -383,22 +487,6 @@ V.~Girardin.
   probl{\`e}me de moments avec maximisation d'entropie.
 \newblock {\em Studia Mathematica}, 124(3):199--213, 1997.
 
-\bibitem{VigHer04}
-C.~Vignat, A.~O. {Hero III\@}, and J.~A. Costa.
-\newblock About closedness by convolution of the {T}sallis maximizers.
-\newblock {\em Physica A}, 340(1-3):147--152, September 2004.
-
-\bibitem{Ber08}
-J.-F. Bercher.
-\newblock On some entropy functionals derived from {R\'e}nyi information
-  divergence.
-\newblock {\em Information Sciences}, 178(12):2489--2506, June 2008.
-
-\bibitem{BerGir15}
-J.-F. Bercher, V.~Girardin, J.~Lequesne, P.~Regnault, and S.~Zozor.
-\newblock Sur la recherche de {$\phi$-}entropie {\`a} maximisante donn{\'e}e.
-\newblock In {\em Colloque GRETSI}, Lyon, France, 8-11 September 2015.
-
 \bibitem{ChhJen89}
 A.~Chhabra and R.~V. Jensen.
 \newblock Direct determination of the {$f(\alpha)$} singularity spectrum.
@@ -414,21 +502,6 @@ J.~Naudts.
 \newblock {\em Generalized Thermostatistics}.
 \newblock Spri, London, 2011.
 
-\bibitem{Cam65}
-L.~L. Campbell.
-\newblock A coding theorem and {R\'enyi's} entropy.
-\newblock {\em Information and Control}, 8(4):423--429, August 1965.
-
-\bibitem{Ber09}
-J.-F. Bercher.
-\newblock Source coding with escort distributions and {R\'e}nyi entropy bounds.
-\newblock {\em Physics Letters A}, 373(36):3235--3238, August 2009.
-
-\bibitem{TsaMen98}
-C.~Tsallis, R.~M. Mendes, and A.~R. Plastino.
-\newblock The role of constraints within generalized nonextensive statistics.
-\newblock {\em Physica A}, 261(3-4):534--554, December 1998.
-
 \bibitem{MarNic00}
 S.~Mart{\'i}nez, F.~Nicol{\'a}s, F.~Pennini, and A.~Plastino.
 \newblock Tsallis' entropy maximization procedure revisited.
@@ -438,6 +511,16 @@ S.~Mart{\'i}nez, F.~Nicol{\'a}s, F.~Pennini, and A.~Plastino.
 L.~P. Chimento, F.~Pennini, and A.~Plastino.
 \newblock {N}audts-like duality and the extreme {F}isher information principle.
 \newblock {\em Physical Review E}, 62(5):7462--7465, November 2000.
+
+\bibitem{CasChi02}
+M.~Casas, L.~Chimento, F.~Pennini, A.~Plastino, and A.~R. Plastino.
+\newblock {F}isher information in a {T}sallis non-extensive environment.
+\newblock {\em Chaos, Solitons and Fractals}, 13(3):451--459, March 2002.
+
+\bibitem{TsaLen02}
+C.~Tsallis and E.~K. Lenzi.
+\newblock Anomalous diffusion: nonlinear fractional {F}okker-{P}lanck equation.
+\newblock {\em Chemical Physics}, 284(1-2):341--347, November 2002.
 
 \bibitem{Wid75}
 D.~V. Widder.

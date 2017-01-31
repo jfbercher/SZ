@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.5)  27 JAN 2017 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.5)  31 JAN 2017 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,7 +11,6 @@ Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-truc
 )
 \c@part=\count79
 \c@section=\count80
@@ -502,19 +501,19 @@ Package color Info: Driver file: pdftex.def on input line 137.
 (./New_entropies_v10.aux)
 \openout1 = `New_entropies_v10.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 76.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -611,17 +610,17 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
-LaTeX Font Info:    Try loading font information for U+msa on input line 104.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+LaTeX Font Info:    Try loading font information for U+msa on input line 105.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 104.
+LaTeX Font Info:    Try loading font information for U+msb on input line 105.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 104.
+LaTeX Font Info:    Try loading font information for U+esint on input line 105.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/esint/uesint.fd
@@ -630,32 +629,21 @@ File: uesint.fd
 
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 301.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 496.
 
-
-Package natbib Warning: Citation `Kes' on page 3 undefined on input line 415.
-
-[3]
-
-Package natbib Warning: Citation `toto' on page 4 undefined on input line 426.
-
-
-Package natbib Warning: Citation `Kes' on page 4 undefined on input line 432.
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 443.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 443.
-LaTeX Font Info:    Try loading font information for U+bbm on input line 529.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 496.
+ [3]
+LaTeX Font Info:    Try loading font information for U+bbm on input line 582.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 )
-Overfull \hbox (17.78246pt too wide) in paragraph at lines 546--555
+Overfull \hbox (17.78246pt too wide) in paragraph at lines 599--608
 \OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y[]\OT1/cmr/m/n/10 ) \
 OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y[
 ]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; 
@@ -667,80 +655,74 @@ man di-ver-gence $\OMS/cmsy/m/n/10 D[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f[]; f[
 1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\T1/ptm/m/n/10 . 
  []
 
-[4] [5]
+[4] [5] [6]
 
-Package natbib Warning: Citation `Cas02' on page 6 undefined on input line 729.
+Package natbib Warning: Citation `' on page 7 undefined on input line 988.
 
-
-[6] [7] [8] [9] <PDF/MaxEnt_LogisticLaw.pdf, id=51, 392.46625pt x 128.48pt>
+[7] [8] [9] <PDF/MaxEnt_LogisticLaw.pdf, id=50, 392.46625pt x 128.48pt>
 File: PDF/MaxEnt_LogisticLaw.pdf Graphic file (type pdf)
 
 <use PDF/MaxEnt_LogisticLaw.pdf>
-Package pdftex.def Info: PDF/MaxEnt_LogisticLaw.pdf used on input line 1262.
+Package pdftex.def Info: PDF/MaxEnt_LogisticLaw.pdf used on input line 1319.
 (pdftex.def)             Requested size: 473.73515pt x 155.09467pt.
  [10 <./PDF/MaxEnt_LogisticLaw.pdf>]
-<PDF/MaxEnt_ArcsineLaw.pdf, id=95, 187.70125pt x 113.42375pt>
+<PDF/MaxEnt_ArcsineLaw.pdf, id=94, 187.70125pt x 113.42375pt>
 File: PDF/MaxEnt_ArcsineLaw.pdf Graphic file (type pdf)
 
 <use PDF/MaxEnt_ArcsineLaw.pdf>
-Package pdftex.def Info: PDF/MaxEnt_ArcsineLaw.pdf used on input line 1388.
+Package pdftex.def Info: PDF/MaxEnt_ArcsineLaw.pdf used on input line 1445.
 (pdftex.def)             Requested size: 226.33781pt x 136.77931pt.
- [11] [12 <./PDF/MaxEnt_ArcsineLaw.pdf>]
-<PDF/MaxEnt_GammaLaw.pdf, id=105, 392.46625pt x 140.525pt>
+ [11 <./PDF/MaxEnt_ArcsineLaw.pdf>]
+<PDF/MaxEnt_GammaLaw.pdf, id=101, 392.46625pt x 140.525pt>
 File: PDF/MaxEnt_GammaLaw.pdf Graphic file (type pdf)
 
 <use PDF/MaxEnt_GammaLaw.pdf>
-Package pdftex.def Info: PDF/MaxEnt_GammaLaw.pdf used on input line 1514.
+Package pdftex.def Info: PDF/MaxEnt_GammaLaw.pdf used on input line 1571.
 (pdftex.def)             Requested size: 473.73515pt x 169.63478pt.
- (./New_entropies_v10.bbl [13 <./PDF/MaxEnt_GammaLaw.pdf>] [14] [15])
+ (./New_entropies_v10.bbl [12] [13 <./PDF/MaxEnt_GammaLaw.pdf>] [14] [15])
 
 Package natbib Warning: There were undefined citations.
 
-[16] (./New_entropies_v10.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[16] (./New_entropies_v10.aux) ) 
 Here is how much of TeX's memory you used:
- 5259 strings out of 493117
- 69407 string characters out of 6135434
- 149067 words of memory out of 5000000
- 8560 multiletter control sequences out of 15000+600000
- 35196 words of font info for 77 fonts, out of 8000000 for 9000
+ 5298 strings out of 493117
+ 70000 string characters out of 6135434
+ 149345 words of memory out of 5000000
+ 8601 multiletter control sequences out of 15000+600000
+ 32428 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,31p,363b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/steeve/Library/texlive/2014/texmf-var/fonts/pk/ljfour/public/bbm/bbm
-8.600pk> </Users/steeve/Library/texlive/2014/texmf-var/fonts/pk/ljfour/public/b
-bm/bbm10.600pk>{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
-/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on New_entropies_v10.pdf (16 pages, 360100 bytes).
+ 38i,10n,30p,365b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/steeve/Library/texlive/2014/texmf-var/
+fonts/pk/ljfour/public/bbm/bbm8.600pk> </Users/steeve/Library/texlive/2014/texm
+f-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{/usr/local/texlive/2014/texmf-dis
+t/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on New_entropies_v10.pdf (16 pages, 351670 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
+ 216 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
