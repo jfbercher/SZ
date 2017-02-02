@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.5)  31 JAN 2017 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.5)  1 FEB 2017 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,21 +629,21 @@ File: uesint.fd
 
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 500.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 502.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 500.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 502.
  [3]
-LaTeX Font Info:    Try loading font information for U+bbm on input line 587.
+LaTeX Font Info:    Try loading font information for U+bbm on input line 589.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 )
-Overfull \hbox (17.78246pt too wide) in paragraph at lines 604--613
+Overfull \hbox (17.78246pt too wide) in paragraph at lines 611--620
 \OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y[]\OT1/cmr/m/n/10 ) \
 OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y[
 ]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; 
@@ -655,74 +655,68 @@ man di-ver-gence $\OMS/cmsy/m/n/10 D[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f[]; f[
 1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\T1/ptm/m/n/10 . 
  []
 
-[4] [5] [6]
-
-Package natbib Warning: Citation `' on page 7 undefined on input line 994.
-
-[7] [8] [9] <PDF/MaxEnt_LogisticLaw.pdf, id=50, 392.46625pt x 128.48pt>
+[4] [5] [6] [7] [8] [9]
+<PDF/MaxEnt_LogisticLaw.pdf, id=50, 392.46625pt x 128.48pt>
 File: PDF/MaxEnt_LogisticLaw.pdf Graphic file (type pdf)
 
 <use PDF/MaxEnt_LogisticLaw.pdf>
-Package pdftex.def Info: PDF/MaxEnt_LogisticLaw.pdf used on input line 1325.
+Package pdftex.def Info: PDF/MaxEnt_LogisticLaw.pdf used on input line 1347.
 (pdftex.def)             Requested size: 473.73515pt x 155.09467pt.
  [10 <./PDF/MaxEnt_LogisticLaw.pdf>]
 <PDF/MaxEnt_ArcsineLaw.pdf, id=94, 187.70125pt x 113.42375pt>
 File: PDF/MaxEnt_ArcsineLaw.pdf Graphic file (type pdf)
 
 <use PDF/MaxEnt_ArcsineLaw.pdf>
-Package pdftex.def Info: PDF/MaxEnt_ArcsineLaw.pdf used on input line 1451.
+Package pdftex.def Info: PDF/MaxEnt_ArcsineLaw.pdf used on input line 1473.
 (pdftex.def)             Requested size: 226.33781pt x 136.77931pt.
- [11 <./PDF/MaxEnt_ArcsineLaw.pdf>]
-<PDF/MaxEnt_GammaLaw.pdf, id=101, 392.46625pt x 140.525pt>
+ [11] [12 <./PDF/MaxEnt_ArcsineLaw.pdf>]
+<PDF/MaxEnt_GammaLaw.pdf, id=104, 392.46625pt x 140.525pt>
 File: PDF/MaxEnt_GammaLaw.pdf Graphic file (type pdf)
 
 <use PDF/MaxEnt_GammaLaw.pdf>
-Package pdftex.def Info: PDF/MaxEnt_GammaLaw.pdf used on input line 1577.
+Package pdftex.def Info: PDF/MaxEnt_GammaLaw.pdf used on input line 1599.
 (pdftex.def)             Requested size: 473.73515pt x 169.63478pt.
- (./New_entropies_v10.bbl [12] [13 <./PDF/MaxEnt_GammaLaw.pdf>] [14] [15])
-
-Package natbib Warning: There were undefined citations.
-
-[16] (./New_entropies_v10.aux) ) 
+ (./New_entropies_v10.bbl [13 <./PDF/MaxEnt_GammaLaw.pdf>] [14] [15] [16]) [17]
+ (./New_entropies_v10.aux) ) 
 Here is how much of TeX's memory you used:
- 5310 strings out of 493117
- 70171 string characters out of 6135434
- 149409 words of memory out of 5000000
- 8613 multiletter control sequences out of 15000+600000
+ 5357 strings out of 493117
+ 70904 string characters out of 6135434
+ 149680 words of memory out of 5000000
+ 8660 multiletter control sequences out of 15000+600000
  32428 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,30p,365b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/steeve/Library/texlive/2014/texmf-var/
-fonts/pk/ljfour/public/bbm/bbm8.600pk> </Users/steeve/Library/texlive/2014/texm
-f-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{/usr/local/texlive/2014/texmf-dis
-t/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmib10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on New_entropies_v10.pdf (16 pages, 352125 bytes).
+ 38i,10n,30p,365b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/steeve/Library/texlive/2014/texmf-var/font
+s/pk/ljfour/public/bbm/bbm8.600pk> </Users/steeve/Library/texlive/2014/texmf-va
+r/fonts/pk/ljfour/public/bbm/bbm10.600pk>{/usr/local/texlive/2014/texmf-dist/fo
+nts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmib10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on New_entropies_v10.pdf (17 pages, 354946 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 219 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

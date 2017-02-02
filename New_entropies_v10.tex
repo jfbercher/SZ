@@ -125,14 +125,16 @@
   codwords where the R\'enyi  entropy appears~\cite{Cam65, Ber09} for instance).
   The great majority  of the extended entropies found  in the literature belongs
   to    a     very    general     class    of    entropic     measures    called
-  $(h,\phi)$-entropies~\cite{Csi67, BurRao82, SalMen93, Sal94, MenMor97, Par06}.
-  Such  a general  class (or  more precisely  the subclass  of $\phi$-entropies)
-  traced back to  the work of Burbea \&  Rao~\cite{BurRao82}.  Since, many works
-  took hold of these entropies. Not only they offer a general framework to study
-  general properties  shared by various  special entropies, but also  they offer
-  various  potential  applications as  described  for instance  in~\cite{Par06}.
-  Note  that if  a huge  amount of  work deals  with divergences,  entropies are
-  special cases where the reference measure is taken uniform.
+  $(h,\phi)$-entropies~\cite{Csi67, BurRao82,  SalMen93, Sal94, MenMor97, Par06,
+    BosZoz16}.   Such  a  general  class  (or more  precisely  the  subclass  of
+  $\phi$-entropies) traced  back to the  work of Burbea  \& Rao~\cite{BurRao82}.
+  Since, many works took hold of  these entropies. Not only they offer a general
+  framework to study general properties shared by various special entropies, but
+  also  they offer  various  potential applications  as  described for  instance
+  in~\cite{Par06,  CreRea84,   MenMor97:5,  Par99,  Par99:1,   CrePar00,  Arn01,
+    ZozPor08, ZozBos13, ZozBos14, BosZoz16}.  Note that if a huge amount of work
+  deals  with  divergences, entropies  are  special  cases  where the  reference
+  measure is taken uniform.
 
   \
 
@@ -594,6 +596,11 @@ the state variable $x$:
   $\phi$-entropy.
 \end{defn}
 
+\SZ{Note  that  the  generalized  entropy  of  free  energy  functional  defined
+  in~\cite{New84}   (see   also~\cite{BlaBon09})   falls   in  the   family   of
+  state-dependent  $\phi$-entropy where $\phi(x,y)  = \frac{y^m}{m-1}  + \frac12
+  \|x\|^2 y$.}
+
 \
 
 As in  the previous  section, we restrict  our study to  functionals $\phi(x,y)$
@@ -991,8 +998,6 @@ extentions are recovered as special cases.
 \section{$\phi$-heat equation and extended de Bruijn identity}
 \label{sec:deBruijn}
 
-\Avoir{Anomalous diffusion, NL FK: \cite{TsaLen02, }}
-
 An  important relation  connecting  the  Shannon entropy  $H$,  coming from  the
 ``information world'', to the Fisher information $I$, living in the ``estimation
 world'', is given  by the de Bruijn identity and closely  linked to the Gaussian
@@ -1019,9 +1024,19 @@ distributions  $f$ parametrized  by  a parameter  $\theta  \in \Theta  \subseteq
 %
 for some $K \in \Rset^m$ (possibly  dependent on $\theta$) and where $\phi$ is a
 convex  twice differentiable  function  defined  over a  set  $\X \in  \Rset_+$.
-Clearly, when $\phi(y)  = y \, \log y$,  for $K = \frac12$ and $\beta  = 2$, the
-standard  heat-equation  is recovered.   The  case  where  $\phi(y) =  y^q$  was
-intensively studied in~\cite{Ber13:08}.  \SZ{finir avec discussion eq physiques}
+\SZ{Clearly, for  a scalar parameter $\theta$,}  for $K = \frac12$  and $\beta =
+2$, the standard heat-equation is recovered.  The case where $\phi(y) = y^q$ was
+intensively  studied  in~\cite{Ber13:08}.  \SZ{In  such  a  case, the  nonlinear
+  equation  is known as  the $p$-Laplacian  equation and  appears in  physics as
+  description  of  flows in  (generalized)  porous  medium~\cite{Vaz06}. In  the
+  general case, this kind of equation  can also be viewed as a generalization of
+  the  porous  medium  equation, of  the  fast  diffusion  equation, or  of  the
+  nonlinear  Fokker-Planck  equation  that  appear  in flow  in  porous  medium,
+  nonlinear    heat   transfer,    population   dynamics,    Plasma   radiation,
+  etc~\cite{New84, Vaz06,  Vaz07, Fra05}
+%  (see in  particular~\cite[Ch.~6]{Fra05} where
+%  the $\phi$-entropy also appears).
+}
 
 \begin{prop}[Extended de Bruijn identity]\label{prop:phiDeBruijn}
   Let $f$ be a probability distribution, parametrized by a parameter $\theta \in
@@ -1075,13 +1090,20 @@ eqs.~\eqref{eq:Cphi},~\eqref{eq:phi-escort}                                   an
 definition~\ref{def:np-phi-Fisher}.
 \end{proof}
 
+\SZ{As pointed  out before, in the  scalar context $m=1$ for  the parameter, for
+  $K=\frac12$ and $\beta = 2$, the  nonlinear heat equation reduces to the usual
+  heat equation. Dealing with the Shannon  entropy, we thus recover the usual de
+  Bruijn  identity,  while for  a  more general  function  $\phi$,  some of  the
+  extensions  proposed in~\cite{Ber13:08,  JohVig07, Guo09,  TorZoz16_arxiv} are
+  recovered (see also~\cite[eqs.~(11)~\&~(20)]{BlaBon09}).}
+
 % --------------------------------- Examples --------------------------------- %
 
 \section{Concluding remarks}
 \label{sec:Conclusion}
 
 \SZ{ Dans une  telle construction,
-lorsque  loi cible tends  vers la  Gaussienne/puissance par  exemple, la  phi va
+lorsque  loi cible tend  vers la  Gaussienne/puissance par  exemple, la  phi va
 tendre vers la Shannon.}
 
 % --------------------------------- Appendix --------------------------------- %

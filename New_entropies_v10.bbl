@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Bol64}
 L.~Boltzmann {(translated by Stephen G. Brush)}.
@@ -160,6 +160,64 @@ L.~Pardo.
 \newblock {\em Statistical Inference Based on Divergence Measures}.
 \newblock Chapman \& Hall, Boca Raton, FL, USA, 2006.
 
+\bibitem{BosZoz16}
+G.~M. Bosyk, S.~Zozor, F.~Holik, M.~Portesi, and P.~W. Lamberti.
+\newblock A family of generalized quantum entropies: definition and properties.
+\newblock {\em Quantum Information Processing}, 15(8):3393--3420, August 2016.
+
+\bibitem{CreRea84}
+N.~Cressie and L.~Read.
+\newblock Multinomial goodness-of-fit tests.
+\newblock {\em Journal of the Royal Statistical Society B}, 46(3):440--464,
+  1984.
+
+\bibitem{MenMor97:5}
+M.~L. Men{\'e}ndez, D.~Morales, L.~Pardo, and I.~Vajda.
+\newblock Testing in stationary models based on divergences of observed and
+  theoretical frequencies.
+\newblock {\em Kybernetica}, 33(5):465--475, 1977.
+
+\bibitem{Par99}
+M.~C. Pardo.
+\newblock On {B}urbea-{R}ao divergence based goodness-of-fit tests for
+  multinomial models.
+\newblock {\em Journal of Multivariate Analysis}, 69(1):65--87, April 1999.
+
+\bibitem{Par99:1}
+M.~C. Pardo.
+\newblock Estimation of parameters for a mixture of normal distributions on the
+  basis of the {C}ressie and {R}ead divergence.
+\newblock {\em Communications in Statistics - Simulation and Computations},
+  28(1):115--130, 1999.
+
+\bibitem{CrePar00}
+N.~Cressie and L.~Pardo.
+\newblock Minimum {$\phi$-}divergence estimator and hierarchical testing in
+  loglinear models.
+\newblock {\em Statistica Sinica}, 10(3):867--884, July 2000.
+
+\bibitem{Arn01}
+Arndt.
+\newblock {\em Information Measures: Information and Its Description in
+  Sciences and Ingeniering}.
+\newblock Springer Verlag, Berlin, 2001.
+
+\bibitem{ZozPor08}
+S.~Zozor, M.~Portesi, and C.~Vignat.
+\newblock Some extensions to the uncertainty principle.
+\newblock {\em Physica A}, 387(18-19):4800--4808, August 2008.
+
+\bibitem{ZozBos13}
+S.~Zozor, G.~M. Bosyk, and M.~Portesi.
+\newblock On a generalized entropic uncertainty relation in the case of the
+  qubit.
+\newblock {\em Journal of Physics A}, 46(46):465301, november 2013.
+
+\bibitem{ZozBos14}
+S.~Zozor, G.~M. Bosyk, and M.~Portesi.
+\newblock General entropy-like uncertainty relations in finite dimensions.
+\newblock {\em Journal of Physics A}, 47(49):495302, December 2014.
+
 \bibitem{Jay57}
 E.~.T Jaynes.
 \newblock Information theory and statistical mechanics.
@@ -174,12 +232,6 @@ E.~T. Jaynes.
 J.~N. Kapur.
 \newblock {\em Maximum Entropy Model in Sciences and Engineering}.
 \newblock Wiley Eastern Limited, New-Dehli, 1989.
-
-\bibitem{Arn01}
-Arndt.
-\newblock {\em Information Measures: Information and Its Description in
-  Sciences and Ingeniering}.
-\newblock Springer Verlag, Berlin, 2001.
 
 \bibitem{CovTho06}
 T.~M. Cover and J.~A. Thomas.
@@ -508,6 +560,19 @@ V.~Girardin.
   probl{\`e}me de moments avec maximisation d'entropie.
 \newblock {\em Studia Mathematica}, 124(3):199--213, 1997.
 
+\bibitem{New84}
+W.~I. Newman.
+\newblock A {L}yapunov functional for the evolution of solutions to the porous
+  medium equation to selfsimilarity. {I}.
+\newblock {\em Journal of Mathematical Physics}, 25(10):3120--3123, October
+  1984.
+
+\bibitem{BlaBon09}
+A.~Blanchet, M.~Bonforte, J.~Dolbeault, G.~Grillo, and J.~L. V{\'a}zquez.
+\newblock Asymptotics of the fast diffusion equation via entropy estimates.
+\newblock {\em Archive for Rational Mechanics and Analysis}, 191(2):347--385,
+  February 2009.
+
 \bibitem{ChhJen89}
 A.~Chhabra and R.~V. Jensen.
 \newblock Direct determination of the {$f(\alpha)$} singularity spectrum.
@@ -538,15 +603,46 @@ M.~Casas, L.~Chimento, F.~Pennini, A.~Plastino, and A.~R. Plastino.
 \newblock {F}isher information in a {T}sallis non-extensive environment.
 \newblock {\em Chaos, Solitons and Fractals}, 13(3):451--459, March 2002.
 
-\bibitem{TsaLen02}
-C.~Tsallis and E.~K. Lenzi.
-\newblock Anomalous diffusion: nonlinear fractional {F}okker-{P}lanck equation.
-\newblock {\em Chemical Physics}, 284(1-2):341--347, November 2002.
-
 \bibitem{Wid75}
 D.~V. Widder.
 \newblock {\em The Heat Equation}.
 \newblock Academic Press, New-York, 1975.
+
+\bibitem{Vaz06}
+J.~L. V{\'a}zquez.
+\newblock {\em Smoothing and Decay Estimates for Nonlinear Diffusion Equations
+  -- Equation of Porous Medium Type}.
+\newblock Oxford University Press, New-York, USA, 2006.
+
+\bibitem{Vaz07}
+J.~L. V{\'a}zquez.
+\newblock {\em The Porous Medium Equation -- Mathematical Theory}.
+\newblock Oxford University Press, New-York, USA, 2007.
+
+\bibitem{Fra05}
+T.~D. Frank.
+\newblock {\em Nonlineat {F}okker-{P}lanck Equations -- Fundamentals and
+  Applications}.
+\newblock Springer, Berlin, Germany, 2005.
+
+\bibitem{JohVig07}
+O.~Johnson and C.~Vignat.
+\newblock Some results concerning maximum {R\'e}nyi entropy distributions.
+\newblock {\em Annales de l'Institut Henri Poincare (B) Probability and
+  Statistics}, 43(3):339--351, May-June 2007.
+
+\bibitem{Guo09}
+D.~Guo.
+\newblock Relative entropy and score function: New information-estimation
+  relationships through arbitrary additive perturbation.
+\newblock In {\em IEEE International Symposium on Information Theory}, pages
+  814--818, Seoul, South Korea, June 28 -- July 3 2009.
+
+\bibitem{TorZoz16_arxiv}
+I.~{Toranzo Valero}, S.~Zozor, and J.-M. Brossier.
+\newblock Generalization of the de {B}ruijn's identity to general
+  {$\phi$}-entropies and {$\phi$-F}isher informations.
+\newblock {\em arXiv:1611.09400 [cs.IT]}, 2016.
 
 \bibitem{CosHer03}
 J.~A. Costa, A.~O. {Hero III\@}, and C.~Vignat.
