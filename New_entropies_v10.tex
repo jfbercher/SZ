@@ -463,14 +463,14 @@ but   this   approach   requires   mild   conditions~\cite{KesKap89,   KesKap90,
 Hence, given  an entropic functional $\phi$ \SZ{and  moments constraints $T_i$},
 eq.~\eqref{eq:sol-phi}    leads   the    the   maximum    entropy   distribution
 $f^\star$.  \SZ{This  distribution is  parametrized  by  the $\lambda_i$;  these
-  factors are determined by the moments $t_i$}.
+  factors are determined by the moments $t_i$.}
 
 
 % ------------------------------------------------------------------------------
 
 \subsection{Maximum entropy principle: the inverse problems}
 
-\SZ{As stated in the introdution, two inverse problems can be considered started
+\SZ{As stated in the introduction, two inverse problems can be considered started
   from a given distribution $f$.  These problems were also considered by Kesavan
   \&  Kapur in~\cite{KesKap89,  KesKap90}, although  formalized in  the discrete
   (and essentially Shannon) framework.
@@ -1031,9 +1031,9 @@ intensively  studied  in~\cite{Ber13:08}.  \SZ{In  such  a  case, the  nonlinear
   description  of  flows in  (generalized)  porous  medium~\cite{Vaz06}. In  the
   general case, this kind of equation  can also be viewed as a generalization of
   the  porous  medium  equation, of  the  fast  diffusion  equation, or  of  the
-  nonlinear  Fokker-Planck  equation  that  appear  in flow  in  porous  medium,
+  nonlinear  Fokker-Planck  equation that  appears  in  flow  in porous  medium,
   nonlinear    heat   transfer,    population   dynamics,    Plasma   radiation,
-  etc~\cite{New84, Vaz06,  Vaz07, Fra05}
+  etc~\cite{New84, Vaz06, Vaz07, Fra05}
 %  (see in  particular~\cite[Ch.~6]{Fra05} where
 %  the $\phi$-entropy also appears).
 }
@@ -1102,9 +1102,63 @@ definition~\ref{def:np-phi-Fisher}.
 \section{Concluding remarks}
 \label{sec:Conclusion}
 
-\SZ{ Dans une  telle construction,
-lorsque  loi cible tend  vers la  Gaussienne/puissance par  exemple, la  phi va
-tendre vers la Shannon.}
+\SZ{In this work, we proposed the extension of the informartion theoretic tools,
+  inequalities and identities in  the general framework of the $\phi$-entropies.
+  In information theory, the maximum  entropy distribution plays a special role,
+  so that the problem is extended here in the general class of $\phi$-entropies,
+  and an extension to what  we called {\em state-dependent} $\phi$-entropies and
+  {\em  multivariate}  $\phi$-entropies.   In  these contexts  both  the  direct
+  problem  (finding  the  maximal  distribution  given the  entropy  and  moment
+  constraints) and  the inverse problem (finding the  entropic functionnal given
+  the distribution  and moment consraints) are investigated.   To illustrate our
+  results, examples  of such  construction of entropic  functional adapted  to a
+  distribution are  given in the  appendix.  Various situations are  given, from
+  the Gaussian  distribution and second  order constraints, to more  exotic ones
+  where state-dependent entropies allow to  solve the inverse problem (both with
+  global or  partial moments). As  obviously expected, in the  Gaussian context,
+  the  family  of  entropies  contains  the  Shannon  entropy.  In  the  Student
+  distribution   context    with   second   order    moment   constraints,   the
+  Havrda-Charv\'at (or  Tsallis) entropy belongs  to the family of  entropies we
+  obtain. In  such a  case, when the  parameter of  the distribution tends  to a
+  certain  limit,  the   distribution  tends  to  a  Gaussian,   and  the  limit
+  $\phi$-entropies  family   tends  to  that   obtained  for  the   Gaussian  as
+  expected.  Furthemore, as  shown  in this  same  appendix, it  is possible  to
+  compute  the  maximal  entropy  without  computing  explicitly  the  entropic
+  functional.
+
+  In addition to  te study of the maximum entropy  problem, we proposed extended
+  moments   and   Fisher    information,   names   $(\alpha,\phi)$-moments   and
+  $(\beta,\phi)$-Fisher informations, measures  associated to the $\phi$-entropy
+  with  the  same entropic  functional  $\phi$. This  measures  makes  use of  a
+  $\phi$-escort  distribution,  and  contains   the  usual  moments  and  Fisher
+  information   as    special   cases,    and   tseveral   extension    of   the
+  literature.  Moreover,  we  show   as  all  these  informations  measures  are
+  inter-related,   thus   extending    several   usual   information   theoretic
+  inequalities, the previous ones being special cases.
+
+  However, in  this general panel, two  major inequalities still  miss: the Stam
+  inequality   and   the   entropy   power   inequality~\cite{Sta59,   DemCov91,
+    CovTho06}. The first one bounds the product of the Shannon entropy power and
+  the Fisher information,  while thesecond one states that  the entropy power of
+  the convolution  of two  distribution is  higher than the  sum of  the entropy
+  power  of  both  distribution.   The  Stam  inequality  was  extended  in  the
+  Havdra-Charv\'at  (or R\'eny,  or Tsallis)  setup  in~\cite{LutYan05, LutLv12,
+    Ber13,  Ber13:08,  Ber12:06_1},  based  on Sobolev  or  Gagliardo-Nierenberg
+  inequalities~\cite{Agu08}.   Unfortunately, the  sketch  of the  proof of  the
+  extended  Stam  inequalities  does  not   apply  in  the  general  context  of
+  $\phi$-entropies  and $(\beta,\phi)$-Fisher  information.   Such an  extention
+  remain  as a  perspective.  The  entropy power  inequality  was also  slightly
+  extended in  the R\'enyi entropy context,  but the introduction  of a deformed
+  convolution  operator~\cite{JohVig07}.  Again,   in  the  very  general  setup
+  considered here,  finding and extended  entropy power inequality seems  a very
+  difficul task and is still under  investigation. Note that one of the proof of
+  the  Stam inequality  combines both  the entrop  power inequality  and  the de
+  Bruijn identity.  A waypoint to extend  both the entropy  power inequality and
+  the Stam inequality should be to  restrict the investigation to a sub-class of
+  probability distributions and/or some moment constraints.  }
+% Dans une  telle construction,
+%lorsque  loi cible tend  vers la  Gaussienne/puissance par  exemple, la  phi va
+%tendre vers la Shannon.}
 
 % --------------------------------- Appendix --------------------------------- %
 
@@ -1604,6 +1658,7 @@ represented figure~\ref{fig:Entropy-gamma} for $p = 2, \alpha = 2$ and $\alpha =
 \label{fig:Entropy-gamma} 
 \end{figure}
 
+%\bibliographystyle{elsarticle-num}
 \bibliographystyle{unsrt}
 \bibliography{New_entropies}
 \end{document}

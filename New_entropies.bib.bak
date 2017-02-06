@@ -1073,20 +1073,6 @@
   file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Newman_ALyapunovFctForTheEvolSolPorousMediumEqToSelfSimI_JMathPhys84.pdf:PDF}
 }
 
-@ARTICLE{New84,
-  author = {W. I. Newman},
-  title = {A {L}yapunov functional for the evolution of solutions to the porous
-	medium equation to selfsimilarity. {I}},
-  journal = {Journal of Mathematical Physics},
-  year = {1984},
-  volume = {25},
-  pages = {3120-3123},
-  number = {10},
-  month = {October},
-  doi = {10.1063/1.526028},
-  file = {:/Users/steeve/MA_ZONE/Ai_papier/Imprimer/Newman_ALyapunovFctForTheEvolSolPorousMediumEqToSelfSimI_JMathPhys84.pdf:PDF}
-}
-
 @ARTICLE{PanDit51,
   author = {P. F. Panter and W. Dite},
   title = {Quantization distortion in pulse-count modulation with nonuniform
