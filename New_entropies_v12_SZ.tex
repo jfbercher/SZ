@@ -581,7 +581,7 @@ example, we consider the second order moment constraint $T_1(x) = x^2$.
 \item[Example~2]   The  $q$-Gaussian   distribution,  also   known   as  Tsallis
   distribution,   $f_X(x)  =   C_q   \left(  1   -  (q-1)   \frac{x^2}{\sigma^2}
   \right)_+^{\frac{1}{1-q}}$, where $q > 0, \:  q \ne 1, \: x_+ = \max(x,0)$ and
-  $C_q$ is  the normalizacion coefficient, defined  over $\X =  \Rset$, with the
+  $C_q$ is  the normalization coefficient, defined  over $\X =  \Rset$, with the
   constraint $T_1(x) = x^2$ viewed as a maximum $\phi$-entropy imposes also that
   $\lambda_1 <  0$.  Rapid  calculus leads to  the entropic functional,  after a
   reparametrization    of   the   $\lambda_i$'s,    $$\phi(y)   =    \alpha   \,
@@ -766,7 +766,7 @@ respectively.
   +  \gamma \quad  \mbox{with} \quad  \alpha_\pm >  0$$ (see  appendix  for more
   details).
 %
-\item[Example~3-1]  This  arcsince distribution,  now  constraint uniformely  by
+\item[Example~3-2]  This  arcsince distribution,  now  constraint uniformely  by
   $T_1(x)  =  x$,  viewed  as  an extremal  $\phi$-entropy  imposes  again  that
   $\lambda_1  > 0$  and the  associated multiform  entropic functional,  after a
   reparametrization of the  $\lambda_i$'s, is given by $$\widetilde{\phi}_\pm(y)
@@ -836,12 +836,30 @@ distributions.
 %
 Note  that from  the  strict convexity  of  $\phi$ with  respect  to its  second
 argument,   this  probability   density  is   well  defined   and   is  strictly
-positive. Moreover, in the context  of the Shannon entropy, $\phi(x,y) = \phi(y)
-= y  \log y$, the $\phi$-escort  density associated to $f$  restricts to density
-$f$  itself. In the  R\'enyi-Tsallis context  $\phi(x,y) =  \phi(y) =  y^q$, and
-$E_{\phi,f} \propto f^{2-q}$ which recovers the escort distributions used in the
-R\'eny-Tsallis context up to a duality transformation~\cite{Nau11}.
+positive. Moreover, \SZ{coming back to the previous examples, one can see that:
+%
+\begin{description}%[label= Example~\alph*]
+\item[Example~1] In  the context of the  Shannon entropy, entropy  for which the
+  Gaussian is  the maximal entropy law  for the second  order moment constraint,
+  $\phi(x,y) = \phi(y) = y \log  y$, the $\phi$-escort density associated to $f$
+  restricts to density $f$ itself.
+%
+\item[Example~2]  In   the  R\'enyi-Tsallis  context,  entropy   for  which  the
+  $q$-Gaussian is the maximal entropy law for the second order moment constraint
+  $\phi(x,y) =  \phi(y) =  \frac{y^q-y}{q-1}$, and $E_{\phi,f}  \propto f^{2-q}$
+  which recovers the escort distributions  used in the R\'eny-Tsallis context up
+  to a duality transformation~\cite{Nau11}.
 % p98
+\item[Example~3] For  the entropy that  is maximal for the  arcsine distribution
+  under the second order moment constraint, $\phi(x,y) = \phi(y) = \frac{1}{y}$,
+  and  $E_{\phi,f}   \propto  f^3$  which   is  nothing  more  than   an  escort
+  distributions used in the R\'eny-Tsallis context. Indeed, althiugh the arcsine
+  distribution  does not  fall  in the  $q$-Gaussian  family, its  form is  very
+  similar to  a $q$-distribution where the  ``scaling'' would not  be related to
+  the exponent $q$.  It is thus not suprising to  recover an escort distribution
+  associated to this family.
+\end{description}
+}
 
 
 \begin{defn}[$(\alpha,\phi)$-moments]\label{def:phi-moment}
@@ -857,9 +875,21 @@ R\'eny-Tsallis context up to a duality transformation~\cite{Nau11}.
   distribution $f$.
 \end{defn}
 %
-In the context of the Shannon entropy, the $(\alpha,\phi)$-moments are the usual
-moments  of  $\|X\|_\chi^\alpha$,  while   in  the  R\'eny-Tsallis  context  the
-generalized moments introduced in~\cite{TsaMen98,MarNic00} are recovered.
+ \SZ{Note that:
+%
+\begin{description}%[label= Example~\alph*]
+\item[Example~1]    In   the    context    of   the    Shannon   entropy,    the
+  $(\alpha,\phi)$-moments are the usual moments of $\|X\|_\chi^\alpha$.
+%
+\item[Example~2]   In  the  R\'eny-Tsallis   context  the   generalized  moments
+  introduced in~\cite{TsaMen98,MarNic00} are recovered.
+%
+\item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally find
+  the generalized moments  introduced in~\cite{TsaMen98,MarNic00} (see the items
+  related to the escort distributions).
+\end{description}
+}
+
 
 \
 
@@ -911,13 +941,24 @@ unfortunately lost in the state-dependent context.
 %
 Note that,  as for the usual  Fisher information, when  the norm on $\X$  and on
 $\Theta$  are the same,  the nonparametric  and parametric  information coincide
-when $\theta$  is a location  parameter. Note also  that in the  Shannon entropy
+when $\theta$  is a location  parameter. \SZ{Note also that:
+%
+\begin{description}%[label= Example~\alph*]
+\item[Example~1]    In   the  Shannon entropy
 context, when the norm is the  euclidean norm and $\beta = 2$, the nonparametric
 and parametric  informations $(\beta,\phi)$-Fisher give  the usual nonparametric
-and   parametric   Fisher   informations   respectively.   Similarly,   in   the
-R\'enyi-Tsallis  context,   the  generalizations  proposed  in~\cite{Ber12:06_1,
-  Ber12:06_2, Ber13} are recovered.
+and   parametric   Fisher   informations   respectively.
+%
+\item[Example~2] Similarly, in  the R\'enyi-Tsallis context, the generalizations
+  proposed in~\cite{Ber12:06_1, Ber12:06_2, Ber13} are recovered.
 %~\cite{CovTho06, Fri04}.
+%
+%\item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally find
+%  the generalized moments  introduced in~\cite{TsaMen98,MarNic00} (see the items
+%  related to the escort distributions).
+\end{description}
+}
+
 
 \
 
@@ -942,10 +983,6 @@ inequalities as follow.
   when  $f$ is the  maximal $\phi$  entropy distribution  subject to  the moment
   constraint $T(x) = \left\| x \right\|_{\chi}^{\, \alpha}$.
 \end{prop}
-%
-Note that  the usual nonparametric  Cram\'er-Rao inequality is recovered  in the
-usual Shannon  context $\phi(x,y)  = y  \log y$, using  the euclidean  norm and
-$\alpha = 2$.
 
 \begin{proof}
   The   approach   follows~\cite{Ber13},   starting  from   the   differentiable
@@ -1042,8 +1079,8 @@ generalized Fisher information.
   % subject to the moment constraint $T(x) = |x|^\alpha$.
 \end{prop}
 %
-Here again  the usual parametric Cram\'er-Rao inequality  and its R\'eny-Tsallis
-extentions are recovered as special cases.
+%Here again  the usual parametric Cram\'er-Rao inequality  and its R\'eny-Tsallis
+%extentions are recovered as special cases.
 
 \begin{proof}
   The proof  follows again that  of~\cite{Ber13}, and start first  by evaluating
@@ -1071,12 +1108,45 @@ extentions are recovered as special cases.
   that in proposition~\ref{prop:p-phi-CR} using \cite[Lemma2]{Ber13}.
 \end{proof}
 
+%
+\SZ{Note that:
+%
+\begin{description}%[label= Example~\alph*]
+\item[Example~1] Note  that the usual parametric  and nonparametric Cram\'er-Rao
+  inequality are recovered in the usual  Shannon context $\phi(x,y) = y \log y$,
+  using the  euclidean norm  and $\alpha  = 2$. The  bound in  the nonparametric
+  context is saturated for the maximal entropy law, namely the Gaussian.
+%
+\item[Example~2]  In the R\'enyi-Tsallis  context, the  generalizations proposed
+  in~\cite{Ber12:06_1, Ber12:06_2, Ber13} are recovered and, again, when $\alpha
+  =  2$,  the   bound  is  saturated  in  the   nonparametric  context  for  the
+  $q$-Gaussian, maximal entropy law undeer the second order moment constraint.
+%~\cite{CovTho06, Fri04}.
+%
+%\item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally find
+%  the generalized moments  introduced in~\cite{TsaMen98,MarNic00} (see the items
+%  related to the escort distributions).
+\end{description}
+
+\
+
+Beyond the mathematical aspect of  these relations, they may have great interest
+to asses  for instance  an estimator when  the usual variance/mean  square error
+does not exist. Moreover, the escort distribution is also a way to emphasis some
+part of  a distribution. For instance,  in the R\'enyi-Tsallis  context, one can
+see  that  in  $f^q$ either  the  tails  of  the  head  of the  distribution  is
+emphasis. Playing with $q$  is thus a way to penalize more  either the tails, or
+the head of the distribution in  the estimation (estimation using the escort and
+adequate Cram\'er-Rao bound to assess the estimator).
+
+}
+
+
 % ------------------------- phi-Fisher & Cramer-Rao ------------------------- %
 
 \section{$\phi$-heat equation and extended de Bruijn identity}
 \label{sec:deBruijn}
 
-\Avoir{Anomalous diffusion, NL FK: \cite{TsaLen02, }}
 
 An  important relation  connecting the  Shannon  entropy $H$,  comming from  the
 ``information world'', to the Fisher information $I$, living in the ``estimation
@@ -1104,9 +1174,9 @@ distributions  $f$ parametrized  by  a parameter  $\theta  \in \Theta  \subseteq
 %
 for some $K \in \Rset^m$ (possibly  dependent on $\theta$) and where $\phi$ is a
 convex  twice differentiable  function  defined  over a  set  $\X \in  \Rset_+$.
-Clearly, when $\phi(y)  = y \, \log y$,  for $K = \frac12$ and $\beta  = 2$, the
-standard  heat-equation  is recovered.   The  case  where  $\phi(y) =  y^q$  was
-intensively studied in~\cite{Ber13:08}.  \SZ{finir avec discussion eq physiques}
+%Clearly, when $\phi(y)  = y \, \log y$,  for $K = \frac12$ and $\beta  = 2$, the
+%standard  heat-equation  is recovered.   The  case  where  $\phi(y) =  y^q$  was
+%intensively studied in~\cite{Ber13:08}.  \SZ{finir avec discussion eq physiques}
 
 \begin{prop}[Extended de Bruijn identity]\label{prop:phiDeBruijn}
   Let $f$ be a probability distribution, parametrized by a parameter $\theta \in
@@ -1160,6 +1230,30 @@ eqs.~\eqref{eq:Cphi},~\eqref{eq:phi-escort}                                   an
 definition~\ref{def:np-phi-Fisher}.
 \end{proof}
 
+\SZ{Coming back to the special examples we presented al along the paper:
+%
+\begin{description}%[label= Example~\alph*]
+\item[Example~1]    In   the  Shannon entropy
+context, for $K = \frac12$ and $\beta  = 2$, the
+standard  heat-equation  is recovered and the usual de Bruijn identity is recovered.
+%
+\item[Example~2]  The  case  where  $\phi(y)  =  y^q$  was  intensively  studied
+  in~\cite{Ber13:08} and the  results of the paper are  naturally recovered.  In
+  particular,  the   generalized  $\phi$-heat  equation   appears  in  anomalous
+  diffusion in porous medium~\cite{TsaLen02, Ber13:08, Vaz06}.
+%~\cite{CovTho06, Fri04}.
+%
+%\item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally find
+%  the generalized moments  introduced in~\cite{TsaMen98,MarNic00} (see the items
+%  related to the escort distributions).
+\end{description}
+
+Note that various physical non linear diffusions equation are encompassed in the generalized $\phi$-heat equation~\cite{GilKer04, Vaz06}.
+
+\Avoir{Anomalous diffusion, NL FK: \cite{TsaLen02, }}
+
+}
+
 % --------------------------------- Examples --------------------------------- %
 
 \section{Concluding remarks}
@@ -1173,9 +1267,14 @@ tendre vers la Shannon.}
 
 \appendix
 
-\section{\Avoir{titre de lappendix}}
-In  the  sequel,  for sake  of  simplicity,  we  restricts  our example  to  the
-univariate context $d = 1$.
+\section{Inverse maximum entropy problem and associated inequalities: some examples}
+
+\SZ{In  this appendix,  we will  now derive  in detail  several case  of inverse
+  problem of the maximal entropy problem. In each case, we will thus provide the
+  quantities and inequalities associated with the entropic functional $\phi$, as
+  derived in the text.} In the  sequel, for sake of simplicity, we restricts our
+example to the univariate context $d = 1$.
+
 
 % ---------- Normal
 
