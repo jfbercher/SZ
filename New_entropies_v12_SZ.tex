@@ -460,7 +460,7 @@ $f^\star$.  \SZ{This  distribution is  parametrized  by  the $\lambda_i$;  these
   factors are determined by the moments $t_i$}.
 
 \SZ{Note  that the reciprocal  is not  necesarilly true,  as shown  for instance
-  in~\cite{BorLEw93}. However, it is true when $\X$ is a compact~\cite{Gir97} or
+  in~\cite{BorLew93}. However, it is true when $\X$ is a compact~\cite{Gir97} or
   for any $\X$ provided that $\phi$ is locally bounded on $\X$~\cite{Gir07}.}
 
 
@@ -763,7 +763,7 @@ respectively.
   $\lambda_i$'s, writes $$\phi_\pm(y) = \alpha_\pm \left( \sqrt{2 \pi^2 \sigma^2
       y^2 - 1} + \arctan\left( \frac{1}{\sqrt{2 \pi^2 \sigma^2 y^2 - 1}} \right)
   \right) \, \un_{( 1 \, ; \, +\infty )}(\sqrt2 \, \pi \sigma \, y) + \beta \, y
-  +  \gamma \quad  \mbox{with} \quad  \alpha_\pm >  0$$ (see  appendix  for more
+  + \gamma_\pm \quad  \mbox{with} \quad \alpha_\pm > 0$$  (see appendix for more
   details).
 %
 \item[Example~3-2]  This  arcsince distribution,  now  constraint uniformely  by
@@ -1168,7 +1168,7 @@ distributions  $f$ parametrized  by  a parameter  $\theta  \in \Theta  \subseteq
 %
 \begin{equation}
 \label{eq:phi-heat_equation}
-\nabla_\theta f = K \, \div\left( \| \nabla_x \phi'(f) \|^{\beta-2}
+\nabla_\theta f = K \, \div\left( \| \nabla_x \phi'(f) \|_{\SZ{\chi^*}}^{\beta-2}
 \nabla_x f \right)
 \end{equation}
 %
@@ -1185,10 +1185,10 @@ convex  twice differentiable  function  defined  over a  set  $\X \in  \Rset_+$.
   eq.~\eqref{eq:phi-heat_equation}  for a  twice differentiable  convex function
   $\phi$.   Assume that  $\nabla_\theta  \phi(f)$ is  absolutely integrable  and
   locally integrable  with respect to  $\theta$, and that the  function $\left\|
-    \nabla_x  \phi'(f)  \right\|^{\beta-2}  \nabla_x  \phi(f)$ vanishes  in  the
-  boundary of  $\X$.  Thus,  distribution $f$ satisfies  the extended  de Bruijn
-  identity,   relating  the   $\phi$-entropy  of   $f$  and   its  nonparametric
-  $(\beta,\phi)$-Fisher information as follows,
+    \nabla_x   \phi'(f)   \right\|_{\SZ{\chi^*}}^{\beta-2}   \nabla_x   \phi(f)$
+  vanishes  in the  boundary  of  $\X$.  Thus,  distribution  $f$ satisfies  the
+  extended  de Bruijn  identity,  relating  the $\phi$-entropy  of  $f$ and  its
+  nonparametric $(\beta,\phi)$-Fisher information as follows,
 %
 \begin{equation}
 \label{eq:phiDeBruijn}
@@ -1207,22 +1207,22 @@ with $C_\phi$ is the normalisation constant given eq.~\eqref{eq:Cphi}.
 \int_\X \phi'(f(x)) \, \nabla_\theta f(x) \, \dmu(x)\\[2.5mm]
 %
 & = & \displaystyle - K \int_\X \phi'(f(x)) \, \div\left( \| \nabla_x
-\phi'(f(x)) \|^{\beta-2} \nabla_x f(x) \right) \, \dmu(x)\\[2.5mm]
+\phi'(f(x)) \|_{\SZ{\chi^*}}^{\beta-2} \nabla_x f(x) \right) \, \dmu(x)\\[2.5mm]
 %
 & = & \displaystyle - K \int_\X \div\left( \phi'(f(x)) \| \nabla_x \phi'(f(x))
-\|^{\beta-2} \nabla_x f(x) \right) \, \dmu(x) + K \int_\X \nabla_x^t \phi'(f(x)) \|
-\nabla_x \phi'(f(x)) \|^{\beta-2} \nabla_x f(x) \, \dmu(x)\\[2.5mm]
+\|_{\SZ{\chi^*}}^{\beta-2} \nabla_x f(x) \right) \, \dmu(x) + K \int_\X \nabla_x^t \phi'(f(x)) \|
+\nabla_x \phi'(f(x)) \|_{\SZ{\chi^*}}^{\beta-2} \nabla_x f(x) \, \dmu(x)\\[2.5mm]
 %
-& = & \displaystyle - K \int_\X \div\left( \| \nabla_x \phi'(f(x)) \|^{\beta-2}
+& = & \displaystyle - K \int_\X \div\left( \| \nabla_x \phi'(f(x)) \|_{\SZ{\chi^*}}^{\beta-2}
 \nabla_x \phi(f(x)) \right) \, \dmu(x) + K \int_\X \left( \phi''(f(x))
-\right)^{\beta-1} \| \nabla_x f(x) \|^\beta \, \dmu(x)
+\right)^{\beta-1} \| \nabla_x f(x) \|_{\SZ{\chi^*}}^\beta \, \dmu(x)
 \end{eqnarray*}
 %
 where the  second line comes from  the $\phi$-heat equation and  where the third
 line comes from the product derivation rule.
 
 Now, from the  divergence theorem, the first term of  the right handside reduces
-to the integral  of $\| \nabla_x \phi'(f) \|^{\beta-2}  \nabla_x \phi(f)$ on the
+to the integral  of $\| \nabla_x \phi'(f) \|_{\SZ{\chi^*}}^{\beta-2}  \nabla_x \phi(f)$ on the
 boundary of  $\X$, that vanishes from  the assumption of  the proposition, while
 the  second   term  of   the  right  handside   related  to  $C_\phi$   and  the
 $(\beta,\phi)$-Fisher                      information                      from
@@ -1267,7 +1267,8 @@ tendre vers la Shannon.}
 
 \appendix
 
-\section{Inverse maximum entropy problem and associated inequalities: some examples}
+\section{Inverse  maximum  entropy  problem  and associated  inequalities:  some
+  examples}
 
 \SZ{In  this appendix,  we will  now derive  in detail  several case  of inverse
   problem of the maximal entropy problem. In each case, we will thus provide the
@@ -1294,7 +1295,7 @@ instance, which gives
 %
 \[
 \phi'(y) = \left( \lambda_0 - \sigma^2 \log(2 \pi \sigma^2) \, \lambda_1 \right)
-- 2 \sigma^2 \lambda_1 \log y.
+- 2 \sigma^2 \lambda_1 \log y \quad \SZ{\mbox{with} \: \lambda_1 < 0}.
 \]
 %
 The judicious choice
@@ -1312,6 +1313,14 @@ leads to function
 %
 that gives nothing more than the Shannon entropy as expected.
 
+\SZ{Now,  $\phi''(y)  \propto  \frac1y$   leading  to  the  escort  distribution
+  $E_{\phi,f} =  f$ so  that, as expected,  the $(\alpha,\phi)$ moments  are the
+  usual moments of order $\alpha$. When $\beta = 2$ and the usual euclidean norm
+  is  considered, the  $(\beta,\phi)$-Fisher informations  are the  usual Fisher
+  information and the usual  Cram\'er-Rao inequalities are recovered for $\alpha
+  = 2$.  Finally, for  $\beta =  2$, the usual  euclidean norm,  the $\phi$-heat
+  equation turns to be the heat equation, satisfied by the gaussian, so that the
+  usual de Bruijn identity is naturally recovered.}
 
 % ---------- q-Normal
 
