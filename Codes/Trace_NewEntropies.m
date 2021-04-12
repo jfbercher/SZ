@@ -1,26 +1,26 @@
-LogE = 0; LogV = 0;
+LogE = 1; LogV = 0;
 ArcE = 0;
-Gam = 1;
+Gam = 0;
 
 ifig = 1;
 
 
 % Logistique - ordre 1
 if(LogE == 1)
-  l0 = 0; l1 = -1; c = 0;
+  a = 1; b = 0; c = 0; %l0 = 0; l1 = -1; c = 0;
   %
   u = 0:1e-3:1;
   sq = sqrt(1-u); at = atanh(sq);
   %
-  phi_lm = c + l0*u + l1*(u.*at - sq).*(u<=1);
+  phi_lm = -a*(u.*at - sq).*(u<=1) + b*u + c;
   %
   figure(ifig)
-  h = plot(u,phi_lm,'k-'); set(h,'linewidth',1);
-  dt = (max(phi_lm) - min(phi_lm))*.01;
-  set(gca,'xlim',[0 1],'ylim',[min(phi_lm) max(phi_lm)+dt],'fontsize',6);
+  h = plot([u 2],[phi_lm 0],'k-'); set(h,'linewidth',1.5);
+  dt = max(phi_lm)*.01;
+  set(gca,'xlim',[0 2],'ylim',[0 max(phi_lm)+dt],'fontsize',14);
   set(gcf,'paperposition',[0 0 5 3]);
   ifig = ifig+1;
-  ct = menu('tracé de la logistique concave - moyennes :','oui','non');
+  ct = menu('trace de la logistique concave - moyennes :','oui','non');
   if(ct==1); print Logistic_moy -loose -deps; end
   %
 end
@@ -29,38 +29,38 @@ end
 
 % Logistique - ordre 2
 if(LogV == 1)
-  l0 = 0; l1 = -1; c = 0;
+  a = 1; b = 0; c = 0; %l0 = 0; l1 = -1; c = 0;
   u = 0:1e-4:1;
   sq = sqrt(1-u); at = atanh(sq);
   %
-  phi_lv = c + l0*u + l1*( u.*(at.^2) - 2*sq.*at - log(u) ).*(u<=1);
+  phi_lv = -a*( u.*(at.^2) - 2*sq.*at - log(u) ).*(u<=1) + b*u + c;
   %
   figure(ifig)
-  h = plot(u,phi_lv,'k-'); set(h,'linewidth',1);
-  dt = (max(phi_lv) - min(phi_lv))*.01;
-  set(gca,'xlim',[0 1],'ylim',[min(phi_lv) max(phi_lv)+dt],'fontsize',6);
+  h = plot([u 2],[phi_lv 0],'k-'); set(h,'linewidth',1.5);
+  dt = max(phi_lv)*.01;
+  set(gca,'xlim',[0 2],'ylim',[0 max(phi_lv)+dt],'fontsize',14);
   set(gcf,'paperposition',[0 0 5 3]);
   ifig = ifig+1;
-  ct = menu('tracé de la logistique - variance :','oui','non');
+  ct = menu('trace de la logistique - variance :','oui','non');
   if(ct==1); print Logistic_var -loose -deps; end
 end
 
 
 % Arcsin centre - ordre 1
 if(ArcE == 1)
-  c = 0; l0 = 0; l1 = 1;
-  u = 1:1e-4:2;
+  a = 1; b = 0; c = -pi/2;%c = 0; l0 = 0; l1 = 1;
+  u = 1:1e-4:2.25;
   %
   su = sqrt(u.^2-1);
-  phi = c + l0*u + (su+atan(1./su)).*(u>=1);
+  phi = a*(su+atan(1./su)).*(u>=1) + b*u + c;
   %
   figure(ifig)
-  h = plot(u,phi,'k-'); set(h,'linewidth',1);
-  dt = (max(phi) - min(phi))*.01;
-  set(gca,'xlim',[u(1) u(end)],'ylim',[min(phi)-dt max(phi)+dt],'fontsize',6);
+  h = plot([0 u],[0 phi],'k-'); set(h,'linewidth',1.5);
+  dt = max(phi)*.01 ;%- min(phi))*.01;
+  set(gca,'xlim',[0 u(end)],'ylim',[0 max(phi)+dt],'fontsize',14);
   set(gcf,'paperposition',[0 0 5 3]);
   ifig = ifig+1;
-  ct = menu(['tracé de l''arcsine centré dilaté - moyenne :'],'oui','non');
+  ct = menu(['trace de l''arcsine centre dilate - moyenne :'],'oui','non');
   if(ct==1); print Arcsine_moy -loose -deps; end
 end
 
@@ -97,7 +97,7 @@ if(Gam == 1)
       %yt = get(gca,'ytick')'; set(gca,'yticklabel',num2str(yt));
       set(gcf,'paperposition',[0 0 5 3*k(ia)]);
       ifig = ifig+1;
-      ct = menu(['tracé de la gamma(' int2str(a) ') - moment p=' int2str(p) ' : '],'oui','non');
+      ct = menu(['trace de la gamma(' int2str(a) ') - moment p=' int2str(p) ' : '],'oui','non');
       if(ct==1); eval(['print Gamma_a' int2str(a) '_p' int2str(p) ' -loose -deps;']); end
     end
   end
