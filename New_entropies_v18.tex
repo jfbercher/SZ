@@ -63,6 +63,7 @@
 \DeclareMathOperator*{\argmax}{\operatorname{argmax}}% operator argmax
 \newcommand{\Esp}[1]{\mathbb{E}\left[ #1 \right]}% math. mean
 \newcommand{\hypgeom}[2]{\mbox{}_{#1}\hspace{-1pt}F_{#2}}% hypergeom function
+\def\u{\mathrm{u}}
 
 
 
@@ -589,18 +590,18 @@ second-order moment constraint $T_1(x) = x^2$.
 \end{Example}
 %
 \begin{Example}\label{arcsine:ex}\setcounter{arcsineExample}{\value{example}}
-   Consider the arcsine distribution, $f_X(x) = \frac{1}{\pi \sqrt{2 \, \sigma^2
-       - x^2}}$,  \ defined  over $\X  = \left(  -\sigma \sqrt2  \, ;  \, \sigma
-   \sqrt2 \right)$, and let us determine the entropic functionals $\phi$ so that
-   $f_X$ is  the maximum $\phi$-entropy  distribution subject to  the constraint
-   $T_1(x)  = x^2$.   Now, to  fullfill condition~\ref{MonotonyDomains:cond}  we
-   must   impose    $\lambda_1   >    0$.    Some   algebra    \SZ{detailed   in
-     appendix~\ref{subsubsecapp:ArcsineSecondOrder}}   leads  to   the  entropic
-   functional,  after  a reparametrization  of  the  $\lambda_i$'s, $$\phi(y)  =
-   \frac{\alpha}{y} + \beta \, y +  \gamma \quad \mbox{with} \quad \alpha > 0.$$
-   This entropy is unusual and, due to  its form, is potentially finite only for
-   densities  defined over  a  bounded support  and that  are  divergent in  its
-   boundary (integrable divergence).
+   Consider the  arcsine distribution, \SZ{$f_X(x) =  \frac{1}{\sqrt{s^2 - \pi^2
+         x^2}}$,  \   defined  over  $\X   =  \left(  -\frac{s}{\pi}  \,   ;  \,
+     \frac{s}{\pi}  \right)$}  and let  us  determine  the entropic  functionals
+   $\phi$ so  that $f_X$ is  the maximum $\phi$-entropy distribution  subject to
+   the     constraint     $T_1(x)     =      x^2$.      Now,     to     fullfill
+   condition~\ref{MonotonyDomains:cond} we  must impose  $\lambda_1 >  0$.  Some
+   algebra \SZ{detailed in appendix~\ref{subsubsecapp:ArcsineSecondOrder}} leads
+   to   the   entropic   functional,    after   a   reparametrization   of   the
+   $\lambda_i$'s,  $$\phi(y) =  \frac{\alpha}{y} +  \beta  \, y  + \gamma  \quad
+   \mbox{with} \quad \alpha > 0.$$ This entropy is unusual and, due to its form,
+   is potentially finite  only for densities defined over a  bounded support and
+   that are divergent in its boundary (integrable divergence).
 \end{Example}
 
 
@@ -749,9 +750,9 @@ respectively,
 
 \
 
-Let us now  come back to the  arcsine example $f_X(x) =  \frac{1}{\pi \sqrt{2 \,
-    \sigma^2 - x^2}}$, defined  over $\X = \left( -\sigma \sqrt2  \, ; \, \sigma
-\sqrt2 \right)$ (example~\ref{arcsine:ex}) of the  previous section, when now we
+Let us now come  back to the arcsine example \SZ{$f_X(x)  = \frac{1}{s^2 - \pi^2
+    x^2}$,  defined over  $\X =  \left( -  \frac{s}{\pi} \,  ; \,  \frac{s}{\pi}
+  \right)$}  (example~\ref{arcsine:ex}) of  the  previous section,  when now  we
 constraint the first order moment or partial first order moments.
 
 \setcounter{example}{0}
@@ -762,11 +763,11 @@ constraint the first order moment or partial first order moments.
   Let  us now  consider  this arcsince  distribution,  constraint uniformely  by
   $T_1(x)  =  x$.   Clearly,  neither  condition~\ref{MonotonyDomains:cond}  nor
   condition~\ref{LevelSets:cond}  can  be  satisfied.  Note  that  the  arcsince
-  distribution is bijective  on each set $\X_- =  ( - \sigma \sqrt2 \,  ; \, 0)$
-  and  $\X_+ =  [0 \,  ;  \, \sigma  \sqrt2)$ that  partitions $\X$.   Therfore,
-    considering  multiform entropic  functionals  with this  partition allow  to
-    overcome   the  issue   on  condition~\ref{LevelSets:cond},   but  that   on
-    condition~\ref{MonotonyDomains:cond} remains.
+  distribution is bijective on each set $\X_- = \left( - \frac{s}{\pi} \, ; \, 0
+  \right)$ and $\X_+  = \left[ 0 \, ; \,  \frac{s}{\pi} \right)$ that partitions
+    $\X$.   Therfore,  considering  multiform  entropic  functionals  with  this
+    partition allow to overcome the issue on condition~\ref{LevelSets:cond}, but
+    that on condition~\ref{MonotonyDomains:cond} remains.
   %  \SZ{will be an {\em extremal} $\phi$-entropy provided} that $\lambda_1 > 0$
   %  and \SZ{therefore with} the associated multiform entropic functional, after
   %  a
@@ -774,17 +775,20 @@ constraint the first order moment or partial first order moments.
   reparametrization of the $\lambda_i$'s, we obtain
   %
    \begin{eqnarray*}
-   &&\widetilde{\phi}_\pm(y) = \pm \alpha  \left( \sqrt{u^2 -
+     &&\widetilde{\phi}_\pm(y) =  \widetilde{\phi}_{\pm,\u}(s y)\qquad \mbox{with}
+     \\[2.5mm]
+     && \widetilde{\phi}_{\pm,\u}(y) = \pm \alpha  \left( \sqrt{u^2 -
     1} + \arctan\left( \frac{1}{\sqrt{u^2 - 1}} \right) \right)
   \, \un_{(  1 \, ;  \, +\infty )}(u)  + \beta \,  u +
-  \gamma_\pm\\[2.5mm]
-  && \mbox{with} \quad u = \sqrt2 \pi \sigma y
+  \gamma_\pm
+  %\\[2.5mm]  && \mbox{with} \quad u = \sqrt2 \pi \sigma y
   %\quad  \mbox{and} \quad \alpha  > 0
   \end{eqnarray*}
    %
-   It appears that  whereas these functionals are  defined for $u >  1$, one can
-   extend them continuously for any $u > 0$ imposing $\pm \frac{\pi}{2} \alpha +
-   \beta  + \gamma_\pm$.  However,  the  functional are  no  more convex.   (see
+   where $s$  is thus an  additional parameter of  the family.  It  appears that
+   whereas  these functionals  are defined  for  $u >  1$, one  can extend  them
+   continuously for  any $u >  0$ imposing $\pm  \frac{\pi}{2} \alpha +  \beta +
+   \gamma_\pm$.    However,   the  functional   are   no   more  convex.    (see
    appendix~\ref{subsubsecapp:ArcsineFirstPartial} for more details).
 \end{Example}
 
@@ -799,19 +803,23 @@ constraint the first order moment or partial first order moments.
   entropic functional, after a reparametrization of the $\lambda_i$'s, as
   %
   \begin{eqnarray*}
-    &&\phi_\pm(y) = \alpha_\pm \left( \sqrt{u^2 - 1} +
+     &&\phi_\pm(y) = \phi_{\pm,\u}(s y)\qquad \mbox{with}
+     \\[2.5mm]
+    &&\phi_{\pm,\u}(u) = \alpha_\pm \left( \sqrt{u^2 - 1} +
   \arctan\left( \frac{1}{\sqrt{u^2 - 1}}  \right) \right) \,
   \un_{( 1  \, ;  \, +\infty  )}(u) +  \beta \,  u +
-  \gamma_\pm\\[2.5mm]
-  &&\mbox{with} \quad u = \sqrt2 \pi \sigma y \quad \mbox{and}  \quad \alpha_\pm > 0.
+  \gamma_\pm
+  %\\[2.5mm]
+  %&&\mbox{with} \quad u = \sqrt2 \pi \sigma y \quad \mbox{and}  \quad \alpha_\pm > 0.
   \end{eqnarray*}
   %
-  In this case,  the entropic functionals can  be considered for any $u  > 0$ by
-  imposing $\frac{\pi}{2} \alpha_\pm + \beta + \gamma_\pm = 0$ and one can check
-  that the obtained functions are of  class $C^1$.  In addition, remarkably, the
-  entropic functional  can be made  univalued by choosing $\alpha_+  = \alpha_-$
-  and  $\gamma_+  = \gamma_-$.   In  fact,  such  a  choice is  equivalent  than
-  considering the constraint $T_1(x) = |x|$ which respects the symmetries of the
+  where $s$ is  thus an additional parameter  of the family.  In  this case, the
+  entropic  functionals  can  be  considered  for   any  $u  >  0$  by  imposing
+  $\frac{\pi}{2} \alpha_\pm + \beta + \gamma_\pm = 0$ and one can check that the
+  obtained functions are of class  $C^1$.  In addition, remarkably, the entropic
+  functional  can  be made  univalued  by  choosing  $\alpha_+ =  \alpha_-$  and
+  $\gamma_+ = \gamma_-$.  In fact, such  a choice is equivalent than considering
+  the  constraint  $T_1(x)   =  |x|$  which  respects  the   symmetries  of  the
   distribution,  allowing  thus to  recover  a  classical $\phi$-entropy.   (see
   appendix~\ref{subsubsecapp:ArcsineFirstPartial} for more details).
 \end{Example}
@@ -1534,7 +1542,7 @@ that gives nothing  more than the Shannon entropy as expected,
 %
 \SZ{
   \[
-  H_\phi[f] = - \int_\X f(x) \ln f(x) \, d\mu(x) 
+  H_\phi[f] = - \int_\X f(x) \ln f(x) \, \dmu(x) 
   \]
   %
   where $\X$ is now the support of  $f$ (overall, the obtained family of entropy
@@ -1680,20 +1688,21 @@ distribution is naturally recovered.
 
 The arcsine distribution is a special case of the beta distribution with $\alpha
 = \beta  = \frac12$. We  consider here the centered  and scaled version  of this
-distribution which writes
+distribution which writes\SZ{
 %
 \[
-f_X(x) = \frac{1}{\pi\sqrt{  2 \, \sigma^2 - x^2}} \qquad  \mbox{on} \qquad \X =
-\left( - \sigma \sqrt2 \, ; \, \sigma \sqrt2 \right).
+f_X(x) = \frac{1}{\sqrt{  s^2 - \pi^2 x^2}} \qquad  \mbox{on} \qquad \X =
+\left( - \frac{s}{\pi} \, ; \, \frac{s}{\pi} \right).
 \]
 %
-The inverse distributions $f_{X,\pm}^{-1}$ on $\X_-  = \left( - \sigma \sqrt2 \,
-; \, 0 \right)$ and $\X_+ = \left( 0 \, ; \, \sigma \sqrt2 \right)$ write then
+The inverse distributions $f_{X,\pm}^{-1}$ on $\X_-  = \left( - \frac{s}{\pi} \,
+; \, 0 \right)$ and $\X_+ = \left( 0 \, ; \, \frac{s}{\pi} \right)$ write then
 %
 \[
-f_{X,\pm}^{-1}(y) = \pm \frac{\sqrt{2 \pi^2 \sigma^2  y^2 - 1}}{\pi y}, \qquad y
-\ge \frac{1}{\pi \sigma \sqrt2}
+f_{X,\pm}^{-1}(y) = \pm \frac{\sqrt{s^2  y^2 - 1}}{\pi y}, \qquad y
+\ge \frac{1}{s}
 \]
+}
 
 
 Let us  now consider again  either a second order  moment as the  constraint, or
@@ -1708,14 +1717,14 @@ Let us  now consider again  either a second order  moment as the  constraint, or
 When   the    second   order   moment    $T_1(x)   =   x^2$    is   constrained,
 \SZ{conditions\ref{LevelSets:cond}   is  satisfied,   so  that,   injecting  the
   expression       of      $T_1\left(       f_X^{-1}(y)      \right)$       into
-  eq.~\eqref{eq:derivative-phi}} one immediately obtains
+  eq.~\eqref{eq:derivative-phi} one immediately obtains
 %
 \[
-\phi'(y)=\lambda_0  + \lambda_1  \left(2 \sigma^2  - \frac{1}{\pi^2  y^2}\right)
+\phi'(y)=\lambda_0  + \lambda_1  \left( \frac{s^2}{\pi^2}  - \frac{1}{\pi^2  y^2}\right)
 \qquad \mbox{with} \quad \lambda_1 > 0
 \]
 %
-\SZ{where    the   requisit    $\lambda_1   <0$    is   necessary    to   satisfy
+where    the   requisit    $\lambda_1   <0$    is   necessary    to   satisfy
   condition~\ref{MonotonyDomains:cond}.   After  a   reparametrization  of   the
   $\lambda_i$s, the family of entropy functional is then
 %
@@ -1731,7 +1740,7 @@ which drastically simplifies with the special choice $\alpha = 1, \beta = \gamma
 %
 \[
 \phi(y)  =   \frac{1}{y}  \quad  \mbox{so   that}  \quad  H_\phi[f]   =  \int_\X
-\frac{d\mu(x)}{f(x)}
+\frac{\dmu(x)}{f(x)}
 %c =  0, \qquad  \lambda_0 = -  \frac{\alpha^2}{\pi^2} \qquad  \mbox{and} \qquad
 %\lambda_1  =   \pi^2  \qquad   \mbox{to}  \qquad\phi(y)  =   \frac{1}{y}  \quad
 %\mbox{with} \quad \alpha > 0
@@ -1741,7 +1750,7 @@ which drastically simplifies with the special choice $\alpha = 1, \beta = \gamma
 whereas $\beta$ and $\gamma$ a induce shift).
 
 Note that this entropy can be viewed as Havrdat-Charv\'at-Tsallis entropy for $q
-= 0$, so  that all the generalizations (escort,  moments, Cramer-Rai inequality,
+= 0$, so  that all the generalizations (escort,  moments, Cramer-Rao inequality,
 de  Bruijn  identity)  set out  appendix~\ref{subsecapp:qNormalSecondOrder}  are
 recovered taking the limit $q \to 0$.}
 % function   that   can   then    be   defined   over   which   is   represented
@@ -1768,9 +1777,9 @@ eq.~\eqref{eq:derivative-phil-partial}     and    eq.~\eqref{eq:derivative-phil}
 respectively,
 %
 \[
-\phi_\pm'(y) =  \lambda_0 + \lambda_{\pm,1}  \frac{\sqrt{2 \pi^2 \sigma^2  y^2 -
+\phi_\pm'(y) =  \lambda_0 + \lambda_{\pm,1}  \frac{\sqrt{s^2  y^2 -
     1}}{\pi y} \qquad \mbox{and} \qquad \widetilde{\phi}_\pm'(y) = \lambda_0 \pm
-\lambda_1 \frac{\sqrt{2 \pi^2 \sigma^2 y^2 - 1}}{\pi y}
+\lambda_1 \frac{\sqrt{s^2 y^2 - 1}}{\pi y}
 %\sqrt2 \pi \sigma \lambda_0 + \lambda_{\pm,1} \frac{\sqrt{2 \pi^2
 %    \sigma^2  y^2 -  1}}{y} \qquad  \mbox{or} \qquad  \widetilde{\phi}_\pm'(y) =
 %\lambda_0 \pm \lambda_1 \frac{\sqrt{2 \pi^2 \sigma^2 y^2 - 1}}{y}
@@ -1783,25 +1792,29 @@ condition~\ref{MonotonyDomains:cond} one must impose  $$\lambda_\pm > 0$$ At the
 opposite,  condition~\ref{MonotonyDomains:cond}  cannot  be  satisfied  for  the
 second case (one would  has to impose $\pm \lambda_1 > 0$  on $\X_\pm$). After a
 reparametrization of the  $\lambda_i$s, one obtain the branches  of the entropic
-functional under the form $\phi_\pm(y) = \phi_{\pm,\mathrm{u}}(\sqrt2 \pi \sigma
-y)$ where
+functional under the form
 %
-\[
-\phi_{\pm,\mathrm{u}}(u)  =  \alpha_\pm  \left(  \!  \sqrt{u^2  -  1}  \,  +  \,
+\begin{eqnarray*}
+  &&\hspace{-5mm}\phi_\pm(y) = \phi_{\pm,\u}(s y) \qquad \mbox{with}
+  \\[2.5mm]
+&&\hspace{-5mm}\phi_{\pm,\u}(u)  =  \alpha_\pm  \left(  \!  \sqrt{u^2  -  1}  \,  +  \,
 \arctan\left( \frac{1}{\sqrt{u^2 - 1}} \right) \!  \right) \un_{\left( 1 \, ; \,
-  +\infty \right)}(u) \,  + \, \beta \,  u \, + \,  \gamma_\pm \quad \mbox{with}
-\quad \alpha_\pm > 0
-\]
+  +\infty \right)}(u) \,  + \, \beta \,  u \, + \,  \gamma_\pm, \qquad \alpha_\pm > 0
+\end{eqnarray*}
 %
-and          the           branches          $\widetilde{\phi}_\pm(y)          =
-\widetilde{\phi}_{\pm,\mathrm{u}}(\sqrt2 \pi \sigma y)$  for the non-convex case
-where
+and          the           branches
+%$\widetilde{\phi}_\pm(y)          =
+%\widetilde{\phi}_{\pm,\mathrm{u}}(\sqrt2 \pi \sigma y)$
+for the non-convex case
 %
-\[
-\widetilde{\phi}_{\pm,\mathrm{u}}(u) = \pm \alpha \left(  \! \sqrt{u^2 - 1} \, +
+\begin{eqnarray*}
+  &&\hspace{-5mm}\widetilde{\phi}_\pm(y) = \widetilde{\phi}_{\pm,\u}(s y) \qquad \mbox{with}
+  \\[2.5mm]
+  &&\hspace{-5mm}
+  \widetilde{\phi}_{\pm,\u}(u) = \pm \alpha \left(  \! \sqrt{u^2 - 1} \, +
 \, \arctan\left( \frac{1}{\sqrt{u^2 - 1}} \right)  \! \right) \un_{\left( 1 \, ;
   \, +\infty \right)}(u) \, + \, \beta \, u \, + \, \gamma_\pm
-\]
+\end{eqnarray*}
 
 In both case, the entropic functionals are defined for $u > 1$ due to the domain
 where $f_X$ is invertible. However, in the first case, one can extend the domain
@@ -1809,7 +1822,7 @@ to  $\Rset_+$ by  imposing $\frac{\pi}{2}  \alpha_\pm +  \beta +  \gamma_\pm$ to
 insure  the  continuity  at $u  =  1$.   One  can  thus check  that  the  obtain
 functionals are  of class  $C^1$, so  that the multiform  entropy apply  for any
 distribution.     This     is    also     possible    for     the    functionals
-$\widetilde{\phi}_{\pm,\mathrm{u}}$  by  imposing condition  $\pm  \frac{\pi}{2}
+$\widetilde{\phi}_{\pm,\u}$  by  imposing condition  $\pm  \frac{\pi}{2}
 \alpha + \beta + \gamma_\pm = 0$.
 
 Remarkably, in  the first case, an  univalued entropic functional can  be obtain
@@ -1817,8 +1830,7 @@ imposing both $\alpha_\pm  = \alpha, \, \gamma_\pm = \gamma$.  Therefore, by the
 judicious choice  $\alpha =  1, \beta  = 0, \gamma  = -\frac{\pi}{2}$  we obtain
 %
 \[
-\phi(y) = \phi_{\mathrm{u}}(\sqrt2
-\pi \sigma y) \quad \mbox{with} \quad \phi_{\mathrm{u}}(u) =
+\phi(y) = \phi_\u(s y) \qquad \mbox{with} \qquad \phi_\u(u) =
 \left( \! \sqrt{u^2  - 1} \,  + \,  \arctan\left( \frac{1}{\sqrt{u^2 -  1}} \right)
  - \frac{\pi}{2} \right) \, \un_{\left( 1 \, ; \, +\infty \right)}(u)
 \]
@@ -1831,7 +1843,12 @@ have the same symmetries that $f_X$.}
 
 \
 
-The      uniform      function      $\phi_{\mathrm{u}}$      is      represented
+\SZ{In all cases, $s$ appears as an  additional parameter of the (family of the)
+  $\phi$-entropy.}
+
+\
+
+The      uniform      function      $\phi_\u$      is      represented
 figure~\ref{fig:Entropy-arcsin}.
 %for the special choice \SZ{$\alpha = 1, \beta = \gamma = 0$} \jfb{ (here again,
 %for $c = \lambda_0 = 0, \lambda_1 = 1$, $\widetilde{\phi}_\pm = \pm \phi$).  In
@@ -1845,7 +1862,7 @@ figure~\ref{fig:Entropy-arcsin}.
   \end{minipage}
   %
   \begin{minipage}{.4\columnwidth}
-\caption{\SZ{Univalued e}ntropy  functional   $\phi_{\mathrm{u}}$  derived  from   the  arcsine
+\caption{\SZ{Univalued e}ntropy  functional   $\phi_\u$  derived  from   the  arcsine
   distribution with partial constraints $T_{\pm,1}(x) = x \un_{\X_\pm}(x)$.}
 \label{fig:Entropy-arcsin}
   \end{minipage}
@@ -1858,12 +1875,13 @@ figure~\ref{fig:Entropy-arcsin}.
 \subsection{The logistic distribution}
 \label{subsecapp:Logistic}
 
-In this case, 
+In this case, \SZ{
 %
 \[
-f_X(x)  = \frac{1  -  \tanh^2\!\left(\frac{x}{2s}\right)}{4s} \qquad  \mbox{and}
+f_X(x)  = \frac{1  -  \tanh^2\left(\frac{2 x}{s}\right)}{s} \qquad  \mbox{and}
 \qquad T_1(x) = x^2 \qquad \mbox{on} \qquad \X = \Rset.
 \]
+}
 % VAR = pi^2 s^2 / 3
 This  distribution, which  resembles  the normal  distribution  but has  heavier
 tails,   has    been   used   in   many    applications~\Avoir{\cite{toto}   des
@@ -1873,12 +1891,13 @@ tails,   has    been   used   in   many    applications~\Avoir{\cite{toto}   des
 \X_\pm = \Rset_\pm
 \]
 %
-the inverse distribution writes 
+the inverse distribution writes \SZ{
 %
 \[
-f_{X,\pm}^{-1}(y) = \pm 2 s \argtanh \sqrt{1-4sy}, \qquad y \in \left( 0 \, ; \,
-  \frac{1}{4s} \right]
+f_{X,\pm}^{-1}(y) = \pm \frac{s}{2} \argtanh \sqrt{1 - s y}, \qquad y \in \left( 0 \, ; \,
+  \frac{1}{s} \right]
 \]
+}
 
 We concentrate  now on a second  order constraint, that respect  the symmetry of
 the distribution,  and on  first order  constrain(s) that  does not  respect the
@@ -1893,7 +1912,7 @@ In this  case, \SZ{injecting the  expression of $T_1\left(  f_X^{-1}(y) \right)$
   into   eq.~\eqref{eq:derivative-phi},   we   immediately   obtain
 %
 \[
-\phi'(y) = \lambda_0 + 4 s^2 \lambda_1 \left( \argtanh\sqrt{1 - 4 s y} \right)^2
+\phi'(y) = \lambda_0 + \frac{\lambda_1 s^2}{4} \left( \argtanh\sqrt{1 - s y} \right)^2
 \qquad \mbox{with} \qquad \lambda_1 < 0
 %4  s  \left(  \lambda_0  +  \lambda_1  \left(  \argtanh\sqrt{1-4sy}
 %\right)^2 \right)
@@ -1911,13 +1930,14 @@ condition~\ref{MonotonyDomains:cond}.
 %\]
 %
 After a  reparametrization, we  thus achieve the  family of  entropy functionals
-$\phi(y) = \phi_{\mathrm{u}}(4 s y)$ with
 %
-\[
-\phi_{\mathrm{u}}(u)  =   -\alpha  \left[   u  \left(
-  \argtanh\sqrt{1-u}  \right)^2  -  2  \sqrt{1-u} \argtanh\sqrt{1-u}  -  \log  u
+\begin{eqnarray*}
+  &&\hspace{-7mm}\phi(y) = \phi_\u(s y) \qquad \mbox{with}
+ \\[2.5mm]  
+&&\hspace{-7mm}\phi_\u(u)  =   -\alpha  \left[   u  \left(
+  \argtanh\sqrt{1-u}  \right)^2 \!  -  2  \sqrt{1-u} \, \argtanh\sqrt{1-u}  -  \log  u
   \right] \un_{\left( 0 \, ; \, 1 \right]}(u) + \beta u + \gamma
-\]
+\end{eqnarray*}
 %
 with \ $\alpha >  0$. Although defined for $u \le 1$,  the entropic function can
 be extended continuously to $\Rset_+$ imposing  $\beta + \gamma = 0$, leading to
@@ -1925,16 +1945,22 @@ a functional of class  $C^1$. One can restrict to $\alpha = 1,  \beta = \gamma =
 0$ (the  whole family of entropies  is a scaled  and shifted version of  the one
 obtain by this choice) , leading to the entropic functional
 %
-\[
-\phi_{\mathrm{u}}(u)  =  - \left[  u  \left(  \argtanh\sqrt{1-u} \right)^2  -  2
-  \sqrt{1-u}  \argtanh\sqrt{1-u} -  \log  u  \right] \un_{\left(  0  \,  ; \,  1
+\begin{eqnarray*}
+  &&\phi(y) = \phi_\u(s y) \qquad \mbox{with}
+ \\[2.5mm]  
+&& \phi_\u(u)  =  - \left[  u  \left(  \argtanh\sqrt{1-u} \right)^2  -  2
+  \sqrt{1-u}  \, \argtanh\sqrt{1-u} -  \log  u  \right] \un_{\left(  0  \,  ; \,  1
   \right]}(u)
-\]
+\end{eqnarray*}
 %
 depicted figure~\ref{fig:Entropy-logistic}(a).
 %depicts  function $\phi_{\mathrm{u}}$  for the  special choice  $\lambda_0 =  0,
 %\lambda_1 = -1$ and $\X$ being unbounded, $c$ is chosen to be zero.
 }
+
+\SZ{Here again, $s$ appears as an  additional parameter of the (family of the)
+  $\phi$-entropy.}
+
 
 
 % --------------- Logistic first order
@@ -1964,10 +1990,10 @@ eq.~\eqref{eq:derivative-phil}  respectively,   over  each  set   $\X_\pm$,  the
 branches
 %
 \[
-\phi'_\pm(y)  =  \lambda_0 + 2 s \lambda_{\pm,1}  \argtanh\sqrt{1-4sy}
+\phi'_\pm(y)  =  \lambda_0 + \frac{\lambda_{\pm,1} s}{2}  \argtanh\sqrt{1-sy}
   \qquad \mbox{\&} \qquad 
-\widetilde{\phi}'_\pm(y)    =   \lambda_0 \pm 2    s    \lambda_1
-\argtanh\sqrt{1-4sy}
+\widetilde{\phi}'_\pm(y)    =   \lambda_0 \pm \frac{\lambda_1 s}{2}
+\argtanh\sqrt{1-sy}
 \]
 %
 %for any $ $,
@@ -1976,23 +2002,28 @@ partial  moments,  to   satisfy  condition~\ref{MonotonyDomains:cond}  one  must
 impose $$\lambda_\pm < 0$$ At the opposite, condition~\ref{MonotonyDomains:cond}
 cannot be satisfied for the second case  (one would has to impose $\pm \lambda_1
 < 0$  on $\X_\pm$).  After a  reparametrization of the $\lambda_i$s,  one obtain
-the  branches  of  the  entropic   functional  under  the  form  $\phi_\pm(y)  =
-\phi_{\pm,\mathrm{u}}(4 s y)$ where
+the  branches  of  the  entropic   functional  under  the  form
 %
-\[
-\phi_{\pm,\mathrm{u}}(u)  = -  \alpha_\pm \left(  u \,  \argtanh\sqrt{1-u} \,  -
+\begin{eqnarray*}
+  && \phi_\pm(y)  = \phi_{\pm,\u}(s y) \qquad \mbox{with}
+  \\[2.5mm]
+%
+&& \phi_{\pm,u}(u)  = -  \alpha_\pm \left(  u \,  \argtanh\sqrt{1-u} \,  -
 \sqrt{1-u} \right) \un_{\left( 0  \, ; \, 1 \right]}(u) \, + \,  \beta \, u \, +
-\, \gamma_\pm \quad \mbox{ with } \quad \alpha_\pm > 0
-\]
+\, \gamma_\pm, \qquad \alpha_\pm > 0
+\end{eqnarray*}
 %
-and the branches  $\widetilde{\phi}_\pm(y) = \widetilde{\phi}_{\pm,\mathrm{u}}(4
-s y)$ for the non-convex case where
+and the branches
+%$\widetilde{\phi}_\pm(y) = \widetilde{\phi}_{\pm,\mathrm{u}}(4 s y)$
+for the non-convex case where
 %
-\[
-\widetilde{\phi}_{\pm,\mathrm{u}}(u)  = \pm \alpha \left(  u \,  \argtanh\sqrt{1-u} \,  -
+\begin{eqnarray*}
+  && \widetilde{\phi}_\pm(y)  = \widetilde{\phi}_{\pm,\u}(s y) \qquad \mbox{with}
+  \\[2.5mm]
+&& \widetilde{\phi}_{\pm,u}(u)  = \pm \alpha \left(  u \,  \argtanh\sqrt{1-u} \,  -
 \sqrt{1-u} \right) \un_{\left( 0  \, ; \, 1 \right]}(u) \, + \,  \beta \, u \, +
-\, \gamma_\pm \quad \mbox{ with } \quad \alpha_\pm > 0
-\]
+\, \gamma_\pm
+\end{eqnarray*}
 %
 In both cases,  even if the inverse of  $f_X$ restricts $u$ to be  lower than 1,
 both entropic  functionals can  be extended  to $\Rset_+$  by imposing  $\beta +
@@ -2007,14 +2038,19 @@ classical $\phi$-entropy.  Then, by the judicious  choice $\alpha = 1, \beta = 0
 = \gamma = 0$ we obtain
 %
 \[
-\phi(y) = \phi_{\mathrm{u}}(4 s  y) \quad \mbox{with} \quad \phi_{\mathrm{u}}(u)
+\phi(y) = \phi_\u(s  y) \quad \mbox{with} \quad \phi_\u(u)
 = \left( u \, \argtanh\sqrt{1-u} \, - \sqrt{1-u} \right) \un_{\left( 0 \, ; \, 1
   \right]}(u)
 \]
 
 \
 
-Function $\phi_{\mathrm{u}}$ is represented figure~\ref{fig:Entropy-logistic}(b).
+\SZ{Once again,  $s$ appears as an  additional parameter of the  (family of the)
+  $\phi$-entropy.}
+
+\
+
+Function $\phi_\u$ is represented figure~\ref{fig:Entropy-logistic}(b).
 %for the special choice $c = \lambda_0 = 0, \overline{\lambda}_1 = -1$ (here, for
 %$c =  \lambda_0 = 0, \lambda_1  = -1$, $\widetilde{\phi}_\pm =  \pm \phi$). 
 
@@ -2022,7 +2058,7 @@ Function $\phi_{\mathrm{u}}$ is represented figure~\ref{fig:Entropy-logistic}(b)
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=\columnwidth]{PDF/MaxEnt_LogisticLaw}}
-\caption{Entropy  functional  $\phi_{\mathrm{u}}$   derived  from  the  logistic
+\caption{Entropy  functional  $\phi_\u$   derived  from  the  logistic
   distribution:  (a)~with  $T_1(x)  =  x^2$   and  (b)~with  $T_{\pm,1}(x)  =  x
   \un_{\X_\pm}(x)$.}
 \label{fig:Entropy-logistic}
@@ -2036,23 +2072,37 @@ Function $\phi_{\mathrm{u}}$ is represented figure~\ref{fig:Entropy-logistic}(b)
 
 As a very special case, consider here the gamma distribution expressed as
 %
+\SZ{
 \[
-f_X(x) = \frac{\beta^\alpha  x^{\alpha-1} \exp(-\beta x)}{\Gamma(\alpha)} \qquad
-\mbox{on} \qquad \X = \Rset_+.
+f_X(x) = \frac{x^{\alpha-1}  \exp\left(- \frac{x}{\sigma} \right)}{\sigma^\alpha
+  \Gamma(\alpha)} \qquad \mbox{on} \qquad \X = \Rset_+.
 \]
+}
 %
 Let  us concentrate  on the  case $\alpha  > 1$  for which  the distribution  is
-non-monotonous, unimodal, where the mode is located at $x = x_{\mathrm{m}}$, and
-$f_X(\Rset_+) = \left[ 0 \, ; \, \frac1{\tau \,e^{\alpha-1}} \right]$ with
+non-monotonous, unimodal, where the mode is located at \SZ{$x = x_{\mathrm{m}}$ with
+  %
+  \[
+  x_{\mathrm{m}} = (\alpha-1) \sigma
+  \]
+  %
+  and
+  %
+  \[
+  f_X(\Rset_+) = \left[ 0 \, ; \, \frac{(\alpha-1)^{\alpha-1} \, e^{1-\alpha}}{\sigma \, \Gamma(\alpha)} \right]
+    %\frac1{\tau \,e^{\alpha-1}} \right]
+  \]
+}
+%$ with
+%%
+%\[
+%x_{\mathrm{m}}  =   (\alpha-1) \sigma  \qquad  \mbox{and}  \qquad   \tau  =
+%\frac{\Gamma(\alpha)}{\beta \, (\alpha-1)^{\alpha-1}}
+%\]
 %
-\[
-x_{\mathrm{m}}  =   \frac{\alpha-1}{\beta}  \qquad  \mbox{and}  \qquad   \tau  =
-\frac{\Gamma(\alpha)}{\beta \, (\alpha-1)^{\alpha-1}}
-\]
-%
-Thus, here again it cannot be viewed  as a maximum entropy constraint neither by
-any $p$-order  moment.  Here,  we can  again interpret it  as a  maximum entropy
-constrained by partial moments
+Here again it cannot be \SZ{as  maximizer of a $\phi$-entropy constraint subject
+  to a moment of order $p$}.  Here, we can again \SZ{consider partial moments as
+  constraints,}
 %
 \[
 \SZ{T_{k,1}(x)  =  x^p \,  \un_{\X_k}(x),  \quad  k \in  \{  0  , -1  \}  \quad
@@ -2068,34 +2118,46 @@ T_1(x) = x^p \quad \mbox{over} \quad \X = \Rset_+
 %
 where $p > 0$. Inverting $y = f_X(x)$ leads to the equation
 %
+\SZ{
 \[
 - \frac{x}{x_{\mathrm{m}}}  \exp\left( -  \frac{x}{x_{\mathrm{m}}}  \right) =  -
-(\tau \, y )^{\frac{1}{\alpha - 1}}
+\left(       \frac{\sigma        \,       \Gamma(\alpha)}{(\alpha-1)^{\alpha-1}}
+\right)^{\frac{1}{\alpha-1}}
+%(\tau \, y )^{\frac{1}{\alpha - 1}}
 %  \qquad   \mbox{with}  \qquad   \tau   =  \left(   \frac{\Gamma(\alpha)}{\beta
 %  (\alpha-1)^{\alpha-1}} \right)^{\frac{1}{\alpha-1}}
 \]
+}
 %
 to be solved. As expected, this  equation has two solutions. These solutions can
 be  expressed   via  the   multivalued  Lambert-W   function  $\W$   defined  by
 $z=\W(z)\exp(\W(z))$,  i.e., $\W$  is  the  inverse function  of  $u \mapsto  u
 \exp(u)$\cite[\S~1]{CorGon96}, leading to the inverse functions
 %
+\SZ{
 \[
-f_{X,k}^{-1}(y) = -  x_{\mathrm{m}} \, \W_k\left( -  (\tau y)^{\frac{1}{\alpha -
-    1}} \right),  \qquad y \in  \left[ 0 \, ;  \, \frac{1}{\tau e^{\alpha  - 1}}
+f_{X,k}^{-1}(y) = -  x_{\mathrm{m}} \, \W_k\left(       -  \left( \frac{\sigma        \,       \Gamma(\alpha) \, y}{(\alpha-1)^{\alpha-1}}
+\right)^{\frac{1}{\alpha-1}} \right)
+%\left( -  (\tau y)^{\frac{1}{\alpha -
+%    1}} \right)
+,  \qquad y \in  \left[ 0 \, ;  \, \frac{(\alpha-1)^{\alpha-1} e^{1-\alpha}}{\sigma \, \Gamma(\alpha)}
+  %\frac{1}{\tau e^{\alpha  - 1}}
   \right],
 \]
+}
 %
 where  $k$  denotes the  branch  of  the  Lambert-W  function. $k=0$  gives  the
 principal branch and here it is related  to the entropy part on $\X_0$, while $k
 = -1$ gives the secondary branch, related to $\X_{-1}$ here.
 
-
-One has thus to solve the equation
+\SZ{Applying~\ref{eq:derivative-phil-partial}  to  obtain  the branches  of  the
+  functionals  of the  multiform entropy,  one}  has thus  to \SZ{integrate  the
+  function}
 %
 \[
-\phi'_k(y) =  \lambda_0 +  \lambda_{k,1} \left[ - x_{\mathrm{m}} \, \W_k\left(  - (\tau
-  y)^{\frac{1}{\alpha - 1}} \right) \right]^p
+\phi'_k(y) = \lambda_0  + \lambda_{k,1} \left[ - x_{\mathrm{m}}  \, \W_k\left( -
+\left[    \frac{\sigma    \,   \Gamma(\alpha)    \,    y}{(\alpha-1)^{\alpha-1}}
+\right]^{\frac{1}{\alpha-1}} \right) \right]^p
 \]
 %
 %where the  positive factor  are absorbed in  the $\lambda_0,  \lambda_{k,1}$ and
@@ -2110,17 +2172,23 @@ $\lambda_1$  instead  of  the  $\lambda_{k,1}$ \SZ{and  without  restriction  on
   $\lambda_1$}.
 
 Integrating  the previous  expression  is  not an  easy  task.   Relation $u  \,
-(1+\W_k(u)) \, \W_k'(x) =  \W_k(u)$~\cite[Eq.~3.2]{CorGon96} suggests that a way
-to make the  integration is to search for  $\phi_k(y) = \phi_{k,\mathrm{u}}(\tau
-y)$  where $\phi_{k,\mathrm{u}}(u)$  is searched  as the  product of  $u \left[-
-  \W_k\left(  -  u^{\frac{1}{\alpha-1}} \right)  \right]^p  $  and a  series  of
-$\left[  - \W_k\left(  -  u^{\frac{1}{\alpha-1}} \right)  \right]$  and then  to
-recognize  the  coefficients  of  the  series. Such  an  approach\SZ{,  after  a
-  reparametrization  of  the $\lambda_i$s,}  leads  to  the family  of  entropic
-functional $\phi_k(y) = \phi_{k,\mathrm{u}}(\tau y)$ with
+(1+\W_k(u)) \, \W_k'(u) =  \W_k(u)$~\cite[Eq.~3.2]{CorGon96} suggests that a way
+to make the  integration is to search for%
+\[
+\phi_k(y) = \phi_{k,\u}\left( \frac{\sigma        \,       \Gamma(\alpha) \, y}{(\alpha-1)^{\alpha-1}} \right)
+\]
+%
+where   \SZ{the  primitive   of  the   term  with   the  Lambert   function  in}
+$\phi_{k,\u}(u)$ is searched  as the product of $u  \left[- \W_k\left( -
+  u^{\frac{1}{\alpha-1}}  \right)  \right]^p  $  and   a  series  of  $\left[  -
+  \W_k\left( - u^{\frac{1}{\alpha-1}} \right) \right]$ and then to recognize the
+coefficients of the  series. Such an approach\SZ{, after  a reparametrization of
+  the $\lambda_i$s,}  leads to  the family of  entropic functional \SZ{given by}
+%$\phi_k(y) =
+%\phi_{k,\mathrm{u}}(\tau y)$ with
 %
 \[\begin{array}{l}
-\phi_{k,\mathrm{u}}(u) \: = \: \beta \, u + \gamma_k \\[2.5mm]
+\phi_{k,\u}(u) \: = \: \beta \, u + \gamma_k \\[2.5mm]
 %
 %\hspace{2.5mm}
 +  \alpha_k \,     u   \left[    -   \W_k\left(   -
@@ -2157,14 +2225,22 @@ $-\infty$ in  $0^{-}$), $\W_{-1}(u) \exp(\W_{-1}(u)) =  u$, and~\cite[Eq.~4.6 \&
 same expression  for the  $\widetilde{\phi}_k$, except that  $\lambda_{k,1}$ are
 replaced by a unique $\lambda_1$.
 
-The  multivalued   function  $\phi_{\mathrm{u}}$  in  the   concave  context  is
+\
+
+
+\SZ{Here, again,  $s$ appears as an  additional parameter of the  (family of the)
+  $\phi$-entropy.}
+
+\
+
+The  multivalued   function  $\phi_\u$  in  the   concave  context  is
 represented figure~\ref{fig:Entropy-gamma} for $p = 2, \alpha = 2$ and $\alpha =
 5$,  and  with  the  choices  $c_{-1}  =  \lambda_0  =  0,  \lambda_{0,1}  =  1,
 \lambda_{-1,1} = - 0.1$.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=.78\textwidth]{PDF/MaxEnt_GammaLaw}}
-\caption{Multiform entropy functional $\phi_{\mathrm{u}}$ derived from the gamma
+\caption{Multiform entropy functional $\phi_\u$ derived from the gamma
   distribution   with  the   partial  moment   constraints  $T_{k,1}(x)   =  x^2
   \un_{\X_k}(x)$, $k\in\{0,-1\}$.  (a): $\alpha = 2$; (b): $\alpha = 5$.}
 %
