@@ -14,9 +14,10 @@ Shannon, C.E.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/j.1538-7305.1948.tb00917.x}{\detokenize{10.1002/j.1538-7305.1948.tb00917.x}}}.
 
-\bibitem[{(translated by Stephen G. Brush)}(1964)]{Bol64}
-{(translated by Stephen G. Brush)}, L.B.
-\newblock {\em Lectures on Gas Theory}; Dover: Leipzig, Germany,  1964.
+\bibitem[Boltzmann(1964)]{Bol64}
+Boltzmann, L.
+\newblock {\em Lectures on Gas Theory (translated by S. G. Brush)}; Dover:
+  Leipzig, Germany,  1964.
 
 \bibitem[Boltzmann(1896)]{Bol96}
 Boltzmann, L.
@@ -660,6 +661,11 @@ Costa, J.A.; {Hero III\@}, A.O.; Vignat, C.
   Figueiredo, M.A.T.; Zerubia, J., Eds.; Springer Verlag: Lisbon, Portugal,
   2003; Vol. 2683, {\em Lecture Notes in Computer Sciences}, pp. 211--226.
 
+\bibitem[Johnson \em{et~al.}(1995)Johnson, Kotz, and Balakrishnan]{JohKot95:v2}
+Johnson, N.L.; Kotz, S.; Balakrishnan, N.
+\newblock {\em Continuous Univariate Distributions}, 2nd ed.; Vol.~2, John
+  Wiley \& Sons: New-York,  1995.
+
 \bibitem[Chhabra and Jensen(1989)]{ChhJen89}
 Chhabra, A.; Jensen, R.V.
 \newblock Direct determination of the {$f(\alpha)$} singularity spectrum.
@@ -706,6 +712,11 @@ Casas, M.; Chimento, L.; Pennini, F.; Plastino, A.; Plastino, A.R.
 \bibitem[Widder(1975)]{Wid75}
 Widder, D.V.
 \newblock {\em The Heat Equation}; Academic Press: New-York,  1975.
+
+\bibitem[Roub{\'i\v{c}}ek(2005)]{Rou05}
+Roub{\'i\v{c}}ek, T.
+\newblock {\em Nonlinear partial differential equations with applications};
+  Birkha{\"a}user: Basel, Switzerland,  2005.
 
 \bibitem[Tsallis and Lenzi(2002)]{TsaLen02}
 Tsallis, C.; Lenzi, E.K.
@@ -802,6 +813,11 @@ Leonenko, N.; Pronzato, L.; Savani, V.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1214/07-AOS539}{\detokenize{10.1214/07-AOS539}}}.
 
+\bibitem[Johnson \em{et~al.}(1995)Johnson, Kotz, and Balakrishnan]{JohKot95:v1}
+Johnson, N.L.; Kotz, S.; Balakrishnan, N.
+\newblock {\em Continuous Univariate Distributions}, 2nd ed.; Vol.~1, John
+  Wiley \& Sons: New-York,  1995.
+
 \bibitem[Corless \em{et~al.}(1996)Corless, Gonnet, Hare, Jeffrey, and
   Knuth]{CorGon96}
 Corless, R.M.; Gonnet, G.H.; Hare, D.E.G.; Jeffrey, D.J.; Knuth, D.E.
@@ -815,5 +831,10 @@ Corless, R.M.; Gonnet, G.H.; Hare, D.E.G.; Jeffrey, D.J.; Knuth, D.E.
 Abramowitz, M.; Stegun, I.A.
 \newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
   Mathematical Tables}; 9th printing, Dover: New-York,  1970.
+
+\bibitem[Gradshteyn and Ryzhik(2015)]{GraRyz15}
+Gradshteyn, I.S.; Ryzhik, I.M.
+\newblock {\em Table of Integrals, Series, and Products}, 8th ed.; Academic
+  Press: San Diego,  2015.
 
 \end{thebibliography}

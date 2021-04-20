@@ -304,12 +304,12 @@ entropy, Fisher information, variance).
 
 \
 
-In what follows we will define  a series of generalized informational quantities
-of  a probability  density that  is defined  with respect  to a  given reference
-measure $\mu$  (e.g., the Lebesgue  measure when dealing with  continuous random
-variables,   discrete  measure   for  discrete-state   random  variabes,\ldots).
-Therefore, rigorously,  all this quantities  depend on the particular  choice of
-this reference measure. However, for sake  of simplicity we will omit to mention
+In what follows, we will define a series of generalized information quantities
+relative to a probability density defined with respect to a given reference
+measure $\mu$ (e.g., the Lebesgue measure when dealing with continuous random
+variables, discrete measure for discrete-state random variables,\ldots).
+Therefore, rigorously, all these quantities depend on the particular choice of
+this reference measure. However, for simplicity, we will omit to mention
 this dependence in the notation along the paper.
 
 % ------------------------------ Max (h,phi)-Ent ------------------------------ %
@@ -339,27 +339,28 @@ $f(\X) \subseteq \Y$, when this quantity exists,
 \end{defn}
 %
 The $(h,\phi)$-entropy is defined by $H_{(h,\phi)}[f] = h\left(H_\phi[f]\right)$
-where $h$ is  a nondecreasing function.  The definition  is extended by allowing
-$\phi$  to be  concave, together  with $h$  nonincreasing~\cite{Csi67, SalMen93,
-  Sal94,  MenMor97, Par06}.  If additionnaly  $h$ is  concave, then  the entropy
+where $h$ is a nondecreasing function. The definition is extended by allowing
+$\phi$ to be concave, together with $h$ nonincreasing~\cite{Csi67, SalMen93,
+ Sal94, MenMor97, Par06}. If additionnaly $h$ is concave, then the entropy
 functional $H_{(h,\phi)}[f]$ is concave.
 
 \
 
-In the  following, since we  are interested by  the maximum entropy  problem and
-because $h$  is monotone,  we can  restrict our  study to  the $\phi$-entropies.
-Additionnaly,  we will  assume that  $\phi$ is  {\em strictly}  convex and  {\em
-  differentiable}.
+Since we are interested in the maximum entropy problem and
+because $h$ is monotone, we can restrict our study to the $\phi$-entropies.
+Additionally, we will assume that $\phi$ is {\em strictly} convex and {\em
+ differentiable}.
 
 \
 
-A  useful  related  quantity  to  these  entropies  is  the  Bregman  divergence
+A related quantity is the Bregman divergence
 associated with convex function $\phi$:
+
 %
 \begin{defn}[Bregman divergence and functional Bregman divergence~\cite{Bre67, Bas13}]
 \label{def:Bregman}
-With the  same assumptions  as in definition~\ref{def:phi-entropy},  the Bregman
-divergence associated with $\phi$ defined on a  convex set $\Y,$ is given by the
+With the  same assumptions  as in~\ref{def:phi-entropy},  the Bregman
+divergence associated with $\phi$ defined on a  convex set $\Y$ is given by the
 function defined on $\Y \times \Y$,
   %
   \begin{equation}\label{eq:Bregman}
@@ -380,11 +381,11 @@ function defined on $\Y \times \Y$,
   f_2$ almost everywhere respectively.
 \end{defn}
 
-Note that,  more generally, the  Bregman divergence is defined  for multivariate
-convex   functions,    where   the   derivative   is    replaced   by   gradient
-operator~\cite{Bre67}.  Extensions for convex  function of functions also exist,
-where the derivative is in  the sense of G\^ateau~\cite{NieNoc17}.  Such general
-extensions  are not  useful for  our purposes,  thus, we  restrict to  the above
+More generally, the Bregman divergence is defined for multivariate
+convex functions, where the derivative is replaced by gradient
+operator~\cite{Bre67}. Extensions for convex function of functions also exist,
+where the derivative is in the sense of G\^ateau~\cite{NieNoc17}. Such general
+extensions are not useful for our purposes; thus, we restrict ourselves to the above
 definition where $\Y \subseteq \Rset_+$.
 
 
@@ -392,7 +393,7 @@ definition where $\Y \subseteq \Rset_+$.
 
 \subsection{Maximum entropy principle: the direct problem}
 
-Let us  here recall the maximum  entropy problem that consists  in searching for
+Let us  first recall the maximum  entropy problem that consists  in searching for
 the distribution maximizing the $\phi$-entropy~\eqref{eq:phi-entropy} subject to
 constraints on  some moments $\Esp{T_i(X)}$  with $T_i: \Rset^d  \mapsto \Rset$,
 $i=1,\ldots,n$. This direct problem writes
@@ -408,14 +409,12 @@ with
 C_t = \left\{ f \ge 0: \: \Esp{T_i(X)} = t_i, i=0,\ldots,n\right\},
 \end{equation}
 %
-where $T_0(x) =  1$ and $t_0 = 1$ (normalization  constraint).  The maximization
-problem being strictly concave, the solution  exists and is unique.  A technique
+where $T_0(x) = 1$ and $t_0 = 1$ (normalization constraint). The maximization
+problem being strictly concave, the solution exists and is unique. A technique
 to solve the problem can be to use the classical Lagrange multipliers technique,
-but   this  approach   requires  mild   conditions~\cite{KesKap89,  BorLew91:03,
-  BorLew93, BenBor92, TebVaj93, Gir97}.  A sufficient condition relating $f$ and
-$\phi$ so that $f$  is the desired solution of the problem  is then obtained, as
-recalled in the  following proposition.  Below, we prove the  result without the
-use of the Lagrange technique.
+but this approach requires mild conditions~\cite{KesKap89, BorLew91:03,
+ BorLew93, BenBor92, TebVaj93, Gir97}. In the following proposition, we recall a sufficient condition relating $f$ and $\phi$ so that $f$ is the problem's solution. Below, we prove the result without the use of the Lagrange technique.
+
 %, VigHer04,     Ber08,    BerGir15
 
 \begin{prop}[Maximal                                               $\phi$-entropy
@@ -475,21 +474,22 @@ $\X$~\cite{Gir07}.
 
 \subsection{Maximum entropy principle: the inverse problems}
 
-As stated  in the introdution,  two inverse  problems can be  considered started
-from a  given distribution $f$.   These problems  were considered by  Kesavan \&
+As stated in the introduction, two inverse problems can be considered starting
+from a given distribution $f$. These problems were considered by Kesavan \&
 Kapur in~\cite{KesKap89} in the discrete framework.
 
 \
 
 The first inverse problem consists in searching for the adequate moments so that
-a  desired distribution  $f$  is the  maximum entropy  distribution  of a  given
-$\phi$-entropy. A solution  can thus consist in identifying  functions $T_i$ and
-coefficients $\lambda_i$ in order  to satisfy eq.~\eqref{eq:sol-phi}. Obviously,
-this is not always an easy task, and even not always possible.  For instance, it
-is  well  known that  the  maximum  Shannon  entropy distribution  given  moment
-constraints   fall  in   the  exponential   family~\cite{CovTho06,  BorLew91:05,
-  Arn01}. Therefore, if $f$  does not belong to this family,  the problem has no
+a desired distribution $f$ is the maximum entropy distribution of a given
+$\phi$-entropy. This amounts to find functions $T_i$ and
+coefficients $\lambda_i$ satisfying eq.~\eqref{eq:sol-phi}. 
+This is not always an easy task, and even not always possible. For instance, it
+is well known that the maximum Shannon entropy distribution given moment
+constraints fall in the exponential family~\cite{CovTho06, BorLew91:05,
+ Arn01}. Therefore, if $f$ does not belong to this family, the problem has no
 solution.
+
 
 \
 
@@ -500,8 +500,7 @@ functional $\phi$ so that $f$ is its maximizer.
 
 As  for the  direct problem,  in  the second  inverse problem,  the solution  is
 parametrized by the $\lambda_i$. Here,  required properties on $\phi$ will shape
-the  domain the  $\lambda_i$ live  in. In  particular $\phi$,  must satisfy  the
-following properties:
+the  domain the  $\lambda_i$ live  in. In  particular, $\phi$  must satisfy
 %
 \begin{itemize}
 \item the  domain of definition  of $\phi'$ must  include $f(\X)$; this  will be
@@ -552,12 +551,11 @@ where $f^{-1}$ can be multivalued.
 
 \
 
-Eq.~\eqref{eq:sol-phi}  provides   an  effective   way  to  solve   the  inverse
-problem. However,  there exist situations  where there do  not exist any  set of
+Eq.~\eqref{eq:sol-phi} provides an effective way to solve the inverse
+problem. However, there exist situations where there do not exist any set of
 $\lambda_i$ such that conditions \ref{MonotonyDomains:cond}-\ref{LevelSets:cond}
-are satisfied (e.g., $T_1(x)  = x^2$ with $f$ not even).  In such  a case, a way
-to  go  is   to  extent  the  definition  of  the   $\phi$-entropy,  purpose  of
-section~\ref{sec:MultiformEnt}.
+are satisfied (e.g., $T_1(x) = x^2$ with $f$ not even). In such a case, a way to go is to extend the definition of the $\phi$-entropy. This is precisely the purpose of section~\ref{sec:MultiformEnt}.
+
 %Before, we present briefly three examples.}
 
 
@@ -565,16 +563,18 @@ section~\ref{sec:MultiformEnt}.
 
 \subsection{Second inverse maximum entropy problem: some examples}
 
-To  illustrate  the previous  subsection,  let  us  analyze very  briefly  three
-examples: the  very famous Gaussian  distribution (example 1),  the $q$-Gaussian
-distribution also intensively  studied (example 2) and  the arcsine distribution
-(example  3),  both three  with  a  second  order moment  constrainst.   \SZ{The
-  Gaussian, $q$-Gaussian, and arcsine distributions  will serve as a a guideline
-  all along  the paper.}  The  details of the  calculus, together with  a deeper
-study related to the  sequel of the paper, are rejected  in the appendix.  Other
-examples are also given in this  appendix. In both three examples, \SZ{except in
-  the next  section}, we consider the  second order moment constraint  $T_1(x) =
+To illustrate the previous subsection, let us analyze briefly three
+examples: the famous Gaussian distribution (example 1), the $q$-Gaussian
+distribution also intensively studied (example 2) and the arcsine distribution
+(example 3), both three with a second-order moment constraint. \SZ{The
+ Gaussian, $q$-Gaussian, and arcsine distributions will serve as a guideline
+all along the paper.} The details of the calculus, together with a deeper
+study related to the sequel of the paper, are rejected in the appendix. Other
+examples are also given in this appendix. In both three examples, \SZ{except in
+ the next section}, we consider the second-order moment constraint $T_1(x) =
 x^2$.
+
+\jfb{Commentaires à discuter}
 
 \begin{description}%[label= Example~\alph*]
 \item[Example~1]  The  Gaussian  distribution $f_X(x)  =  \frac{1}{\sqrt{2  \pi}
@@ -623,8 +623,8 @@ x^2$.
 \section{State-dependent entropic functionals and mimization revisited}
 \label{sec:MultiformEnt}
 
-In order to follow asymmetries of  the distribution $f$ and adress the limiation
-raised above, an idea  is to allow the entropic functional to  be depend also on
+In order to follow asymmetries of the distribution $f$ and address the limitation
+raised above, an idea is to allow the entropic functional to also depend on
 the state variable $x$:
 %
 \begin{defn}[State-dependent $\phi$-entropy]\label{def:asym_phi-entropy}
@@ -706,7 +706,7 @@ T_i(x),
 \end{prop}
 %
 \begin{proof}
-  The proof  is the very  same as that of  Proposition~\ref{prop:sol-phi}, using
+  The proof  follows the steps of  Proposition~\ref{prop:sol-phi}, using
   the generalized functional Bregman divergence instead of the usual one.
 \end{proof}
 
@@ -738,7 +738,7 @@ necessarily~\ref{LevelSets:cond}), one can always
     where $f_l^{-1}$ is the (possibly multivalued) inverse of $f$ on $\X_l$.
 \end{itemize}
 
-In      a     conclusion,      in     the          case      where     only
+In      short,      in     the          case      where     only
 condition~\ref{MonotonyDomains:cond}  is satisfied, one  can obtain  an extended
 entropic   functionnal   of   $(\X_1,\ldots,\X_k)$-multiform   class   so   that
 eq.~\eqref{eq:sol-multiform_phi_partitioned} provides an  effective way to solve
@@ -748,7 +748,7 @@ the inverse problem in the state-dependent entropic functional context.
 
 Note  however that  it still  may happen  that there  is no  set  of $\lambda_i$
 allowing to satisfy~\ref{MonotonyDomains:cond}.  In  such an harder context, the
-problem remains solvable  when then moments are defined  as partial moments like
+problem remains solvable  when the moments are defined  as partial moments like
 $\Esp{T_{l,i}(X) \un_{\X_l}(X)} =  t_{l,i}$, $l = 1 ,  \ldots , k$ and $i  = 1 ,
 \ldots  , n_l$ and  when there  exist on  $\X_l$ a  set of  $\lambda_{l,i}$ such
 that~\ref{MonotonyDomains:cond}  and~\ref{LevelSets:cond}  holds.  The  solution
@@ -788,26 +788,19 @@ Let us  now come  back to the  arcsine example  (example 3) of  the previous
 %
 \end{description}
 
-\SZ{At a first  glance, the two solutions  seem to be identical.   In fact, they
-  drastically differ. Indeed, let us insist on  the fact that in the first case,
-  the problem has two constraints whereas in  the second case there is only one.
-  The consequence  is that the  first solution  is parametrized by  5 parameters
-  $\beta, \gamma_\pm$  and, especially,  $\alpha_\pm$, while only  3 parametrize
-  the  second solution  $\beta, \gamma$  and $\alpha$.   This difference  is not
-  insignificant: the second case cannot be viewed as a special case of the first
-  one because $\alpha_\pm$ must be positive,  which cannot be possible with only
-  one  parameter  because $\pm  \alpha$  rule  the $\widetilde{\phi}_\pm$.   The
-  consequcence is that for  the second example, the solution does  not lead to a
-  convex   function,  otherwise,   it   would  have   contradict  the   required
-  condition~\label{MonotonyDomains:cond} on the parts $\X_\pm$.}
+\SZ{At a first glance, the two solutions seem to be identical. In fact, they drastically differ. Indeed, let us emphasize that the problem has two constraints in the first case, whereas in the second case, there is only one.
+ The consequence is that 5 parameters parametrize the first solution
+ $\beta, \gamma_\pm$ and, especially, $\alpha_\pm$, while only 3 parameters $\beta, \gamma$ and $\alpha$ parametrize
+ the second solution. This difference is not insignificant: the second case cannot be viewed as a special case of the first one, because $\alpha_\pm$ must be positive, which cannot be possible with only one parameter since $\pm \alpha$ rule the $\widetilde{\phi}_\pm$. For the second example, the solution does not lead to a  convex function, because this would contradict the required condition~\ref{MonotonyDomains:cond} on the parts $\X_\pm$.
+}
 
 \
 
 In section~\ref{sec:MaxPhiEnt} and~\ref{sec:MultiformEnt} we established general
 entropies  with  a given  maximizer.   In what  follows,  we  will complete  the
-information   theoretical    settings   by   introducing    generalized   escort
+information   theoretical    setting   by   introducing    generalized   escort
 distributions,   generalized  moments,   and   generalized  Fisher   information
-associated to the  same entropic functional, and study their relationships.
+associated to the  same entropic functional. We will then explore some of their relationships. 
 
 
 % ------------------------- phi-Fisher & Cramer-Rao ------------------------- %
@@ -816,20 +809,20 @@ associated to the  same entropic functional, and study their relationships.
   $(\phi,\beta)$-Fisher informations,  generalized Cram\'er-Rao inequalities}
 \label{sec:EscortCR}
 
-In this section, after introducing the above mentioned informational quantities,
-we will  show that generalizations  of the celebrated  Cram\'er-Rao inequalities
-hold.  The  lower bound of the  inequalities are saturated  precisely by maximal
-$\phi$-entropy distributions.
+In this section, we begin by introducing the above-mentioned informational quantities. 
+We will then show that generalizations of the celebrated Cram\'er-Rao inequalities
+hold and link the generalized moments and Fisher information. Furthermore, the lower bound of the inequalities are saturated precisely by maximal $\phi$-entropy distributions.
 
 \
 
-Escort distributions have been introduced  as an operational tool in the context
-of  multifractals \cite{ChhJen89, BecSch93},  with interesting  connections with
-the  standard thermodynamics~\cite{Nau11}  and  with source  coding~\cite{Cam65,
-  Ber09}.   In our context,  we also  define (generalized)  escort distributions
+Escort distributions have been introduced as an operational tool in the context
+of multifractals \cite{ChhJen89, BecSch93}, with interesting connections with
+the standard thermodynamics~\cite{Nau11} and with source coding~\cite{Cam65,
+ Ber09}. In our context, we also define (generalized) escort distributions
 associated with a particular $\phi$-entropy, and show how they pop up naturally.
-It  is then possible  to define  generalized moments  with respect  these escort
+It is then possible to define generalized moments with respect to these escort
 distributions.
+
 
 \begin{defn}[$\phi$-escort]\label{def:phi-escort}
   Let $\phi: \X \times  \Y \mapsto \Rset$ such that for any  $x \in \X \subseteq
@@ -896,7 +889,7 @@ positive. Moreover, coming back to the previous examples, one can see that:
   distribution $f$.
 \end{defn}
 %
-Note that:
+For our three examples, we have:
 %
 \begin{description}%[label= Example~\alph*]
 \item[Example~1]    In   the    context    of   the    Shannon   entropy,    the
@@ -913,16 +906,11 @@ Note that:
 
 \
 
-The importance of the Fisher information is well known in estimation theory: the
-estimation  error  of a  parameter  is  bounded by  the  inverse  of the  Fisher
-information  associated  with  this  distribution~\cite{Kay93,  CovTho06}.   The
-Fisher information  is also used as  a method of inference  and understanding in
-statistical physics  and biology,  as promoted  by Frieden~\cite{Fri04}  and has
-been   generalized   in   the   R\'enyi-Tsallis   context   in   a   series   of
-papers~\cite{Ham78,   ChimPen00,   CasChi02,  LutYan05,   LutLv12,   Ber12:06_1,
-  Ber12:06_2, Ber13}.  In  what follows, we generalize these  definitions a step
-further in our  $\phi$-entropy context by using the  above defined $\phi$-escort
-distribution.
+The Fisher information's importance is well known in estimation theory: the estimation error of a parameter is bounded by the inverse of the Fisher information associated with this distribution~\cite{Kay93, CovTho06}. The Fisher information is also used as a method of inference and understanding in statistical physics and biology, as promoted by Frieden~\cite{Fri04} and has been generalized in the R\'enyi-Tsallis context in a series of
+papers~\cite{Ham78, ChimPen00, CasChi02, LutYan05, LutLv12, Ber12:06_1,
+ Ber12:06_2, Ber13}. In what follows, we generalize these definitions a step
+further in our $\phi$-entropy context.
+
 
 \begin{defn}[Nonparametric                                  $(\beta,\phi)$-Fisher
   information]\label{def:np-phi-Fisher}   With  the   same   assumption  as   in
@@ -960,7 +948,7 @@ unfortunately lost in the state-dependent context.
 %
 Note that,  as for the usual  Fisher information, when  the norm on $\X$  and on
 $\Theta$  are the same,  the nonparametric  and parametric  information coincide
-when $\theta$  is a location  parameter. Note also that:
+when $\theta$  is a location  parameter. For our three examples, we have:
 %
 \begin{description}%[label= Example~\alph*]
 \item[Example~1]    In   the  Shannon entropy
@@ -974,7 +962,7 @@ and   parametric   Fisher   informations   respectively.
 %
 \item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally find
   the generalized moments introduced in~\cite{TsaMen98, MarNic00} (see the items
-  related to the escort distributions).
+  related to the escort distributions). \jfb{!manque Fisher...}
 \end{description}
 
 
@@ -1060,17 +1048,16 @@ distribution subject to the same moment constraint.
 In  the  problem  of  estimation,   the  purpose  is  to  determine  a  function
 $\hat{\theta}(x)$ in order to estimate  an unknown parameter $\theta$. In such a
 context, the  Cram\'er-Rao inequality allows  to lowerbound the variance  of the
-estimator thanks  to the  parametric Fisher information.  The spirit is  thus to
-extend  such an  inequality to  bound any  $\alpha$ order  mean error  thanks to
-generalized Fisher information.
+estimator thanks  to the  parametric Fisher information.  The idea is  thus to
+extend this to  bound any  $\alpha$ order  mean error  using our generalized Fisher information.
 %
 \begin{prop}[Parametric                             $(\alpha,\phi)$-Cram\'er-Rao
   inequality]\label{prop:p-phi-CR}  Let $f$  be a  probability density  function
-  with respect to a general measure $\mu$  define over a set $\X$, \SZ{where $f$
-    is parametrized  by a  parameter $\theta \in  \Theta \subseteq  \Rset^m$ but
-    $\mu$  does  not  depend  on  $\theta$} and  satisfying  the  conditions  of
-  definition~\ref{def:p-phi-Fisher}. Assume that domain  $\X$ does not depend on
-  $\theta$ \SZ{neither},  that $f$ is a  jointly measurable function of  $x$ and
+  with respect to a general measure $\mu$  defined over a set $\X$, \SZ{where $f$
+    is parametrized  by a  parameter $\theta \in  \Theta \subseteq  \Rset^m$}, and  satisfying  the  conditions  of
+  definition~\ref{def:p-phi-Fisher}. Assume that both 
+   $\mu$  and $\X$ do not depend on
+  $\theta$ \jfb{!neither!},  that $f$ is a  jointly measurable function of  $x$ and
   $\theta$, is  integrable with  respect to $x$,  is absolutely  continuous with
   respect to $\theta$ and that the derivatives with respect to each component of
   $\theta$ are locally integrable. Thus, for any estimator $\widehat{\theta}(X)$
@@ -1102,10 +1089,10 @@ generalized Fisher information.
 %extentions are recovered as special cases.
 
 \begin{proof}
-  The proof  follows again that  of~\cite{Ber13}, and start first  by evaluating
+  The proof  follows again that  of~\cite{Ber13}, and starts  by evaluating
   the divergence of the bias.  The regularity conditions in the statement of the
   theorem   enable  to  interchange   integration  with   respect  to   $x$  and
-  differentiation with respect to $\theta$, thus
+  differentiation with respect to $\theta$, so that
   \[
   \nabla_\theta^t  \,  b(\theta)  \:  =  \: \int_\X  \left(  \nabla_\theta^t  \,
     \widehat{\theta}(x)  \,  - \,  \nabla_\theta^t  \,  \theta  \right) f(x)  \,
@@ -1114,7 +1101,7 @@ generalized Fisher information.
   \]
  %
   Note   then  that   $\nabla_\theta^t  \,   \theta  \,   =  \,   m$   and  that
-  $\widehat{\theta}$  being independent  on  $\theta$ one  has $\nabla_\theta^t  \,
+  $\widehat{\theta}$  being independent  on  $\theta$, one  has $\nabla_\theta^t  \,
   \widehat{\theta}(x) \,  = \, 0$. Thus,  $f$ being a  probability density, the
   equality becomes
   %
@@ -1128,7 +1115,7 @@ generalized Fisher information.
 \end{proof}
 
 %
-Note that:
+For our three examples, this leads to what follows. 
 %
 \begin{description}%[label= Example~\alph*]
 \item[Example~1] The usual parametric  and nonparametric Cram\'er-Rao inequality
@@ -1142,7 +1129,7 @@ Note that:
   $q$-Gaussian, maximal entropy law under the second order moment constraint.
 %~\cite{CovTho06, Fri04}.
 %
-\item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally find
+\item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally finds
   the generalized moments introduced in~\cite{TsaMen98, MarNic00} (see the items
   related to the escort distributions).
 \end{description}
@@ -1150,13 +1137,12 @@ Note that:
 \
 
 Beyond the mathematical aspect of  these relations, they may have great interest
-to asses  for instance  an estimator when  the usual variance/mean  square error
+to assess  an estimator when  the usual variance/mean  square error
 does not exist. Moreover, the escort distribution is also a way to emphasis some
 part of  a distribution. For instance,  in the R\'enyi-Tsallis  context, one can
-see  that  in  $f^q$ either  the  tails  of  the  head  of the  distribution  is
-emphasis. Playing with $q$  is thus a way to penalize more  either the tails, or
-the head of the distribution in  the estimation (estimation using the escort and
-adequate Cram\'er-Rao bound to assess the estimator).
+see  that  in  $f^q$ either  the  tails  or  the  head  of the  distribution  is
+emphasized. Playing with $q$  is a way to penalize either the tails, or
+the head of the distribution in the estimation process.
 
 
 % ------------------------- phi-Fisher & Cramer-Rao ------------------------- %
@@ -1165,21 +1151,12 @@ adequate Cram\'er-Rao bound to assess the estimator).
 \label{sec:deBruijn}
 
 
-An  important relation  connecting the  Shannon  entropy $H$,  comming from  the
-``information  world'',  with   the  Fisher  information  $I$,   living  in  the
-``estimation world'', is  given by the de Bruijn identity  and is closely linked
-to the  Gaussian distribution. Considering  a noisy random  variable $Y_t =  X +
-\sqrt{t} N$  where $N$ is  a zero-mean $d$-dimensional standard  Gaussian random
-vector  and $X$  a  $d$-dimensional random  vector independant  of  $N$, and  of
-support independent on  parameter $t$, then $$\frac{d}{dt}  H[f_{Y_t}] = \frac12
-I[f_{Y_t}]$$ where $f_{Y_t}$  stands for the probability  distribution of $Y_t$.
-This identity is in the heart of  the proof of the entropy power inequality, and
-then to a proof of the  Stam's inequality~\cite{CovTho06}.  The key point of the
-proof  of this  identity  is  the heat  equation  satisfied  by the  probability
-distribution $f_{Y_t}$, $\frac{\partial f}{\partial t} = \frac12 \Delta f$ where
-$\Delta$ stands for the Laplacian operator~\cite{Wid75}.
+An important relation connecting the Shannon entropy $H$, coming from the ``information world'', with the Fisher information $I$, living in the ``estimation world'', is given by the de Bruijn identity and is closely linked to the Gaussian distribution. Considering a noisy random variable $Y_t = X + \sqrt{t} N$ where $N$ is a zero-mean $d$-dimensional standard Gaussian random vector and $X$ a $d$-dimensional random vector independant of $N$, and of support independent on parameter $t$, then $$\frac{d}{dt} H[f_{Y_t}] = \frac12 I[f_{Y_t}]$$ where $f_{Y_t}$ stands for the probability distribution of $Y_t$.
+This identity is a critical ingredient in proving the entropy power and Stam's inequalities~\cite{CovTho06}. 
+The starting point to establish the de Bruijn identity is the heat equation satisfied by the probability distribution $f_{Y_t}$, $\frac{\partial f}{\partial t} = \frac12 \Delta f$, where $\Delta$ stands for the Laplacian operator~\cite{Wid75}.
 
-Inspired by the work~\cite{Ber13:08},  we consider in the following, probability
+
+Let us consider probability
 distributions  $f$ parametrized  by  a parameter  $\theta  \in \Theta  \subseteq
 \Rset^m$, satisfying what we will call {\em generalized $\phi$-heat equation},
 %
@@ -1263,7 +1240,7 @@ Coming back to the special examples we presented all along the paper:
 %
 \item[Example~3] For $\phi(x,y) = \phi(y) = \frac{1}{y}$ one also naturally find
   the generalized moments introduced in~\cite{TsaMen98, MarNic00} (see the items
-  related to the escort distributions).
+  related to the escort distributions).\jfb{!!!!!!}
 \end{description}
 
 Note that various physical non linear diffusions equation are encompassed in the
@@ -1277,81 +1254,16 @@ generalized $\phi$-heat equation~\cite{GilKer04, Vaz06}.
 \section{Concluding remarks}
 \label{sec:Conclusion}
 
-\SZ{  In  this  paper  we  extended  as  far  as  possible  the  identities  and
-  inequalities  which link  the  classical informational  quantities --  Shannon
-  entropy,   Fisher   information,   moments--,   in  the   framework   of   the
-  $\phi$-entropies. Our first  main result concerns the  inverse maximum entropy
-  problem,  starting  with  a   probability  distribution  and  constraints  and
-  searching for which entropy the distribution is the maximizer. If such a study
-  was  already done,  it  is extended  here  in a  more  general context,  where
-  densities are considered with respect to a measure not necessarily discrete or
-  of Lebesgue, and  especially when the distribution and the  constraints do not
-  share the  same symmetries.  To  overcome the  last drawback, we  introduced a
-  state-dependent entropic  functional. Our second result  is the generalization
-  of the Cram\'er-Rao inequality in the same setting: to this end, a generalized
-  Fisher information  and generalized  moments are introduced,  both based  on a
-  convex function $\phi$ (and a  so-called $\phi$-escort distribution). The link
-  with the associated $\phi$-entropy resides in  the fact that the inequality is
-  saturated precisely for the maximum $\phi$-entropy distribution constraints to
-  the moment of  the Cram\'er-Rao inequality.  Finally, our third  result is the
-  generalized  de  Bruijn identity,  linking  the  $\phi$-entropy rate  and  the
-  $\phi$-Fisher  information of  a  distribution that  follows  a extended  heat
-  equation, called $\phi$-heat equation.   Such nonlinear differential equations
-  appear   in  various   physical  contexts.    Moreover,  dealing   with  usual
-  distributions (Gaussian,  $q$-Gaussian, exponential) and usual  moments (mean,
-  second order), the classical results are recovered as limit cases. As a matter
-  of  fact,  dealing   with  the  Shannon  entropy,   whatever  the  constraints
-  considered,  the  maximum  entropy   distribution  falls  in  the  exponential
-  family~\cite{CovTho06,   BorLew91:05,   Arn01}.   Considering   more   general
-  entropies allows  to escape  from this limitation.   Moreover, if  the Shannon
-  entropy (or  the Gibbs  entropy in physics)  is well adapted  to the  study of
-  systems in the equilibrium (or  thermodynamic limit), extended entropies allow
-  a  finer  description  of  systems  out  of  equilibrium~\cite{Tsa88,  Tsa09},
-  exhibiting their importance.
+\SZ{ In this paper, we extended as far as possible the identities and inequalities which link the classical informational quantities -- Shannon entropy, Fisher information, moments, ..., in the framework of the $\phi$-entropies. Our first result concerns the inverse maximum entropy problem, starting with a probability distribution and constraints and searching for which entropy the distribution is the maximizer. If such a study was already tackled, it is extended here in a much more general context. We used general reference measures --- not necessarily discrete or of Lebesgue. We also considered the case where the distribution and constraints do not share the same symmetries, which leads to state-dependent entropic functionals. 
+Our second result is the generalization of the Cram\'er-Rao inequality in the same setting: to this end, a generalized Fisher information and generalized moments are introduced, both based on a convex function $\phi$ (and a so-called $\phi$-escort distribution). The Cram\'er-Rao inequality is saturated precisely for the maximum $\phi$-entropy distribution with the same moment constraints, linking all information quantities together.  Finally, our third result is the statement of a generalized de Bruijn identity, linking the $\phi$-entropy rate and the $\phi$-Fisher information of a distribution satisfying an extended heat equation, called $\phi$-heat equation. Moreover, dealing with usual distributions (Gaussian, $q$-Gaussian, exponential) and usual moments (mean, second order), all classical results are recovered as limit cases. \jfb{intro ? As a matter of fact, dealing with the Shannon entropy, whatever the constraints considered, the maximum entropy distribution falls in the exponential family~\cite{CovTho06, BorLew91:05, Arn01}. Considering more general entropies allows to escape from this limitation. Moreover, if the Shannon entropy (or the Gibbs entropy in physics) is well adapted to the study of systems in the equilibrium (or thermodynamic limit), extended entropies allow a finer description of systems out of equilibrium~\cite{Tsa88, Tsa09}, exhibiting their importance.}
 
-  In  this panel,  two  important inequalities  still miss.   The  first one  is
-  entropy  power  inequality   (EPI),  which  states  that   the  entropy  power
-  (exponential of  twice the entropy) of  the sum of two  continuous independent
-  random   variables  is   higher  of   the  sum   of  the   individual  entropy
-  powers~\footnote{\SZ{In fact, there exists other equivalent versions which can
-    be  found e.g.,  in~\cite{CovTho06,  DemCov91}.}}.  The  second  one is  the
-  Stam's inequality which  lowerbounds the product of the entropy  power and the
-  Fisher information.  For  the former, despite many efforts,  the literature on
-  extended version only  treat special cases.  For instance,  some extensions in
-  the  classical  settings  exist  for   discrete  variables  but  are  somewhat
-  limited~\cite{HarVig03, JohYu10,  HagAbb14}. In the continuous  framework, the
-  EPI  was also  extended  to the  class  of  the R\'enyi  entropies  (log of  a
-  $\phi$-entropy   with   $\phi(u)  =   u^\alpha$)~\cite{BobChi15}.    Important
-  properties  that play  a key  role  in the  inequality is  that the  R\'enyi's
-  entropies  are  invariant  to  an  afine transform  of  unit  determinant  and
-  monotonic under  convolution, properties  that seem lost  in the  very general
-  setting considered here. This fact leaves little room to extend the EPI in our
-  general settings. About the Stam inequality,  at a first glance, the fact that
-  the proof  is based on  the EPI seems  to close any hope  to extend it  to the
-  $\phi$-entropy framework. However, it was remarkably extended to the R\'enyi's
-  entropies,  base   on  the   Gagliardo-Nirenberg  inequality~\cite{Ber12:06_1,
-    LutYan05, LutLv12, ZozPue17}. Nevertheless, a  key property is that both the
-  entropy power  and the  extended Fisher  information have  scaling properties,
-  that are lost  in the general setting of the  $\phi$-entropies. A possible way
-  to overcome  the (apparent) limits just  evoked could be to  mimic alternative
-  proofs  such  that based  on  optimal  transport~\cite{Rio17}.  This  approach
-  precisely drops off any use of  Young or Sobolev-like inequalities.  As far as
-  we feel,  there is thus a  little room for  extensions in the settings  of the
-  paper. Both  the extension  of the  EPI and  Stam inequalities  are left  as a
-  perspective.
+In this panel, two important inequalities still miss. The first one is entropy power inequality (EPI), which states that the entropy power (exponential of twice the entropy) of the sum of two continuous independent random variables is higher of the sum of the individual entropy
+ powers~\footnote{\SZ{In fact, there exists other equivalent versions which can be found e.g., in~\cite{CovTho06, DemCov91}.}}. The second one is the Stam's inequality which lowerbounds the product of the entropy power and the Fisher information. For the former, despite many efforts, the literature on extended version only treat special cases. For instance, some extensions in the classical settings exist for discrete variables but are somewhat limited~\cite{HarVig03, JohYu10, HagAbb14}. In the continuous framework, the
+ EPI was also extended to the class of the R\'enyi entropies (log of a $\phi$-entropy with $\phi(u) = u^\alpha$)~\cite{BobChi15}. Important properties that play a key role in the inequality is that the R\'enyi's entropies are invariant to an afine transform of unit determinant and monotonic under convolution, properties that seem lost in the very general setting considered here. This fact leaves little room to extend the EPI in our general settings. About the Stam inequality, at a first glance, the fact that the proof is based on the EPI seems to close any hope to extend it to the $\phi$-entropy framework. However, it was remarkably extended to the R\'enyi's entropies, base on the Gagliardo-Nirenberg inequality~\cite{Ber12:06_1, LutYan05, LutLv12, ZozPue17}. Nevertheless, a key property is that both the entropy power and the extended Fisher information have scaling properties,
+ that are lost in the general setting of the $\phi$-entropies. A possible way to overcome the (apparent) limits just evoked could be to mimic alternative proofs such that based on optimal transport~\cite{Rio17}. This approach precisely drops off any use of Young or Sobolev-like inequalities. As far as we feel, there is thus a little room for extensions in the settings of the paper. Both the extension of the EPI and Stam inequalities are left as a  perspective.
 
- Another perspective lies in the estimation of the generalized moments from data
- (or  from estimates).   Such a  possibility  would have  the merit  to give  an
- operational  role   of  the   Cram\'er-Rao  inequality,  i.e.,   by  estimating
- generalized moments and compare them to  the bound. A difficulty resides in the
- presence  of  the  $\phi$-escort   distribution.   This  forbids  empirical  or
- Monte-Carlo  approaches,  i.e., the  escort  distribution  need clearly  to  be
- estimated. This  problem seems not  far from  the estimation of  entropies from
- data and plug-in approaches used in  such problems can thus be considered, like
- kernel    approaches~\cite{Ros56,    Par62,   BeiDud97},    nearest    neighbor
- approaches~\cite{LeoPro08,    BeiDud97},     or    minimal     spanning    tree
- approaches~\cite{HerMa02}.  This perspective goes far  beyond the scope of this
- paper.  }
+ Another perspective lies in the estimation of the generalized moments from data (or from estimates). Such a possibility would confer an operational role to our Cram\'er-Rao inequality, i.e., by computing the estimator's generalized moments and comparing them to the bound. A difficulty resides in the presence of the $\phi$-escort distribution which forbids empirical or Monte-Carlo approaches. The escort distribution needs to be estimated. This problem seems not far from the estimation of entropies from data and plug-in approaches used in such problems can thus be considered, like kernel approaches~\cite{Ros56, Par62, BeiDud97}, nearest neighbor approaches~\cite{LeoPro08, BeiDud97}, or minimal spanning tree approaches~\cite{HerMa02}. Of course this perspective goes far beyond the scope of this paper. 
+ }
 
 % --------------------------------- Appendix --------------------------------- %
 

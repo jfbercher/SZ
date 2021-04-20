@@ -1,6 +1,6 @@
-LogE = 1; LogV = 0;
+LogE = 0; LogV = 0;
 ArcE = 0;
-Gam = 0;
+Gam = 1;
 
 ifig = 1;
 
@@ -68,37 +68,52 @@ end
 
 % Gamma
 if(Gam == 1)
-  al = [2 5]; pp = 2; k = [1 1.125];% coef multiplicateur pb échelle
-  c1 = 0; l0 = 0; l01 = 1; l11 = -.1;
+  qq = [2 5]; pp = 2; %k = [1 1.125];% coef multiplicateur pb échelle
   %
-  Np = 500; x = (1:Np)/Np;
+  e = exp(1);
+  a0 = 1; a1 = -.05; b = - a1; c0 = 0;
+  %c1 = 0; l0 = 0; l01 = 1; l11 = -.1;
+  %
+  Np = 500; x = (0:Np)/Np;
   %phi0 = zeros(length(u),length(al),length(pp));
   %phi1 = phi0;
   %
   for ip = 1:length(pp)
     p = pp(ip);
     %
-    for ia = 2:2;%1:length(al)
-      a = al(ia);
+    for iq = 1:length(qq)
+      q = qq(iq);
       %
-      u = x*exp(1-a);
-      c0 = c1- p*gamma(p+a-1)*l11/((a-1)^(p+a-1));
+      %a0 = 1; a1 = -e^(q-1); b = -a1; c0 = 0;
+      u = x*((q-1)/e)^(q-1);
       %
-      W0 = -real(lambertw(0,-u.^(1/(a-1))));
-      W1 = -real(lambertw(-1,-u.^(1/(a-1))));
+      %a1 = -exp(1-a);
+      c1 = c0 + a1*p*gamma(p+q-1)/((q-1)^p);
+      %c0 = c1- p*gamma(c+a-1)*l11/((a-1)^(p+a-1));
       %
-      phi0 = c0 + l0*u + l01*u.*(W0.^p).*(1-p*hypergeom(1,p+a,(a-1)*W0)/(p+a-1));
-      phi1 = c1 + l0*u + l11*u.*(W1.^p).*(1-p*hypergeom(1,p+a,(a-1)*W1)/(p+a-1));
+      % partie en indicatrice
+      um = u( u <= ( ((q-1)/e)^(q-1) ) );
+      lz = length(u)-length(um);
+      mW0 = -real(lambertw(0,-(um.^(1/(q-1)))/(q-1)));
+      mW1 = -real(lambertw(-1,-(um.^(1/(q-1)))/(q-1)));
+      p0 = um.*(mW0.^p).*(1-p*hypergeom(1,p+q,(q-1)*mW0)/(p+q-1));
+      p1 = um.*(mW1.^p).*(1-p*hypergeom(1,p+q,(q-1)*mW1)/(p+q-1));
+      I=find(um==0); p1(I) = -p*gamma(p+q-1)/((q-1)^p); % limite u -> 0
+      %
+      phi0 = c0 + b*u + a0*[p0 zeros(1,lz)];
+      %a0*u.*(mW0.^c).*(1-c*hypergeom(1,a+c,(a-1)*mW0)/(a+c-1));
+      phi1 = c1 + b*u + a1*[p1 zeros(1,lz)];
+      %a1*u.*(mW1.^c).*(1-c*hypergeom(1,a+c,(a-1)*mW1)/(a+c-1));
       %
       figure(ifig)
-      h = plot(u,phi0,'k-',u,phi1,'k-'); set(h,'linewidth',1);
+      h = plot(u,phi0,'k-',u,phi1,'k-'); set(h,'linewidth',1.5);
       dt = (max([phi0 phi1]) - min([phi0 phi1]))*.01;
-      set(gca,'xlim',[0 u(end)],'ylim',[min([phi0 phi1])-dt max([phi0 phi1])+dt],'fontsize',6);
-      %yt = get(gca,'ytick')'; set(gca,'yticklabel',num2str(yt));
-      set(gcf,'paperposition',[0 0 5 3*k(ia)]);
+      set(gca,'xlim',[0 u(end)],'ylim',[min([phi0 phi1])-dt max([phi0 phi1])+dt],'fontsize',14);
+      %%yt = get(gca,'ytick')'; set(gca,'yticklabel',num2str(yt));
+      set(gcf,'paperposition',[0 0 5 3]);
       ifig = ifig+1;
-      ct = menu(['trace de la gamma(' int2str(a) ') - moment p=' int2str(p) ' : '],'oui','non');
-      if(ct==1); eval(['print Gamma_a' int2str(a) '_p' int2str(p) ' -loose -deps;']); end
+      ct = menu(['trace de la gamma(' int2str(q) ') - moment p = ' int2str(p) ' : '],'oui','non');
+      if(ct==1); eval(['print Gamma_q' int2str(q) '_p' int2str(p) ' -loose -deps;']); end
     end
   end
 end

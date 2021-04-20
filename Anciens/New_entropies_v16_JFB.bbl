@@ -1,0 +1,635 @@
+\begin{thebibliography}{100}
+
+\bibitem{vNeu27}
+J.~{von Neumann}.
+\newblock Thermodynamik quantenmechanischer gesamtheiten.
+\newblock {\em Nachrichten von der Gesellschaft der Wissenschaften zu
+  G{\"o}ttingen}, 1:273--291, 1927.
+
+\bibitem{Sha48}
+C.~E. Shannon.
+\newblock A mathematical theory of communication.
+\newblock {\em The Bell System Technical Journal}, 27(4):623--656, October
+  1948.
+
+\bibitem{Bol64}
+L.~Boltzmann {(translated by Stephen G. Brush)}.
+\newblock {\em Lectures on Gas Theory}.
+\newblock Dover, Leipzig, Germany, 1964.
+
+\bibitem{Pla15}
+M.~Planck.
+\newblock {\em Eight Lectures on Theoretical Physics}.
+\newblock Columbia University Press, New-York, 2015.
+
+\bibitem{Nie52:v2}
+F.~R.~S. W.~D.~Nieven, M.~A.
+\newblock {\em The scientific papers of {J}ames {C}lerk {M}axwell}, volume~2.
+\newblock Dover, New-York, 1952.
+
+\bibitem{Jay65}
+E.~T. Jaynes.
+\newblock Gibbs vs {B}oltzmann entropies.
+\newblock {\em American Journal of Physics}, 33(5):391--398, May 1965.
+
+\bibitem{MulMul09}
+I.~M{\"u}ller and W.~H. M{\"u}ller.
+\newblock {\em Fundamentals of Thermodynamics and Applications. With Historical
+  Annotations and Many Citations from {A}vogadro to {Z}ermelo}.
+\newblock Springer, Berlin, 2009.
+
+\bibitem{Ren61}
+A.~R{\'e}nyi.
+\newblock On measures of entropy and information.
+\newblock {\em in Proceeding of the 4th Berkeley Symposium on Mathematical
+  Statistics and Probability}, 1:547--561, 1961.
+
+\bibitem{Var66}
+R.~S. Varma.
+\newblock Generalization of {R\'e}nyi's entropy of order $\alpha$.
+\newblock {\em Journal of Mathematical Sciences}, 1:34--48, 1966.
+
+\bibitem{HavCha67}
+J.~Havrda and F.~Charv{\'a}t.
+\newblock Quantification method of classification processes: Concept of
+  structural $\alpha$-entropy.
+\newblock {\em Kybernetika}, 3(1):30--35, 1967.
+
+\bibitem{Csi67}
+I.~Csisz{\`a}r.
+\newblock Information-type measures of difference of probability distributions
+  and indirect observations.
+\newblock {\em Studia Scientiarum Mathematicarum Hungarica}, 2:299--318, 1967.
+
+\bibitem{Dar70}
+Z.~Dar{\'o}czy.
+\newblock Generalized information functions.
+\newblock {\em Information and Control}, 16(1):36--51, March 1970.
+
+\bibitem{AczDar75}
+J~Acz{\'e}l and Z.~Dar{\'o}czy.
+\newblock {\em On Measures of Information and Their Characterizations}.
+\newblock Academic Press, New-York, 1975.
+
+\bibitem{DarJar79}
+Z.~Dar{\'o}czy and A.~J{\'a}rai.
+\newblock On the measurable solution of a functional equation arising in
+  information theory.
+\newblock {\em Acta Mathematica Academiae Scientiarum Hungaricae},
+  34(1-2):105--116, March 1979.
+
+\bibitem{Tsa88}
+C.~Tsallis.
+\newblock Possible generalization of {B}oltzmann-{G}ibbs statistics.
+\newblock {\em Journal of Statistical Physics}, 52(1-2):479--487, July 1988.
+
+\bibitem{Sal87}
+M.~Salicr{\'u}.
+\newblock Funciones de entrop{\'i}a asociada a medidas de {C}sisz{\'a}r.
+\newblock {\em Q{\"u}estii{\'o}}, 11(3):3--12, 1987.
+
+\bibitem{SalMen93}
+M.~Salicr{\'u}, M.~L. Men{\'e}ndez, D.~Morales, and L.~Pardo.
+\newblock Asymptotic distribution of $(h,\phi)$-entropies.
+\newblock {\em Communications in Statistics -- Theory and Methods},
+  22(7):2015--2031, 1993.
+
+\bibitem{Sal94}
+M.~Salicr{\'u}.
+\newblock Measures of information associated with {C}sisz{\'a}r's divergences.
+\newblock {\em Kybernetica}, 30(5):563--573, 1994.
+
+\bibitem{LieVaj06}
+F.~Liese and I.~Vajda.
+\newblock On divergence and informations in statistics and information theory.
+\newblock {\em IEEE Transactions on Information Theory}, 52(10):4394--4412,
+  October 2006.
+
+\bibitem{Bas13}
+M.~Basseville.
+\newblock Divergence measures for statistical data processing -- an annotated
+  bibliography.
+\newblock {\em Signal Processing}, 93(4):621--633, April 2013.
+
+\bibitem{PanDit51}
+P.~F. Panter and W.~Dite.
+\newblock Quantization distortion in pulse-count modulation with nonuniform
+  spacing of levels.
+\newblock {\em Proceedings of the IRE}, 39(1):44--48, January 1951.
+
+\bibitem{Llo82}
+S.~P. Lloyd.
+\newblock Least squares quantization in {PCM}.
+\newblock {\em IEEE Transactions on Information Theory}, 28(2):129--137, March
+  1982.
+
+\bibitem{GerGra92}
+A.~Gersho and R.~M. Gray.
+\newblock {\em Vector quantization and signal compression}.
+\newblock Kluwer, Boston, 1992.
+
+\bibitem{Cam65}
+L.~L. Campbell.
+\newblock A coding theorem and {R\'enyi's} entropy.
+\newblock {\em Information and Control}, 8(4):423--429, August 1965.
+
+\bibitem{Ber09}
+J.-F. Bercher.
+\newblock Source coding with escort distributions and {R\'e}nyi entropy bounds.
+\newblock {\em Physics Letters A}, 373(36):3235--3238, August 2009.
+
+\bibitem{BurRao82}
+J.~Burbea and C.~R. Rao.
+\newblock On the convexity of some divergence measures based on entropy
+  functions.
+\newblock {\em IEEE Transactions on Information Theory}, 28(3):489--495, May
+  1982.
+
+\bibitem{MenMor97}
+M.~L. Men{\'e}ndez, D.~Morales, L.~Pardo, and M.~Salicr{\'u}.
+\newblock $(h,\phi)$-entropy differential metric.
+\newblock {\em Applications of Mathematics}, 42(1-2):81--98, 1997.
+
+\bibitem{Par06}
+L.~Pardo.
+\newblock {\em Statistical Inference Based on Divergence Measures}.
+\newblock Chapman \& Hall, Boca Raton, FL, USA, 2006.
+
+\bibitem{Jay57}
+E.~.T Jaynes.
+\newblock Information theory and statistical mechanics.
+\newblock {\em Physical Review}, 106(4):620--630, may 1957.
+
+\bibitem{Kap89}
+J.~N. Kapur.
+\newblock {\em Maximum Entropy Model in Sciences and Engineering}.
+\newblock Wiley Eastern Limited, New-Dehli, 1989.
+
+\bibitem{Arn01}
+C.~Arndt.
+\newblock {\em Information Measures: Information and Its Description in
+  Sciences and Engeniering}.
+\newblock Springer Verlag, Berlin, 2001.
+
+\bibitem{CovTho06}
+T.~M. Cover and J.~A. Thomas.
+\newblock {\em Elements of Information Theory}.
+\newblock John Wiley \& Sons, Hoboken, New Jersey, 2nd edition, 2006.
+
+\bibitem{Jay68}
+E.~T. Jaynes.
+\newblock Prior probabilities.
+\newblock {\em IEEE transactions on systems science and cybernetics},
+  4(3):227--241, September 1968.
+
+\bibitem{Csi91}
+I.~Csisz{\`a}r.
+\newblock Why least squares and maximum entropy? an axiomatic approach to
+  inference for linear inverse problems.
+\newblock {\em The Annals of Statistics}, 19(4):2031--2066, December 1991.
+
+\bibitem{FriSri08}
+B.~A. Frigyik, S.~Srivastava, and M.~R. Gupta.
+\newblock Functional {B}regman divergence and {B}ayesian estimation of
+  distributions.
+\newblock {\em IEEE Transactions on Infomation Theory}, 54(11):5130--5139,
+  November 2008.
+
+\bibitem{Rob07}
+C.~P. Robert.
+\newblock {\em The Bayesian Choice. From Decision-Theoretic Foundations to
+  Computational Implementation}.
+\newblock Springer, New-York, 2nd edition, 2007.
+
+\bibitem{JonByr90}
+L.~K. Jones and C.~L. Byrne.
+\newblock General entropy criteria for inverse problems, with applications to
+  data compression, pattern classification, and cluster analysis.
+\newblock {\em IEEE transactions on Information Theory}, 36(1):23--30, January
+  1990.
+
+\bibitem{HerMa02}
+A.~O. {Hero III\@}, B.~Ma, O.~J.~J. Michel, and J.~Gorman.
+\newblock Application of entropic spanning graphs.
+\newblock {\em IEEE Signal Processing Magazine}, 19(5):85--95, September 2002.
+
+\bibitem{ParBer09}
+S.~Y. Park and A.~K. Bera.
+\newblock Maximum entropy autoregressive conditional heteroskedasticity model.
+\newblock {\em Journal of Econometrics}, 150(2):219--230, June 2009.
+
+\bibitem{Vas76}
+O.~Vasicek.
+\newblock A test for normality based on sample entropy.
+\newblock {\em Journal of the Royal Statistical Society B}, 38(1):54--59, 1976.
+
+\bibitem{Gok83}
+D.V. Gokhale.
+\newblock On entropy-based goodness-of-fit tests.
+\newblock {\em Computational Statistics and Data Analysis}, 1:157--165, march
+  1983.
+
+\bibitem{Son02}
+K.-S. Song.
+\newblock Goodness-of-fit tests based on {K}ullback-{L}eibler discrimination
+  information.
+\newblock {\em IEEE Transactions on Information Theory}, 48(5):1103--1117, May
+  2002.
+
+\bibitem{Leq14}
+J.~Lequesne.
+\newblock A goodness-of-fit test of {S}tudent distributions based on {R\'e}nyi
+  entropy.
+\newblock In A.~Djafari and F.~Barbaresco, editors, {\em AIP conference
+  proceedings of the 34th international workshop on Bayesian Inference and
+  Maximum Entropy Methods (MaxEnt'14)}, volume 1641, pages 487--494, Amboise,
+  France, 21-25 september 2014.
+
+\bibitem{Leq15}
+J.~Lequesne.
+\newblock {\em Tests statistiques bas{\'e}s sur la th{\'e}orie de
+  l'information, applications en biologie et en d{\'e}mographie}.
+\newblock PhD thesis, Universit{\'e} de {C}aen {B}asse-{N}ormandie, Caen,
+  France, 2015.
+
+\bibitem{GirReg15}
+V.~Girardin and P.~Regnault.
+\newblock Escort distributions minimizing the {K}ullback-{L}eibler divergence
+  for a large deviations principle and tests of entropy level.
+\newblock {\em Annals of the Institute of Statistical Mathematics},
+  68(2):439--468, April 2015.
+
+\bibitem{KesKap89}
+H.~K. Kesavan and J.~N. Kapur.
+\newblock The generalized maximum entropy principle.
+\newblock {\em IEEE Transactions on Systems Man and Cybernetics},
+  19:1042--1052, 1989.
+
+\bibitem{BorLew91:03}
+J.~M. Borwein and A.~S. Lewis.
+\newblock Duality relationships for entropy-like minimization problems.
+\newblock {\em SIAM Journal on Control and Optimization}, 29(2):325--338, March
+  1991.
+
+\bibitem{BorLew91:05}
+J.~M. Borwein and A.~S. Lewis.
+\newblock Convergence of best entropy estimates.
+\newblock {\em SIAM Journal of Optimization}, 1(2):191--205, May 1991.
+
+\bibitem{BorLew93}
+J.~M. Borwein and A.~S. Lewis.
+\newblock Partially-finite programming in {$L_1$} and the existence of maximum
+  entropy estimates.
+\newblock {\em SIAM Journal of Optimization}, 3(2):248--267, May 1993.
+
+\bibitem{TsaMen98}
+C.~Tsallis, R.~M. Mendes, and A.~R. Plastino.
+\newblock The role of constraints within generalized nonextensive statistics.
+\newblock {\em Physica A}, 261(3-4):534--554, December 1998.
+
+\bibitem{Tsa99}
+C.~Tsallis.
+\newblock Nonextensive statistics: theoretical, experimental and computational
+  evidences and connections.
+\newblock {\em Brazilian Journal of Physics}, 29(1):1--35, March 1999.
+
+\bibitem{Tsa09}
+C.~Tsallis.
+\newblock {\em Introduction to Nonextensive Statistical Mechanics --
+  Approaching a Complex World}.
+\newblock Springer Verlag, New-York, 2009.
+
+\bibitem{EssSch00}
+C.~Essex, C.~Schulzsky, A.~Franz, and K.~H. Hoffmann.
+\newblock {T}sallis and {R\'e}nyi entropies in fractional diffusion and entropy
+  production.
+\newblock {\em Physica A}, 284(1-4):299--308, September 2000.
+
+\bibitem{ParBir05}
+A.~S. Parvan and T.~S. Bir{\'o}.
+\newblock Extensive {R\'e}nyi statistics from non-extensive entropy.
+\newblock {\em Physics Letters A}, 340(5-6):375--387, June 2005.
+
+\bibitem{Kay93}
+S.~M. Kay.
+\newblock {\em Fundamentals for Statistical Signal Processing: Estimation
+  Theory}.
+\newblock vol.~1. Prentice Hall, Upper Saddle River, NJ, 1993.
+
+\bibitem{Fri04}
+B.~R. Frieden.
+\newblock {\em Science from {F}isher Information: A Unification}.
+\newblock Cambridge University Press, Cambridge, UK, 2004.
+
+\bibitem{Jef46}
+Jeffrey.
+\newblock An invariant form for the prior probability in estimation problems.
+\newblock {\em Proceedings of the Royal Society A}, 186(1007):453--461,
+  September 1946.
+
+\bibitem{VigBer03}
+C.~Vignat and J.-F. Bercher.
+\newblock Analysis of signals in the {F}isher-{S}hannon information plane.
+\newblock {\em Physics Letters A}, 312(1-2):27--33, June 2003.
+
+\bibitem{RomAng99}
+E.~Romera, J.~C. Angulo, and J.~S. Dehesa.
+\newblock Fisher entropy and uncertainty like relationships in many-body
+  systems.
+\newblock {\em Physical Review A}, 59(5):4064--4067, May 1999.
+
+\bibitem{RomSan06}
+E.~Romera, P.~{S\'anchez-Moreno}, and J.~S. Dehesa.
+\newblock Uncertainty relation for {F}isher information of {$D$}-dimensional
+  single-particle systems with central potentials.
+\newblock {\em Journal of Mathematical Physics}, 47(10):103504, October 2006.
+
+\bibitem{SanGon06}
+P.~{S\'anchez-Moreno}, R.~{Gonz\'alez-F\'erez}, and J.~S. Dehesa.
+\newblock Improvement of the {H}eisenberg and {F}isher-information-based
+  uncertainty relations for {$D$}-dimensional potentials.
+\newblock {\em New Journal of Physics}, 8:330, December 2006.
+
+\bibitem{TorLop15}
+I.~V. Toranzo, S.~{Lopez-Rosa}, R.O. Esquivel, and J.~S. Dehesa.
+\newblock {H}eisenberg-like and {F}isher-information uncertainties relations
+  for {$N$}-fermion $d$-dimensional systems.
+\newblock {\em Physical Review A}, page on press, 2015.
+
+\bibitem{Sta59}
+A.~J. Stam.
+\newblock Some inequalities satisfied by the quantities of information of
+  {F}isher and {S}hannon.
+\newblock {\em Information and Control}, 2(2):101--112, June 1959.
+
+\bibitem{DemCov91}
+A.~Dembo, T.~M. Cover, and J.~A. Thomas.
+\newblock Information theoretic inequalities.
+\newblock {\em IEEE Transactions on Information Theory}, 37(6):1501--1518,
+  November 1991.
+
+\bibitem{GuoSha05}
+D.~Guo, S.~Shamai, and S.~Verd{\'u}.
+\newblock Mutual information and minimum mean-square error in {G}aussian
+  channels.
+\newblock {\em IEEE Transactions on Information Theory}, 51(4):1261--1282,
+  April 2005.
+
+\bibitem{FolSit97}
+G.~B. Folland and A.~Sitaram.
+\newblock The uncertainty principle: {A} mathematical survey.
+\newblock {\em Journal of Fourier Analysis and Applications}, 3(3):207--233,
+  May 1997.
+
+\bibitem{Sen11}
+K.~D. Sen.
+\newblock {\em Statistical Complexity. Application in Electronic Structure}.
+\newblock Springer Verlag, New-York, 2011.
+
+\bibitem{Vaj73}
+I.~Vajda.
+\newblock {$\chi^\alpha$}-divergence and generalized {F}isher's information.
+\newblock In {\em Transactions of the 6th Prague Conference on Information
+  Theory, Statistics, Decision Functions and Random Processes}, pages 873--886,
+  1973.
+
+\bibitem{Boe77}
+D.~E. Boekee.
+\newblock An extension of the {F}isher information measure.
+\newblock In I.~Csisz{\`a}r and P.~Elias., editors, {\em Topics in information
+  theory. Proc. 2nd Colloquium on Information Theory}, volume~16, pages
+  113--123, Keszthely, Hungary, 25-29 August 1975 1977. Colloquia Mathematica
+  Societatis J{\'a}nos Bolyai and North Holland, Amsterdam.
+
+\bibitem{Ham78}
+P.~Hammad.
+\newblock Mesure d'ordre $\alpha$ de l'information au sens de {F}isher.
+\newblock {\em Revue de Statistique Appliqu{\'e}e}, 26(1):73--84, 1978.
+
+\bibitem{BoeVan80}
+D.~E. Boekee and J.~C.~A. {Van der Lubbe}.
+\newblock The $r$-norm information measure.
+\newblock {\em Information and Control}, 45(2):136:155, May 1980.
+
+\bibitem{LutYan04}
+E.~Lutwak, D.~Yang, and G.~Zhang.
+\newblock Moment-entropy inequalities.
+\newblock {\em The Annals of Probability}, 32(1B):757--774, January 2004.
+
+\bibitem{LutYan05}
+E.~Lutwak, D.~Yang, and G.~Zhang.
+\newblock Cram{\'e}r-{R}ao and moment-entropy inequalities for {R\'e}nyi
+  entropy and generalized {F}isher information.
+\newblock {\em IEEE Transactions on Information Theory}, 51(2):473--478,
+  February 2005.
+
+\bibitem{LutYan07}
+E.~Lutwak, D.~Yang, and G.~Zhang.
+\newblock Moment-entropy inequalities for a random vector.
+\newblock {\em IEEE Transactions on Information Theory}, 53(4):1603--1607,
+  April 2007.
+
+\bibitem{LutLv12}
+E.~Lutwak, S.~Lv, D.~Yang, and G.~Zhang.
+\newblock Extension of {F}isher information and {S}tam's inequality.
+\newblock {\em IEEE Transactions on Information Theory}, 58(3):1319--1327,
+  March 2012.
+
+\bibitem{Ber12:06_1}
+J.-F. Bercher.
+\newblock On a {$(\beta,q)$}-generalized {F}isher information and inequalities
+  invoving {$q$-G}aussian distributions.
+\newblock {\em Journal of Mathematical Physics}, 53(6):063303, june 2012.
+
+\bibitem{Ber12:06_2}
+J.-F. Bercher.
+\newblock On generalized {C}ram{\'e}r-{R}ao inequalities, generalized {F}isher
+  information and characterizations of generalized {$q$-G}aussian
+  distributions.
+\newblock {\em Journal of Physics A}, 45(25):255303, June 2012.
+
+\bibitem{Ber13}
+J.-F. Bercher.
+\newblock On multidimensional generalized {C}ram{\'e}r-{R}ao inequalities,
+  uncertainty relations and characterizations of generalized {$q$-G}aussian
+  distributions.
+\newblock {\em Journal of Physics A}, 46(9):095303, March 2013.
+
+\bibitem{Ber13:08}
+J.-F. Bercher.
+\newblock Some properties of generalized {F}isher information in the context of
+  nonextensive thermostatistics.
+\newblock {\em Physica A}, 392(15):3140--3154, August 2013.
+
+\bibitem{Bre67}
+L.~M. Bregman.
+\newblock The relaxation method of finding the common point of convex sets and
+  its application to the solution of problem in convex programming.
+\newblock {\em USSR Computational Mathematics and Mathematical Physics},
+  7(3):200--217, 1967.
+
+\bibitem{NieNoc17}
+F.~Nielsen and R.~Nock.
+\newblock Generalizing skew {J}ensen divergences and {B}regman divergences with
+  comparative convexity.
+\newblock {\em IEEE Signal Processing Letters}, 24(8):1123--1127, August 2017.
+
+\bibitem{BenBor92}
+A.~{Ben-Tal}, J.~M. Bornwein, and M.~Teboulle.
+\newblock Spectral estimation via convex programming.
+\newblock In Fred~Young Phillips and John~James Rousseau, editors, {\em Systems
+  and Management Science by Extremal Methods}, chapter~18, pages 275--290.
+  Springer, 1992.
+
+\bibitem{TebVaj93}
+M.~Teboulle and I.~Vajda.
+\newblock Convergence of best {$\phi$}-entropy estimates.
+\newblock {\em IEEE Transactions on Infomation Theory}, 39(1):297--301, January
+  1993.
+
+\bibitem{Gir97}
+V.~Girardin.
+\newblock M{\'e}thodes de r{\'e}alisation de produit scalaire et de
+  probl{\`e}me de moments avec maximisation d'entropie.
+\newblock {\em Studia Mathematica}, 124(3):199--213, 1997.
+
+\bibitem{Gir07}
+V.~Girardin.
+\newblock Relative entropy and spectral constraints : Some invariance
+  properties of the {ARMA} class.
+\newblock {\em Journal of Time Series Analysis}, 28(6):844--866, November 2007.
+
+\bibitem{CosHer03}
+J.~A. Costa, A.~O. {Hero III\@}, and C.~Vignat.
+\newblock On solutions to multivariate maximum {$\alpha$}-entropy problems.
+\newblock In Anand Rangarajan, M{\'a}rio A.~T. Figueiredo, and Josiane Zerubia,
+  editors, {\em 4th International Workshop on Energy Minimization Methods in
+  Computer Vision and Pattern Recognition (EMMCVPR)}, volume 2683 of {\em
+  Lecture Notes in Computer Sciences}, pages 211--226, Lisbon, Portugal, July
+  7-9 2003. Springer Verlag.
+
+\bibitem{ChhJen89}
+A.~Chhabra and R.~V. Jensen.
+\newblock Direct determination of the {$f(\alpha)$} singularity spectrum.
+\newblock {\em Physical Review Letters}, 62(12):1327, March 1989.
+
+\bibitem{BecSch93}
+C.~Beck and F.~Sch{\"o}gl.
+\newblock {\em Thermodynamics of chaotic systems: an introduction}.
+\newblock Cambridge University Press, Cambridge, 1993.
+
+\bibitem{Nau11}
+J.~Naudts.
+\newblock {\em Generalized Thermostatistics}.
+\newblock Spri, London, 2011.
+
+\bibitem{MarNic00}
+S.~Mart{\'i}nez, F.~Nicol{\'a}s, F.~Pennini, and A.~Plastino.
+\newblock Tsallis' entropy maximization procedure revisited.
+\newblock {\em Physica A}, 286(3-4):489--502, November 2000.
+
+\bibitem{ChimPen00}
+L.~P. Chimento, F.~Pennini, and A.~Plastino.
+\newblock {N}audts-like duality and the extreme {F}isher information principle.
+\newblock {\em Physical Review E}, 62(5):7462--7465, November 2000.
+
+\bibitem{CasChi02}
+M.~Casas, L.~Chimento, F.~Pennini, A.~Plastino, and A.~R. Plastino.
+\newblock {F}isher information in a {T}sallis non-extensive environment.
+\newblock {\em Chaos, Solitons and Fractals}, 13(3):451--459, March 2002.
+
+\bibitem{Wid75}
+D.~V. Widder.
+\newblock {\em The Heat Equation}.
+\newblock Academic Press, New-York, 1975.
+
+\bibitem{TsaLen02}
+C.~Tsallis and E.~K. Lenzi.
+\newblock Anomalous diffusion: nonlinear fractional {F}okker-{P}lanck equation.
+\newblock {\em Chemical Physics}, 284(1-2):341--347, November 2002.
+
+\bibitem{Vaz06}
+J.~L. V{\'a}zquez.
+\newblock {\em Smoothing and Decay Estimates for Nonlinear Diffusion Equations
+  -- Equation of Porous Medium Type}.
+\newblock Oxford University Press, New-York, USA, 2006.
+
+\bibitem{GilKer04}
+B.~H. Gilding and R.~Kersner.
+\newblock {\em Travelling Waves in Nonlinear Diffusion-Convection Reaction}.
+\newblock Springer, Basel, Switzerland, 2004.
+
+\bibitem{HarVig03}
+P.~Harremo{\"e}s and C.~Vignat.
+\newblock An entropy power inequality for the binomial family.
+\newblock {\em Journal of Inequalities in Pure and Applied Mathematics},
+  4(5):93, 2003.
+
+\bibitem{JohYu10}
+O.~Johnson and Y.~Yu.
+\newblock Monotonicity, thinning, and discrete versions of the entropy power
+  inequality.
+\newblock {\em IEEE Transactions on Information Theory}, 56(11):5387--5395, nov
+  2010.
+
+\bibitem{HagAbb14}
+S.~Haghighatshoar, E.~Abbe, and I.~E. Telatar.
+\newblock A new entropy power inequality for integer-valued random variables.
+\newblock {\em IEEE Transactions on Information Theory}, 60(7):3787--3796, jul
+  2014.
+
+\bibitem{BobChi15}
+S.~G. Bobkov and G.~P. Chistyakov.
+\newblock Entropy power inequality for the {R\'e}nyi entropy.
+\newblock {\em IEEE Transactions on Information Theory}, 61(2):708--714,
+  February 2015.
+
+\bibitem{ZozPue17}
+S.~Zozor, D.~Puertas-Centeno, and J.~S. Dehesa.
+\newblock On generalized {S}tam inequalities and {F}isher--{R\'e}nyi complexity
+  measures.
+\newblock {\em Entropy}, 19(9):493, September 2017.
+
+\bibitem{Rio17}
+O.~Rioul.
+\newblock Yet another proof of the entropy power inequality.
+\newblock {\em IEEE Transactions on Information Theory}, 63(6):3595--3599, June
+  2017.
+
+\bibitem{Ros56}
+M.~Rosenblatt.
+\newblock Remarks on some nonparametric estimates of a density function.
+\newblock {\em The Annals of Mathematical Statistics}, 27(3):832--837,
+  September 1956.
+
+\bibitem{Par62}
+E.~Parzen.
+\newblock On estimation of a probability density function and mode.
+\newblock {\em The Annals of Mathematical Statistics}, 33(3):1065--1076,
+  September 1962.
+
+\bibitem{BeiDud97}
+J.~Beirlant, E.~J. Dudewicz, L.~Gy{\"o}rfi, and E.~C. {van der Meulen}.
+\newblock Nonparametric entropy estimation: An overview.
+\newblock {\em International Journal of Mathematical and Statistical Sciences},
+  6(1):17--39, June 1997.
+
+\bibitem{LeoPro08}
+N.~Leonenko, L.~Pronzato, and V.~Savani.
+\newblock A class of {R\'e}nyi information estimators for multidimensional
+  densities.
+\newblock {\em Annals of Statistics}, 36(5):2153--2182, October 2008.
+
+\bibitem{CorGon96}
+R.~M. Corless, G.~H. Gonnet, D.~E.~G. Hare, D.~J. Jeffrey, and D.~E. Knuth.
+\newblock On the {L}ambert {W} function.
+\newblock {\em Advances in Computational Mathematics}, 5(1):329--359, December
+  1996.
+
+\bibitem{AbrSte70}
+M.~Abramowitz and I.~A. Stegun.
+\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}.
+\newblock 9th printing. Dover, New-York, 1970.
+
+\end{thebibliography}

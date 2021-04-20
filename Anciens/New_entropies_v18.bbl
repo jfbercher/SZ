@@ -1,0 +1,829 @@
+\begin{thebibliography}{999}
+
+\bibitem[{von Neumann}(1927)]{vNeu27}
+{von Neumann}, J.
+\newblock Thermodynamik quantenmechanischer Gesamtheiten.
+\newblock {\em Nachrichten von der Gesellschaft der Wissenschaften zu
+  G{\"o}ttingen} {\bf 1927}, {\em 1},~273--291.
+
+\bibitem[Shannon(1948)]{Sha48}
+Shannon, C.E.
+\newblock A Mathematical Theory of Communication.
+\newblock {\em The Bell System Technical Journal} {\bf 1948}, {\em
+  27},~623--656.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/j.1538-7305.1948.tb00917.x}{\detokenize{10.1002/j.1538-7305.1948.tb00917.x}}}.
+
+\bibitem[{(translated by Stephen G. Brush)}(1964)]{Bol64}
+{(translated by Stephen G. Brush)}, L.B.
+\newblock {\em Lectures on Gas Theory}; Dover: Leipzig, Germany,  1964.
+
+\bibitem[Boltzmann(1896)]{Bol96}
+Boltzmann, L.
+\newblock {\em vorlesungen {\"u}ber Gastheorie - {I}}; Verlag von Johann
+  Ambrosius Barth: Leipzig, Germany,  1896.
+
+\bibitem[Boltzmann(1898)]{Bol98}
+Boltzmann, L.
+\newblock {\em vorlesungen {\"u}ber Gastheorie - {II}}; Verlag von Johann
+  Ambrosius Barth: Leipzig, Germany,  1898.
+
+\bibitem[Planck(2015)]{Pla15}
+Planck, M.
+\newblock {\em Eight Lectures on Theoretical Physics}; Columbia University
+  Press: New-York,  2015.
+
+\bibitem[W.~D.~Nieven(1952)]{Nie52:v2}
+W.~D.~Nieven, M.~A., F.R.S.
+\newblock {\em The scientific papers of {J}ames {C}lerk {M}axwell}; Vol.~2,
+  Dover: New-York,  1952.
+
+\bibitem[Jaynes(1965)]{Jay65}
+Jaynes, E.T.
+\newblock Gibbs vs {B}oltzmann Entropies.
+\newblock {\em American Journal of Physics} {\bf 1965}, {\em 33},~391--398.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1119/1.1971557}{\detokenize{10.1119/1.1971557}}}.
+
+\bibitem[M{\"u}ller and M{\"u}ller(2009)]{MulMul09}
+M{\"u}ller, I.; M{\"u}ller, W.H.
+\newblock {\em Fundamentals of Thermodynamics and Applications. With Historical
+  Annotations and Many Citations from {A}vogadro to {Z}ermelo}; Springer:
+  Berlin,  2009.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-3-540-74648-5}{\detokenize{10.1007/978-3-540-74648-5}}}.
+
+\bibitem[R{\'e}nyi(1961)]{Ren61}
+R{\'e}nyi, A.
+\newblock On measures of entropy and information.
+\newblock {\em in Proceeding of the 4th Berkeley Symposium on Mathematical
+  Statistics and Probability} {\bf 1961}, {\em 1},~547--561.
+
+\bibitem[Varma(1966)]{Var66}
+Varma, R.S.
+\newblock Generalization of {R\'e}nyi's Entropy of Order $\alpha$.
+\newblock {\em Journal of Mathematical Sciences} {\bf 1966}, {\em 1},~34--48.
+
+\bibitem[Havrda and Charv{\'a}t(1967)]{HavCha67}
+Havrda, J.; Charv{\'a}t, F.
+\newblock Quantification Method of Classification Processes: Concept of
+  Structural $\alpha$-Entropy.
+\newblock {\em Kybernetika} {\bf 1967}, {\em 3},~30--35.
+
+\bibitem[Csisz{\`a}r(1967)]{Csi67}
+Csisz{\`a}r, I.
+\newblock Information-Type Measures of Difference of Probability Distributions
+  and Indirect Observations.
+\newblock {\em Studia Scientiarum Mathematicarum Hungarica} {\bf 1967}, {\em
+  2},~299--318.
+
+\bibitem[Dar{\'o}czy(1970)]{Dar70}
+Dar{\'o}czy, Z.
+\newblock Generalized Information Functions.
+\newblock {\em Information and Control} {\bf 1970}, {\em 16},~36--51.
+
+\bibitem[Acz{\'e}l and Dar{\'o}czy(1975)]{AczDar75}
+Acz{\'e}l, J.; Dar{\'o}czy, Z.
+\newblock {\em On Measures of Information and Their Characterizations};
+  Academic Press: New-York,  1975.
+
+\bibitem[Dar{\'o}czy and J{\'a}rai(1979)]{DarJar79}
+Dar{\'o}czy, Z.; J{\'a}rai, A.
+\newblock On the measurable solution of a functional equation arising in
+  information theory.
+\newblock {\em Acta Mathematica Academiae Scientiarum Hungaricae} {\bf 1979},
+  {\em 34},~105--116.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/bf01902599}{\detokenize{10.1007/bf01902599}}}.
+
+\bibitem[Tsallis(1988)]{Tsa88}
+Tsallis, C.
+\newblock Possible Generalization of {B}oltzmann-{G}ibbs Statistics.
+\newblock {\em Journal of Statistical Physics} {\bf 1988}, {\em 52},~479--487.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/BF01016429}{\detokenize{10.1007/BF01016429}}}.
+
+\bibitem[Salicr{\'u}(1987)]{Sal87}
+Salicr{\'u}, M.
+\newblock Funciones de entrop{\'i}a asociada a medidas de {C}sisz{\'a}r.
+\newblock {\em Q{\"u}estii{\'o}} {\bf 1987}, {\em 11},~3--12.
+
+\bibitem[Salicr{\'u} \em{et~al.}(1993)Salicr{\'u}, Men{\'e}ndez, Morales, and
+  Pardo]{SalMen93}
+Salicr{\'u}, M.; Men{\'e}ndez, M.L.; Morales, D.; Pardo, L.
+\newblock Asymptotic distribution of $(h,\phi)$-entropies.
+\newblock {\em Communications in Statistics -- Theory and Methods} {\bf 1993},
+  {\em 22},~2015--2031.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1080/03610929308831131}{\detokenize{10.1080/03610929308831131}}}.
+
+\bibitem[Salicr{\'u}(1994)]{Sal94}
+Salicr{\'u}, M.
+\newblock Measures of information associated with {C}sisz{\'a}r's divergences.
+\newblock {\em Kybernetica} {\bf 1994}, {\em 30},~563--573.
+
+\bibitem[Liese and Vajda(2006)]{LieVaj06}
+Liese, F.; Vajda, I.
+\newblock On Divergence and Informations in Statistics and Information Theory.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2006}, {\em
+  52},~4394--4412.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.2006.8811731}{\detokenize{10.1109/TIT.2006.8811731}}}.
+
+\bibitem[Basseville(2013)]{Bas13}
+Basseville, M.
+\newblock Divergence measures for statistical data processing -- An annotated
+  bibliography.
+\newblock {\em Signal Processing} {\bf 2013}, {\em 93},~621--633.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.sigpro.2012.09.003}{\detokenize{10.1016/j.sigpro.2012.09.003}}}.
+
+\bibitem[Panter and Dite(1951)]{PanDit51}
+Panter, P.F.; Dite, W.
+\newblock Quantization distortion in pulse-count modulation with nonuniform
+  spacing of levels.
+\newblock {\em Proceedings of the IRE} {\bf 1951}, {\em 39},~44--48.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/JRPROC.1951.230419}{\detokenize{10.1109/JRPROC.1951.230419}}}.
+
+\bibitem[Lloyd(1982)]{Llo82}
+Lloyd, S.P.
+\newblock Least Squares Quantization in {PCM}.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 1982}, {\em
+  28},~129--137.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.1982.1056489}{\detokenize{10.1109/TIT.1982.1056489}}}.
+
+\bibitem[Gersho and Gray(1992)]{GerGra92}
+Gersho, A.; Gray, R.M.
+\newblock {\em Vector quantization and signal compression}; Kluwer: Boston,
+  1992.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-1-4615-3626-0}{\detokenize{10.1007/978-1-4615-3626-0}}}.
+
+\bibitem[Campbell(1965)]{Cam65}
+Campbell, L.L.
+\newblock A coding theorem and {R\'enyi's} entropy.
+\newblock {\em Information and Control} {\bf 1965}, {\em 8},~423--429.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0019-9958(65)90332-3}{\detokenize{10.1016/S0019-9958(65)90332-3}}}.
+
+\bibitem[Bercher(2009)]{Ber09}
+Bercher, J.F.
+\newblock Source coding with escort distributions and {R\'e}nyi entropy bounds.
+\newblock {\em Physics Letters A} {\bf 2009}, {\em 373},~3235--3238.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.physleta.2009.07.015}{\detokenize{10.1016/j.physleta.2009.07.015}}}.
+
+\bibitem[Burbea and Rao(1982)]{BurRao82}
+Burbea, J.; Rao, C.R.
+\newblock On the Convexity of Some Divergence Measures Based on Entropy
+  Functions.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 1982}, {\em
+  28},~489--495.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.1982.1056497}{\detokenize{10.1109/TIT.1982.1056497}}}.
+
+\bibitem[Men{\'e}ndez \em{et~al.}(1997)Men{\'e}ndez, Morales, Pardo, and
+  Salicr{\'u}]{MenMor97}
+Men{\'e}ndez, M.L.; Morales, D.; Pardo, L.; Salicr{\'u}, M.
+\newblock $(h,\Phi)$-entropy differential metric.
+\newblock {\em Applications of Mathematics} {\bf 1997}, {\em 42},~81--98.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1023/A:1022214326758}{\detokenize{10.1023/A:1022214326758}}}.
+
+\bibitem[Pardo(2006)]{Par06}
+Pardo, L.
+\newblock {\em Statistical Inference Based on Divergence Measures}; Chapman \&
+  Hall: Boca Raton, FL, USA,  2006.
+
+\bibitem[Jaynes(1957)]{Jay57}
+Jaynes, E.T.
+\newblock Information Theory and Statistical Mechanics.
+\newblock {\em Physical Review} {\bf 1957}, {\em 106},~620--630.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1103/PhysRev.106.620}{\detokenize{10.1103/PhysRev.106.620}}}.
+
+\bibitem[Kapur(1989)]{Kap89}
+Kapur, J.N.
+\newblock {\em Maximum Entropy Model in Sciences and Engineering}; Wiley
+  Eastern Limited: New-Dehli,  1989.
+
+\bibitem[Arndt(2001)]{Arn01}
+Arndt, C.
+\newblock {\em Information Measures: Information and Its Description in
+  Sciences and Engeniering}; Springer Verlag: Berlin,  2001.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-3-642-56669-1}{\detokenize{10.1007/978-3-642-56669-1}}}.
+
+\bibitem[Cover and Thomas(2006)]{CovTho06}
+Cover, T.M.; Thomas, J.A.
+\newblock {\em Elements of Information Theory}, 2nd ed.; John Wiley \& Sons:
+  Hoboken, New Jersey,  2006.
+
+\bibitem[Gokhale(1975)]{Gok75}
+Gokhale, D.V.
+\newblock Maximum entropy characterizations of some distributions. In {\em A
+  Modern Course on Statistical Distributions in Scientific Work}; G.~P.~Patil,
+  S.K.; Ord, J.K., Eds.; Reidel: Dordrecht, Holland,  1975; Vol. III, pp.
+  299--304.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-94-010-1848-7}{\detokenize{10.1007/978-94-010-1848-7}}}.
+
+\bibitem[Jaynes(1968)]{Jay68}
+Jaynes, E.T.
+\newblock Prior probabilities.
+\newblock {\em IEEE transactions on systems science and cybernetics} {\bf
+  1968}, {\em 4},~227--241.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TSSC.1968.300117}{\detokenize{10.1109/TSSC.1968.300117}}}.
+
+\bibitem[Csisz{\`a}r(1991)]{Csi91}
+Csisz{\`a}r, I.
+\newblock Why Least Squares and Maximum Entropy? An Axiomatic Approach to
+  Inference for Linear Inverse Problems.
+\newblock {\em The Annals of Statistics} {\bf 1991}, {\em 19},~2031--2066.
+
+\bibitem[Frigyik \em{et~al.}(2008)Frigyik, Srivastava, and Gupta]{FriSri08}
+Frigyik, B.A.; Srivastava, S.; Gupta, M.R.
+\newblock Functional {B}regman Divergence and {B}ayesian Estimation of
+  Distributions.
+\newblock {\em IEEE Transactions on Infomation Theory} {\bf 2008}, {\em
+  54},~5130--5139.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.2008.929943}{\detokenize{10.1109/TIT.2008.929943}}}.
+
+\bibitem[Robert(2007)]{Rob07}
+Robert, C.P.
+\newblock {\em The Bayesian Choice. From Decision-Theoretic Foundations to
+  Computational Implementation}, 2nd ed.; Springer: New-York,  2007.
+
+\bibitem[Jaynes(1982)]{Jay82}
+Jaynes, E.T.
+\newblock On the rational of maximum-entropy methods.
+\newblock {\em Proceedings of the IEEE} {\bf 1982}, {\em 70},~939--952.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/PROC.1982.12425}{\detokenize{10.1109/PROC.1982.12425}}}.
+
+\bibitem[Jones and Byrne(1990)]{JonByr90}
+Jones, L.K.; Byrne, C.L.
+\newblock General Entropy Criteria for Inverse Problems, with Applications to
+  Data Compression, Pattern Classification, and Cluster Analysis.
+\newblock {\em IEEE transactions on Information Theory} {\bf 1990}, {\em
+  36},~23--30.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/18.50370}{\detokenize{10.1109/18.50370}}}.
+
+\bibitem[{Hero III\@} \em{et~al.}(2002){Hero III\@}, Ma, Michel, and
+  Gorman]{HerMa02}
+{Hero III\@}, A.O.; Ma, B.; Michel, O.J.J.; Gorman, J.
+\newblock Application of Entropic Spanning Graphs.
+\newblock {\em IEEE Signal Processing Magazine} {\bf 2002}, {\em 19},~85--95.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/MSP.2002.1028355}{\detokenize{10.1109/MSP.2002.1028355}}}.
+
+\bibitem[Park and Bera(2009)]{ParBer09}
+Park, S.Y.; Bera, A.K.
+\newblock Maximum entropy autoregressive conditional heteroskedasticity model.
+\newblock {\em Journal of Econometrics} {\bf 2009}, {\em 150},~219--230.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jeconom.2008.12.014}{\detokenize{10.1016/j.jeconom.2008.12.014}}}.
+
+\bibitem[Vasicek(1976)]{Vas76}
+Vasicek, O.
+\newblock A Test for Normality Based on Sample Entropy.
+\newblock {\em Journal of the Royal Statistical Society B} {\bf 1976}, {\em
+  38},~54--59.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1111/j.2517-6161.1976.tb01566.x}{\detokenize{10.1111/j.2517-6161.1976.tb01566.x}}}.
+
+\bibitem[Gokhale(1983)]{Gok83}
+Gokhale, D.
+\newblock On entropy-based goodness-of-fit tests.
+\newblock {\em Computational Statistics and Data Analysis} {\bf 1983}, {\em
+  1},~157--165.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0167-9473(83)90087-7}{\detokenize{10.1016/0167-9473(83)90087-7}}}.
+
+\bibitem[Song(2002)]{Son02}
+Song, K.S.
+\newblock Goodness-of-fit tests based on {K}ullback-{L}eibler discrimination
+  information.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2002}, {\em
+  48},~1103--1117.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/18.995548}{\detokenize{10.1109/18.995548}}}.
+
+\bibitem[Lequesne(2014)]{Leq14}
+Lequesne, J.
+\newblock A goodness-of-fit test of {S}tudent distributions based on {R\'e}nyi
+  entropy.
+\newblock  AIP conference proceedings of the 34th international workshop on
+  Bayesian Inference and Maximum Entropy Methods (MaxEnt'14); Djafari, A.;
+  Barbaresco, F., Eds.; ,  2014; Vol. 1641, pp. 487--494.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.4906014}{\detokenize{10.1063/1.4906014}}}.
+
+\bibitem[Lequesne(2015)]{Leq15}
+Lequesne, J.
+\newblock Tests statistiques bas{\'e}s sur la th{\'e}orie de l'information,
+  applications en biologie et en d{\'e}mographie.
+\newblock PhD thesis, Universit{\'e} de {C}aen {B}asse-{N}ormandie, Caen,
+  France,  2015.
+
+\bibitem[Girardin and Regnault(2015)]{GirReg15}
+Girardin, V.; Regnault, P.
+\newblock Escort distributions minimizing the {K}ullback-{L}eibler divergence
+  for a large deviations principle and tests of entropy level.
+\newblock {\em Annals of the Institute of Statistical Mathematics} {\bf 2015},
+  {\em 68},~439--468.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/s10463-014-0501-x}{\detokenize{10.1007/s10463-014-0501-x}}}.
+
+\bibitem[Kesavan and Kapur(1989)]{KesKap89}
+Kesavan, H.K.; Kapur, J.N.
+\newblock The Generalized Maximum Entropy Principle.
+\newblock {\em IEEE Transactions on Systems Man and Cybernetics} {\bf 1989},
+  {\em 19},~1042--1052.
+
+\bibitem[Borwein and Lewis(1991{\natexlab{a}})]{BorLew91:03}
+Borwein, J.M.; Lewis, A.S.
+\newblock Duality Relationships for Entropy-Like Minimization Problems.
+\newblock {\em SIAM Journal on Control and Optimization} {\bf 1991}, {\em
+  29},~325--338.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1137/0329017}{\detokenize{10.1137/0329017}}}.
+
+\bibitem[Borwein and Lewis(1991{\natexlab{b}})]{BorLew91:05}
+Borwein, J.M.; Lewis, A.S.
+\newblock Convergence of best entropy estimates.
+\newblock {\em SIAM Journal of Optimization} {\bf 1991}, {\em 1},~191--205.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1137/0801014}{\detokenize{10.1137/0801014}}}.
+
+\bibitem[Borwein and Lewis(1993)]{BorLew93}
+Borwein, J.M.; Lewis, A.S.
+\newblock Partially-finite programming in {$L_1$} and the existence of maximum
+  entropy estimates.
+\newblock {\em SIAM Journal of Optimization} {\bf 1993}, {\em 3},~248--267.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1137/0803012}{\detokenize{10.1137/0803012}}}.
+
+\bibitem[M{\'e}zard and Montanari(2009)]{MezMon09}
+M{\'e}zard, M.; Montanari, A.
+\newblock {\em Information, Physics, and Computation}; Oxford University Press:
+  New-York,  2009.
+
+\bibitem[Tsallis \em{et~al.}(1998)Tsallis, Mendes, and Plastino]{TsaMen98}
+Tsallis, C.; Mendes, R.M.; Plastino, A.R.
+\newblock The role of constraints within generalized nonextensive statistics.
+\newblock {\em Physica A} {\bf 1998}, {\em 261},~534--554.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0378-4371(98)00437-3}{\detokenize{10.1016/S0378-4371(98)00437-3}}}.
+
+\bibitem[Tsallis(1999)]{Tsa99}
+Tsallis, C.
+\newblock Nonextensive Statistics: theoretical, Experimental and Computational
+  Evidences and Connections.
+\newblock {\em Brazilian Journal of Physics} {\bf 1999}, {\em 29},~1--35.
+
+\bibitem[Tsallis(2009)]{Tsa09}
+Tsallis, C.
+\newblock {\em Introduction to Nonextensive Statistical Mechanics --
+  Approaching a Complex World}; Springer Verlag: New-York,  2009.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-0-387-85359-8}{\detokenize{10.1007/978-0-387-85359-8}}}.
+
+\bibitem[Essex \em{et~al.}(2000)Essex, Schulzsky, Franz, and
+  Hoffmann]{EssSch00}
+Essex, C.; Schulzsky, C.; Franz, A.; Hoffmann, K.H.
+\newblock {T}sallis and {R\'e}nyi entropies in fractional diffusion and entropy
+  production.
+\newblock {\em Physica A} {\bf 2000}, {\em 284},~299--308.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0378-4371(00)00174-6}{\detokenize{10.1016/S0378-4371(00)00174-6}}}.
+
+\bibitem[Parvan and Bir{\'o}(2005)]{ParBir05}
+Parvan, A.S.; Bir{\'o}, T.S.
+\newblock Extensive {R\'e}nyi statistics from non-extensive entropy.
+\newblock {\em Physics Letters A} {\bf 2005}, {\em 340},~375--387.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.physleta.2005.04.036}{\detokenize{10.1016/j.physleta.2005.04.036}}}.
+
+\bibitem[Kay(1993)]{Kay93}
+Kay, S.M.
+\newblock {\em Fundamentals for Statistical Signal Processing: Estimation
+  Theory}; vol.~1, Prentice Hall: Upper Saddle River, NJ,  1993.
+
+\bibitem[Frieden(2004)]{Fri04}
+Frieden, B.R.
+\newblock {\em Science from {F}isher Information: A Unification}; Cambridge
+  University Press: Cambridge, UK,  2004.
+
+\bibitem[Jeffrey(1946)]{Jef46}
+Jeffrey.
+\newblock An Invariant Form for the Prior Probability in Estimation Problems.
+\newblock {\em Proceedings of the Royal Society A} {\bf 1946}, {\em
+  186},~453--461.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1098/rspa.1946.0056}{\detokenize{10.1098/rspa.1946.0056}}}.
+
+\bibitem[Vignat and Bercher(2003)]{VigBer03}
+Vignat, C.; Bercher, J.F.
+\newblock Analysis of signals in the {F}isher-{S}hannon information plane.
+\newblock {\em Physics Letters A} {\bf 2003}, {\em 312},~27--33.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0375-9601(03)00570-X}{\detokenize{10.1016/S0375-9601(03)00570-X}}}.
+
+\bibitem[Romera \em{et~al.}(1999)Romera, Angulo, and Dehesa]{RomAng99}
+Romera, E.; Angulo, J.C.; Dehesa, J.S.
+\newblock Fisher entropy and uncertainty like relationships in many-body
+  systems.
+\newblock {\em Physical Review A} {\bf 1999}, {\em 59},~4064--4067.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1103/PhysRevA.59.4064}{\detokenize{10.1103/PhysRevA.59.4064}}}.
+
+\bibitem[Romera \em{et~al.}(2006)Romera, {S\'anchez-Moreno}, and
+  Dehesa]{RomSan06}
+Romera, E.; {S\'anchez-Moreno}, P.; Dehesa, J.S.
+\newblock Uncertainty relation for {F}isher information of {$D$}-dimensional
+  single-particle systems with central potentials.
+\newblock {\em Journal of Mathematical Physics} {\bf 2006}, {\em 47},~103504.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.2357998}{\detokenize{10.1063/1.2357998}}}.
+
+\bibitem[{S\'anchez-Moreno} \em{et~al.}(2006){S\'anchez-Moreno},
+  {Gonz\'alez-F\'erez}, and Dehesa]{SanGon06}
+{S\'anchez-Moreno}, P.; {Gonz\'alez-F\'erez}, R.; Dehesa, J.S.
+\newblock Improvement of the {H}eisenberg and {F}isher-information-based
+  uncertainty relations for {$D$}-dimensional potentials.
+\newblock {\em New Journal of Physics} {\bf 2006}, {\em 8},~330.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1367-2630/8/12/330}{\detokenize{10.1088/1367-2630/8/12/330}}}.
+
+\bibitem[Toranzo \em{et~al.}(2015)Toranzo, {Lopez-Rosa}, Esquivel, and
+  Dehesa]{TorLop15}
+Toranzo, I.V.; {Lopez-Rosa}, S.; Esquivel, R.; Dehesa, J.S.
+\newblock {H}eisenberg-like and {F}isher-information uncertainties relations
+  for {$N$}-fermion $d$-dimensional systems.
+\newblock {\em Physical Review A} {\bf 2015}, p. on press.
+
+\bibitem[Stam(1959)]{Sta59}
+Stam, A.J.
+\newblock Some Inequalities Satisfied by the Quantities of Information of
+  {F}isher and {S}hannon.
+\newblock {\em Information and Control} {\bf 1959}, {\em 2},~101--112.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0019-9958(59)90348-1}{\detokenize{10.1016/S0019-9958(59)90348-1}}}.
+
+\bibitem[Dembo \em{et~al.}(1991)Dembo, Cover, and Thomas]{DemCov91}
+Dembo, A.; Cover, T.M.; Thomas, J.A.
+\newblock Information Theoretic Inequalities.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 1991}, {\em
+  37},~1501--1518.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/18.104312}{\detokenize{10.1109/18.104312}}}.
+
+\bibitem[Guo \em{et~al.}(2005)Guo, Shamai, and Verd{\'u}]{GuoSha05}
+Guo, D.; Shamai, S.; Verd{\'u}, S.
+\newblock Mutual Information and Minimum Mean-Square Error in {G}aussian
+  Channels.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2005}, {\em
+  51},~1261--1282.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.2005.844072}{\detokenize{10.1109/TIT.2005.844072}}}.
+
+\bibitem[Folland and Sitaram(1997)]{FolSit97}
+Folland, G.B.; Sitaram, A.
+\newblock The uncertainty principle: {A} mathematical survey.
+\newblock {\em Journal of Fourier Analysis and Applications} {\bf 1997}, {\em
+  3},~207--233.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/BF02649110}{\detokenize{10.1007/BF02649110}}}.
+
+\bibitem[Sen(2011)]{Sen11}
+Sen, K.D.
+\newblock {\em Statistical Complexity. Application in Electronic Structure};
+  Springer Verlag: New-York,  2011.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-90-481-3890-6}{\detokenize{10.1007/978-90-481-3890-6}}}.
+
+\bibitem[Vajda(1973)]{Vaj73}
+Vajda, I.
+\newblock {$\chi^\alpha$}-divergence and generalized {F}isher's information.
+\newblock  Transactions of the 6th Prague Conference on Information Theory,
+  Statistics, Decision Functions and Random Processes,  1973, pp. 873--886.
+
+\bibitem[Boekee(1977)]{Boe77}
+Boekee, D.E.
+\newblock An extension of the {F}isher information measure.
+\newblock  Topics in information theory. Proc. 2nd Colloquium on Information
+  Theory; Csisz{\`a}r, I.; Elias., P., Eds.; Colloquia Mathematica Societatis
+  J{\'a}nos Bolyai and North Holland, Amsterdam: Keszthely, Hungary,  1977;
+  Vol.~16, pp. 113--123.
+
+\bibitem[Hammad(1978)]{Ham78}
+Hammad, P.
+\newblock Mesure d'ordre $\alpha$ de l'information au sens de {F}isher.
+\newblock {\em Revue de Statistique Appliqu{\'e}e} {\bf 1978}, {\em
+  26},~73--84.
+
+\bibitem[Boekee and {Van der Lubbe}(1980)]{BoeVan80}
+Boekee, D.E.; {Van der Lubbe}, J.C.A.
+\newblock The $R$-Norm Information Measure.
+\newblock {\em Information and Control} {\bf 1980}, {\em 45},~136:155.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0019-9958(80)90292-2}{\detokenize{10.1016/S0019-9958(80)90292-2}}}.
+
+\bibitem[Lutwak \em{et~al.}(2004)Lutwak, Yang, and Zhang]{LutYan04}
+Lutwak, E.; Yang, D.; Zhang, G.
+\newblock Moment-Entropy Inequalities.
+\newblock {\em The Annals of Probability} {\bf 2004}, {\em 32},~757--774.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1214/aop/1079021463}{\detokenize{10.1214/aop/1079021463}}}.
+
+\bibitem[Lutwak \em{et~al.}(2005)Lutwak, Yang, and Zhang]{LutYan05}
+Lutwak, E.; Yang, D.; Zhang, G.
+\newblock Cram{\'e}r-{R}ao and Moment-Entropy Inequalities for {R\'e}nyi
+  Entropy and Generalized {F}isher Information.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2005}, {\em
+  51},~473--478.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.2004.840871}{\detokenize{10.1109/TIT.2004.840871}}}.
+
+\bibitem[Lutwak \em{et~al.}(2007)Lutwak, Yang, and Zhang]{LutYan07}
+Lutwak, E.; Yang, D.; Zhang, G.
+\newblock Moment-Entropy Inequalities for a Random Vector.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2007}, {\em
+  53},~1603--1607.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.2007.892780}{\detokenize{10.1109/TIT.2007.892780}}}.
+
+\bibitem[Lutwak \em{et~al.}(2012)Lutwak, Lv, Yang, and Zhang]{LutLv12}
+Lutwak, E.; Lv, S.; Yang, D.; Zhang, G.
+\newblock Extension of {F}isher Information and {S}tam's Inequality.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2012}, {\em
+  58},~1319--1327.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.2011.2177563}{\detokenize{10.1109/TIT.2011.2177563}}}.
+
+\bibitem[Bercher(2012{\natexlab{a}})]{Ber12:06_1}
+Bercher, J.F.
+\newblock On a {$(\beta,q)$}-generalized {F}isher information and inequalities
+  invoving {$q$-G}aussian distributions.
+\newblock {\em Journal of Mathematical Physics} {\bf 2012}, {\em 53},~063303.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.4726197}{\detokenize{10.1063/1.4726197}}}.
+
+\bibitem[Bercher(2012{\natexlab{b}})]{Ber12:06_2}
+Bercher, J.F.
+\newblock On generalized {C}ram{\'e}r-{R}ao inequalities, generalized {F}isher
+  information and characterizations of generalized {$q$-G}aussian
+  distributions.
+\newblock {\em Journal of Physics A} {\bf 2012}, {\em 45},~255303.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1751-8113/45/25/255303}{\detokenize{10.1088/1751-8113/45/25/255303}}}.
+
+\bibitem[Bercher(2013{\natexlab{a}})]{Ber13}
+Bercher, J.F.
+\newblock On multidimensional generalized {C}ram{\'e}r-{R}ao inequalities,
+  uncertainty relations and characterizations of generalized {$q$-G}aussian
+  distributions.
+\newblock {\em Journal of Physics A} {\bf 2013}, {\em 46},~095303.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1751-8113/46/9/095303}{\detokenize{10.1088/1751-8113/46/9/095303}}}.
+
+\bibitem[Bercher(2013{\natexlab{b}})]{Ber13:08}
+Bercher, J.F.
+\newblock Some properties of generalized {F}isher information in the context of
+  nonextensive thermostatistics.
+\newblock {\em Physica A} {\bf 2013}, {\em 392},~3140--3154.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.physa.2013.03.062}{\detokenize{10.1016/j.physa.2013.03.062}}}.
+
+\bibitem[Bregman(1967)]{Bre67}
+Bregman, L.M.
+\newblock The relaxation method of finding the common point of convex sets and
+  its application to the solution of problem in convex programming.
+\newblock {\em USSR Computational Mathematics and Mathematical Physics} {\bf
+  1967}, {\em 7},~200--217.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0041-5553(67)90040-7}{\detokenize{10.1016/0041-5553(67)90040-7}}}.
+
+\bibitem[Nielsen and Nock(2017)]{NieNoc17}
+Nielsen, F.; Nock, R.
+\newblock Generalizing Skew {J}ensen Divergences and {B}regman Divergences With
+  Comparative Convexity.
+\newblock {\em IEEE Signal Processing Letters} {\bf 2017}, {\em
+  24},~1123--1127.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/lsp.2017.2712195}{\detokenize{10.1109/lsp.2017.2712195}}}.
+
+\bibitem[{Ben-Tal} \em{et~al.}(1992){Ben-Tal}, Bornwein, and
+  Teboulle]{BenBor92}
+{Ben-Tal}, A.; Bornwein, J.M.; Teboulle, M.
+\newblock Spectral Estimation via Convex Programming. In {\em Systems and
+  Management Science by Extremal Methods}; Phillips, F.Y.; Rousseau, J.J.,
+  Eds.; Springer,  1992; chapter~18, pp. 275--290.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-1-4615-3600-0_18}{\detokenize{10.1007/978-1-4615-3600-0_18}}}.
+
+\bibitem[Teboulle and Vajda(1993)]{TebVaj93}
+Teboulle, M.; Vajda, I.
+\newblock Convergence of Best {$\phi$}-Entropy Estimates.
+\newblock {\em IEEE Transactions on Infomation Theory} {\bf 1993}, {\em
+  39},~297--301.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/18.179378}{\detokenize{10.1109/18.179378}}}.
+
+\bibitem[Girardin(1997)]{Gir97}
+Girardin, V.
+\newblock M{\'e}thodes de r{\'e}alisation de produit scalaire et de
+  probl{\`e}me de moments avec maximisation d'entropie.
+\newblock {\em Studia Mathematica} {\bf 1997}, {\em 124},~199--213.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.4064/sm-124-3-199-213}{\detokenize{10.4064/sm-124-3-199-213}}}.
+
+\bibitem[Girardin(2007)]{Gir07}
+Girardin, V.
+\newblock Relative Entropy and Spectral Constraints : Some Invariance
+  Properties of the {ARMA} Class.
+\newblock {\em Journal of Time Series Analysis} {\bf 2007}, {\em 28},~844--866.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/0.1111/j.1467-9892.2007.00535.x}{\detokenize{0.1111/j.1467-9892.2007.00535.x}}}.
+
+\bibitem[Costa \em{et~al.}(2003)Costa, {Hero III\@}, and Vignat]{CosHer03}
+Costa, J.A.; {Hero III\@}, A.O.; Vignat, C.
+\newblock On Solutions to Multivariate Maximum {$\alpha$}-Entropy Problems.
+\newblock  4th International Workshop on Energy Minimization Methods in
+  Computer Vision and Pattern Recognition (EMMCVPR); Rangarajan, A.;
+  Figueiredo, M.A.T.; Zerubia, J., Eds.; Springer Verlag: Lisbon, Portugal,
+  2003; Vol. 2683, {\em Lecture Notes in Computer Sciences}, pp. 211--226.
+
+\bibitem[Chhabra and Jensen(1989)]{ChhJen89}
+Chhabra, A.; Jensen, R.V.
+\newblock Direct determination of the {$f(\alpha)$} singularity spectrum.
+\newblock {\em Physical Review Letters} {\bf 1989}, {\em 62},~1327.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1103/PhysRevLett.62.1327}{\detokenize{10.1103/PhysRevLett.62.1327}}}.
+
+\bibitem[Beck and Sch{\"o}gl(1993)]{BecSch93}
+Beck, C.; Sch{\"o}gl, F.
+\newblock {\em Thermodynamics of chaotic systems: an introduction}; Cambridge
+  University Press: Cambridge,  1993.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1017/CBO9780511524585}{\detokenize{10.1017/CBO9780511524585}}}.
+
+\bibitem[Naudts(2011)]{Nau11}
+Naudts, J.
+\newblock {\em Generalized Thermostatistics}; Springer: London,  2011.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-0-85729-355-8}{\detokenize{10.1007/978-0-85729-355-8}}}.
+
+\bibitem[Mart{\'i}nez \em{et~al.}(2000)Mart{\'i}nez, Nicol{\'a}s, Pennini, and
+  Plastino]{MarNic00}
+Mart{\'i}nez, S.; Nicol{\'a}s, F.; Pennini, F.; Plastino, A.
+\newblock Tsallis' entropy maximization procedure revisited.
+\newblock {\em Physica A} {\bf 2000}, {\em 286},~489--502.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0378-4371(00)00359-9}{\detokenize{10.1016/S0378-4371(00)00359-9}}}.
+
+\bibitem[Chimento \em{et~al.}(2000)Chimento, Pennini, and Plastino]{ChiPen00}
+Chimento, L.P.; Pennini, F.; Plastino, A.
+\newblock {N}audts-like duality and the extreme {F}isher information principle.
+\newblock {\em Physical Review E} {\bf 2000}, {\em 62},~7462--7465.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1103/PhysRevE.62.7462}{\detokenize{10.1103/PhysRevE.62.7462}}}.
+
+\bibitem[Casas \em{et~al.}(2002)Casas, Chimento, Pennini, Plastino, and
+  Plastino]{CasChi02}
+Casas, M.; Chimento, L.; Pennini, F.; Plastino, A.; Plastino, A.R.
+\newblock {F}isher information in a {T}sallis non-extensive environment.
+\newblock {\em Chaos, Solitons and Fractals} {\bf 2002}, {\em 13},~451--459.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0960-0779(01)00027-3}{\detokenize{10.1016/S0960-0779(01)00027-3}}}.
+
+\bibitem[Widder(1975)]{Wid75}
+Widder, D.V.
+\newblock {\em The Heat Equation}; Academic Press: New-York,  1975.
+
+\bibitem[Roub{\'i\v{c}}ek(2005)]{Rou05}
+Roub{\'i\v{c}}ek, T.
+\newblock {\em Nonlinear partial differential equations with applications};
+  Birkha{\"a}user: Basel, Switzerland,  2005.
+
+\bibitem[Tsallis and Lenzi(2002)]{TsaLen02}
+Tsallis, C.; Lenzi, E.K.
+\newblock Anomalous diffusion: nonlinear fractional {F}okker-{P}lanck equation.
+\newblock {\em Chemical Physics} {\bf 2002}, {\em 284},~341--347.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0301-0104(02)00557-8}{\detokenize{10.1016/S0301-0104(02)00557-8}}}.
+
+\bibitem[V{\'a}zquez(2006)]{Vaz06}
+V{\'a}zquez, J.L.
+\newblock {\em Smoothing and Decay Estimates for Nonlinear Diffusion Equations
+  -- Equation of Porous Medium Type}; Oxford University Press: New-York, USA,
+  2006.
+
+\bibitem[Gilding and Kersner(2004)]{GilKer04}
+Gilding, B.H.; Kersner, R.
+\newblock {\em Travelling Waves in Nonlinear Diffusion-Convection Reaction};
+  Springer: Basel, Switzerland,  2004.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/978-3-0348-7964-4}{\detokenize{10.1007/978-3-0348-7964-4}}}.
+
+\bibitem[Harremo{\"e}s and Vignat(2003)]{HarVig03}
+Harremo{\"e}s, P.; Vignat, C.
+\newblock An Entropy Power Inequality for the Binomial Family.
+\newblock {\em Journal of Inequalities in Pure and Applied Mathematics} {\bf
+  2003}, {\em 4},~93.
+
+\bibitem[Johnson and Yu(2010)]{JohYu10}
+Johnson, O.; Yu, Y.
+\newblock Monotonicity, Thinning, and Discrete Versions of the Entropy Power
+  Inequality.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2010}, {\em
+  56},~5387--5395.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/tit.2010.2070570}{\detokenize{10.1109/tit.2010.2070570}}}.
+
+\bibitem[Haghighatshoar \em{et~al.}(2014)Haghighatshoar, Abbe, and
+  Telatar]{HagAbb14}
+Haghighatshoar, S.; Abbe, E.; Telatar, I.E.
+\newblock A New Entropy Power Inequality for Integer-Valued Random Variables.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2014}, {\em
+  60},~3787--3796.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/tit.2014.2317181}{\detokenize{10.1109/tit.2014.2317181}}}.
+
+\bibitem[Bobkov and Chistyakov(2015)]{BobChi15}
+Bobkov, S.G.; Chistyakov, G.P.
+\newblock Entropy Power Inequality for the {R\'e}nyi Entropy.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2015}, {\em
+  61},~708--714.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/TIT.2014.2383379}{\detokenize{10.1109/TIT.2014.2383379}}}.
+
+\bibitem[Zozor \em{et~al.}(2017)Zozor, Puertas-Centeno, and Dehesa]{ZozPue17}
+Zozor, S.; Puertas-Centeno, D.; Dehesa, J.S.
+\newblock On Generalized {S}tam Inequalities and {F}isher--{R\'e}nyi Complexity
+  Measures.
+\newblock {\em Entropy} {\bf 2017}, {\em 19},~493.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/e19090493}{\detokenize{10.3390/e19090493}}}.
+
+\bibitem[Rioul(2017)]{Rio17}
+Rioul, O.
+\newblock Yet Another Proof of the Entropy Power Inequality.
+\newblock {\em IEEE Transactions on Information Theory} {\bf 2017}, {\em
+  63},~3595--3599.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/tit.2017.2676093}{\detokenize{10.1109/tit.2017.2676093}}}.
+
+\bibitem[Rosenblatt(1956)]{Ros56}
+Rosenblatt, M.
+\newblock Remarks on Some Nonparametric Estimates of a Density Function.
+\newblock {\em The Annals of Mathematical Statistics} {\bf 1956}, {\em
+  27},~832--837.
+
+\bibitem[Parzen(1962)]{Par62}
+Parzen, E.
+\newblock On Estimation of a Probability Density Function and Mode.
+\newblock {\em The Annals of Mathematical Statistics} {\bf 1962}, {\em
+  33},~1065--1076.
+
+\bibitem[Beirlant \em{et~al.}(1997)Beirlant, Dudewicz, Gy{\"o}rfi, and {van der
+  Meulen}]{BeiDud97}
+Beirlant, J.; Dudewicz, E.J.; Gy{\"o}rfi, L.; {van der Meulen}, E.C.
+\newblock Nonparametric Entropy Estimation: An Overview.
+\newblock {\em International Journal of Mathematical and Statistical Sciences}
+  {\bf 1997}, {\em 6},~17--39.
+
+\bibitem[Leonenko \em{et~al.}(2008)Leonenko, Pronzato, and Savani]{LeoPro08}
+Leonenko, N.; Pronzato, L.; Savani, V.
+\newblock A Class of {R\'e}nyi Information Estimators for Multidimensional
+  Densities.
+\newblock {\em Annals of Statistics} {\bf 2008}, {\em 36},~2153--2182.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1214/07-AOS539}{\detokenize{10.1214/07-AOS539}}}.
+
+\bibitem[Corless \em{et~al.}(1996)Corless, Gonnet, Hare, Jeffrey, and
+  Knuth]{CorGon96}
+Corless, R.M.; Gonnet, G.H.; Hare, D.E.G.; Jeffrey, D.J.; Knuth, D.E.
+\newblock On the {L}ambert {W} Function.
+\newblock {\em Advances in Computational Mathematics} {\bf 1996}, {\em
+  5},~329--359.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/BF02124750}{\detokenize{10.1007/BF02124750}}}.
+
+\bibitem[Abramowitz and Stegun(1970)]{AbrSte70}
+Abramowitz, M.; Stegun, I.A.
+\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}; 9th printing, Dover: New-York,  1970.
+
+\bibitem[Gradshteyn and Ryzhik(2015)]{GraRyz15}
+Gradshteyn, I.S.; Ryzhik, I.M.
+\newblock {\em Table of Integrals, Series, and Products}, 8th ed.; Academic
+  Press: San Diego,  2015.
+
+\end{thebibliography}
