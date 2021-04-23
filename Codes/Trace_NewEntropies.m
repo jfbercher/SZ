@@ -68,15 +68,12 @@ end
 
 % Gamma
 if(Gam == 1)
-  qq = [2 5]; pp = 2; %k = [1 1.125];% coef multiplicateur pb échelle
+  qq = [1.25 5]; pp = 1; %k = [1 1.125];% coef multiplicateur pb échelle
   %
   e = exp(1);
   a0 = 1; a1 = -.05; b = - a1; c0 = 0;
-  %c1 = 0; l0 = 0; l01 = 1; l11 = -.1;
   %
   Np = 500; x = (0:Np)/Np;
-  %phi0 = zeros(length(u),length(al),length(pp));
-  %phi1 = phi0;
   %
   for ip = 1:length(pp)
     p = pp(ip);
@@ -87,23 +84,19 @@ if(Gam == 1)
       %a0 = 1; a1 = -e^(q-1); b = -a1; c0 = 0;
       u = x*((q-1)/e)^(q-1);
       %
-      %a1 = -exp(1-a);
       c1 = c0 + a1*p*gamma(p+q-1)/((q-1)^p);
-      %c0 = c1- p*gamma(c+a-1)*l11/((a-1)^(p+a-1));
       %
       % partie en indicatrice
       um = u( u <= ( ((q-1)/e)^(q-1) ) );
       lz = length(u)-length(um);
-      mW0 = -real(lambertw(0,-(um.^(1/(q-1)))/(q-1)));
-      mW1 = -real(lambertw(-1,-(um.^(1/(q-1)))/(q-1)));
-      p0 = um.*(mW0.^p).*(1-p*hypergeom(1,p+q,(q-1)*mW0)/(p+q-1));
-      p1 = um.*(mW1.^p).*(1-p*hypergeom(1,p+q,(q-1)*mW1)/(p+q-1));
-      I=find(um==0); p1(I) = -p*gamma(p+q-1)/((q-1)^p); % limite u -> 0
+      mW0 = (1-q)*real(lambertw(0,-(um.^(1/(q-1)))/(q-1)));
+      mW1 = (1-q)*real(lambertw(-1,-(um.^(1/(q-1)))/(q-1)));
+      p0 = um.*(mW0.^p).*(1-p*hypergeom(1,p+q,mW0)/(p+q-1));
+      p1 = um.*(mW1.^p).*(1-p*hypergeom(1,p+q,mW1)/(p+q-1));
+      I=find(um==0); p1(I) = -p*gamma(p+q-1);%/((q-1)^p); % limite u -> 0
       %
       phi0 = c0 + b*u + a0*[p0 zeros(1,lz)];
-      %a0*u.*(mW0.^c).*(1-c*hypergeom(1,a+c,(a-1)*mW0)/(a+c-1));
       phi1 = c1 + b*u + a1*[p1 zeros(1,lz)];
-      %a1*u.*(mW1.^c).*(1-c*hypergeom(1,a+c,(a-1)*mW1)/(a+c-1));
       %
       figure(ifig)
       h = plot(u,phi0,'k-',u,phi1,'k-'); set(h,'linewidth',1.5);
