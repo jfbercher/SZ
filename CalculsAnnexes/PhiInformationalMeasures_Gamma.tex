@@ -34,7 +34,6 @@
 \newcounter{arcsineExample}% counter for the arcsine example
 %\setcounter{}{}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%% TO SUPRESS FOR THE SUBMISSION %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
@@ -72,13 +71,13 @@
 % ---------------------------------------------------------------------------- %
 
 \Title{$\phi$-informational  measures:  Calculations for the Gamma distribution}
-\TitleCitation{$\phi$-informational  measures:  Calculations for the Gamma distributio}
+%\TitleCitation{$\phi$-informational  measures:  Calculations for the Gamma distributio}
 %
 \newcommand{\orcidauthorA}{0000-0001-7595-9601}
 %\newcommand{\orcidauthorB}{0000-0001-7595-9601}
 \Author{Steeve Zozor $^{1,*}$\orcidA{} and Jean-Fran\c{c}ois Bercher $^{2}$}
 \AuthorNames{Steeve Zozor and Jean-Fran\c{c}ois Bercher}
-\AuthorCitation{Zozor, S.; Bercher, J.-F.}
+%\AuthorCitation{Zozor, S.; Bercher, J.-F.}
 %
 \address{%
   $^1$ \quad  Univ. Grenoble  Alpes, CNRS,  Grenoble INP*,  GIPSA-Lab,
@@ -97,7 +96,7 @@
 \begin{document}
 
 
-
+\end{paracol}
 
 \appendixtitles{yes}
 \appendixstart
@@ -121,7 +120,7 @@ f_X(x) = \frac{\left( \Gamma(q)  x \right)^{q-1} \exp\left(- \frac{\Gamma(q)}{r}
   \, x \right)}{r^q} \qquad \mbox{on} \qquad \X = \Rset_+.
 \end{equation}
 %
-Parameter  $q >  0$ is  known as  shape parameter  of the  law, while  $\sigma =
+Parameter $q >  0$ is known as the  shape parameter of the law,  while $\sigma =
 \frac{r}{\Gamma(q)} > 0$ is a  scaling parameter. This distribution also appears
 in various applications, as described for instance in~\cite{JohKot95:v1}.
 
@@ -137,11 +136,12 @@ constraints,
 \begin{eqnarray*}
 &&  T_{k,1}(x) =  x^p  \,  \un_{\X_k}(x), \qquad  k  \in \{  0  ,  -1 \}  \qquad
   \mbox{where}   \\[2.5mm]  &&   \X_0   =  \left[   0  \,   ;   \,  \frac{r   \,
-      \jfb{(q-1)}}{\Gamma(q)} \right) \qquad \mbox{and}  \qquad \X_{-1} = \left[
+      (q-1)}{\Gamma(q)} \right) \qquad \mbox{and}  \qquad \X_{-1} = \left[
       \frac{r \, (q-1)}{\Gamma(q)} \, ; \: +\infty \right),
 \end{eqnarray*}
 %
-or interpret $f_X$ as a critical point of an $\phi$-like entropy by constraining the moment 
+or interpret $f_X$ as a critical point of an $\phi$-like entropy by constraining
+the moment
 %
 \begin{equation}
 T_1(x) = x^p \quad \mbox{over} \quad \X = \Rset_+.
@@ -155,9 +155,9 @@ Inverting $y = f_X(x)$ leads to the equation
 \]
 %
 to be solved. As expected, this  equation has two solutions. These solutions can
-be  expressed   via  the   multivalued  Lambert-W   function  $\W$   defined  by
-$z=\W(z)\exp(\W(z))$,  i.e.,  $\W$ is  the  inverse  function  of $u  \mapsto  u
-\exp(u)$\cite[\S~1]{CorGon96}, leading to the inverse functions
+be expressed via  the multivalued Lambert-W function $\W$ defined  by $z = \W(z)
+\exp(\W(z))$,   i.e.,  $\W$   is  the   inverse   function  of   $u  \mapsto   u
+\exp(u)$~\cite[\S~1]{CorGon96}, leading to the inverse functions
 %
 \begin{equation}
 f_{X,k}^{-1}(y) = - \frac{r \,  (q-1)}{\Gamma(q)} \, \W_k\left( - \frac{\left( r
@@ -177,7 +177,7 @@ functionals of the multiform entropy, one has thus to integrate the functions
   \W_k\left( - \frac{\left( r y \right)^{\frac{1}{q-1}}}{q-1} \right) \right]^p
 \]
 %
-where, to insure the convexity of the $\phi_k$,
+where, to ensure the convexity of the $\phi_k$,
 %
 \[
 (-1)^k \lambda_{k,1} > 0
@@ -192,17 +192,16 @@ First,  let us  reparametrize  the  $\lambda_i$s so  as  to  include the  factor
 $r/\Gamma(q)$ inside $\lambda_{k,1}$ so that one can write formally
 %
 \begin{eqnarray}
-  &&\phi_k(y) = \phi_{k,\u}(r y) \qquad \mbox{with}
-  \\[2.5mm]
-&& \phi_{k,\u}(u) = \beta \, u
-+    \gamma_k    +   \alpha_k    \bigintss    \left[    (1-q)   \W_k\left(    -    \,
-  \frac{u^{\frac{1}{q-1}}}{q-1} \right) \right]^p \, du, \qquad (-1)^k \alpha_k \ge 0 \nonumber
+&&\phi_k(y) = \phi_{k,\u}(r y)  \qquad \mbox{with}
+\\[2.5mm]
+&& \phi_{k,\u}(u) = \gamma_k \, + \, \beta \, u \, + \, (-1)^k \alpha_k
+\bigintss \left[ (1-q) \W_k\left( - \, \frac{u^{\frac{1}{q-1}}}{q-1} \right)
+  \right]^p \, du, \qquad \alpha_k \ge 0 \nonumber
 \end{eqnarray}
 %
-Obtaining  a closed  forme  expression for  the  integral term  is  not an  easy
-task.     But     relation    $z     \,     (1+\W_k(z))     \,    \W_k'(z)     =
-\W_k(z)$~\cite[Eq.~3.2]{CorGon96} suggests that a way to make the integration is
-to search for
+Obtaining a  closed-form expression for the  integral term is not  an easy task.
+But relation  $z \, (1+\W_k(z)) \,  \W_k'(z) = \W_k(z)$~\cite[Eq.~3.2]{CorGon96}
+suggests that a way to make the integration is to search for
 %
 \begin{equation}
 \Phi_k(u) =  \bigintss \left[ (1-q) \W_k\left(  - \, \frac{u^{\frac{1}{q-1}}}{q-1}
@@ -289,32 +288,91 @@ one finally obtains
   \ge 0} \frac{(1)_l}{(p+q)_l \, l!} \, \Big[ (1-q) \W_k \Big]^l \right)
 \]
 %
-One finally recognizes in the sum the confluent hypergeometric (or Kummer's)
-function~\cite[\S~13]{AbrSte70}  or~\cite[\S~9.2]{GraRyz15} $\hypgeom{1}{1}(1  ;
-p+q ; \cdot)$, so that, we achieve to
+One finally  recognizes in  the sum the  confluent hypergeometric  (or Kummer's)
+function    $\hypgeom{1}{1}(1    ;    p+q    ;    \cdot)$~\cite[\S~13]{AbrSte70}
+or~\cite[\S~9.2]{GraRyz15}, so that, we achieve to
 %
 \begin{eqnarray}
-&&\phi_{k,\u}(u) = \beta \, u \, + \, \gamma_k \, + \, \alpha_k \, u \, \left[
-  (1-q) \, \W_k\left( - \frac{u^{\frac{1}{q-1}}}{q-1}  \right)  \right]^p  \,  \times\nonumber
-\\[2.5mm] &&\hspace{-2.5mm}\left[ 1 -  \frac{p}{p+q-1} \: \hypgeom{1}{1}\left( 1
-  \, ; \, p+q \, ;  \, (1-q) \W_k \left( - \frac{u^{\frac{1}{q-1}}}{q-1} \right)
-  \right) \right]  \: \un_{\left( 0  \, ; \, \left(  \frac{q-1}{e} \right)^{q-1}
-  \right)}(u) \qquad
+&&\phi_{k,\u}(u) =  \gamma_k \, + \, \beta \, u \, + \, (-1)^k \alpha_k \, u \,
+  \left[ (1-q) \, \W_k\left( - \frac{u^{\frac{1}{q-1}}}{q-1} \right) \right]^p
+  \, \times\nonumber
 \\[2.5mm]
-&&\mbox{with} \qquad (-1)^k  \alpha_k >  0 \nonumber
+&&\hspace{-2.5mm}\left[ 1 - \frac{p}{p+q-1} \: \hypgeom{1}{1}\left( 1 \, ; \,
+  p+q \, ; \, (1-q) \W_k \left( - \frac{u^{\frac{1}{q-1}}}{q-1} \right) \right)
+  \right] \: \un_{\left( 0 \, ; \, \left( \frac{q-1}{e} \right)^{q-1}
+  \right)}(u), \qquad  \alpha_k > 0
+%\\[2.5mm]
+%&&\mbox{with} \qquad (-1)^k \alpha_k > 0 \nonumber
 \end{eqnarray}
 
 Again, $p, q, r$ are additional parameters for this family of entropies.
+
+
+\
+
+\paragraph{\bf Verification a posteriori}
+
+We first write (omitting the arguments for sake of simplicity)
+%
+\begin{eqnarray*}
+  \Phi_k' & = & \quad \left[ (1-q) \W_k \right]^p \left[ 1 - \frac{p}{p+q-1} \, \hypgeom{1}{1} \right]
+  \\[2.5mm]
+  && + \: p \, \left[ (1-q) \W_k \right]^{p-1} \left[u \Big( (1-q) \W_k \Big)' \right] \left[1 - \frac{p}{p+q-1} \, \hypgeom{1}{1} \right]
+  \\[2.5mm]
+  && - \: \frac{p}{p+q-1}  \left[ (1-q) \W_k \right]^p \left[ u \Big( (1-q) \W_k \Big)' \right] \, \hypgeom{1}{1}'
+\end{eqnarray*}
+%
+We note now that
+%
+\[
+u  \Big(  (1-q)   \W_k  \Big)'  =  u  \,  (1-q)   \,  \frac{-  \frac{1}{q-1}  \,
+  u^{\frac{1}{q-1}-1}}{q-1} \W_k' = \frac{u^{\frac{1}{q-1}}}{q-1} \W_k'
+\]
+%
+which is, from~\cite[Eq.~3.2]{CorGon96} $z \W_k'(z) = \frac{\W_k(z)}{1+\W_k(z)}$
+%
+\[
+u  \Big(  (1-q)   \W_k  \Big)'  =  - \frac{\W_k}{1+\W_k}
+\]
+%
+This gives, grouping the terms in the hypergeometric function
+%
+\[
+\Phi_k' = \frac{\left[ (1-q) \W_k \right]^p}{1+\W_k}  \left[ (1 + \W_k) \left( 1
+  - \frac{p}{p+q-1}   \hypgeom{1}{1}  \right)   -  \frac{p}{1-q}   \left(  1   -
+  \frac{p}{p+q-1}   \hypgeom{1}{1}  \right)   +  \frac{p   \,  \W_k}{p+q-1}   \,
+  \hypgeom{1}{1}' \right]
+\]
+%
+Hence, grouping the termes in the hypergeometric function,
+%
+\[
+\Phi_k'  =  \frac{\left[  (1-q)  \W_k  \right]^p}{1+\W_k}  \left[  1  +  \W_k  -
+  \frac{p}{1-q} + \frac{p}{(p+q-1) (1-q)} \left( \left(  (p+q-1) - (1-q) \W_k \right) \hypgeom{1}{1}  + (1-q) \W_k \hypgeom{1}{1}' \right) \right]
+\]
+%
+Finally, from~\cite[13.4.1]{AbrSte70} one have
+%
+\[
+\big(  (p+q-1) - z \big) \, \hypgeom{1}{1}(1 ; p+q ; z)  + z
+    \, \hypgeom{1}{1}'(1 ; p+q ; z) = (p+q-1) \, \hypgeom{1}{1}(0 ; p+q ; z) \: = \: p+q-1
+\]
+%
+we end the verification.
+
+\
+
 
 Then, from the domain  of definition of the inverse of  $f_X$, $u$ is restricted
 to $\left( 0  \, ; \, \left( \frac{q-1}{e} \right)^{q-1}  \right)$, which can be
 compensated for  by playing with  parameter $r$.   At the opposite,  noting that
 $\W_k\left( -e^{-1} \right)  = -1$, to extend the entropic  functionals to $C^1$
-functions on  $\Rset_+$, one  would have  to impose  $\beta +  \alpha_k =  0$ to
-vanish the derivatives  at $u = e^{1-a}$. This is  impossible because from $(-1)
-\alpha_k > 0$ one  cannot impose $\alpha_k = - \beta$.   Moreover, even a convex
-extension relaxing  the $C^1$  condition is  impossible since  we would  have to
-impose $\beta + \alpha_k \le \beta$ to insure the increase of the $\phi_k$s.
+functions on $\Rset_+$, one  would have to impose $\beta +  (-1)^k \alpha_k = 0$
+to vanish  the derivatives at  $u = e^{1-a}$.   This is impossible  because from
+$\alpha_k > 0$ one cannot impose  $\beta = \alpha_{-1} = - \alpha_0$.  Moreover,
+even a  convex extension  relaxing the  $C^1$ condition  is impossible  since we
+would have to impose $\beta + \alpha_k  \le \beta$ to insure the increase of the
+$\phi_k$s on $\Rset_+$.
 
 We can however choose the $\gamma_k$ such  that the $\phi_k$ coincide at $u = 0$
 for  instance (e.g.,  to vanish  them  at $0$  to  insure the  existence of  the
@@ -347,7 +405,7 @@ confluent hypergeometric function,
 and  thus
 %
 \[
-\Phi_{-1} = u \Big[ (1-q) \W_{-1} \Big]^p  - p \, \Gamma(p+q-1) \, u \, \Big[
+\Phi_{-1}(u) = u \Big[ (1-q) \W_{-1} \Big]^p  - p \, \Gamma(p+q-1) \, u \, \Big[
   (1-q)  \W_{-1}  e^{\W_{-1}}  \Big]^{1-q}  \,   \left(1+  O\left(  \Big|  \W_{-1}
 \Big|^{1-q} \right) \right)
 \]
@@ -358,7 +416,7 @@ This   gives,   from   $\W(z)   e^{\W(z)}   =   z$,   i.e.,   $\W_{-1}\left(   -
 \frac{u^{\frac{1}{q-1}}}{q-1}$,
 %
 \[
-\Phi_{-1} = u \Big[ (1-q) \W_{-1}  \Big]^p - p \, \Gamma(p+q-1) \left(1+ O\left(
+\Phi_{-1}(u) = u \Big[ (1-q) \W_{-1}  \Big]^p - p \, \Gamma(p+q-1) \left(1+ O\left(
 \Big| \W_{-1} \Big|^{1-q} \right) \right)
 \]
 %
@@ -368,11 +426,11 @@ Finally, noting that, because $1-q <  0$ we have $\displaystyle \lim_{u \to 0^-}
   \Big]^p = 0$ so that, finally, at the limit
 %
 \begin{equation}
-\phi_{-1,\u}(0)  =  \gamma_{-1}  -  p \,  \Gamma(p+q-1)  \,  \alpha_{-1}  \qquad
-\mbox{and} \qquad \lim_{u \to 0^-} \phi_{0,\u}'(u) = -\infty
+\phi_{-1,\u}(0)  =  \gamma_{-1}  +  p \,  \Gamma(p+q-1)  \,  \alpha_{-1}  \qquad
+\mbox{and} \qquad \lim_{u \to 0^-} \phi_{-1,\u}'(u) = -\infty
 \end{equation}
 %
-($\alpha_{-1} < 0$).
+%($\alpha_{-1} < 0$).
 
 \
 
@@ -383,10 +441,12 @@ Now, from $\W_k(-e^{-1}) = -1$ we immediately have
 %\left( \frac{q-1}{e}  \right)^{q-1}+ \frac{\alpha_k  (q-1)^{p+q-1}}{e^{q-1}} \,
 %\left( 1 - \frac{p}{p+q-1} \hypgeom{1}{1}\left( 1 ; p+q ; q-1 \right) \right)
 %
-&&  \phi_{k,\u}\left( \left( \frac{q-1}{e} \right)^{q-1} \right) \: = \: \gamma_k + \nonumber\\[2.5mm]
-  & & \left(
-\frac{q-1}{e}  \right)^{q-1} \left(  \beta  +  \alpha_k (q-1)^p  \,  \left[ 1  -
-  \frac{p}{p+q-1} \: \hypgeom{1}{1}\left( 1 ; p+q ; q-1 \right) \right] \right)
+&& \phi_{k,\u}\left( \left( \frac{q-1}{e} \right)^{q-1} \right) \: = \: \gamma_k
+  + \nonumber
+\\[2.5mm]
+&& \left( \frac{q-1}{e} \right)^{q-1} \left( \beta + (-1)^k \alpha_k \, (q-1)^p
+\, \left[ 1 - \frac{p}{p+q-1} \: \hypgeom{1}{1}\left( 1 ; p+q ; q-1 \right)
+  \right] \right)
 %
 %\Phi_k\left(     \left(      \frac{q-1}{e}     \right)^{q-1}      \right)     =
 %\frac{(q-1)^{p+q-1}}{e^{q-1}}     \,     \left(     1     -     \frac{p}{p+q-1}
@@ -396,8 +456,94 @@ Now, from $\W_k(-e^{-1}) = -1$ we immediately have
 and
 %
 \begin{equation}
-\phi_{k,\u}'\left( \left( \frac{q-1}{e} \right)^{q-1}  \right) =\beta + \alpha_k (q-1)^p
+\phi_{k,\u}'\left( \left(  \frac{q-1}{e} \right)^{q-1} \right) =  \beta + (-1)^k
+\, \alpha_k \, (q-1)^p
 \end{equation}
+
+
+\
+
+\paragraph{\bf Limit $q \to 1^+$}
+
+\
+
+When $q \to 1^+$ one has
+%
+\[
+\lim_{q \to 1^+}  f_X(x) = \:\: \mbox{exponential law}, \qquad  \lim_{q \to 1^+}
+\X_0 = \emptyset, \qquad \lim_{q \to 1^+} \X_{-1} = \Rset_+ = \X
+\]
+%
+Hence, in accordance
+\begin{itemize}
+\item The constraints degenerate to a single uniform constraint $T_1(x) = x^p$;
+%
+\item In this limit, conditions~\ref{MonotonyDomain:cond} and~\ref{LevelSets:cond}
+    are both satisfied.
+%
+\item The entropic functional become state-independent (uniform), where only the
+  branch $\phi_{-1}$ remains.  
+%
+\end{itemize}
+
+The study lies on ~\cite[Th.~3.2]{AlzSal18} that states
+%
+\[
+\left| \W_{-1}\left( - e^{-(t+1)} \right) + \log(t+1) + (t+1) \right| \le 1 - \log(e-1)
+\]
+%
+We apply this theorem to the positive real $t$ given by
+%
+\[
+e^{-(t+1)}  =  \frac{u^{\frac{1}{q-1}}}{q-1}  \qquad  \mbox{i.e.,}  \qquad  t  =
+-\frac{1}{q-1} \log u + \log(q-1) - 1
+\]
+%
+(see domain where $u$ lives), which thus gives, from $q > 1$
+%
+\[
+\left| (1-q)  \W_{-1}\left( - \frac{u^{\frac{1}{q-1}}}{q-1}  \right) + \log  u -
+(q-1)  \log  \Big( (q-1)  \log(q-1)  -  \log u  \Big)  \right|  \le (q-1)  (1  -
+\log(e-1))
+\]
+%
+As  a  consequence,  the  left  handside  tends  uniformly  to  0  when  $q  \to
+1^+$. Finally, \jfb{$(q-1) \log \Big( (q-1)  \log(q-1) - \log u \Big)$ goes also
+  uniformy to 0 as $q \to 1^+$}, which allows to obtain that
+%
+\[
+\lim_{q \to  1^+} (1-q) \W_k\left(  - \frac{u^{\frac{1}{q-1}}}{q-1} \right)  = -
+\log(u) \quad \mbox{uniformly}
+\]
+%
+As  a conslusion,  \jfb{from the  continuity of  $\hypgeom{1}{1}$ both  w.r.t., its
+parameters and its variable}, we have
+%
+\[
+\lim_{q \to 1^+}  \phi_{1,\u}(u) = \gamma_{-1} +  \beta u - \alpha_{-1}  \, u \,
+\left( - \log u \right)^p \Big(1 - \hypgeom{1}{1}( 1 ; p+1 ; - \log u) \Big)
+\]
+%
+$u \in ( 0 \, ; \, 1)$ but the domain can be expanded to $\Rset_+$.
+
+Finally,   for   $p  =   1$,   due   to~\cite[13.6.14]{AbrSte70}  stating   that
+$\hypgeom{1}{1}(1 ; 2 ; x) = \frac{e^x - 1}{x}$, we obtain after simple algebra
+%
+\[
+\lim_{q  \to  1^+,p=1} \phi_{-1,\u}  =  \alpha_{-1}  \, u  \,  \log  u \,  +  \,
+(\beta-\alpha_{-1}) \, u \, + \, \gamma_{-1}+\alpha_{-1}
+\]
+%
+which is nothing more than the Shannon entropic functional: we recover here that
+the exponential distribution is the maximal Shannon entropy distribution subject
+to the first order moment constraint.
+
+In  passing,  because $\W_0$  is  bounded  on  the  considered domain,  one  has
+immediately
+%
+\[
+\lim_{q \to 1^+}  \phi_{0,\u}(u) = \gamma_0 +  \beta u
+\]
 
 
 \
@@ -409,13 +555,15 @@ and
 From~\cite[13.6.14]{AbrSte70}, $\hypgeom{1}{1}(1 ; 2 ; x) = \frac{e^x - 1}{x}$, so that
 %
 \[
-\Phi_k(u) = u \Big[ (1-q) \W_k \Big]^{2-q} \Big[ 1 - (2-q) \, \frac{e^{(1-q) \W_k} - 1}{(1-q) \W_k} \Big]
+\Phi_k(u) =  u \Big[ (1-q)  \W_k \Big]^{2-q} \Big[  1 - (2-q)  \, \frac{e^{(1-q)
+      \W_k} - 1}{(1-q) \W_k} \Big]
 \]
 %
 that is
 %
 \[
-\Phi_k(u) = u \Big[ (1-q) \W_k \Big]^{1-q} \Big[ (1-q) \W_k + 2 - q \Big] - \frac{(2-q) \, u}{(q-1)^{q-1}} \, \left( - \W_k e^{\W_k} \right)^{1-q}
+\Phi_k(u) =  u \Big[ (1-q)  \W_k \Big]^{1-q} \Big[  (1-q) \W_k +  2 - q  \Big] -
+\frac{(2-q) \, u}{(q-1)^{q-1}} \, \left( - \W_k e^{\W_k} \right)^{1-q}
 \]
 %
 Again,  from  $\W_k(z)  e^{\W_k(z)}  =  z$  we  have  $\left(  -  \W_k  e^{\W_k}
@@ -423,17 +571,12 @@ Again,  from  $\W_k(z)  e^{\W_k(z)}  =  z$  we  have  $\left(  -  \W_k  e^{\W_k}
 (q-1)^{q-1}$ so that
 %
 \[
-\Phi_k(u) = u \Big[ (1-q) \W_k \Big]^{1-q} \Big[ (1-q) \W_k + 2 - q \Big] - (2-q)
+\Phi_k(u) = u \Big[ (1-q) \W_k \Big]^{1-q} \Big[ (1-q) \W_k + 2 - q \Big] + q - 2
 \]
 
-\centerline{\underline{\hspace{15cm}}}
-
-
-\Avoir{Interestingly, when  $a \to 1$,  the gamma  law tends to  the exponential
-  distribution  and, at  the  same time,  $\X_0 \to  \emptyset,  \: \X_{-1}  \to
-  \Rset_+$. to finish}
 
 \
+
 
 The  multivalued  function  $\phi_\u$  in the  concave  context  is  represented
 figure~\ref{fig:Entropy-gamma} for  $p = 2,  q =  2$ and $q  = 5$, and  with the
@@ -449,28 +592,11 @@ choice \SZ{$\alpha_0 = 1,  \: \alpha_{-1} = -0.05, \: \beta  = - \alpha_{-1}, \:
 \label{fig:Entropy-gamma} 
 \end{figure}
 
-\
-
-%\Avoir{On ne parle pas des moment, Fisher and so on... \`A faire~?}
-
-\Avoir{
-  \begin{itemize}
-  \item Ponctuer titres et titre des sections?
-    %
-  \item $T_i$s ou $T_i$'s~? De m\^eme pour les $\lambda_i$s.
-    %
-  \item Integrable ou summable?
-    %
-  \item Limite  de la Gamma  vers l'exponentielle et  moment d'ordre 1:  on doit
-    trouver Shannon (en param\'etrisant correctement).
-  \end{itemize}
-  }
-
 
 % ------------------------------- Bibliography ------------------------------- %
 % ---------------------------------------------------------------------------- %
 
-\end{paracol} % To 'close' the left column open by the frontpage...
+%\end{paracol} % To 'close' the left column open by the frontpage...
 \reftitle{References}
 \externalbibliography{yes}
 \bibliography{New_entropies}

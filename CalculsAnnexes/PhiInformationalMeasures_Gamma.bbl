@@ -1,0 +1,35 @@
+\begin{thebibliography}{999}
+
+\bibitem[Johnson \em{et~al.}(1995)Johnson, Kotz, and Balakrishnan]{JohKot95:v1}
+Johnson, N.L.; Kotz, S.; Balakrishnan, N.
+\newblock {\em Continuous Univariate Distributions}, 2nd ed.; Vol.~1, John
+  Wiley \& Sons: New-York,  1995.
+
+\bibitem[Corless \em{et~al.}(1996)Corless, Gonnet, Hare, Jeffrey, and
+  Knuth]{CorGon96}
+Corless, R.M.; Gonnet, G.H.; Hare, D.E.G.; Jeffrey, D.J.; Knuth, D.E.
+\newblock On the {L}ambert {W} Function.
+\newblock {\em Advances in Computational Mathematics} {\bf 1996}, {\em
+  5},~329--359.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/BF02124750}{\detokenize{10.1007/BF02124750}}}.
+
+\bibitem[Abramowitz and Stegun(1970)]{AbrSte70}
+Abramowitz, M.; Stegun, I.A.
+\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}; 9th printing, Dover: New-York,  1970.
+
+\bibitem[Gradshteyn and Ryzhik(2015)]{GraRyz15}
+Gradshteyn, I.S.; Ryzhik, I.M.
+\newblock {\em Table of Integrals, Series, and Products}, 8th ed.; Academic
+  Press: San Diego,  2015.
+
+\bibitem[Alzahrani and Salem(2018)]{AlzSal18}
+Alzahrani, F.; Salem, A.
+\newblock Sharp bounds for the {L}ambert {W} function.
+\newblock {\em Integral Transforms and Special Functions} {\bf 2018}, {\em
+  29},~971--978.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1080/10652469.2018.1528247}{\detokenize{10.1080/10652469.2018.1528247}}}.
+
+\end{thebibliography}
